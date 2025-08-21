@@ -1052,7 +1052,7 @@ font-family: 'IBM Plex Mono';
     flex-direction: column;
       }
 
-  .bottom-container, .servicess2,.contacts, {
+  .bottom-container, .servicess2,.contacts {
     max-width: 100%;
   }
   .servicess,.sub{
