@@ -8,9 +8,12 @@
 
 @font-face {
 	font-family: 'SF Pro';
-	src:url(SF-Pro.ttf)
+	src:url(SF-Pro.ttf);
 }
 
+@font-face {
+	font-family:'Helvetica';
+	src:url(Helvetica.ttc);
 
 #front {
 	background-image: url('MushImgs/resized_image_1440x820_compressed.jpg');
