@@ -167,7 +167,17 @@ h3 {
   font-size: 30px;
 }
 
-
+.nd {
+	font-size: 20px;
+	color: black;
+	text-align: left;
+	padding-top: 10px;
+	font-family: 'SF Pro';
+	font-weight: 500;
+	margin-bottom: 0px;
+	margin-top: -10px;
+	margin-left: 40px;
+}
 
 
 h4 {
@@ -190,18 +200,6 @@ font-size: 50px;
 
 }
 
-
-.nd {
-	font-size: 20px;
-	color: black;
-	text-align: left;
-	padding-top: 10px;
-	font-family: 'SF Pro';
-	font-weight: 500;
-	margin-bottom: 0px;
-	margin-top: -10px;
-	margin-left: 40px;
-}
 
 p {
 	color: black;
@@ -260,7 +258,7 @@ p {
 	width: 815px;
 	height: 70vh; 
 	float: right;
-  transform: translate(350px, -450px);
+  transform: translate(700px, -450px);
   position: relative;
   color: black;
   border-radius: 70px;
