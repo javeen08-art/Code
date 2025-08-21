@@ -1098,12 +1098,11 @@ h15 {
 	font-size: 30px;
 
 }
-  .row3{
+.row3{
   	padding: 20px;
+ }
 
-  	 }
-
-  	.forms, .row3,.bottom: {
+  	.forms, .row3,.bottom{
   		flex-direction: column;
   	}
 
