@@ -1,8 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lexend:wght@100..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Share+Tech+Mono&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
@@ -48,33 +44,6 @@
 	margin-top: -10px;
 }
 
-
-ul{
-	display: flex;
-	flex-direction: row;
-	list-style-type: none;
-	margin-left: auto;
-	margin-right: 20px;
-	list-style: none;
-	margin-top: 55px;
-	font-size: 15px;
-	font-family: 'Lexend';
-	font-weight: 700; 
-}
-
-
-.closed {
-	display: none;
-
-}
-
-
-#fix {
-	top:0;
-	right: 0;
-	position: absolute;
-}
-
 a,
 a:visited,
 a:hover,
@@ -106,40 +75,12 @@ select {
 
 
 
-
-li {
-	margin-right: 20px;
-	font-size: 15px;
-	border-radius: 20px;
-	padding: 15px;
-	height:20px;
-	text-align: center;
-	text-decoration: none;
-	width: 50%;
-	float: right;
-	color: black;
-	font-family: 'IBM Plex Mono';
-	font-weight: 300;
-	max-width:fit-content;
-
-}
-
-
-li:hover {
-	background-color: rgba(240, 240, 240, 0.5);
- backdrop-filter: blur(1px);
-  -webkit-backdrop-filter: blur(1px);
-}
-
-
-
 body {
 	margin: 0px;
 	max-width: 1440;
 	max-height: 900;
 	resize: auto;
 	padding: 0px;
-	overflow: auto;
 
 }
 
@@ -190,7 +131,7 @@ h4 {
 	width: fit-content;
 	margin-bottom: 10px;
 	margin-left: 40px;
-font-size: 50px;
+	font-size: 50px;
 	color: black;
 	text-align: left;
 	font-family: 'SF Pro';
@@ -238,7 +179,7 @@ p {
 
 .bottom p {
   font-size: 20px;
-	height: 30vh;
+  height: 30vh;
   width: 30vw;
   resize: auto;
   text-align: left;
@@ -255,9 +196,9 @@ p {
 }
 
 .bottom img {
-	width: 815px;
-	height: 70vh; 
-	float: right;
+  width: 815px;
+  height: 70vh; 
+  float: right;
   transform: translate(700px, -450px);
   position: relative;
   color: black;
@@ -350,21 +291,21 @@ background-color: rgba(245, 245, 245, 0.5);
     color: black;
     box-shadow: 0 0px 15px 0 rgba(0, 0, 0, 0.1);
   border-radius: 30px;
-  font-family:Helvetica ;
+  font-family:'Helvetica';
 	font-size: 15px;
 
 }
 .servicess {
-	  font-size: 30px;
-	  display: flex;
+	font-size: 30px;
+	display: flex;
   	justify-content: space-between;
   	align-items: flex-start;
   	flex-wrap: nowrap;
   	resize: auto;
   	padding-top:100px;
-      padding-bottom: 100px;
-      margin-top: -50px;
-      background-color: #f5f5f5;
+    padding-bottom: 100px;
+    margin-top: -50px;
+    background-color: #f5f5f5;
 
  
 }
@@ -390,12 +331,12 @@ background-color: rgba(245, 245, 245, 0.5);
 
 
 h7 {
-	font-size: 50px;
-	text-align: center;
-	margin-right: 0;
-	margin-left: 6vw;
-	padding-left:3.2px;
-	width: fit-content;
+  font-size: 50px;
+  text-align: center;
+  margin-right: 0;
+  margin-left: 6vw;
+  padding-left:3.2px;
+  width: fit-content;
   font-family: "SF Pro";
   display: flex;
   align-items: center;
@@ -921,7 +862,7 @@ background-color: white; /* Semi-transparent white */
 
 
 input {
-		background-color: rgba(255, 255, 255, 1); /* Semi-transparent white */
+	background-color: rgba(255, 255, 255, 1); /* Semi-transparent white */
     border: 1px solid lightgray; /* Subtle border */
     border-radius: 10px; /* Rounded corners */
     padding: 10px;
@@ -1087,42 +1028,6 @@ h15 {
   	}
 
 
-ul {
-    display: flex; 
-    flex-direction: column; 
-    position: absolute; 
-    top: auto; 
-    right: auto;
-    background-color: rgba(255,255,255, 0.9);
-    padding: 10px;
-    border: 1px solid #ccc;
-    z-index: 1000; 
-    width: 100%;
-
-  }
-
-li {
-	float: none;
-	margin-left: auto;
-	font-size: 25px;
-	width: fit-content;
-	height: fit-content;
-}
-
-
-
-
-.closed {
-display: block;
-margin-left: 40px;
-margin-top: 40px;
-border: none;
-background-color: transparent;
-font-size: 25px;
-cursor: pointer;
-
-}
-
 
 
   .bottom,.servicess,.contacts, #faqs {
@@ -1130,6 +1035,7 @@ cursor: pointer;
   	margin:10px;
   	margin-bottom: 50px;
   }
+	
 .faq {
 	width: 70%;
 	margin: 20px;
