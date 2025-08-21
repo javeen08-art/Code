@@ -364,6 +364,7 @@ background-color: rgba(245, 245, 245, 0.5);
     box-shadow: 0 0px 15px 0 rgba(0, 0, 0, 0.1);
   border-radius: 30px;
   font-family:Helvetica ;
+	font-size: 15px;
   line-height: 30px;
 
 }
