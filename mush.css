@@ -497,7 +497,7 @@ width: fit-content;
 	margin-right: 30px;
 	margin-bottom: 50px;
 	bottom: 0;
-	left: -30vw;
+	left: -30px;
 	top: 350px;
 	font-size: 15px;
 	font-family: 'SF Pro';
@@ -1025,7 +1025,7 @@ font-family: 'IBM Plex Mono';
 }
 
 .home {
-	left: 20vw;
+	left: 20px;
 	top: 0;
 }
 
