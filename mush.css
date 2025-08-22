@@ -1133,7 +1133,13 @@ h3 {
 	transform:translateY(20px);
 }
 
+.starts {
+	margin-top:10px;
+}
 
+.q {
+	margin-bottom:5px;
+}
 body {
 	overflow:visible;
 	resize: auto;
