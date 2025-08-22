@@ -788,7 +788,7 @@ display: block; /* make sure they are block elements to align left */
 }
 
 .head {
-	margin:0
+	margin:0;
 }
 
 .q {
