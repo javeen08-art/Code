@@ -1048,7 +1048,7 @@ h4 {
 	width:100vw;
 }
 
-.q,.starts,h2,h3 {
+.q,.starts{
 	scale:0.7;
 }
 h15 {
@@ -1108,7 +1108,7 @@ h15 {
 }
 
 h2 {
-	font-size: 300%;
+	font-size: 100%;
 	margin: 100px;
 	margin-bottom: 0px;
 }
