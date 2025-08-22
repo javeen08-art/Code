@@ -1145,7 +1145,7 @@ h3 {
 }
 
 .but {
-	transform:translateY(-100px);
+	transform:translateY(-90px);
 	position:absolute;
 	margin-bottom:0;
 }
