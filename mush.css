@@ -998,6 +998,7 @@ font-family: 'IBM Plex Mono';
   color: black;
   border-radius: 15px;
  clip-path: inset(0 0 0 0);
+	padding-top:20px;
 
   }
 
