@@ -1048,7 +1048,7 @@ h4 {
 	width:100vw;
 }
 
-.q,.starts {
+.q,.starts,h2,h3 {
 	scale:0.7;
 }
 h15 {
