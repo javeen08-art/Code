@@ -1003,23 +1003,29 @@ font-family: 'IBM Plex Mono';
 
   }
 
-  .bottom p{
+ .bottom p{
   	margin-top: -30px;
-  	margin-bottom: 100px;
+  	margin-bottom: -40px;
   	font-size: 15px;
   	text-align: center;
   	width: fit-content;
   }
 
 .nd {
-  top: 60vh;
-  margin: 100px; 
-  position: absolute;
+ margin: auto;
+  margin-bottom: 10px;
   font-size: 15px;
-  text-align:left;
+  text-align:center;
+
 	
 
 }
+
+h4 {
+	text-align: center;
+	margin: auto;
+}
+
 
 .home {
 	left: 50px;
