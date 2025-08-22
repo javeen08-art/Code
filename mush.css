@@ -1117,6 +1117,8 @@ h15 {
 h2 {
 	font-size: 250%;
 	margin: 100px;
+	margin-bottom:0;
+	margin-left:20px;
 	width: 100%;
 }
 .s2 {
