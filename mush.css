@@ -129,7 +129,8 @@ h4 {
 	padding-top: 30px;
 	font-family: "Helvetica";
 	font-weight: lighter;
-	width: fit-content;
+	width: 70vh;
+	height:50vh;
 	margin-bottom: 10px;
 	margin-left: 40px;
 	font-size: 50px;
