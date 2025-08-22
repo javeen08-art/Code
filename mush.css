@@ -1037,7 +1037,7 @@ h4 {
 	padding: 0;
 	margin: 0;
 }
-.starts2 {
+.nextbtn {
 	width: fit-content;
 	height: fit-content;
 	scale: 0.5;
@@ -1046,9 +1046,10 @@ h4 {
 #front {
 	height: 100vh;
 	width:100vw;
-	@media {
-		scale:0.7;
-	}
+}
+
+.q,.starts {
+	scale:0.7;
 }
 h15 {
 	font-size: 30px;
