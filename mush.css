@@ -805,7 +805,7 @@ display: block; /* make sure they are block elements to align left */
 }
 
 .starts{
-	transform: translate(10vw, 42vh);
+	transform: translate(10vw, 41vh);
 	font-family: 'SF Pro';
 	background-color: white;
 	border-radius: 30px;
