@@ -792,7 +792,7 @@ display: block; /* make sure they are block elements to align left */
 }
 
 .q {
-	transform: translate(10vw,38vh);
+	transform: translate(10vw,35vh);
 	margin-top: -40px;
 	margin-bottom:10px;
 	font-family: 'SF Pro';
@@ -806,7 +806,7 @@ display: block; /* make sure they are block elements to align left */
 }
 
 .starts{
-	transform: translate(10vw, 38vh);
+	transform: translate(10vw, 35vh);
 	font-family: 'SF Pro';
 	background-color: white;
 	border-radius: 30px;
@@ -832,7 +832,7 @@ background-color: white; /* Semi-transparent white */
 	background-color: rgba(255,255,255, 0.6); /* Semi-transparent white */
   backdrop-filter: blur(15px);/* Apply blur to content behind */
   border-radius: 15px; /* Rounded corners */
-	transform: translate(10vw,38vh);
+	transform: translate(10vw,36vh);
 	margin-top:-20px;
   display: flex;
   flex-direction: column;
