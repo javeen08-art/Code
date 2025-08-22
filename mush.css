@@ -999,7 +999,7 @@ font-family: 'IBM Plex Mono';
   color: black;
   border-radius: 70px;
  clip-path: inset(0 0 15% 0);
- padding: 40px;
+ padding: 60px;
 
   }
 
@@ -1013,9 +1013,11 @@ font-family: 'IBM Plex Mono';
 
 .nd {
   top: 60vh;
-  margin: 100px;
-	position: absolute;
-	font-size: 15px;
+  margin: 100px; 
+  position: absolute;
+  font-size: 15px;
+  padding:20px;
+	
 
 }
 
