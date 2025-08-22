@@ -1140,7 +1140,7 @@ h3 {
 .s2 {
 	margin-top:0;
 	width: 50vw;
-	transform:translateY(10px);
+	transform:translateY(50px);
 }
 
 .but {
@@ -1155,7 +1155,7 @@ h3 {
 }
 
 .q {
-	margin-top:70px;
+	margin-top:40px;
 	margin-bottom:0;
 }
 body {
