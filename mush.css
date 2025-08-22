@@ -792,7 +792,7 @@ display: block; /* make sure they are block elements to align left */
 }
 
 .q {
-	transform: translate(10vw,40vh);
+	transform: translate(10vw,45vh);
 	margin-top: -40px;
 	font-family: 'SF Pro';
 	background-color: white;
@@ -805,7 +805,7 @@ display: block; /* make sure they are block elements to align left */
 }
 
 .starts{
-	transform: translate(10vw, 42vh);
+	transform: translate(10vw, 46vh);
 	font-family: 'SF Pro';
 	background-color: white;
 	border-radius: 30px;
