@@ -986,7 +986,9 @@ font-family: 'IBM Plex Mono';
   .servicess,.sub{
   	flex-direction: column-reverse;
   }
-
+.bottom{
+	height: fit-content;
+}
 
   .bottom img { 
   	margin-top: -50px;
