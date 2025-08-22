@@ -196,13 +196,14 @@ p {
 
 .bottom img {
   width: 815px;
-  height: 70vh; 
+  height: auto; 
   float: right;
   position: relative;
-  transform: translate(700px,-450px)
+  transform: translate(750px,-525px);
   color: black;
   border-radius: 70px;
  clip-path: inset(0 9% 0 0);
+
 
 }
 
