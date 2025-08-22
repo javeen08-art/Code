@@ -992,10 +992,12 @@ font-family: 'IBM Plex Mono';
   	margin-top: -40px;
     max-width:  70vw;  
     max-height:  70vh;
+	align-items:center;
   transform: none;
   position: relative;
   color: black;
-  border-radius: 70px;
+  border-radius: 15px;
+ clip-path: inset(0 0 0 0);
 
   }
 
