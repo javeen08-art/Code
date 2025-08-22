@@ -1050,6 +1050,7 @@ h4 {
 
 .q,.starts{
 	scale:0.7;
+	position:relative;
 }
 h15 {
 	font-size: 30px;
