@@ -1030,10 +1030,12 @@ h4 {
 
 
 .home {
-	left: 25px;
-	top:-70px;
+	top:-250px;
+	float: left;
 	scale:0.5;
 	position:absolute;
+	padding: 0;
+	margin: 0;
 }
 
 #front {
