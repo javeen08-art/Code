@@ -1025,6 +1025,7 @@ font-family: 'IBM Plex Mono';
 .home {
 	left: 100px;
 	top: 0;
+	scale: 0.9;
 }
 
 h15 {
