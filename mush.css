@@ -563,9 +563,7 @@ h11 {
 	margin-bottom:0;
 }
 
-.but {
-	transform: translate(10vw,20vh);
-}
+
 .home4 {
 	z-index:1000;
 	margin: 0;
@@ -790,7 +788,7 @@ display: block; /* make sure they are block elements to align left */
 }
 
 .q {
-	transform: translate(10vw,43vh);
+	transform: translate(10vw,39vh);
 	font-family: 'SF Pro';
 	background-color: white;
 	border-radius: 30px;
