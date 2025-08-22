@@ -1022,7 +1022,7 @@ font-family: 'IBM Plex Mono';
   	font-size: 12px;
   	text-align: center;
   	width: fit-content;
-	line-height: 15px;
+	line-height: 20px;
   }
 
 .nd {
@@ -1152,7 +1152,7 @@ h3 {
 
 .starts {
 	margin-top:0;
-	margin-bottom: 5px;
+	margin-bottom: 3px;
 }
 
 .q {
