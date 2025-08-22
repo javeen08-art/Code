@@ -1130,7 +1130,7 @@ h3 {
 }
 
 .but {
-	transform:translateY(20px);
+	transform:translateY(10px);
 }
 
 .starts {
@@ -1138,7 +1138,7 @@ h3 {
 }
 
 .q {
-	margin-bottom:5px;
+	margin-bottom:0;
 }
 body {
 	overflow:visible;
