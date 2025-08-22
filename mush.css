@@ -793,6 +793,7 @@ display: block; /* make sure they are block elements to align left */
 
 .q {
 	transform: translate(10vw,40vh);
+	position:absolute;
 	margin-top: -40px;
 	font-family: 'SF Pro';
 	background-color: white;
@@ -806,6 +807,7 @@ display: block; /* make sure they are block elements to align left */
 
 .starts{
 	transform: translate(10vw, 42vh);
+	position:absolute;
 	font-family: 'SF Pro';
 	background-color: white;
 	border-radius: 30px;
