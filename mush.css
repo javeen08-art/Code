@@ -559,7 +559,9 @@ h11 {
 	height: fit-content;
 	margin: 0;
 }
-
+.head {
+	margin-bottom:0;
+}
 .home4 {
 	z-index:1000;
 	margin: 0;
@@ -1128,6 +1130,7 @@ h3 {
 .s2 {
 	margin-top:0;
 	width: 50vw;
+	transform:translateY(10px);
 }
 
 .but {
