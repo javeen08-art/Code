@@ -995,11 +995,11 @@ font-family: 'IBM Plex Mono';
     max-height: 40vh;
 	float: right;
   transform: none;
-  position: relative;
+  position: absolute;
   color: black;
   border-radius: 70px;
  clip-path: inset(0 0 15% 0);
- padding: 20px;
+ padding: 40px;
 
   }
 
