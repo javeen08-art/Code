@@ -1031,8 +1031,9 @@ h4 {
 
 .home {
 	left: 25px;
-	top:10px;
+	top:-70px;
 	scale:0.5;
+	position:absolute;
 }
 
 #front {
