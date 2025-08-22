@@ -992,7 +992,7 @@ font-family: 'IBM Plex Mono';
   	margin-top: -40px;
     width: 100%;
     max-width: 400px;  
-    max-height: 40vh;
+    max-height: 200px;
 	text-align: center;
   transform: none;
   position: relative;
