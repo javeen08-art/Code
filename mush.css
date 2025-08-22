@@ -787,6 +787,10 @@ display: block; /* make sure they are block elements to align left */
 	margin-bottom: 10px;
 }
 
+.head {
+	margin:0
+}
+
 .q {
 	transform: translate(10vw,45vh);
 	margin-top: -40px;
