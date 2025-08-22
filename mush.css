@@ -1050,7 +1050,7 @@ h4 {
 
 .q,.starts{
 	scale:0.7;
-	position:relative;
+	
 }
 h15 {
 	font-size: 30px;
@@ -1109,9 +1109,10 @@ h15 {
 }
 
 h2 {
-	font-size: 200%;
+	font-size: 250%;
 	margin: 100px;
 	margin-bottom: 0px;
+	width: 100%;
 }
 .s2 {
 	width: 50vw;
