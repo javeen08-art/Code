@@ -78,8 +78,8 @@ select {
 
 body {
 	margin: 0px;
-	max-width: 1440;
-	max-height: 900;
+	max-width: 1440px;
+	max-height: 900px;
 	resize: auto;
 	padding: 0px;
 
@@ -973,7 +973,7 @@ font-family: 'IBM Plex Mono';
   from {bottom: 0; opacity: 0;}
   to {bottom: 30px; opacity: 1;}
 }
-@media(max-width: 1000px) {
+@media(max-width: 500px) {
   .bottom, .row,.row2,.sub,.contacts,.row3,.faqqs{
     flex-direction: column;
       }
@@ -1098,7 +1098,7 @@ h2 {
 body {
 	overflow:visible;
 	resize: auto;
-	max-width: 1000px;
+	max-width: 500px;
 	
 }
 
