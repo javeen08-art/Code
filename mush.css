@@ -1049,7 +1049,8 @@ h4 {
 }
 
 .q,.starts{
-	scale:0.7;
+width: fit-content;
+height: fit-content;
 	
 }
 h15 {
