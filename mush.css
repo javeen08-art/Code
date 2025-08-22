@@ -1074,7 +1074,7 @@ h15 {
   	padding: 20px;
  }
 
-.forms, .row3,.bottom {
+.forms, .row3,.bottom,.contacts {
   		flex-direction: column;
   	}
 
