@@ -800,7 +800,7 @@ display: block; /* make sure they are block elements to align left */
 }
 
 .starts{
-	transform: translateX(10vw);
+	transform: translate(10vw, 46vh);
 	font-family: 'SF Pro';
 	background-color: white;
 	border-radius: 30px;
