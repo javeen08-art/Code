@@ -1131,6 +1131,7 @@ h3 {
 
 .but {
 	transform:translateY(10px);
+	position:absolute;
 }
 
 .starts {
