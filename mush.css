@@ -1147,7 +1147,8 @@ h3 {
 .but {
 	transform:translateY(-120px);
 	position:absolute;
-	margin-bottom:0;
+	margin-bottom:3px;
+	margin-top:3px;
 }
 
 .starts {
