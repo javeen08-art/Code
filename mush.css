@@ -1052,7 +1052,6 @@ h4 {
 width: fit-content;
 height: fit-content;
 scale:0.7;
-margin-top:30px;
 	
 }
 h15 {
@@ -1114,7 +1113,7 @@ h15 {
 h2 {
 	font-size: 250%;
 	margin: 100px;
-	margin-bottom: 0px;
+	margin-bottom: 50px;
 	width: 100%;
 }
 .s2 {
