@@ -1110,6 +1110,10 @@ h15 {
 
 }
 
+
+.head {
+	transform:translatey(20px);
+}
 h2 {
 	font-size: 250%;
 	margin: 100px;
