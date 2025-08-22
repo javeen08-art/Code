@@ -796,10 +796,11 @@ display: block; /* make sure they are block elements to align left */
 	letter-spacing:1px; 
 	font-weight: 700;
 	width: fit-content;
+	cursor:pointer;
 }
 
 .starts{
-	transform: translate(10vw,43vh);
+	transform: translateX(10vw);
 	font-family: 'SF Pro';
 	background-color: white;
 	border-radius: 30px;
@@ -811,7 +812,7 @@ background-color: white; /* Semi-transparent white */
 	font-weight: 700;
 	width: fit-content;
 	border: none;
-	margin-top: 1vh;
+	margin-top: 0;
 	font-size: 15px;
 	cursor: pointer;
 }
