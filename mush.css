@@ -87,7 +87,7 @@ body {
 
 h2 {
 	text-align: left;
-	margin-top: 90px;
+	margin-top: 80px;
 	margin-left: 150px;
 	margin-bottom: 0px;
 	font-size: 80px;
@@ -98,7 +98,7 @@ h2 {
 
 h3 {
 	text-align: left;
-	transform: translateY(325px);
+	transform: translateY(315px);
 	position: relative;
 	margin-bottom: 0px;
 	margin-left: 150px;
@@ -560,7 +560,7 @@ h11 {
 	margin: 0;
 }
 .head {
-	margin-bottom:0;
+	margin-bottom:10px;
 }
 
 
