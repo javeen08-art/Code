@@ -1126,12 +1126,14 @@ h3 {
 	margin-left:20px;
 }
 .s2 {
+	margin-top:0;
 	width: 50vw;
 }
 
 .but {
 	transform:translateY(-100px);
 	position:absolute;
+	margin-bottom:0;
 }
 
 .starts {
