@@ -1025,8 +1025,8 @@ font-family: 'IBM Plex Mono';
 .home {
 	left: 50px;
 	top:-70px;
-	width:50%;
-	height:50%;
+	width:25%;
+	height:25%;
 }
 
 h15 {
@@ -1098,6 +1098,7 @@ h2 {
 body {
 	overflow:visible;
 	resize: auto;
+	max-width: 1000px;
 	
 }
 
