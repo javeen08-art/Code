@@ -820,6 +820,7 @@ background-color: white; /* Semi-transparent white */
 	border: none;
 	font-size: 15px;
 	cursor: pointer;
+	margin-bottom: 10px;
 }
 
 .s2 {
