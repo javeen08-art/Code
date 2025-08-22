@@ -190,7 +190,6 @@ p {
   font-family: 'Helvetica';
   font-weight: 300;
   line-height: 27px;
-  margin-bottom: 0;
   margin-left: 40px;
 
 }
@@ -199,7 +198,6 @@ p {
   width: 815px;
   height: 70vh; 
   float: right;
-  text-align: right;
   position: relative;
   transform: translate(700px,-450px)
   color: black;
