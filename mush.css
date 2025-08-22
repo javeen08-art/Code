@@ -1048,10 +1048,11 @@ h4 {
 	width:100vw;
 }
 
-.q,.starts{
+.q,.starts,.s2{
 width: fit-content;
 height: fit-content;
 scale:0.7;
+margin-top:30px;
 	
 }
 h15 {
