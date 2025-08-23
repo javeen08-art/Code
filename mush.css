@@ -192,7 +192,7 @@ p {
 
 .bottom img {
   width: 815px;
-  height: auto;
+  height: 70vh;
   float: right;
   position: absolute;
   top: -20px;
