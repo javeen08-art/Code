@@ -260,9 +260,6 @@ background-color: rgba(245, 245, 245, 0.5);
     box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.1);
   border-radius: 30px;
   margin-left: 50px;
-	width: 100%;
-	text-align: center;
-	margin-left:10% ;
 
 }
 
@@ -1093,6 +1090,11 @@ h15 {
 	text-align: center;
 }
 
+.texts {
+	width: 100%;
+	text-align: center;
+	margin-left:10% ;
+}
 
 .sub p {
 	width: 100%;
