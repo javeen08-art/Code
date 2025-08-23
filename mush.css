@@ -195,7 +195,7 @@ p {
   height: auto;
   float: right;
   position: absolute;
-  top: 725px;
+  top: 0px;
   left: 750px;
   border-radius: 70px;
   clip-path: inset(0 9% 0 0);
