@@ -180,7 +180,7 @@ p {
 .bottom p {
   font-size: 20px;
   height: 30vh;
-  width: 40vw; /* or something more readable */
+  width: 30vw; /* or something more readable */
   text-align: left;
   right: 100px;
   padding: 50px 50px 50px 0; /* top, right, bottom, left */
