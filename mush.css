@@ -495,7 +495,7 @@ width: fit-content;
 	z-index:1000;
 	margin:0;
 	bottom: 0;
-	margin-right: 70vw;
+	margin-right: 100vw;
 	top: 550px;
 	font-size: 15px;
 	font-family: 'SF Pro';
@@ -514,6 +514,7 @@ width: fit-content;
 	text-align: right;
 	z-index: 99999999;
 	margin-bottom: 130px;
+	position: absolute;
 
 
 }
