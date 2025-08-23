@@ -494,7 +494,6 @@ width: fit-content;
 .home {
 	z-index:1000;
 	margin:0;
-	margin-right: 0px;
 	bottom: 0;
 	left: 0;
 	top: 350px;
@@ -575,9 +574,8 @@ h11 {
 	top: -10px;
 	bottom:0 ;
 	float: right;
-	right: 3vw;
+	right: 0vw;
 	text-align: right;
-	position: fixed;
 	z-index: 99999999;
 	margin-bottom: 150px;
 
