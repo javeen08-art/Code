@@ -182,9 +182,9 @@ p {
   height: 30vh;
   width: 40vw; /* or something more readable */
   text-align: left;
-  left: 100px;
+  right: 100px;
   padding: 50px 50px 50px 0; /* top, right, bottom, left */
-  margin: -10px 0 0 40px;
+  margin: 0px 0 0 40px;
   font-family: 'Helvetica', sans-serif;
   font-weight: 300;
   line-height: 27px;
@@ -195,7 +195,7 @@ p {
   height: auto;
   float: right;
   position: absolute;
-  top: -725px;
+  top: 725px;
   left: 750px;
   border-radius: 70px;
   clip-path: inset(0 9% 0 0);
