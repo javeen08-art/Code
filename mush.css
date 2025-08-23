@@ -1157,7 +1157,7 @@ h3 {
 .starts {
 	margin-top:0;
 	margin-bottom: 3px;
-	transform:none;
+	transform:translate(3vw, 40vh);
 }
 
 .q {
