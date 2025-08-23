@@ -1170,6 +1170,7 @@ h3 {
 .sub {
 	height: 250px;
 	width: 250px;
+	position: relative;
 }
 body {
 	overflow:visible;
