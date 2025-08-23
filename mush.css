@@ -505,6 +505,7 @@ width: fit-content;
 	padding: 20px;
 	letter-spacing:1px; 
 	font-weight: 700;
+	position: absolute;
 
 }
 
