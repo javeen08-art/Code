@@ -221,7 +221,7 @@ p {
 
 .nextbtn {
   position: absolute;
-  top: 5px;
+  top: 0px;
   right: 70px;
   text-align: right;
   z-index: 9999;
