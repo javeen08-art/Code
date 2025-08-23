@@ -496,7 +496,7 @@ width: fit-content;
 	margin:0;
 	margin-right: 0px;
 	bottom: 0;
-	left: 0;
+	left: -50vw;
 	top: 350px;
 	font-size: 15px;
 	font-family: 'SF Pro';
@@ -504,7 +504,7 @@ width: fit-content;
 	padding: 20px;
 	letter-spacing:1px; 
 	font-weight: 700;
-	position: absolute;
+
 
 }
 
