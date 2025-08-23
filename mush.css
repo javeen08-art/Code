@@ -492,7 +492,6 @@ width: fit-content;
 
 
 .home {
-	position: fixed;
 	z-index:1000;
 	margin:0;
 	margin-right: 0px;
