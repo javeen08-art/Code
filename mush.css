@@ -507,7 +507,7 @@ width: fit-content;
 
 }
 .nextbtn {
-	top: -7px;
+	top: 0px;
 	bottom:0 ;
 	float: right;
 	right: 5vw;
