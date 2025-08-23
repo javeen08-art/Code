@@ -1160,6 +1160,7 @@ h3 {
 .texts {
 	scale:0.8;
 	margin-left: 0;
+	text-align: left;
 }
 body {
 	overflow:visible;
