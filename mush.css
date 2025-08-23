@@ -180,7 +180,7 @@ p {
 .bottom p {
   font-size: 20px;
   height: 30vh;
-  width: 5vw;
+  width: 2vw;
   resize: auto;
   text-align: left;
   align-content: center;
@@ -195,10 +195,10 @@ p {
 }
 
 .bottom img {
-  width: 815px;
+  width: 415px;
   height: auto; 
   float: right;
-  transform: translate(450px,-725px);
+  transform: translate(750px,-725px);
   color: black;
   border-radius: 70px;
  clip-path: inset(0 9% 0 0);
