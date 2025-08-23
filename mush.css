@@ -182,7 +182,7 @@ p {
   height: 30vh;
   width: 40vw; /* or something more readable */
   text-align: left;
-  left: -100px;
+  left: 100px;
   padding: 50px 50px 50px 0; /* top, right, bottom, left */
   margin: -10px 0 0 40px;
   font-family: 'Helvetica', sans-serif;
