@@ -1012,6 +1012,7 @@ font-family: 'IBM Plex Mono';
   color: black;
   border-radius: 70px;
 	padding-top:70px;
+	margin-left: 0;
  clip-path: none;
 
   }
