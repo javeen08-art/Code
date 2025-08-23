@@ -914,9 +914,6 @@ margin-bottom: 1vw;
 
 }
 
-.bottom-container {
-	left: 0;
-}
 
 .date input {
 	width: 40%;
@@ -1048,6 +1045,8 @@ h4 {
 .home {
 	top:-250px;
 	float: left;
+	flex-direction: flex-start;
+	left: -50vw;
 	scale:0.5;
 	position:absolute;
 	padding: 0;
