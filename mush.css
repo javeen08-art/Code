@@ -1154,6 +1154,7 @@ h3 {
 	margin-top:25px;
 	margin-bottom:0;
 	transform:translate(1vw, 40vh);
+
 }
 
 
@@ -1161,7 +1162,8 @@ h3 {
 	scale:0.8;
 	margin-left: 0;
 	text-align: center;
-	padding: 0;
+	padding: 10px;
+	margin-bottom: 3px;
 }
 body {
 	overflow:visible;
