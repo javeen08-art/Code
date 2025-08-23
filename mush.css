@@ -209,7 +209,7 @@ p {
   position: relative;
   z-index: 1000;
   margin: 0;
-  top: 550px;
+  top: 0px;
   font-size: 15px;
   font-family: 'SF Pro', sans-serif;
   background-color: transparent;
