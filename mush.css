@@ -1159,6 +1159,7 @@ h3 {
 
 .texts {
 	scale:0.8;
+	margin-left: 0;
 }
 body {
 	overflow:visible;
