@@ -216,6 +216,7 @@ p {
   padding: 20px;
   letter-spacing: 1px;
   font-weight: 700;
+
 }
 
 .nextbtn {
@@ -228,8 +229,8 @@ p {
 }
 
 .home img {
-  width: 150px;
-  height: 150px;
+  width: 130px;
+  height: 130px;
   transform: scale(0.9);
   margin: 0;
 }
