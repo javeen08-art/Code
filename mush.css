@@ -1059,7 +1059,7 @@ h4 {
 #front {
 	height: 100vh;
 	width:100vw;
-	background-position: center 45%;
+	background-position: center 50% right 45%;
 }
 
 .q,.starts,.s2{
