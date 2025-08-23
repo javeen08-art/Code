@@ -529,7 +529,7 @@ width: fit-content;
 	font-weight: 700;
 	margin: 0;
 	position: absolute;
-	top: 1700px;
+	top: 1750px;
 
 
 }
@@ -931,7 +931,7 @@ font-family: 'IBM Plex Mono';
 
 #message.show {
 	  display: block;
-	  transition: height 2s ease,
+	  transition: height 2s ease;
   -webkit-animation: fadeout 1s, 2.5s;
   animation: fadeout 1s 2.5s; 
 }
