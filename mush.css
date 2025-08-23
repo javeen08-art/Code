@@ -506,6 +506,18 @@ width: fit-content;
 
 
 }
+.nextbtn {
+	top: -10px;
+	bottom:0 ;
+	float: right;
+	right: 0vw;
+	text-align: right;
+	position: absolute;
+	z-index: 99999999;
+	margin-bottom: 150px;
+
+
+}
 
 .home img {
 	width: 150px;
@@ -569,17 +581,6 @@ h11 {
 	text-align: left;
 	position: relative;
 	top: 100px;
-}
-.nextbtn {
-	top: -10px;
-	bottom:0 ;
-	float: right;
-	right: 0vw;
-	text-align: right;
-	z-index: 99999999;
-	margin-bottom: 150px;
-
-
 }
 
 .nextbtnt {
