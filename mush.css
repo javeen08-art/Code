@@ -206,7 +206,7 @@ p {
 
 
 .home {
-  position: relative;
+  position: absolute;
   z-index: 1000;
   margin: 0;
   top: 0px;
