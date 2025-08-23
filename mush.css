@@ -1060,7 +1060,7 @@ h4 {
 #front {
 	height: 100vh;
 	width:100vw;
-	background-size: contain;
+	background-size: 200% 100%;
 	background-image: url("IMG_3483.JPG");
 }
 
