@@ -198,8 +198,8 @@ p {
   width: 815px;
   height: auto; 
   float: right;
-  position: absolute;
-  transform: translate(750px,-525px);
+  position: relative;
+  transform: translateY(50px);
   color: black;
   border-radius: 70px;
  clip-path: inset(0 9% 0 0);
