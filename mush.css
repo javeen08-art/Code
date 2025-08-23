@@ -209,11 +209,11 @@ p {
   position: absolute;
   z-index: 1000;
   margin: 0;
-  top: 0px;
+  top: -10px;
   font-size: 15px;
   font-family: 'SF Pro', sans-serif;
   background-color: transparent;
-  padding: 10px;
+  padding: 20px;
   letter-spacing: 1px;
   font-weight: 700;
 }
