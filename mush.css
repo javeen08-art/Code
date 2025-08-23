@@ -180,69 +180,54 @@ p {
 .bottom p {
   font-size: 20px;
   height: 30vh;
-  width: 2vw;
-  resize: auto;
+  width: 40vw; /* or something more readable */
   text-align: left;
-  align-content: center;
-  padding: 50px;
-  padding-left: 0px;
-  margin-top: -20px;
-  font-family: 'Helvetica';
+  padding: 50px 50px 50px 0; /* top, right, bottom, left */
+  margin: -20px 0 0 40px;
+  font-family: 'Helvetica', sans-serif;
   font-weight: 300;
   line-height: 27px;
-  margin-left: 40px;
-
 }
 
 .bottom img {
   width: 415px;
-  height: auto; 
+  height: auto;
   float: right;
-  transform: translate(750px,-725px);
-  color: black;
+  position: absolute;
+  top: -725px;
+  left: 750px;
   border-radius: 70px;
- clip-path: inset(0 9% 0 0);
-
-
+  clip-path: inset(0 9% 0 0);
 }
 
 
 .home {
-	z-index:1000;
-	margin:0;
-	bottom: 0;
-	margin-right: 100vw;
-	top: 550px;
-	font-size: 15px;
-	font-family: 'SF Pro';
-	background-color: transparent;
-	padding: 20px;
-	letter-spacing:1px; 
-	font-weight: 700;
-
-
+  position: relative;
+  z-index: 1000;
+  margin: 0;
+  top: 550px;
+  font-size: 15px;
+  font-family: 'SF Pro', sans-serif;
+  background-color: transparent;
+  padding: 20px;
+  letter-spacing: 1px;
+  font-weight: 700;
 }
+
 .nextbtn {
-	top: 5px;
-	bottom:0 ;
-	float: right;
-	right: 0vw;
-	text-align: right;
-	z-index: 99999999;
-	margin-bottom: 150px;
-	position: absolute;
-
-
+  position: absolute;
+  top: 5px;
+  right: 0;
+  text-align: right;
+  z-index: 9999;
+  margin-bottom: 150px;
 }
 
 .home img {
-	width: 150px;
-	height: 150px;
-	scale: 0.9;
-	margin: 0;
-
-
-
+  width: 150px;
+  height: 150px;
+  transform: scale(0.9);
+  margin: 0;
 }
 
 
