@@ -1166,6 +1166,11 @@ h3 {
 	padding-left: 20px;
 	
 }
+
+.sub {
+	height: 250px;
+	width: 250px;
+}
 body {
 	overflow:visible;
 	resize: auto;
