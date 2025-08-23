@@ -1155,6 +1155,11 @@ h3 {
 	margin-bottom:0;
 	transform:translate(1vw, 40vh);
 }
+
+
+.texts {
+	scale:0.8;
+}
 body {
 	overflow:visible;
 	resize: auto;
