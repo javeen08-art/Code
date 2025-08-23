@@ -196,7 +196,7 @@ p {
   height: auto; 
   float: right;
   position: absolute;
-  transform: translate(650px,-1200px);
+  transform: translate(670px,-1200px);
   color: black;
   border-radius: 70px;
  clip-path: inset(0 9% 0 0);
