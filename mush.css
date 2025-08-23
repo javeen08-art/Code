@@ -199,7 +199,6 @@ p {
   height: auto; 
   float: right;
   position: relative;
-  transform: translate(750px,-525px);
   color: black;
   border-radius: 70px;
  clip-path: inset(0 9% 0 0);
@@ -208,7 +207,43 @@ p {
 }
 
 
+.home {
+	z-index:1000;
+	margin:0;
+	bottom: 0;
+	margin-right: 100vw;
+	top: 550px;
+	font-size: 15px;
+	font-family: 'SF Pro';
+	background-color: transparent;
+	padding: 20px;
+	letter-spacing:1px; 
+	font-weight: 700;
 
+
+}
+.nextbtn {
+	top: 5px;
+	bottom:0 ;
+	float: right;
+	right: 0vw;
+	text-align: right;
+	z-index: 99999999;
+	margin-bottom: 150px;
+	position: absolute;
+
+
+}
+
+.home img {
+	width: 150px;
+	height: 150px;
+	scale: 0.9;
+	margin: 0;
+
+
+
+}
 
 
 .texts p {
@@ -491,43 +526,6 @@ width: fit-content;
 
 
 
-.home {
-	z-index:1000;
-	margin:0;
-	bottom: 0;
-	margin-right: 100vw;
-	top: 550px;
-	font-size: 15px;
-	font-family: 'SF Pro';
-	background-color: transparent;
-	padding: 20px;
-	letter-spacing:1px; 
-	font-weight: 700;
-
-
-}
-.nextbtn {
-	top: 5px;
-	bottom:0 ;
-	float: right;
-	right: 5vw;
-	text-align: right;
-	z-index: 99999999;
-	margin-bottom: 150px;
-	position: absolute;
-
-
-}
-
-.home img {
-	width: 150px;
-	height: 150px;
-	scale: 0.9;
-	margin: 0;
-
-
-
-}
 
 .home2 {
 	z-index:1000;
