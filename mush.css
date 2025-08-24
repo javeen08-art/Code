@@ -1171,8 +1171,9 @@ h3 {
 .sub {
 	height: 250px;
 	width: 250px;
-	position: relative;
-	text-align: center;
+	position: absolute;
+	text-align: right;
+
 }
 body {
 	overflow:visible;
