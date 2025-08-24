@@ -432,7 +432,6 @@ font-family: 'IBM Plex Mono';
   	background-color: #e8e8e8;
   	padding: 20px;
   	flex-wrap: nowrap;
-  	resize: auto;
 		height: fit-content;
 		margin-top: 2.5vh;
 		padding-bottom: 20px;
@@ -972,7 +971,7 @@ font-family: 'IBM Plex Mono';
   to {bottom: 30px; opacity: 1;}
 }
 @media(max-width: 500px) {
-  .bottom, .row,.row2,.sub,.contacts,.row3,.faqqs{
+  .bottom, .row,.row2,.sub,.contacts,.row3,.faqqs,#faqs,.faq{
     flex-direction: column;
       }
 
