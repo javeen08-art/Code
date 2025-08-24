@@ -1101,6 +1101,7 @@ h11 {
 
 .faqqs {
 	margin-top: 25vh;
+	position: absolute;
 }
 .collapsible, .h{
 	width: 100%;
