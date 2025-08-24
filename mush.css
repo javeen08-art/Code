@@ -1091,7 +1091,7 @@ h15 {
 }
 
 h11 {
-	font-size: 70%;
+	font-size: 85%;
 }
 
 #faqs {
@@ -1104,6 +1104,7 @@ h11 {
 	position: absolute;
 	text-align: center;
 	scale: 0.85;
+
 }
 .collapsible, .h{
 	width: 100%;
