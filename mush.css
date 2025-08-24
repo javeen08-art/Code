@@ -1168,7 +1168,7 @@ h3 {
 	padding: 20px;
 	padding-left: 20px;
 	margin-bottom: 0px;
-	margin-top: 0;
+	margin-top: -20px;
 	gap: 3px;
 	
 }
@@ -1181,7 +1181,7 @@ h3 {
 	right: 60vw;
 	left: 50vw;
 	top: 210vh;
-	margin-bottom: 0px;
+	margin-bottom: 10px;
 
 
 }
