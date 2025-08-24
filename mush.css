@@ -1085,6 +1085,7 @@ h15 {
 	padding-left: 50px;
 	padding-right: 50px;
 	height: 200%;
+	position: relative;
 }
 
 .collapsible, .h{
