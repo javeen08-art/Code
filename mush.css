@@ -557,6 +557,7 @@ h11 {
 	width: fit-content;
 	height: fit-content;
 	margin: 0;
+	text-align: center;
 }
 .head {
 	margin-bottom:10px;
