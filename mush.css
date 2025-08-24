@@ -570,6 +570,7 @@ h11 {
 	text-align: left;
 	position: relative;
 	top: 100px;
+
 }
 
 .nextbtnt {
@@ -594,6 +595,7 @@ h11 {
 	right: 3vw;
 	text-align: right;
 	z-index: 999999999;
+	margin-left: 0;
 }
 
 .starts2 {
