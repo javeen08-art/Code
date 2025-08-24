@@ -1093,8 +1093,8 @@ h11 {
 	font-size: 150%;
 	margin: 0;
 	padding: 0;
-	text-align: center;
-	width: 100vw;
+	text-align: left;
+	width: fit-content;
 }
 
 #faqs {
