@@ -1096,10 +1096,12 @@ h11 {
 
 #faqs {
 	padding-bottom: 50vh;
-	margin-top: 20px;
+
 }
 
-
+.faqqs {
+	margin-top: 50vh;
+}
 .collapsible, .h{
 	width: 100%;
 	text-align: center;
