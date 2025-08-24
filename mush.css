@@ -1026,7 +1026,9 @@ h4 {
 	font-size: 25px;
 }
 
-
+#faqs {
+	height: max-content;
+}
 .home {
 	top:-250px;
 	float: left;
