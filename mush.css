@@ -1090,7 +1090,7 @@ h15 {
 }
 
 #faq {
-	height: fit-content;
+	padding-bottom: 20vh;
 }
 
 .collapsible, .h{
