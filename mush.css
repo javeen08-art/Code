@@ -1084,8 +1084,8 @@ h15 {
 	margin: 20px;
 	padding-left: 50px;
 	padding-right: 50px;
-	height: 200%;
 	position: relative;
+	scale: 0.8;
 
 
 }
@@ -1097,6 +1097,7 @@ h11 {
 #faqs {
 	padding-bottom: 50vh;
 }
+
 
 .collapsible, .h{
 	width: 100%;
