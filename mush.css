@@ -1157,6 +1157,9 @@ h3 {
 
 }
 
+.home,.home2,.home3,.home4 {
+	display: none;
+}
 
 .texts {
 	scale:0.8;
@@ -1173,7 +1176,7 @@ h3 {
 	width: 250px;
 	text-align: center;
 	right: 0;
-	top: auto;
+	left: 25vw;
 
 }
 body {
