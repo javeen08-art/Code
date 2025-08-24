@@ -595,6 +595,7 @@ h11 {
 	right: 3vw;
 	text-align: right;
 	z-index: 999999999;
+	margin: 0;
 }
 
 .starts2 {
