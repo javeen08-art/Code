@@ -559,7 +559,8 @@ h11 {
 	margin: 0;
 	text-align: center;
 	margin-left: 50px;
-	margin-top: 0;
+	position: absolute;
+	
 }
 .head {
 	margin-bottom:10px;
