@@ -556,11 +556,9 @@ width: fit-content;
 h11 {
 	width: fit-content;
 	height: fit-content;
+	margin: 30px;
 	text-align: center;
-	position: absolute;
-	left: 150px;
-
-
+	right: -10px;
 }
 .head {
 	margin-bottom:10px;
@@ -572,8 +570,7 @@ h11 {
 	margin: 0;
 	text-align: left;
 	position: relative;
-	top: 300px;
-
+	top: 100px;
 }
 
 .nextbtnt {
@@ -598,7 +595,6 @@ h11 {
 	right: 3vw;
 	text-align: right;
 	z-index: 999999999;
-	margin-left: 0;
 }
 
 .starts2 {
