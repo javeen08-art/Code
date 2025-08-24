@@ -1161,6 +1161,10 @@ h3 {
 	display: none;
 }
 
+.nextbtn,.nextbtnt,.nextbtnt2,.nextbtnt3 {
+	display: none;
+}
+
 .texts {
 	scale:0.8;
 	margin-left: 0;
