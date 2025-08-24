@@ -556,7 +556,7 @@ width: fit-content;
 h11 {
 	width: fit-content;
 	height: fit-content;
-	text-align: right;
+	text-align: center;
 	position:absolute;
 	transform: translateX(-25vw);
 }
