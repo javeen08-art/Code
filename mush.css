@@ -1027,7 +1027,7 @@ h4 {
 }
 
 #faqs {
-	height: max-content;
+	height: fit-content;
 }
 .home {
 	top:-250px;
