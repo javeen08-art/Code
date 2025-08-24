@@ -1171,7 +1171,7 @@ h3 {
 .sub {
 	height: 250px;
 	width: 250px;
-	position: absolute;
+	text-align: center;
 
 }
 body {
