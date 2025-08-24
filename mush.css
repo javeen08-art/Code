@@ -556,11 +556,12 @@ width: fit-content;
 h11 {
 	width: fit-content;
 	height: fit-content;
-	margin: 0px;
 	text-align: right;
 	position:absolute;
 	transform: translateX(20px);
 }
+
+
 .head {
 	margin-bottom:10px;
 }
