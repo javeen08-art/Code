@@ -1086,7 +1086,11 @@ h15 {
 	padding-right: 50px;
 	height: 200%;
 	position: relative;
-	overflow: hidden;
+
+}
+
+#faq {
+	height: fit-content;
 }
 
 .collapsible, .h{
