@@ -1096,13 +1096,14 @@ h15 {
 
 }
 h11 {
-	font-size: 150%;
+	font-size: 50px;
 	margin: 0;
 	padding: 0;
 	width: 200%;
 	position: relative;
 	right: 23%;
 	margin-top: -30%;
+
 }
 
 #faqs {
