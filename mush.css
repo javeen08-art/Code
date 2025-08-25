@@ -1237,7 +1237,7 @@ h3 {
 .messagess{
 	display: flex;
 	flex-direction: column;
-	width: min-content;
+	width: max-content;
 }
 
 body {
