@@ -378,7 +378,7 @@ h7 {
   	justify-content: space-between;
   	background-color: #e8e8e8;
   	padding: 60px;
-  	flex-wrap: nowrap;
+  	flex-wrap: wrap;
   	resize: auto;
   	padding-top:50px;
 		margin-top: 20px;
