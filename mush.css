@@ -1226,6 +1226,10 @@ h3 {
 
 
 }
+
+.forms {
+	width: 100%;
+}
 body {
 	overflow: visible;
 	resize: auto;
