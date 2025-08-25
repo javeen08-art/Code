@@ -1227,7 +1227,7 @@ h3 {
 }
 
 .forms {
-	width: 80%;
+	width: fit-content;
 	flex-direction: column;
 	text-align: center;
 	margin: 0;
