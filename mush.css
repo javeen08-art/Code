@@ -1227,7 +1227,7 @@ h3 {
 }
 
 .contacts {
-	width: 100%;
+	width:max-content
 }
 
 .forms {
