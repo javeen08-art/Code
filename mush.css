@@ -1245,6 +1245,7 @@ h3 {
 	width: 100%;
 	justify-content: center;
 	text-align: center;
+	position: relative;
 }
 
 body {
