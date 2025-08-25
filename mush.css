@@ -557,6 +557,7 @@ h11 {
 	width: max-content;
 	height: fit-content;
 	text-align: center;
+	position: relative;
 	transform: translateX(23vw);
 }
 
@@ -564,7 +565,6 @@ h11 {
 .head {
 	margin-bottom:10px;
 }
-
 
 .home4 {
 	z-index:1000;
