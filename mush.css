@@ -1119,10 +1119,12 @@ h11 {
 	text-align: center;
 	scale: 0.85;
 
+
 }
 .collapsible, .h{
 	width: 100%;
 	text-align: center;
+	font-family: 'Helvetica';
 }
 
 .texts {
