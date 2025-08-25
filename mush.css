@@ -1234,11 +1234,12 @@ h3 {
 	margin: 0;
 }
 
-.line {
+.messages{
 	display: flex;
 	flex-direction: column;
 	width: 500px;
 }
+
 body {
 	overflow: visible;
 	resize: auto;
