@@ -1234,6 +1234,7 @@ body {
 	max-width: 500px;
 	touch-action:  pan-y;
 	overflow-x: hidden;
+	scrollbar-width: 0;
 	
 }
 
