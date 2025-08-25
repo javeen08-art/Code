@@ -384,7 +384,7 @@ h7 {
 		margin-top: 20px;
    justify-content: center;
 height: fit-content;
-width: fit-content;
+width: 100%;
 	  z-index: 1;
 	  position: relative;
 	  text-align: center;
