@@ -1251,9 +1251,6 @@ body {
 	overflow: visible;
 	resize: auto;
 	max-width: 500px;
-	touch-action:  pan-y;
-	overflow-x: hidden;
-	
 }
 
 }
