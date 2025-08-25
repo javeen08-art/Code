@@ -1234,6 +1234,10 @@ h3 {
 	margin: 0;
 }
 
+.three {
+	width: 100%;
+}
+
 .messagess{
 	display: flex;
 	flex-direction: column;
