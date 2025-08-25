@@ -1259,6 +1259,8 @@ body {
 	max-width: 500px;
 	touch-action: pan-y; 
 	overflow-x: hidden;
+	scrollbar-width: none;
+	scroll-padding: 0;
 }
 
 }
