@@ -1229,6 +1229,7 @@ h3 {
 
 .forms {
 	width: 100%;
+	flex-direction: column;
 }
 body {
 	overflow: visible;
