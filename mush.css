@@ -557,7 +557,7 @@ h11 {
 	width: max-content;
 	height: fit-content;
 	text-align: center;
-	transform: translateX(-23vw);
+	transform: translateX(23vw);
 }
 
 
@@ -572,7 +572,6 @@ h11 {
 	text-align: left;
 	position: relative;
 	top: 100px;
-	margin-right: 50px;
 }
 
 .nextbtnt {
