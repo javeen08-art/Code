@@ -1259,7 +1259,7 @@ h3 {
 .messagess{
 	display: flex;
 	flex-direction: column;
-	width: 5-%;
+	width: 50%;
 	justify-content: center;
 	text-align: center;
 	position: relative;
