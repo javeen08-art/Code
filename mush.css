@@ -1270,8 +1270,13 @@ h3 {
 	flex-direction: column;
 	width: 50%;
 }
-.messagess,.three{
+.words{
 	display: flex;
+	flex-direction: row;
+	width: 70%;
+	height: 100px;
+	padding: 20px;
+  	gap: 20px;
 }
 
 body {
