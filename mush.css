@@ -1256,14 +1256,6 @@ h3 {
 	width: 100%;
 }
 
-.messagess{
-	display: flex;
-	flex-direction: column;
-	width: 100%;
-	justify-content: center;
-	text-align: center;
-	position: relative;
-}
 
 body {
 	overflow: visible;
