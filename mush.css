@@ -1231,6 +1231,7 @@ h3 {
 }
 
 .h7 {
+	width: auto;
 	text-align: center;
 	margin: 0 auto;
 	align-items: center;
