@@ -1272,6 +1272,14 @@ h3 {
 	margin: 0;
 }
 
+.designer {
+	margin: auto;
+	margin-top: 5vh;
+}
+
+.designer input {
+	margin: auto;
+}
 .words{
 	display: flex;
 	flex-direction: row;
@@ -1283,6 +1291,8 @@ h3 {
 	margin-left: auto;
 	margin-right: auto;
 }
+
+
 
 body {
 	overflow: visible;
