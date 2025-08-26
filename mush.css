@@ -986,6 +986,7 @@ font-family: 'IBM Plex Mono';
 	width: 100%;
 	height: fit-content;
 	position:relative;
+	margin: 0;
 }
 
   .bottom img { 
