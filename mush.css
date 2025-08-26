@@ -1254,7 +1254,7 @@ h3 {
 
 .three {
 	width: 20%;
-	display: flex;
+	display: column;
 	height: fit-content;
 	margin-bottom: 5vh;
 
