@@ -1268,6 +1268,10 @@ h3 {
 	text-align: center;
 	position: relative;
 }
+.words {
+	display: flex;
+	flex-direction: row;
+}
 
 body {
 	overflow: visible;
