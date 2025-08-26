@@ -1255,12 +1255,13 @@ h3 {
 }
 
 .three {
-	width: 10px;
+	width: 20px;
 	display: column;
 	height: fit-content;
 	margin-bottom: 5vh;
 	display: flex;
 	flex-direction: column;
+	padding: 0;
 
 }
 
