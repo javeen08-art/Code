@@ -1266,12 +1266,13 @@ h3 {
 }
 
 .messagess{
-	width: fit-content;
+	width: 100%;
 	display: flex;
 	flex-direction: column;
 	height: 40vh;
 	margin: 0;
 }
+
 .words{
 	display: flex;
 	flex-direction: row;
