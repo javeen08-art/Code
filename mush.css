@@ -1267,8 +1267,9 @@ h3 {
 	flex-direction: column;
 	width: 50%;
 }
-.words {
+.messagess,.three{
 	display: flex;
+	flex-direction: row;
 	width: fit-content;
 	height: 200px;
 	padding: 20px;
