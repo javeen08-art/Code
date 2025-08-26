@@ -1271,6 +1271,8 @@ h3 {
 .words {
 	display: flex;
 	flex-direction: row;
+	width: fit-content;
+	height: auto;
 }
 
 body {
