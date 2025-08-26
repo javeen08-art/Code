@@ -1274,6 +1274,7 @@ h3 {
 	display: flex;
 	width: fit-content;
 	height: auto;
+  	gap: 20px;
 }
 
 body {
