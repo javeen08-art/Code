@@ -1280,6 +1280,8 @@ h3 {
   	gap: 10vw;
 	margin-bottom: 7vh;
 	margin-top: 5vh;
+	text-align: center;
+	align-items: center;
 }
 
 body {
