@@ -1267,8 +1267,9 @@ h3 {
 
 .messagess{
 	width: 200%;
-	display: inline-flex;
+	display: flex;
 	flex-direction: column;
+	height: fit-content;
 	margin: 0;
 }
 
