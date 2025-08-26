@@ -1275,6 +1275,7 @@ h3 {
 .words{
 	display: flex;
 	flex-direction: row;
+	width: fit-content;
 	padding: 20px;
   	gap: 10vw;
 	margin-bottom: 15vh;
