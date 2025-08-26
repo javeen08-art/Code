@@ -1253,7 +1253,9 @@ h3 {
 }
 
 .three {
-	width: 100%;
+	width: 50;
+	display: inline;
+	height:30%;
 }
 
 .messagess{
