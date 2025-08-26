@@ -1259,6 +1259,8 @@ h3 {
 	display: column;
 	height: fit-content;
 	margin-bottom: 5vh;
+	display: flex;
+	flex-direction: column;
 
 }
 
@@ -1269,6 +1271,7 @@ h3 {
 }
 .messagess,.three{
 	display: flex;
+	flex-direction: column;
 	width: fit-content;
 	height: 200px;
 	padding: 20px;
