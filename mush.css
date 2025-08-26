@@ -1256,7 +1256,6 @@ h3 {
 
 .three {
 	width: 50%;
-	display: column;
 	height: fit-content;
 	display: flex;
 	flex-direction: column;
