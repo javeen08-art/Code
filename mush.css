@@ -1268,8 +1268,8 @@ h3 {
 .messagess{
 	display: flex;
 	flex-direction: column;
-	width: 70%;
-	height: 10vh;
+	width: 100%;
+	height: 20vh;
 	padding: 0;
 	margin: 0;
 }
