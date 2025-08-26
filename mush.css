@@ -1277,11 +1277,13 @@ h3 {
 	flex-direction: row;
 	width: fit-content;
 	padding: 20px;
-  	gap: 10vw;
+  	gap: 5.5vw;
 	margin-bottom: 7vh;
 	margin-top: 5vh;
 	text-align: center;
 	align-items: center;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 body {
@@ -1292,6 +1294,7 @@ body {
 	overflow-x: hidden;
 	scrollbar-width: none;
 	scroll-padding: 0;
+
 }
 
 }
