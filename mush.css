@@ -1253,7 +1253,7 @@ h3 {
 }
 
 .three {
-	width: 30%;
+	width: 10vw;
 	display: flex;
 	flex-direction: row;
 	height:30%;
