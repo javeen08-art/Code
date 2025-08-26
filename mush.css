@@ -1254,10 +1254,10 @@ h3 {
 
 .three {
 	width: 10%;
-	display: inline-flex;
+	display: inline-flexbox;
 	flex-direction: row;
 	height: fit-content;
-	margin-bottom: 3vh;
+	margin-bottom: 5vh;
 
 }
 
