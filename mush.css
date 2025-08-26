@@ -1271,7 +1271,7 @@ h3 {
 }
 .messagess,.three{
 	display: flex;
-	flex-direction: row
+	flex-direction: row;
 	width: fit-content;
 	height: 200px;
 	padding: 20px;
