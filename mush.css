@@ -1290,8 +1290,7 @@ h3 {
 .option {
   display: flex;
   align-items: center;  /* Vertically center input & label */
-  gap: 5px;    
-  height: 5vh;          /* Spacing between input & label */
+  gap: 5px;              /* Spacing between input & label */
 
 }
 
@@ -1299,6 +1298,7 @@ h3 {
 .option input[type="radio"] {
   width: 5vw;
   height: 5vh;
+  vertical-align: middle;
   position: relative;
   flex-shrink: 0;
   margin: 0;
