@@ -1287,7 +1287,12 @@ h3 {
 
 .designer input {
 	border-radius: 5px;
+	margin: 0;
 
+}
+
+#c,#a {
+	margin: 0;
 }
 .words{
 	display: flex;
