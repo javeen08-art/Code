@@ -1281,6 +1281,10 @@ h3 {
 	
 }
 
+.designer label {
+	margin: 0;
+}
+
 .designer input {
 	border-radius: 5px;
 
