@@ -1282,10 +1282,14 @@ h3 {
   font-size: 14px;
 }
 
+.option label {
+	margin: 0;
+}
+
 .option {
   display: flex;
   align-items: center;  /* Vertically center input & label */
-  gap: -5px;              /* Spacing between input & label */
+  gap: 0px;              /* Spacing between input & label */
   margin-bottom: 8px;
 }
 
