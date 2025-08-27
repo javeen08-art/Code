@@ -1289,7 +1289,7 @@ h3 {
 }
 .option {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 
 }
 
