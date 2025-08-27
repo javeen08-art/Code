@@ -1290,7 +1290,6 @@ h3 {
 .option {
   display: flex;
   flex-direction: row;
-align-items: flex-start;
 
 }
 
@@ -1299,7 +1298,6 @@ align-items: flex-start;
   width: 5vw;
   height: 5vh;
   vertical-align: middle;
-  position: relative;
   flex-shrink: 0;
   margin: 0;
   padding: 0;
