@@ -1293,6 +1293,8 @@ h3 {
 }
 
 .option {
+  display: flex;
+  align-items: center;
   gap: 0px; 
   margin-bottom: 4px;
 }
