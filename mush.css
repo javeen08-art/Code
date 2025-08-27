@@ -1290,7 +1290,7 @@ h3 {
 .option {
   display: flex;
   align-items: center;  /* Vertically center input & label */
-  gap: 5px;              /* Spacing between input & label */
+  gap: 2px;              /* Spacing between input & label */
   margin-bottom: 8px;
 }
 
@@ -1299,6 +1299,7 @@ h3 {
   position: relative;
   flex-shrink: 0;
   margin: 0;
+  padding: 0;
   margin-bottom: 10px;
 
 }
