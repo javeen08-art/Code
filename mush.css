@@ -1291,7 +1291,7 @@ h3 {
 .option label {
   display: flex;
   align-items: center;
-  gap:04px;
+  gap:0px;
   margin: 0;
   padding: 0;
   line-height: 1;
