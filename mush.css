@@ -1299,7 +1299,7 @@ h3 {
   flex-shrink: 0;
   margin: 0;
   position: absolute;
-  left: 50vw;
+  right: 50vw;
 }
 
 #c,#a {
