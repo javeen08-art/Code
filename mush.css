@@ -1276,9 +1276,6 @@ h3 {
 }
 
 .designer {
-  display: flex;
-  flex-direction: column; /* Stack vertically */
-  align-items: flex-start;
   font-size: 14px;
 }
 
@@ -1288,7 +1285,9 @@ h3 {
 	padding: 5px;
 }
 .option {
-	display: inline-block;
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
 
 }
 
