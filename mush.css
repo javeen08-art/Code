@@ -1283,7 +1283,9 @@ h3 {
 }
 
 
-
+.option label {
+	position: absolute;
+}
 .option {
   display: flex;
   align-items: center;  /* Vertically center input & label */
