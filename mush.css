@@ -1291,8 +1291,14 @@ h3 {
   margin-bottom: 8px;
 }
 
+
+.option label {
+	margin: 0;
+}
 .option input[type="radio"] {
   flex-shrink: 0;
+  margin: 0;
+  margin-left: 2px;
 
 }
 
