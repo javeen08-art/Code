@@ -1293,6 +1293,7 @@ h3 {
 
 
 .option label {
+	display: inline-block;
 	margin: 0;
 	padding: 0;
 }
