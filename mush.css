@@ -1287,13 +1287,13 @@ h3 {
 .designer label {
   margin: 0;
   display: block;
-  margin-bottom: 8px; /* Adds spacing below the question label */
+  margin-bottom: 8px; 
 }
 
 .option {
   display: flex;
   align-items: center;
-  gap: 2px; 
+  gap: 0px; 
   margin-bottom: 4px;
 }
 #c,#a {
