@@ -1285,7 +1285,8 @@ h3 {
 
 .option label {
 	position: absolute;
-	left: 5vw;
+	left: 15vw;
+	padding: 5px;
 	margin-bottom: 10px;
 }
 .option {
