@@ -889,7 +889,7 @@ label {
 .option label {
   display: flex;
   align-items: center;
-  gap: 0px;
+  gap: -15px;
   margin: 0;
   margin-bottom: 3vh;
   padding: 0;
@@ -903,7 +903,6 @@ label {
 }
 
 
-}
 .date {
 	font-size: 15px;
 	margin: 0;
