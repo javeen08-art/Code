@@ -899,6 +899,7 @@ label {
 .option input[type="radio"] {
   margin: 0;
   flex-shrink: 0;
+  border-radius: 1px;
 }
 
 
