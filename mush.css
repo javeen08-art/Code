@@ -1282,10 +1282,7 @@ h3 {
   font-size: 14px;
 }
 
-.option label {
-	margin: 0;
-	padding: 0;
-}
+
 
 .option {
   display: flex;
