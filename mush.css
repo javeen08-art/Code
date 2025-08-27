@@ -1283,19 +1283,20 @@ h3 {
 }
 
 .option label {
-
+	margin: 0;
+	padding: 0;
 }
 
 .option {
   display: flex;
   align-items: center;  /* Vertically center input & label */
-  gap: 15px;              /* Spacing between input & label */
+  gap: 0px;              /* Spacing between input & label */
   margin-bottom: 8px;
 }
 
 .option input[type="radio"] {
   flex-shrink: 0;
-  margin: 0;
+
 }
 
 #c,#a {
