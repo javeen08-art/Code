@@ -1277,7 +1277,7 @@ h3 {
 
 .designer {
   display: flex;
-  flex-direction: column; /* Stack vertically */
+  flex-direction: row; /* Stack vertically */
   align-items: flex-start;
   font-size: 14px;
 }
