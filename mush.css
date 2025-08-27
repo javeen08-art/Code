@@ -1277,32 +1277,26 @@ h3 {
 
 .designer {
   display: flex;
-  flex-direction: column;
+  flex-direction: column; /* Stack vertically */
   align-items: flex-start;
   font-size: 14px;
 }
 
+
+
 .option {
   display: flex;
-  align-items: center;
+  align-items: center;  /* Vertically center input & label */
+  gap: 0px;              /* Spacing between input & label */
   margin-bottom: 8px;
 }
 
-.option label {
-  display: flex;
-  align-items: center;
-  gap: 4px;
-  margin: 0;
-  padding: 0;
-  line-height: 1;
-}
 
 .option input[type="radio"] {
-  margin: 0;
-  position: absolute;
   flex-shrink: 0;
-}
+  margin: 0;
 
+}
 
 #c,#a {
 	margin: 0;
