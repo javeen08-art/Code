@@ -1315,7 +1315,7 @@ body {
 	overflow: visible;
 	resize: auto;
 	max-width: 500px;
-	touch-action: pan-y; 
+	touch-action: none; 
 	overflow-x: hidden;
 	scrollbar-width: none;
 	scroll-padding: 0;
