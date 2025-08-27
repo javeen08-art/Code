@@ -1284,7 +1284,6 @@ h3 {
 
 
 .option label {
-	position: absolute;
 	left: 10vw;
 	margin: 0;
 }
@@ -1297,6 +1296,7 @@ h3 {
 
 
 .option input[type="radio"] {
+  position: relative;
   flex-shrink: 0;
   margin: 0;
   margin-bottom: 10px;
