@@ -1293,7 +1293,7 @@ h3 {
 .option {
   display: flex;
   align-items: center;
-  gap: 2px; /* Space between radio and text */
+  gap: 2px; 
   margin-bottom: 4px;
 }
 #c,#a {
