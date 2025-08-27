@@ -1297,6 +1297,7 @@ h3 {
 	display: inline-block;
 	margin: 0;
 	padding: 0;
+	line-height: 1;
 }
 .option input[type="radio"] {
   flex-shrink: 0;
