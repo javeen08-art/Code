@@ -1285,7 +1285,7 @@ h3 {
 
 .option label {
 	position: absolute;
-	left: 0;
+	left: 50vw;
 }
 .option {
   display: flex;
