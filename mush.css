@@ -1288,8 +1288,7 @@ h3 {
 	padding: 5px;
 }
 .option {
-  display: flex;
-  flex-direction: column;
+	display: inline-block;
 
 }
 
