@@ -1299,6 +1299,7 @@ h3 {
 
 .option input[type="radio"] {
   margin: 0;
+  position: absolute;
   flex-shrink: 0;
 }
 
