@@ -1289,6 +1289,7 @@ h3 {
 }
 .option {
   display: flex;
+  flex-direction: row;
   align-items: center; 
 
 }
