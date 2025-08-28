@@ -215,6 +215,7 @@
     </select>
   </div>
   </div>
+  <script id ="caps" src="https://www.google.com/recaptcha/api.js?render=6LcBPrUrAAAAAOQgeb3Nem1wz6OAOkkQDz6IRsaX"></script>
   <div class ="buttons">
     <div>
         <input type="reset" id ="d">
@@ -442,6 +443,10 @@
         });
     });
   }
+
+  function onSubmit(token) {
+     document.getElementById("caps").submit();
+   }
 
 
 </script>
