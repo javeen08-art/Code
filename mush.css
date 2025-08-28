@@ -1203,6 +1203,7 @@ h3 {
 .l2 {
 	display: flex;
 	flex-direction: row;
+	font-size: 12px;
 }
 .texts {
 	scale:0.8;
