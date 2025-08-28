@@ -1200,6 +1200,10 @@ h3 {
 	display: none;
 }
 
+.l2 {
+	display: flex;
+	flex-direction: row;
+}
 .texts {
 	scale:0.8;
 	margin-left: 0;
