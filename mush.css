@@ -1278,7 +1278,7 @@ h3 {
 .designer {
   font-size: 14px;
   margin-left: 10vw;
-  margin-top: 2vh;
+  margin-top: 0vh;
 }
 
 .bo {
@@ -1316,7 +1316,7 @@ h3 {
 	width: fit-content;
 	padding: 20px;
   	gap: 5.5vw;
-	margin-bottom: 1vh;
+	margin-bottom: 0vh;
 	margin-top: 5vh;
 	margin-left: auto;
 	margin-right: auto;
