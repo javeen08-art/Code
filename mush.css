@@ -1279,12 +1279,13 @@ h3 {
   font-size: 14px;
 }
 
-.option {
-	display: flex;
+.designer + .options {
+		display: flex;
 	flex-direction: row;
 	width: 100vw;
-
 }
+
+
 .option label {
 	margin-left: 5vw;
 	padding: 5px;
