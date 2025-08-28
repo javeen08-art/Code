@@ -1298,6 +1298,7 @@ h3 {
 	flex-direction: row;
 	align-items: center;
 	text-align: center;
+	padding: auto;
 	margin: auto;
 	gap: 5vw;
 }
