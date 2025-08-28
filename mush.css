@@ -879,6 +879,7 @@ label {
 	padding-left: 0;
 	font-size: 15px;
 	left: 5vw;
+	text-align: left;
 
 }
 
@@ -886,13 +887,12 @@ label {
   width: auto;
   height: auto;
   vertical-align: middle;
-  display: inline;
   text-align: left;
-  flex-shrink: 0;
   margin: auto;
+  flex-shrink: 0;
   padding: 0;
   margin-bottom: 5px;
-  left: 0;
+  left: 10vw;
  
 
 }
