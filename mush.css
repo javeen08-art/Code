@@ -886,6 +886,7 @@ label {
   width: auto;
   height: auto;
   vertical-align: middle;
+  display: inline;
   flex-shrink: 0;
   margin: 0;
   padding: 0;
