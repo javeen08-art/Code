@@ -967,6 +967,10 @@ font-family: 'IBM Plex Mono';
 
 }
 
+.date p {
+	display: none;
+}
+
 @keyframes fadein {
   from {bottom: 0; opacity: 0;}
   to {bottom: 30px; opacity: 1;}
@@ -1286,6 +1290,7 @@ h3 {
 	flex-direction: row;
 
 }
+
 
 
 .option label {
