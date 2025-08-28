@@ -878,7 +878,7 @@ label {
 	padding: 20px;
 	padding-left: 0;
 	font-size: 15px;
-	left: 0;
+	left: 5vw;
 
 }
 
@@ -887,8 +887,9 @@ label {
   height: auto;
   vertical-align: middle;
   display: inline;
+  text-align: left;
   flex-shrink: 0;
-  margin: 0;
+  margin: auto;
   padding: 0;
   margin-bottom: 5px;
   left: 0;
