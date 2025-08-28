@@ -1297,6 +1297,8 @@ h3 {
 	display: flex;
 	flex-direction: row;
 	align-items: center;
+	text-align: center;
+	margin: auto;
 	gap: 5vw;
 }
 
