@@ -1280,9 +1280,9 @@ h3 {
 }
 
 .designer > .options {
-		display: flex;
+	display: flex;
 	flex-direction: row;
-	width: 100vw;
+
 }
 
 
