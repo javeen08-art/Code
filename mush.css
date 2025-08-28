@@ -689,6 +689,7 @@ background-color: white;
 .dropdown {
   position: relative;
   display: inline-block;
+  font-size: 15px;
 
 }
 
