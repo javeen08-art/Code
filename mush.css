@@ -876,7 +876,8 @@ label {
 .designer {
 	margin:20px;
 	padding: 20px;
-	font-size: 15px;	
+	font-size: 15px;
+	left: 0;	
 
 }
 
