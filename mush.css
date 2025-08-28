@@ -1279,7 +1279,7 @@ h3 {
   font-size: 14px;
 }
 
-.designer + .options {
+.designer > .options {
 		display: flex;
 	flex-direction: row;
 	width: 100vw;
