@@ -881,8 +881,8 @@ label {
 }
 
 .option input[type="radio"] {
-  width: 2vw;
-  height: 2vh;
+  width: auto;
+  height: auto;
   vertical-align: middle;
   flex-shrink: 0;
   margin: 0;
