@@ -883,7 +883,6 @@ background-color: white; /* Semi-transparent white */
 /* Mobile Menu Button (≡) */
 .st2 {
   display: none; /* Hide by default */
-  font-size: 30px;
   cursor: pointer;
 }
 input {
@@ -1399,7 +1398,7 @@ h3 {
   }
 
   .s5.open {
-    max-height: 500px; /* Adjust the max-height for the expanded menu */
+    max-height: 100vh; /* Adjust the max-height for the expanded menu */
     padding: 10px;
   }
 }
