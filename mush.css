@@ -1266,6 +1266,7 @@ h3 {
 }
 
 .forms {
+	position: relative;
 	width:90%;
 	flex-direction: column;
 	text-align: center;
