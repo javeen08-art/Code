@@ -861,6 +861,7 @@ background-color: white; /* Semi-transparent white */
 	position: absolute;
 	bottom: 3vh;
 	left: 3vw;
+	z-index: 1000000;
 
 }
 
