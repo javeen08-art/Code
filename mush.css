@@ -1395,6 +1395,13 @@ h3 {
 	display: block;
 	width: 100vw;
 	height: 100vh;
+
+}
+
+.s5::backdrop {
+	display: block;
+	width: 100vw;
+	height: 100vh;
 	max-height: 100vh;
 }
 
