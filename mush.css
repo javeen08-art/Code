@@ -1323,10 +1323,11 @@ h3 {
 }
 
 .option label {
-	margin-left: 0vw;
-	padding: 5px;
-	left: 0;
 	position: relative;
+	margin-left: 0vw;
+	padding: 0px;
+	left: 0;
+
 }
 
 
