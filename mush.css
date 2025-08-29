@@ -887,7 +887,7 @@ label {
 	margin: auto;
 	padding: 0;
 	left: 3vw;
-	position: relative;
+	position: absolute;
 }
 
 .option input[type="radio"] {
