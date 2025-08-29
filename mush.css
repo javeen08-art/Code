@@ -902,11 +902,14 @@ label {
   margin: auto;
   flex-shrink: 0;
   padding: 0;
-  left: 5vw;
   margin-bottom: 5px;
 
 }
 
+.option label {
+	position: relative;
+	left: 5vw;
+}
 
 .date {
 	font-size: 15px;
