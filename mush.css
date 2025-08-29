@@ -859,6 +859,9 @@ background-color: white; /* Semi-transparent white */
 
 .smallm {
 	position: absolute;
+	bottom: 3vh;
+	left: 3vw;
+
 }
 
 .s5 {
