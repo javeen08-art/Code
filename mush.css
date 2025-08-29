@@ -870,18 +870,21 @@ background-color: white; /* Semi-transparent white */
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.7s ease;
-  background-color: rgba(255,255,255, 0.6);
+  background-color: rgba(255, 255, 255, 0.6);
   backdrop-filter: blur(15px);
   border-radius: 15px;
   text-align: left;
   width: 100vw;
   display: flex;
   flex-direction: column;
+  padding: 0 10px; /* Some padding */
 }
 
-.s5.open {
-  height: 100vh;
-  width: 100vw; /* adjust as needed */
+/* Mobile Menu Button (≡) */
+.st2 {
+  display: none; /* Hide by default */
+  font-size: 30px;
+  cursor: pointer;
 }
 input {
 	background-color: rgba(255, 255, 255, 1); /* Semi-transparent white */
@@ -1391,9 +1394,14 @@ h3 {
 .smallm {
 	display: block;
 }
+.st2 {
+    display: block; /* Show button on mobile */
+  }
 
-.s5 {
-	display: block;
+  .s5.open {
+    max-height: 500px; /* Adjust the max-height for the expanded menu */
+    padding: 10px;
+  }
 }
 
 body {
