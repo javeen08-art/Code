@@ -342,7 +342,7 @@
 <script>
 
   // -------- Collapsible Buttons --------
-  const collapsibleButtons = document.querySelectorAll('.collapsible, .starts,.starts2,.st2'); // Removed 'start' as it's invalid here
+  const collapsibleButtons = document.querySelectorAll('.collapsible, .starts,.starts2,.st2');
 
   collapsibleButtons.forEach(function(button) {
     button.addEventListener('click', function() {
@@ -368,6 +368,26 @@
     });
   });
 
+  // -------- NEW: Close collapsible when an inner <a> is clicked --------
+  document.querySelectorAll('.collapsible').forEach(button => {
+    const content = button.nextElementSibling;
+
+    if (content && content.classList.contains('h')) {
+      const links = content.querySelectorAll('a');
+
+      links.forEach(link => {
+        link.addEventListener('click', () => {
+          // Collapse the section
+          content.style.maxHeight = null;
+          // Remove the active class from the button
+          button.classList.remove('active');
+          // Replace − with +
+          button.textContent = button.textContent.replace('−', '+');
+        });
+      });
+    }
+  });
+
   // -------- Dropdown Menu --------
   const dropdownBtn = document.querySelector('.dropbtn');
   const dropdownContent = document.getElementById('myDropdown');
@@ -381,7 +401,6 @@
   // Close dropdown when clicking outside
   window.addEventListener('click', (event) => {
     if (event.target !== dropdownBtn && !dropdownBtn.contains(event.target)) {
-      // Close all dropdowns
       const dropdowns = document.getElementsByClassName('dropdown-content');
       for (let i = 0; i < dropdowns.length; i++) {
         dropdowns[i].classList.remove('show');
@@ -401,8 +420,7 @@
     bdateInput.setAttribute('min', minDate);
   }
 
-  // -------- Checkbox selection (assuming 'Time' is a name attribute) --------
-  // Corrected variable 'Time' to a string 'Time'
+  // -------- Checkbox selection --------
   function lol(checkbox) {
     const checkboxes = document.getElementsByName('Time');
     checkboxes.forEach((item) => {
@@ -419,7 +437,6 @@
     form.addEventListener('submit', (e) => {
       e.preventDefault();
 
-      // Show loading indicator
       if (loadingDiv) loadingDiv.style.display = 'block';
 
       const formData = new FormData(form);
@@ -430,18 +447,14 @@
       })
         .then((response) => response.text())
         .then((data) => {
-          // Hide loading
           if (loadingDiv) loadingDiv.style.display = 'none';
 
-          // Show message
           if (messageDiv) {
             messageDiv.className = 'show';
           }
 
-          // Reset form
           form.reset();
 
-          // Hide message after 3 seconds
           setTimeout(() => {
             if (messageDiv) messageDiv.className = '';
           }, 3000);
@@ -452,6 +465,7 @@
         });
     });
   }
+
 </script>
 
 
