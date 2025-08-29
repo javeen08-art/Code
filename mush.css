@@ -1398,7 +1398,7 @@ h3 {
 
 }
 
-.active,.s5{
+.s5:active{
 	width: 100vw;
 	height: 100vh;
 }
