@@ -878,6 +878,7 @@ background-color: white; /* Semi-transparent white */
   border-radius: 15px; /* Rounded corners */
   display: flex;
   flex-direction: column;
+  display: none;
 }
 
 input {
