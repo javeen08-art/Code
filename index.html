@@ -472,7 +472,31 @@
   window.addEventListener('scroll', toggleSmallmVisibility);
   window.addEventListener('load', toggleSmallmVisibility);
 
+  // -------- Toggle smallm visibility on button click --------
+  const smallmButton = document.querySelector('.smallm-button'); // Assuming the button that toggles smallm has a class 'smallm-button'
+
+  if (smallmButton) {
+    smallmButton.addEventListener('click', (event) => {
+      event.stopPropagation(); // Prevent this click from propagating to the document click handler
+
+      // Toggle visibility of .smallm
+      if (smallm.style.display === 'none' || smallm.style.display === '') {
+        smallm.style.display = 'block';
+      } else {
+        smallm.style.display = 'none';
+      }
+    });
+  }
+
+  // -------- Close smallm if clicked anywhere outside --------
+  window.addEventListener('click', (event) => {
+    if (smallm && !smallm.contains(event.target) && smallmButton && !smallmButton.contains(event.target)) {
+      smallm.style.display = 'none'; // Hide the .smallm if clicked anywhere else
+    }
+  });
+
 </script>
+
 
 
 
