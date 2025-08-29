@@ -873,6 +873,8 @@ label {
 
 }
 .designer {
+	text-align: left;
+	position: relative;
 	margin:0;
 	margin-left: auto;
 	margin-right: auto;
@@ -880,7 +882,7 @@ label {
 	padding-left: 0;
 	font-size: 15px;
 	left: 25vw;
-	text-align: left;
+
 
 
 }
