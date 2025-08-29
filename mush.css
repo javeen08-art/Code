@@ -857,6 +857,10 @@ background-color: white; /* Semi-transparent white */
 
 }
 
+.st2 {
+	postion: fixed
+}
+
 .s5 {
 		max-height:0;
 	overflow: hidden;
