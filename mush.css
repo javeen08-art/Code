@@ -892,6 +892,7 @@ label {
   flex-shrink: 0;
   padding: 0;
   margin-bottom: 5px;
+  position: relative;
   left: 30vw;
  
 
