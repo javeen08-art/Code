@@ -876,6 +876,7 @@ background-color: white; /* Semi-transparent white */
   text-align: left;
   width: 100vw;
   height: 100vh;
+  font-size: 30px;
   display: flex;
   flex-direction: column;
   padding: 0 10px; /* Some padding */
