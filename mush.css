@@ -857,7 +857,7 @@ background-color: white; /* Semi-transparent white */
 
 }
 
-.st2 {
+.smallm {
 	postion: fixed
 }
 
@@ -873,7 +873,6 @@ background-color: white; /* Semi-transparent white */
   backdrop-filter: blur(15px);/* Apply blur to content behind */
   border-radius: 15px; /* Rounded corners */
 	transform: translate(10vw,42vh);
-	margin-top:-20px;
   display: flex;
   flex-direction: column;
 	position: absolute;
