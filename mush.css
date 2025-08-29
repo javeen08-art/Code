@@ -1325,6 +1325,7 @@ h3 {
 .option label {
 	margin-left: 5vw;
 	padding: 5px;
+	left: 0;
 }
 
 
@@ -1337,7 +1338,7 @@ h3 {
   margin: 0;
   padding: 0;
   margin-bottom: 5px;
-  margin-right: auto;
+  margin-right: 0;
 
 }
 
