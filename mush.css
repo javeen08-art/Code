@@ -1393,14 +1393,11 @@ h3 {
 
 .s5 {
 	display: block;
-	width: 100vw;
-	height: 100vh;
-
 }
 
 .s5:active{
-	width: 100vw;
-	height: 100vh;
+	width: 100%;
+	height: 100%;
 }
 
 body {
