@@ -17,7 +17,7 @@
   </header>
   <article>
     <div class ="smallm">
-        <button class="st2">≡</button>
+      <button class="st2">≡</button>
       <div class="s5">
             <a href='#front'>  Home</a>
             <a href ='#bottoms'> About Us</a>
@@ -452,7 +452,9 @@
         });
     });
   }
-
+    document.querySelector('.st2').addEventListener('click', function () {
+    document.querySelector('.s5').classList.toggle('open');
+  });
 </script>
 
 
