@@ -340,7 +340,7 @@
     </main>
   </body>
 <script>
-  // -------- Collapsible Buttons --------
+// -------- Collapsible Buttons --------
 const collapsibleButtons = document.querySelectorAll('.collapsible, .starts,.starts2,.st2'); // Removed 'start' as it's invalid here
 
 collapsibleButtons.forEach(function(button) {
@@ -483,8 +483,10 @@ if (smallm) {
 }
 
 // Close .smallm if click is outside of the smallm or the button
-window.addEventListener('click', () => {
-  if (smallm) smallm.style.display = 'none';
+window.addEventListener('click', (event) => {
+  if (smallm && !smallm.contains(event.target) && !smallmButton.contains(event.target)) {
+    smallm.style.display = 'none';
+  }
 });
 
 // -------- Show .smallm only after home page --------
@@ -505,6 +507,8 @@ if (frontPage) {
   // Also check on page load (in case the page is already scrolled)
   checkScrollPosition();
 }
+
+
 
 </script>
 
