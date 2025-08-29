@@ -1398,11 +1398,9 @@ h3 {
 
 }
 
-.s5:active {
-	display: block;
+.s5:active + .smallm:active {
 	width: 100vw;
 	height: 100vh;
-	max-height: 100vh;
 }
 
 body {
