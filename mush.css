@@ -1398,7 +1398,7 @@ h3 {
 
 }
 
-.s5::after {
+.s5:active {
 	display: block;
 	width: 100vw;
 	height: 100vh;
