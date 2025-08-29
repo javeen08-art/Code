@@ -1398,7 +1398,7 @@ h3 {
 
 }
 
-.s5:active + .smallm:active {
+.active,.s5{
 	width: 100vw;
 	height: 100vh;
 }
