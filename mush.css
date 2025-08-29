@@ -879,6 +879,7 @@ label {
 	padding-left: 0;
 	font-size: 15px;
 	left: 5vw;
+	text-align: left;
 
 
 }
@@ -887,7 +888,6 @@ label {
 	margin: auto;
 	padding: 0;
 	left: 3vw;
-	position: absolute;
 }
 
 .option input[type="radio"] {
