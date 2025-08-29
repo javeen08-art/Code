@@ -880,7 +880,8 @@ background-color: white; /* Semi-transparent white */
 }
 
 .s5.open {
-  max-height: 500px; /* adjust as needed */
+  max-height: 100vh;
+  width: 100vw; /* adjust as needed */
   padding: 10px;
 }
 input {
