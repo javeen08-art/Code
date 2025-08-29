@@ -341,21 +341,18 @@
   </body>
 <script>
 // -------- Collapsible Buttons --------
-const collapsibleButtons = document.querySelectorAll('.collapsible, .starts,.starts2,.st2'); // Removed 'start' as it's invalid here
+const collapsibleButtons = document.querySelectorAll('.collapsible, .starts,.starts2,.st2');
 
 collapsibleButtons.forEach(function(button) {
   button.addEventListener('click', function() {
-    // Toggle 'active' class
     this.classList.toggle('active');
 
-    // Change button text
     if (this.classList.contains('active')) {
       this.textContent = this.textContent.replace('+', '−');
     } else {
       this.textContent = this.textContent.replace('−', '+');
     }
 
-    // Toggle the content section
     const content = this.nextElementSibling;
     if (content) {
       if (content.style.maxHeight) {
@@ -377,10 +374,8 @@ if (dropdownBtn && dropdownContent) {
   });
 }
 
-// Close dropdown when clicking outside
 window.addEventListener('click', (event) => {
   if (event.target !== dropdownBtn && !dropdownBtn.contains(event.target)) {
-    // Close all dropdowns
     const dropdowns = document.getElementsByClassName('dropdown-content');
     for (let i = 0; i < dropdowns.length; i++) {
       dropdowns[i].classList.remove('show');
@@ -400,7 +395,7 @@ if (bdateInput) {
   bdateInput.setAttribute('min', minDate);
 }
 
-// -------- Checkbox selection (assuming 'Time' is a name attribute) --------
+// -------- Checkbox selection --------
 function lol(checkbox) {
   const checkboxes = document.getElementsByName('Time');
   checkboxes.forEach((item) => {
@@ -416,8 +411,6 @@ const loadingDiv = document.getElementById('loading');
 if (form) {
   form.addEventListener('submit', (e) => {
     e.preventDefault();
-
-    // Show loading indicator
     if (loadingDiv) loadingDiv.style.display = 'block';
 
     const formData = new FormData(form);
@@ -428,18 +421,9 @@ if (form) {
     })
       .then((response) => response.text())
       .then((data) => {
-        // Hide loading
         if (loadingDiv) loadingDiv.style.display = 'none';
-
-        // Show message
-        if (messageDiv) {
-          messageDiv.className = 'show';
-        }
-
-        // Reset form
+        if (messageDiv) messageDiv.className = 'show';
         form.reset();
-
-        // Hide message after 3 seconds
         setTimeout(() => {
           if (messageDiv) messageDiv.className = '';
         }, 3000);
@@ -453,12 +437,11 @@ if (form) {
 
 // -------- Toggle .smallm Menu --------
 const smallm = document.querySelector('.smallm');
-const smallmButton = document.querySelector('.st2'); // The button that toggles .smallm
+const smallmButton = document.querySelector('.st2');
 
-// Toggle smallm when button clicked
 if (smallmButton) {
   smallmButton.addEventListener('click', (event) => {
-    event.stopPropagation(); // Prevent window click handler from firing
+    event.stopPropagation();
     if (smallm.style.display === 'block') {
       smallm.style.display = 'none';
     } else {
@@ -467,7 +450,6 @@ if (smallmButton) {
   });
 }
 
-// Close .smallm when any link inside .smallm is clicked
 const linksInSmallm = smallm.querySelectorAll('a');
 linksInSmallm.forEach(link => {
   link.addEventListener('click', () => {
@@ -475,41 +457,78 @@ linksInSmallm.forEach(link => {
   });
 });
 
-// Prevent clicks inside smallm from closing it
 if (smallm) {
   smallm.addEventListener('click', (event) => {
-    event.stopPropagation(); // Prevent closing if click happens inside .smallm
+    event.stopPropagation();
   });
 }
 
-// Close .smallm if click is outside of the smallm or the button
 window.addEventListener('click', (event) => {
   if (smallm && !smallm.contains(event.target) && !smallmButton.contains(event.target)) {
     smallm.style.display = 'none';
   }
 });
 
-// -------- Show .smallm only after home page --------
-const frontPage = document.querySelector('#front'); // Assuming you have an element with the id 'front' for the homepage
-
+// -------- Show .smallm only after home page scroll --------
+const frontPage = document.querySelector('#front');
 if (frontPage) {
   const checkScrollPosition = () => {
     const rect = frontPage.getBoundingClientRect();
     if (rect.bottom <= 0) {
-      // Once the homepage section is scrolled past, show the smallm menu button
       if (smallm) smallm.style.display = 'block';
     }
   };
-
-  // Listen to scroll event
   window.addEventListener('scroll', checkScrollPosition);
-
-  // Also check on page load (in case the page is already scrolled)
   checkScrollPosition();
 }
 
+// -------- NEW: Close all dropdowns when clicking outside or after link click --------
+const toggleButtons = document.querySelectorAll('.starts, .starts2, .st2');
+const dropdowns = document.querySelectorAll('.s2, .s3, .s5');
 
+// Handle toggle for each button
+toggleButtons.forEach((button) => {
+  button.addEventListener('click', (e) => {
+    e.stopPropagation();
+    const dropdown = button.nextElementSibling;
 
+    dropdowns.forEach(d => {
+      if (d !== dropdown) d.style.display = 'none';
+    });
+
+    if (dropdown && dropdown.style.display === 'block') {
+      dropdown.style.display = 'none';
+    } else if (dropdown) {
+      dropdown.style.display = 'block';
+    }
+  });
+});
+
+// Hide dropdowns when clicking a link inside them
+dropdowns.forEach(drop => {
+  drop.querySelectorAll('a').forEach(link => {
+    link.addEventListener('click', () => {
+      dropdowns.forEach(d => d.style.display = 'none');
+    });
+  });
+});
+
+// Hide dropdowns when clicking anywhere outside
+document.addEventListener('click', (e) => {
+  let isDropdownClick = false;
+
+  dropdowns.forEach(drop => {
+    if (drop.contains(e.target)) isDropdownClick = true;
+  });
+
+  toggleButtons.forEach(btn => {
+    if (btn.contains(e.target)) isDropdownClick = true;
+  });
+
+  if (!isDropdownClick) {
+    dropdowns.forEach(d => d.style.display = 'none');
+  }
+});
 </script>
 
 
