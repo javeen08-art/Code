@@ -884,6 +884,8 @@ label {
 }
 
 .option {
+	margin: auto;
+	padding: 0;
 	left: 5vw;
 }
 
