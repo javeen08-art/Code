@@ -1393,6 +1393,7 @@ h3 {
 
 .s5 {
 	display: block;
+	overflow: auto;
 }
 
 .s5:active{
