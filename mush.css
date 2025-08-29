@@ -881,7 +881,7 @@ background-color: white; /* Semi-transparent white */
 
 .s5::after {
 	width: 100vw;
-	height:100vw;
+	height:100vh;
 }
 input {
 	background-color: rgba(255, 255, 255, 1); /* Semi-transparent white */
