@@ -482,53 +482,41 @@ if (frontPage) {
   checkScrollPosition();
 }
 
-// -------- NEW: Close all dropdowns when clicking outside or after link click --------
+// Toggle Dropdown Menu on button click
 const toggleButtons = document.querySelectorAll('.starts, .starts2, .st2');
 const dropdowns = document.querySelectorAll('.s2, .s3, .s5');
 
 // Handle toggle for each button
 toggleButtons.forEach((button) => {
   button.addEventListener('click', (e) => {
-    e.stopPropagation();
-    const dropdown = button.nextElementSibling;
+    e.stopPropagation(); // Prevent event propagation to avoid other click listeners from firing
 
+    const dropdown = button.nextElementSibling; // Find the corresponding dropdown
+
+    // Close all other dropdowns first
     dropdowns.forEach(d => {
       if (d !== dropdown) d.style.display = 'none';
     });
 
-    if (dropdown && dropdown.style.display === 'block') {
-      dropdown.style.display = 'none';
-    } else if (dropdown) {
-      dropdown.style.display = 'block';
+    // Toggle the current dropdown's visibility
+    if (dropdown.style.display === 'block') {
+      dropdown.style.display = 'none'; // Hide if already visible
+    } else {
+      dropdown.style.display = 'block'; // Show if it's hidden
     }
   });
 });
 
-// Hide dropdowns when clicking a link inside them
-dropdowns.forEach(drop => {
-  drop.querySelectorAll('a').forEach(link => {
-    link.addEventListener('click', () => {
-      dropdowns.forEach(d => d.style.display = 'none');
-    });
-  });
-});
-
-// Hide dropdowns when clicking anywhere outside
+// Hide all dropdowns if a click is made outside of them
 document.addEventListener('click', (e) => {
   let isDropdownClick = false;
 
+  // Check if the click is inside any of the dropdowns or toggle buttons
   dropdowns.forEach(drop => {
     if (drop.contains(e.target)) isDropdownClick = true;
   });
 
-  toggleButtons.forEach(btn => {
-    if (btn.contains(e.target)) isDropdownClick = true;
-  });
-
-  if (!isDropdownClick) {
-    dropdowns.forEach(d => d.style.display = 'none');
-  }
-});
+  toggle
 
 </script>
 
