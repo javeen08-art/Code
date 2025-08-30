@@ -340,224 +340,122 @@
     </main>
   </body>
 <script>
-// -------- Collapsible Buttons --------
-const collapsibleButtons = document.querySelectorAll('.collapsible, .starts, .starts2, .st2');
 
-collapsibleButtons.forEach(function(button) {
-  button.addEventListener('click', function() {
-    this.classList.toggle('active');
+  // -------- Collapsible Buttons --------
+  const collapsibleButtons = document.querySelectorAll('.collapsible, .starts,.starts2,.st2'); // Removed 'start' as it's invalid here
 
-    if (this.classList.contains('active')) {
-      this.textContent = this.textContent.replace('+', '−');
-    } else {
-      this.textContent = this.textContent.replace('−', '+');
-    }
+  collapsibleButtons.forEach(function(button) {
+    button.addEventListener('click', function() {
+      // Toggle 'active' class
+      this.classList.toggle('active');
 
-    const content = this.nextElementSibling;
-    if (content) {
-      if (content.style.maxHeight) {
-        content.style.maxHeight = null;
+      // Change button text
+      if (this.classList.contains('active')) {
+        this.textContent = this.textContent.replace('+', '−');
       } else {
-        content.style.maxHeight = content.scrollHeight + "px";
+        this.textContent = this.textContent.replace('−', '+');
+      }
+
+      // Toggle the content section
+      const content = this.nextElementSibling;
+      if (content) {
+        if (content.style.maxHeight) {
+          content.style.maxHeight = null;
+        } else {
+          content.style.maxHeight = content.scrollHeight + "px";
+        }
+      }
+    });
+  });
+
+  // -------- Dropdown Menu --------
+  const dropdownBtn = document.querySelector('.dropbtn');
+  const dropdownContent = document.getElementById('myDropdown');
+
+  if (dropdownBtn && dropdownContent) {
+    dropdownBtn.addEventListener('click', () => {
+      dropdownContent.classList.toggle('show');
+    });
+  }
+
+  // Close dropdown when clicking outside
+  window.addEventListener('click', (event) => {
+    if (event.target !== dropdownBtn && !dropdownBtn.contains(event.target)) {
+      // Close all dropdowns
+      const dropdowns = document.getElementsByClassName('dropdown-content');
+      for (let i = 0; i < dropdowns.length; i++) {
+        dropdowns[i].classList.remove('show');
       }
     }
   });
-});
 
-// -------- Dropdown Menu --------
-const dropdownBtn = document.querySelector('.dropbtn');
-const dropdownContent = document.getElementById('myDropdown');
+  // -------- Date input min attribute --------
+  const today = new Date();
+  const year = today.getFullYear();
+  const month = String(today.getMonth() + 1).padStart(2, '0');
+  const day = String(today.getDate()).padStart(2, '0');
+  const minDate = `${year}-${month}-${day}`;
 
-if (dropdownBtn && dropdownContent) {
-  dropdownBtn.addEventListener('click', () => {
-    dropdownContent.classList.toggle('show');
-  });
-}
-
-window.addEventListener('click', (event) => {
-  if (event.target !== dropdownBtn && !dropdownBtn.contains(event.target)) {
-    const dropdowns = document.getElementsByClassName('dropdown-content');
-    for (let i = 0; i < dropdowns.length; i++) {
-      dropdowns[i].classList.remove('show');
-    }
+  const bdateInput = document.getElementById('bdate');
+  if (bdateInput) {
+    bdateInput.setAttribute('min', minDate);
   }
-});
 
-// -------- Date input min attribute --------
-const today = new Date();
-const year = today.getFullYear();
-const month = String(today.getMonth() + 1).padStart(2, '0');
-const day = String(today.getDate()).padStart(2, '0');
-const minDate = `${year}-${month}-${day}`;
+  // -------- Checkbox selection (assuming 'Time' is a name attribute) --------
+  // Corrected variable 'Time' to a string 'Time'
+  function lol(checkbox) {
+    const checkboxes = document.getElementsByName('Time');
+    checkboxes.forEach((item) => {
+      if (item !== checkbox) item.checked = false;
+    });
+  }
 
-const bdateInput = document.getElementById('bdate');
-if (bdateInput) {
-  bdateInput.setAttribute('min', minDate);
-}
+  // -------- Form Submission --------
+  const form = document.querySelector('form');
+  const messageDiv = document.getElementById('message');
+  const loadingDiv = document.getElementById('loading');
 
-// -------- Checkbox selection --------
-function lol(checkbox) {
-  const checkboxes = document.getElementsByName('Time');
-  checkboxes.forEach((item) => {
-    if (item !== checkbox) item.checked = false;
-  });
-}
+  if (form) {
+    form.addEventListener('submit', (e) => {
+      e.preventDefault();
 
-// -------- Form Submission --------
-const form = document.querySelector('form');
-const messageDiv = document.getElementById('message');
-const loadingDiv = document.getElementById('loading');
+      // Show loading indicator
+      if (loadingDiv) loadingDiv.style.display = 'block';
 
-if (form) {
-  form.addEventListener('submit', (e) => {
-    e.preventDefault();
-    if (loadingDiv) loadingDiv.style.display = 'block';
+      const formData = new FormData(form);
 
-    const formData = new FormData(form);
-
-    fetch(form.action, {
-      method: 'POST',
-      body: formData
-    })
-      .then((response) => response.text())
-      .then((data) => {
-        if (loadingDiv) loadingDiv.style.display = 'none';
-        if (messageDiv) messageDiv.className = 'show';
-        form.reset();
-        setTimeout(() => {
-          if (messageDiv) messageDiv.className = '';
-        }, 3000);
+      fetch(form.action, {
+        method: 'POST',
+        body: formData
       })
-      .catch((error) => {
-        if (loadingDiv) loadingDiv.style.display = 'none';
-        alert('Error submitting the form. Please try again.');
-      });
-  });
-}
+        .then((response) => response.text())
+        .then((data) => {
+          // Hide loading
+          if (loadingDiv) loadingDiv.style.display = 'none';
 
-// -------- Toggle .smallm Menu --------
-const smallm = document.querySelector('.smallm');
-const smallmButton = document.querySelector('.st2');
+          // Show message
+          if (messageDiv) {
+            messageDiv.className = 'show';
+          }
 
-if (smallmButton) {
-  smallmButton.addEventListener('click', (event) => {
-    event.stopPropagation();
-    if (smallm.style.display === 'block') {
-      smallm.style.display = 'none';
-    } else {
-      smallm.style.display = 'block';
-    }
-  });
-}
+          // Reset form
+          form.reset();
 
-const linksInSmallm = smallm.querySelectorAll('a');
-linksInSmallm.forEach(link => {
-  link.addEventListener('click', () => {
-    smallm.style.display = 'none';
-  });
-});
-
-if (smallm) {
-  smallm.addEventListener('click', (event) => {
-    event.stopPropagation();
-  });
-}
-
-window.addEventListener('click', (event) => {
-  if (smallm && !smallm.contains(event.target) && !smallmButton.contains(event.target)) {
-    smallm.style.display = 'none';
-  }
-});
-
-// -------- Show .smallm only after home page scroll --------
-const frontPage = document.querySelector('#front');
-if (frontPage) {
-  const checkScrollPosition = () => {
-    const rect = frontPage.getBoundingClientRect();
-    if (rect.bottom <= 0) {
-      if (smallm) smallm.style.display = 'block';
-    }
-  };
-  window.addEventListener('scroll', checkScrollPosition);
-  checkScrollPosition();
-}
-
-// Toggle Dropdown Menu on button click
-const toggleButtons = document.querySelectorAll('.starts, .starts2, .st2');
-const dropdowns = document.querySelectorAll('.s2, .s3, .s5');
-
-toggleButtons.forEach((button) => {
-  button.addEventListener('click', (e) => {
-    e.stopPropagation(); // prevent event propagation to avoid other click listeners from firing
-
-    const dropdown = button.nextElementSibling; // Find the corresponding dropdown
-
-    // Close all other dropdowns first
-    dropdowns.forEach(d => {
-      if (d !== dropdown) d.style.display = 'none';
+          // Hide message after 3 seconds
+          setTimeout(() => {
+            if (messageDiv) messageDiv.className = '';
+          }, 3000);
+        })
+        .catch((error) => {
+          if (loadingDiv) loadingDiv.style.display = 'none';
+          alert('Error submitting the form. Please try again.');
+        });
     });
-
-    // Toggle the current dropdown's visibility
-    if (dropdown.style.display === 'block') {
-      dropdown.style.display = 'none'; // Hide if already visible
-    } else {
-      dropdown.style.display = 'block'; // Show if it's hidden
-    }
-  });
-});
-
-// Hide all dropdowns if a click is made outside of them
-document.addEventListener('click', (e) => {
-  let isDropdownClick = false;
-
-  // Check if the click is inside any of the dropdowns or toggle buttons
-  dropdowns.forEach(drop => {
-    if (drop.contains(e.target)) isDropdownClick = true;
-  });
-
-  toggleButtons.forEach(btn => {
-    if (btn.contains(e.target)) isDropdownClick = true;
-  });
-
-  // If click is outside of any dropdown or button, hide all dropdowns
-  if (!isDropdownClick) {
-    dropdowns.forEach(d => d.style.display = 'none');
   }
-});
-
-// -------- NEW: Toggle Menus on Button Click --------
-const menuToggleButtons = document.querySelectorAll('.starts, .starts2, .st2');
-
-menuToggleButtons.forEach(function(button) {
-  button.addEventListener('click', function(e) {
-    e.stopPropagation(); // prevent the event from bubbling up
-
-    const dropdown = this.nextElementSibling; // get the menu next to button
-
-    // Close all other menus
-    document.querySelectorAll('.s2, .s3, .s5').forEach(function(d) {
-      if (d !== dropdown) {
-        d.style.display = 'none';
-      }
-    });
-
-    // Toggle the current menu
-    if (dropdown.style.display === 'block') {
-      dropdown.style.display = 'none';
-    } else {
-      dropdown.style.display = 'block';
-    }
+  document.querySelector('.st2').addEventListener('click', function () {
+    document.querySelector('.s5').classList.toggle('open');
   });
-});
-
-// -------- Hide all menus when clicking outside --------
-document.addEventListener('click', function() {
-  document.querySelectorAll('.s2, .s3, .s5').forEach(function(d) {
-    d.style.display = 'none';
-  });
-});
 </script>
-
 
 
 </html>
