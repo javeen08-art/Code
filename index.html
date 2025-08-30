@@ -341,12 +341,13 @@
   </body>
 <script>
 // -------- Collapsible Buttons --------
-const collapsibleButtons = document.querySelectorAll('.collapsible, .starts,.starts2,.st2');
+const collapsibleButtons = document.querySelectorAll('.collapsible, .starts, .starts2, .st2');
 
 collapsibleButtons.forEach(function(button) {
   button.addEventListener('click', function() {
     this.classList.toggle('active');
 
+    // Toggle plus/minus icon
     if (this.classList.contains('active')) {
       this.textContent = this.textContent.replace('+', '−');
     } else {
@@ -375,11 +376,8 @@ if (dropdownBtn && dropdownContent) {
 }
 
 window.addEventListener('click', (event) => {
-  if (event.target !== dropdownBtn && !dropdownBtn.contains(event.target)) {
-    const dropdowns = document.getElementsByClassName('dropdown-content');
-    for (let i = 0; i < dropdowns.length; i++) {
-      dropdowns[i].classList.remove('show');
-    }
+  if (dropdownBtn && !dropdownBtn.contains(event.target) && dropdownContent) {
+    dropdownContent.classList.remove('show');
   }
 });
 
@@ -411,7 +409,9 @@ const loadingDiv = document.getElementById('loading');
 if (form) {
   form.addEventListener('submit', (e) => {
     e.preventDefault();
-    if (loadingDiv) loadingDiv.style.display = 'block';
+    if (loadingDiv) {
+      loadingDiv.style.display = 'block';
+    }
 
     const formData = new FormData(form);
 
@@ -421,15 +421,23 @@ if (form) {
     })
       .then((response) => response.text())
       .then((data) => {
-        if (loadingDiv) loadingDiv.style.display = 'none';
-        if (messageDiv) messageDiv.className = 'show';
+        if (loadingDiv) {
+          loadingDiv.style.display = 'none';
+        }
+        if (messageDiv) {
+          messageDiv.classList.add('show');
+        }
         form.reset();
         setTimeout(() => {
-          if (messageDiv) messageDiv.className = '';
+          if (messageDiv) {
+            messageDiv.classList.remove('show');
+          }
         }, 3000);
       })
       .catch((error) => {
-        if (loadingDiv) loadingDiv.style.display = 'none';
+        if (loadingDiv) {
+          loadingDiv.style.display = 'none';
+        }
         alert('Error submitting the form. Please try again.');
       });
   });
@@ -439,7 +447,7 @@ if (form) {
 const smallm = document.querySelector('.smallm');
 const smallmButton = document.querySelector('.st2');
 
-if (smallmButton) {
+if (smallmButton && smallm) {
   smallmButton.addEventListener('click', (event) => {
     event.stopPropagation();
     if (smallm.style.display === 'block') {
@@ -474,49 +482,46 @@ const frontPage = document.querySelector('#front');
 if (frontPage) {
   const checkScrollPosition = () => {
     const rect = frontPage.getBoundingClientRect();
-    if (rect.bottom <= 0) {
-      if (smallm) smallm.style.display = 'block';
+    if (rect.bottom <= 0 && smallm) {
+      smallm.style.display = 'block';
     }
   };
   window.addEventListener('scroll', checkScrollPosition);
   checkScrollPosition();
 }
 
-// Toggle Dropdown Menu on button click
+// -------- Toggle dropdown menus --------
 const toggleButtons = document.querySelectorAll('.starts, .starts2, .st2');
 const dropdowns = document.querySelectorAll('.s2, .s3, .s5');
 
-// Handle toggle for each button
 toggleButtons.forEach((button) => {
   button.addEventListener('click', (e) => {
-    e.stopPropagation(); // Prevent event propagation to avoid other click listeners from firing
+    e.stopPropagation();
 
-    const dropdown = button.nextElementSibling; // Find the corresponding dropdown
+    const dropdown = button.nextElementSibling;
 
-    // Close all other dropdowns first
+    // Close other dropdowns
     dropdowns.forEach(d => {
-      if (d !== dropdown) d.style.display = 'none';
+      if (d !== dropdown) d.classList.remove('show');
     });
 
-    // Toggle the current dropdown's visibility
-    if (dropdown.style.display === 'block') {
-      dropdown.style.display = 'none'; // Hide if already visible
+    // Toggle current
+    if (dropdown.classList.contains('show')) {
+      dropdown.classList.remove('show');
     } else {
-      dropdown.style.display = 'block'; // Show if it's hidden
+      dropdown.classList.add('show');
     }
   });
 });
 
-// Hide all dropdowns if a click is made outside of them
+// Close dropdowns if click outside
 document.addEventListener('click', (e) => {
-  let isDropdownClick = false;
-
-  // Check if the click is inside any of the dropdowns or toggle buttons
   dropdowns.forEach(drop => {
-    if (drop.contains(e.target)) isDropdownClick = true;
+    if (!drop.contains(e.target) && !Array.from(toggleButtons).some(btn => btn.contains(e.target))) {
+      drop.classList.remove('show');
+    }
   });
-
-  toggle
+});
 
 </script>
 
