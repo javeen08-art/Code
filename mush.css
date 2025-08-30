@@ -862,6 +862,7 @@ background-color: white; /* Semi-transparent white */
 	bottom: 3vh;
 	left: 3vw;
 	z-index: 1000000;
+	display: none;
 
 }
 
