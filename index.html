@@ -341,7 +341,7 @@
   </body>
 <script>
 // -------- Collapsible Buttons --------
-const collapsibleButtons = document.querySelectorAll('.collapsible, .starts,.starts2,.st2');
+const collapsibleButtons = document.querySelectorAll('.collapsible, .starts, .starts2, .st2');
 
 collapsibleButtons.forEach(function(button) {
   button.addEventListener('click', function() {
@@ -486,10 +486,9 @@ if (frontPage) {
 const toggleButtons = document.querySelectorAll('.starts, .starts2, .st2');
 const dropdowns = document.querySelectorAll('.s2, .s3, .s5');
 
-// Handle toggle for each button
 toggleButtons.forEach((button) => {
   button.addEventListener('click', (e) => {
-    e.stopPropagation(); // Prevent event propagation to avoid other click listeners from firing
+    e.stopPropagation(); // prevent event propagation to avoid other click listeners from firing
 
     const dropdown = button.nextElementSibling; // Find the corresponding dropdown
 
@@ -526,10 +525,38 @@ document.addEventListener('click', (e) => {
   }
 });
 
+// -------- NEW: Toggle Menus on Button Click --------
+const menuToggleButtons = document.querySelectorAll('.starts, .starts2, .st2');
 
+menuToggleButtons.forEach(function(button) {
+  button.addEventListener('click', function(e) {
+    e.stopPropagation(); // prevent the event from bubbling up
 
+    const dropdown = this.nextElementSibling; // get the menu next to button
+
+    // Close all other menus
+    document.querySelectorAll('.s2, .s3, .s5').forEach(function(d) {
+      if (d !== dropdown) {
+        d.style.display = 'none';
+      }
+    });
+
+    // Toggle the current menu
+    if (dropdown.style.display === 'block') {
+      dropdown.style.display = 'none';
+    } else {
+      dropdown.style.display = 'block';
+    }
+  });
+});
+
+// -------- Hide all menus when clicking outside --------
+document.addEventListener('click', function() {
+  document.querySelectorAll('.s2, .s3, .s5').forEach(function(d) {
+    d.style.display = 'none';
+  });
+});
 </script>
-
 
 
 
