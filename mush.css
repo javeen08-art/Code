@@ -864,6 +864,7 @@ background-color: white; /* Semi-transparent white */
 	z-index: 1000000;
 	display: none;
 	background-color: #3498DB;
+	color: black;
 
 }
 
