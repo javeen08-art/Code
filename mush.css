@@ -1319,7 +1319,7 @@ h3 {
 
 .forms {
 	position: relative;
-	width:85%;
+	width:90%;
 	flex-direction: column;
 	text-align: center;
 	margin: auto;
@@ -1415,8 +1415,6 @@ h3 {
 	margin-top: 5vh;
 	margin-left: 0 auto;
 	margin-right: 0 auto;
-	padding-left: auto;
-	padding-right: auto;
 }
 .smallm {
 	display: block;
