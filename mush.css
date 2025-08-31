@@ -1432,7 +1432,7 @@ h3 {
 .st2.active span {
 	display: none;
 }
-  .st2.active {
+  .st2.active::after {
 	content: "x";
 	scale:1.5;
 	margin-top: -50px;
