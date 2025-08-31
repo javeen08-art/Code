@@ -1059,8 +1059,8 @@ font-family: 'IBM Plex Mono';
 }
 
   .bottom img { 
-	margin: 0 auto;
-	padding: 0 auto;
+	margin: auto;
+	padding:  auto;
   	margin-top: -40px;
     max-width:  90vw;  
     max-height:  70vh;
