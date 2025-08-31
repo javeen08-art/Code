@@ -1429,7 +1429,7 @@ h3 {
     box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.5);
   }
 
-.st2.active span {
+.st2 span {
 	display: none;
 }
   .st2.active::after {
