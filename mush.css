@@ -1430,14 +1430,6 @@ h3 {
   }
 
 
-.st2.active::after {
-  content: "x";
-  display: inline-block;
-  transform: scale(1.5); 
-  margin-top: -50px; 
-  margin-bottom: 20px; 
-  border-radius: 10px;
-}
 
 body {
 	overflow: visible;
