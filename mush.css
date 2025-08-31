@@ -886,6 +886,22 @@ background-color: white; /* Semi-transparent white */
   display: none; /* Hide by default */
   cursor: pointer;
 }
+
+
+.s6 {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.7s ease;
+  background-color: rgba(255, 255, 255, 0.6);
+  backdrop-filter: blur(15px);
+  border-radius: 15px;
+  text-align: left;
+  width: 100vw;
+  font-size: 30px;
+  display: flex;
+  flex-direction: column;
+  padding: 0 10px; /* Some padding */
+}
 input {
 	background-color: rgba(255, 255, 255, 1); /* Semi-transparent white */
     border: 1px solid lightgray; /* Subtle border */
