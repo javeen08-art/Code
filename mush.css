@@ -1417,7 +1417,7 @@ h3 {
 	display: block;
 }
 .st2 {
-    display: block; 
+    display: none; 
 	background-color: #3498DB;
 	border-radius: 30px;
 	border: none;
@@ -1435,11 +1435,9 @@ h3 {
 	margin-top: -50px;
 	margin-bottom: 20px;
 	border-radius: 10px;
-	content: " x";
+	content: "x";
    
   }
-
-
 
 
 body {
