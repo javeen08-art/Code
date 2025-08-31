@@ -1437,7 +1437,13 @@ h3 {
 	border-radius: 10px;
    
   }
+  .st2.active::before {
+	content:" ";
+	visibility: visible;
+	display: inline;
 
+
+}
   .st2.active::after {
 	content:"x";
 	visibility: visible;
