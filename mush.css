@@ -1412,7 +1412,8 @@ h3 {
 	display: block;
 }
 .st2 {
-    display: block; /* Show button on mobile */
+    display: block; 
+	background-color: #2980B9;
   }
 
   .s6.open {
