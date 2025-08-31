@@ -1427,8 +1427,12 @@ h3 {
 	color: black;
 	padding: auto;
     box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.5);
+
   }
 
+  .st2.active {
+	transform: rotate(180deg);
+  }
 
 
 body {
