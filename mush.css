@@ -354,9 +354,10 @@ background-color: rgba(245, 245, 245, 0.5);
 h7 {
   font-size: 50px;
   text-align: center;
-  margin-right: 0;
-  margin-left: 6vw;
-  padding-left:3.2px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left:auto;
+  padding-right: auto;
   width: fit-content;
   font-family: "SF Pro";
   align-items: center;
