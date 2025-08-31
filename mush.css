@@ -1431,7 +1431,7 @@ h3 {
   }
 
   .st2.active {
-	visibility: hidden;;
+	visibility: hidden;
 	scale:1.5;
 	margin-top: -50px;
 	margin-bottom: 20px;
