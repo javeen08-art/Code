@@ -1428,6 +1428,7 @@ h3 {
 	padding: auto;
     box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.5);
 	transition: transform 1s ease-in-out;
+	margin-bottom: 10px;
 
   }
 
