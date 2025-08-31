@@ -1430,7 +1430,7 @@ h3 {
   }
 
 .st2.active {
-	display: none;
+	visibility: collapse;
 }
   .st2.active::after {
 	content: "x";
