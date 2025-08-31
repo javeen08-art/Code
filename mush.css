@@ -1415,6 +1415,8 @@ h3 {
 	margin-top: 5vh;
 	margin-left: 0 auto;
 	margin-right: 0 auto;
+	padding-left: 0;
+	padding-right: 0;
 }
 .smallm {
 	display: block;
