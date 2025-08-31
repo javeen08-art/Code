@@ -1433,7 +1433,6 @@ h3 {
 	display: none;
 }
   .st2.active::after {
-	display: block;
 	content: "x";
 	scale:1.5;
 	margin-top: -50px;
