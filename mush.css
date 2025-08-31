@@ -1075,7 +1075,7 @@ font-family: 'IBM Plex Mono';
  display: flex;
  text-align: center;
  align-items: center;
- transform: translate(0,0);
+ transform: translate(0px,0px);
 
   }
 
