@@ -863,8 +863,6 @@ background-color: white; /* Semi-transparent white */
 	left: 3vw;
 	z-index: 1000000;
 	display: none;
-	background-color: #3498DB;
-	color: black;
 
 }
 
@@ -1400,7 +1398,7 @@ h3 {
     display: block; /* Show button on mobile */
   }
 
-  .s5.open {
+  .s6.open {
     max-height: 200vh; /* Adjust the max-height for the expanded menu */
     padding: 10px;
   }
