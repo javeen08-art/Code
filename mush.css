@@ -1417,7 +1417,7 @@ h3 {
 	display: block;
 }
 .st2 {
-    display: none; 
+    display: block; 
 	background-color: #3498DB;
 	border-radius: 30px;
 	border: none;
@@ -1430,12 +1430,16 @@ h3 {
     box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.5);
   }
 
+.st2.active {
+	display: none;
+}
   .st2.active::after {
+	content: "x";
 	scale:1.5;
 	margin-top: -50px;
 	margin-bottom: 20px;
 	border-radius: 10px;
-	content: "x";
+
    
   }
 
