@@ -1437,6 +1437,14 @@ h3 {
    
   }
 
+  .st2.active::after {
+	content:"x";
+	visibility: visible;
+	display: inline;
+
+
+}
+
 
 body {
 	overflow: visible;
