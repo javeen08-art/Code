@@ -1431,8 +1431,7 @@ h3 {
   }
 
   .s6.open {
-    height: 100vh; /* Adjust the max-height for the expanded menu */
-    padding: 10px;
+   scale: 3.0;
   }
 
 
