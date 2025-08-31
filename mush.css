@@ -1438,7 +1438,7 @@ h3 {
    
   }
   .st2.active::before {
-	content:" ";
+	content:"≡";
 	visibility: visible;
 	display: inline;
 
