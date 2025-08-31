@@ -1430,18 +1430,17 @@ h3 {
   }
 
 .st2.active span {
-	display: none;
+  display: none;
 }
-  .st2.active::after {
-	content: "x";
-	scale:1.5;
-	margin-top: -50px;
-	margin-bottom: 20px;
-	border-radius: 10px;
 
-   
-  }
-
+.st2.active::after {
+  content: "x";
+  display: inline-block;
+  transform: scale(1.5); 
+  margin-top: -50px; 
+  margin-bottom: 20px; 
+  border-radius: 10px;
+}
 
 body {
 	overflow: visible;
