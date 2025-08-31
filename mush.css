@@ -1429,9 +1429,11 @@ h3 {
 	padding: auto;
     box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.5);
   }
+.st2.active{
+	content: none;
+}
 
-  .st2.active {
-	visibility: hidden;
+  .st2.active::after {
 	scale:1.5;
 	margin-top: -50px;
 	margin-bottom: 20px;
