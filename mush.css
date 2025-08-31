@@ -1065,7 +1065,7 @@ font-family: 'IBM Plex Mono';
     max-width:  90vw;  
     max-height:  70vh;
   transform: none;
-  position: absolute;
+  position: relative;
   color: black;
   border-radius: 70px;
 	padding-top:70px;
