@@ -1325,7 +1325,8 @@ h3 {
 	margin: auto;
 	justify-content: center;
 	padding: 0;
-	padding-top: 5vh;
+	padding-top: 7vh;
+	padding-bottom: 7vh;
 	align-items: center;
     border-radius: 30px;
     padding: 10px;
