@@ -1432,8 +1432,8 @@ h3 {
   }
 
   .st2.active {
-	transform: rotateZ(720deg);
-	scale: (1.5);
+	transform: rotateZ(-720deg);
+	scale: 1.5;
 	
   }
 
