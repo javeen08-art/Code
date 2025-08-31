@@ -859,8 +859,8 @@ background-color: white; /* Semi-transparent white */
 
 .smallm {
 	position: fixed;
-	bottom: 4vh;
-	left: 4vw;
+	bottom: 3vh;
+	left: 3vw;
 	z-index: 1000000;
 	display: none;
 
