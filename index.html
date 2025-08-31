@@ -17,7 +17,7 @@
   </header>
   <article>
     <div class ="smallm">
-      <button class="st2"><span>x</span></button>
+      <button class="st2"><span>≡</span></button>
       <div class="s6">
             <a href='#front'>  Home</a>
             <a href ='#bottoms'> About Us</a>
@@ -476,11 +476,11 @@ if (form) {
   document.querySelector('.st2').addEventListener('click', function() {
     const link = this.nextElementSibling; // the div.s6
     // Toggle visibility of the links
-    if (link.style.display !== 'none') {
-      this.innerHTML = '<span>≡</span>'; // change button content to "x"
+    if (link.style.display = 'block') {
+      this.innerHTML = '<span>x</span>'; // change button content to "x"
     } else {
-      link.style.display = '';
-      this.innerHTML = '<span></span>';
+      link.style.display = '≡';
+      this.innerHTML = '<span>≡</span>';
     }
   });
 
