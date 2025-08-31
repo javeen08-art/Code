@@ -1435,17 +1435,11 @@ h3 {
 	margin-top: -50px;
 	margin-bottom: 20px;
 	border-radius: 10px;
-	content: none;
+	content: "x";
    
   }
 
-  .st2.active::after {
-	content:"x";
-	visibility: visible;
-	display: inline;
 
-
-}
 
 
 body {
