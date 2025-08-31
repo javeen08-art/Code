@@ -1069,7 +1069,9 @@ font-family: 'IBM Plex Mono';
   border-radius: 70px;
 	padding-top:70px;
  clip-path: none;
- width: 100%;
+ width: 80%;
+ display: flex;
+ align-items: center;
 
   }
 
