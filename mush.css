@@ -1407,7 +1407,7 @@ h3 {
 .words{
 	display: flex;
 	flex-direction: row;
-	align-items: center;
+	align-items:flex-start;
 	width: fit-content;
 	padding: 20px;
   	gap: 5.5vw;
