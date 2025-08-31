@@ -1414,6 +1414,8 @@ h3 {
 .st2 {
     display: block; 
 	background-color: #2980B9;
+	border-radius: 30px;
+	color: black;
   }
 
   .s6.open {
