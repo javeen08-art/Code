@@ -1415,11 +1415,14 @@ h3 {
     display: block; 
 	background-color: #2980B9;
 	border-radius: 30px;
+	border: none;
+	box-shadow: ;
 	font-size: 20px;
 	height: 10px;
 	width: 10px;
 	color: black;
 	padding: auto;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.5);
   }
 
   .s6.open {
