@@ -1089,6 +1089,7 @@ h4 {
 
 #faqs {
 	height: fit-content;
+	margin-top: 50px;
 	scroll-margin-top:0;
 }
 .home {
