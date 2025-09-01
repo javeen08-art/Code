@@ -480,18 +480,24 @@ if (form) {
   };
 
   let currentSection = null;
-  let isProgrammaticScroll = false; // flag to allow immediate navigation
+  let isProgrammaticScroll = false; // Flag for navigation
+  let allowNavigation = true; // Global flag to control scroll lock
 
-  // Function to navigate to section
+  // Function to navigate to a section
   function goToSection(name) {
     if (sections[name]) {
-      isProgrammaticScroll = true; // disable lock temporarily
+      isProgrammaticScroll = true;
       sections[name].scrollIntoView({ behavior: 'smooth' });
       currentSection = name;
-      // Re-enable lock after a delay (matching scroll duration)
+
+      // Re-enable scroll lock after scroll completes
       setTimeout(() => {
         isProgrammaticScroll = false;
-      }, 600); // adjust if needed
+        // Only lock if we're not in the form section
+        if (currentSection !== 'contacts') {
+          allowNavigation = true;
+        }
+      }, 600); // Adjust time if needed
     }
   }
 
@@ -502,6 +508,7 @@ if (form) {
       if (txt.includes('home')) {
         window.scrollTo({ top: 0, behavior: 'smooth' });
         currentSection = null;
+        allowNavigation = true;
         isProgrammaticScroll = true;
         setTimeout(() => { isProgrammaticScroll = false; }, 600);
       } else if (txt.includes('about us')) {
@@ -516,8 +523,8 @@ if (form) {
     });
   });
 
-  // Track current section on scroll
- window.addEventListener('scroll', () => {
+  // Track current section
+window.addEventListener('scroll', () => {
     let inSection = null;
     for (const key in sections) {
       const rect = sections[key].getBoundingClientRect();
@@ -531,10 +538,17 @@ if (form) {
     }
   });
 
-  // Lock scrolling only if not during programmatic scroll
+  // Lock scroll only if allowed, except in form (contacts)
   window.addEventListener('scroll', () => {
-    if (isProgrammaticScroll) return; // do not lock during navigation
+    if (isProgrammaticScroll || !allowNavigation) return;
     if (!currentSection) return;
+
+    // Allow navigation to contact section freely
+    if (currentSection === 'contacts') {
+      // Do not lock
+      return;
+    }
+
     const sec = sections[currentSection];
     const rect = sec.getBoundingClientRect();
 
@@ -548,8 +562,12 @@ if (form) {
 
   // For mobile: prevent default touchmove outside current section
   window.addEventListener('touchmove', (e) => {
-    if (isProgrammaticScroll) return; // allow during navigation
+    if (isProgrammaticScroll || !allowNavigation) return;
     if (!currentSection) return;
+    if (currentSection === 'contacts') {
+      // Allow free touch scroll in contact section
+      return;
+    }
     const sec = sections[currentSection];
     const rect = sec.getBoundingClientRect();
 
