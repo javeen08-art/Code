@@ -472,7 +472,67 @@ if (form) {
       });
   });
 }
+// Select all your sections (articles)
+const sections = document.querySelectorAll('article');
+let currentSectionIndex = 0;
 
+// Map buttons to their target sections
+const navButtons = document.querySelectorAll('.starts, .starts2, .st2');
+
+navButtons.forEach((btn) => {
+  btn.addEventListener('click', () => {
+    // Determine target section index based on button class or text
+    if (btn.classList.contains('starts') || btn.classList.contains('starts2')) {
+      // Home button
+      goToSection(0);
+    } else if (btn.innerText.includes('About Us') || btn.classList.contains('st2')) {
+      // About Us
+      goToSection(1);
+    } else if (btn.innerText.includes('Services')) {
+      // Services
+      goToSection(2);
+    } else if (btn.innerText.includes('Get A Quote')) {
+      // Form Section (assuming index 3)
+      goToSection(3);
+    } else if (btn.innerText.includes('FAQ')) {
+      // FAQ
+      goToSection(4);
+    }
+  });
+});
+
+// Function to scroll to a specific section
+function goToSection(index) {
+  if (index >= 0 && index < sections.length) {
+    sections[index].scrollIntoView({ behavior: 'smooth' });
+    currentSectionIndex = index;
+  }
+}
+
+// Disable manual scrolling (mouse wheel, touchmove)
+const mainContainer = document.querySelector('main');
+
+mainContainer.addEventListener('wheel', (e) => {
+  e.preventDefault(); // prevent scrolling
+}, { passive: false });
+
+// Optional: disable touch scrolling on mobile
+mainContainer.addEventListener('touchstart', (e) => {
+  e.preventDefault();
+}, { passive: false });
+
+// Keep the scroll locked to current section
+mainContainer.addEventListener('scroll', () => {
+  // Keep the user locked to current section
+  // Check which section is in view
+  sections.forEach((section, index) => {
+    const rect = section.getBoundingClientRect();
+    // If the section's top is within the viewport
+    if (rect.top >= 0 && rect.top < window.innerHeight / 2) {
+      currentSectionIndex = index;
+    }
+  });
+});
 </script>
 
 
