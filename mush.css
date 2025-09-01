@@ -537,7 +537,7 @@ width: fit-content;
 	font-size: 15px;
 	font-family: 'SF Pro';
 	background-color: transparent;
-	border: 0.1px solid gray;
+	border:none;
 	border-radius: 30px;
 	padding: 20px;
 	letter-spacing:1px; 
