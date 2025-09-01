@@ -1429,10 +1429,10 @@ h3 {
     display: block; 
 background-image: linear-gradient(
   to bottom right,
-  rgb(255, 0, 68, 0.5) 0%,
-  rgb(255, 0, 68, 0.5) 20%,
-  rgb(43, 134, 246, 0.5) 60%, 
-  rgb(43, 134, 246, 0.5) 100%
+  rgb(255, 0, 68) 0%,
+  rgb(255, 0, 68) 20%,
+  rgb(43, 134, 246) 60%, 
+  rgb(43, 134, 246) 100%
 );
 	border-radius: 30px;
 	border: solid 1px;
@@ -1448,7 +1448,7 @@ background-image: linear-gradient(
   }
 
   .st2.active {
-	transform: rotateZ(-7020deg);
+	transform: rotateZ(-720deg);
 	
   }
 
@@ -1458,6 +1458,13 @@ background-image: linear-gradient(
 	border-radius: 10px;
 	vertical-align: middle;
 	font-weight: 500;
+background-image: linear-gradient(
+  to bottom right,
+  rgb(255, 0, 68, 0.5) 0%,
+  rgb(255, 0, 68, 0.5) 20%,
+  rgb(43, 134, 246, 0.5) 60%, 
+  rgb(43, 134, 246, 0.5) 100%
+);
   }
 
 
