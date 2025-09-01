@@ -425,9 +425,6 @@ font-family: 'IBM Plex Mono';
   	flex-wrap: nowrap;
 	height: fit-content;
 	width: 100vw;
-	height:100vh;
-	margin-top: 15vh;
-	margin-bottom: 15vh;
 	padding-bottom: 20px;
 	padding-top: 10vh;
  
@@ -1173,8 +1170,8 @@ h11 {
 
 #faqs {
 	padding-bottom: 300%;
-	margin: 0;
-	margin-top: 50px ;
+	margin-top: 15vh;
+	margin-bottom: 15vh;
 
 }
 
