@@ -439,7 +439,7 @@ font-family: 'IBM Plex Mono';
 	margin-bottom: 50px;
   margin-top: 20px;
   height: fit-content;
-  scroll-padding-top: 10vh;
+  scroll-padding-top: 100vh;
 }
 
 .faqqs {
