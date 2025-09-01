@@ -472,7 +472,79 @@ if (form) {
       });
   });
 }
+  // List of allowed sections
+  const sections = {
+    bottom: document.querySelector('.bottom'),
+    servicess: document.querySelector('.servicess'),
+    contacts: document.querySelector('.contacts'),
+    faqs: document.querySelector('.faqs')
+  };
 
+  // Track current active section
+  let currentSection = null;
+
+  // Function to jump to section
+  function goToSection(name) {
+    if (sections[name]) {
+      sections[name].scrollIntoView({ behavior: 'smooth' });
+      currentSection = name;
+    }
+  }
+
+  // Map buttons to sections
+  document.querySelectorAll('.starts, .starts2, .st2').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const text = btn.innerText.toLowerCase();
+      if (text.includes('home')) {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+        currentSection = null;
+      } else if (text.includes('about us')) {
+        goToSection('bottom');
+      } else if (text.includes('services')) {
+        goToSection('servicess');
+      } else if (text.includes('get a quote')) {
+        goToSection('contacts');
+      } else if (text.includes('faq')) {
+        goToSection('faqs');
+      }
+    });
+  });
+
+  // On mobile, restrict scroll outside current section
+  window.addEventListener('scroll', () => {
+    // Find which section is in view
+    let sectionInView = null;
+    for (const key in sections) {
+      const rect = sections[key].getBoundingClientRect();
+      if (rect.top <= window.innerHeight && rect.bottom >= 0) {
+        sectionInView = key;
+        break;
+      }
+    }
+
+    // If not in allowed sections, snap back
+    if (sectionInView && !['bottom', 'servicess', 'contacts', 'faqs'].includes(sectionInView)) {
+      // If outside allowed sections, go back to last known section
+      if (currentSection && sections[currentSection]) {
+        sections[currentSection].scrollIntoView({ behavior: 'auto' });
+      } else {
+        window.scrollTo({ top: 0, behavior: 'auto' });
+      }
+    } else if (sectionInView) {
+      // Update current section if in allowed list
+      currentSection = sectionInView;
+    }
+  });
+
+  // Disable wheel (touch scroll) outside allowed sections
+  window.addEventListener('touchmove', (e) => {
+    // Find current section
+    if (currentSection && sections[currentSection]) {
+      // Lock scroll to current section
+      sections[currentSection].scrollIntoView({ behavior: 'auto' });
+    }
+    e.preventDefault(); // block default touch scroll
+  }, { passive: false });
 
 </script>
 
