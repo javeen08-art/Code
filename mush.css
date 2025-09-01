@@ -1428,7 +1428,13 @@ h3 {
 }
 .st2 {
     display: block; 
-	background-image: linear-gradient(to bottom right,rgb(255, 0, 68), orange);
+background-image: linear-gradient(
+  to bottom right,
+  rgb(255, 0, 68) 0%,
+  rgb(255, 0, 68) 50%,
+  rgb(43, 134, 246) 50%, 
+  rgb(43, 134, 246) 100%
+);
 	border-radius: 30px;
 	border: none;
 	font-size: 30px;
