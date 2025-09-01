@@ -473,6 +473,93 @@ if (form) {
   });
 }
 
+// List of allowed sections by class names
+const allowedSections = ['bottom', 'servicess', 'contacts', 'faqs'];
+const sectionElements = {
+  bottom: document.querySelector('.bottom'),
+  servicess: document.querySelector('.servicess'),
+  contacts: document.querySelector('.contacts'),
+  faqs: document.querySelector('.faqs')
+};
+
+let currentSection = null;
+
+// Function to set current section
+function setCurrentSection(sectionName) {
+  currentSection = sectionElements[sectionName];
+}
+
+// Map your buttons to the sections they should navigate to
+// Adjust the selectors if needed
+const navButtons = document.querySelectorAll('.starts, .starts2, .st2');
+
+navButtons.forEach(btn => {
+  btn.addEventListener('click', () => {
+    if (btn.classList.contains('starts') || btn.classList.contains('starts2')) {
+      // For example, go to 'bottom' (About Us)
+      scrollToSection('bottom');
+    } else if (btn.innerText.includes('Services')) {
+      scrollToSection('servicess');
+    } else if (btn.innerText.includes('Get A Quote')) {
+      scrollToSection('contacts');
+    } else if (btn.innerText.includes('FAQ')) {
+      scrollToSection('faqs');
+    }
+  });
+});
+
+// Function to scroll to a specific section
+function scrollToSection(sectionName) {
+  const el = sectionElements[sectionName];
+  if (el) {
+    el.scrollIntoView({ behavior: 'smooth' });
+    setCurrentSection(sectionName);
+  }
+}
+
+// Function to keep the scroll within allowed sections
+function handleScroll() {
+  if (!currentSection) return;
+
+  const rect = currentSection.getBoundingClientRect();
+
+  // Check if the current section is still in view
+  if (rect.top > window.innerHeight || rect.bottom < 0) {
+    // If user scrolled outside, lock back to current
+    currentSection.scrollIntoView({ behavior: 'auto' });
+  }
+}
+
+// When user scrolls, determine if inside allowed sections
+window.addEventListener('scroll', () => {
+  let insideAllowedSection = false;
+  for (const key of allowedSections) {
+    const section = sectionElements[key];
+    const rect = section.getBoundingClientRect();
+    if (rect.top <= window.innerHeight && rect.bottom >= 0) {
+      // User is viewing this section
+      setCurrentSection(key);
+      insideAllowedSection = true;
+      break;
+    }
+  }
+  // If outside all allowed sections, lock back
+  if (!insideAllowedSection && currentSection) {
+    currentSection.scrollIntoView({ behavior: 'auto' });
+  }
+});
+
+// Disable manual scroll outside allowed sections
+window.addEventListener('wheel', (e) => {
+  handleScroll();
+  e.preventDefault();
+}, { passive: false });
+
+window.addEventListener('touchstart', (e) => {
+  handleScroll();
+  e.preventDefault();
+}, { passive: false });
+
 </script>
 
 
