@@ -542,7 +542,7 @@ window.addEventListener('scroll', () => {
     const rect = sec.getBoundingClientRect();
 
     // Keep within the section boundaries
-    if (rect.top >500 ) {
+    if (rect.top >200 ) {
       sec.scrollIntoView({ behavior: 'auto' });
     }
     if (rect.bottom < window.innerHeight) {
