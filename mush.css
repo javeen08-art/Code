@@ -1454,6 +1454,10 @@ background-image: linear-gradient(
 	
   }
 
+  .st2.active::after{
+	content "Close Menu"
+  }
+
 
 body {
 	overflow: visible;
