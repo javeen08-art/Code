@@ -1427,7 +1427,7 @@ h3 {
 }
 .st2 {
     display: block; 
-	background-color: #3498DB;
+	background-image: linear-gradient(to right, orange , red,blue );
 	border-radius: 30px;
 	border: none;
 	font-size: 30px;
