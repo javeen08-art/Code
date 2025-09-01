@@ -1458,13 +1458,7 @@ background-image: linear-gradient(
 	border-radius: 10px;
 	vertical-align: middle;
 	font-weight: 500;
-background-image: linear-gradient(
-  to bottom right,
-  rgb(255, 0, 68, 0.5) 0%,
-  rgb(255, 0, 68, 0.5) 20%,
-  rgb(43, 134, 246, 0.5) 60%, 
-  rgb(43, 134, 246, 0.5) 100%
-);
+	
   }
 
 
