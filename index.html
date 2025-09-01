@@ -482,29 +482,28 @@ if (form) {
   let currentSection = null;
   let isProgrammaticScroll = false;
 
-  // Function to navigate to section
+  // Function to navigate to a section
   function goToSection(name) {
     if (sections[name]) {
-      isProgrammaticScroll = true; // disable lock temporarily
+      isProgrammaticScroll = true;
       sections[name].scrollIntoView({ behavior: 'smooth' });
       currentSection = name;
-      // Re-enable lock after the scroll
-      setTimeout(() => {
-        isProgrammaticScroll = false;
-      }, 600); // match with scroll duration
+      setTimeout(() => { isProgrammaticScroll = false; }, 600);
     }
   }
 
-  // Navigation button handlers
+  // Buttons handler
   document.querySelectorAll('.starts, .starts2, .st2').forEach(btn => {
     btn.addEventListener('click', () => {
       const text = btn.innerText.toLowerCase();
+
       if (text.includes('home')) {
         window.scrollTo({ top: 0, behavior: 'smooth' });
         currentSection = null;
         isProgrammaticScroll = true;
         setTimeout(() => { isProgrammaticScroll = false; }, 600);
       } else if (text.includes('about us')) {
+        // Navigate to "about us" section (assuming 'bottom')
         goToSection('bottom');
       } else if (text.includes('services')) {
         goToSection('servicess');
@@ -516,7 +515,7 @@ if (form) {
     });
   });
 
-  // Track current section for locking
+  // Track current section based on view
 window.addEventListener('scroll', () => {
     let inSection = null;
     for (const key in sections) {
@@ -526,23 +525,20 @@ window.addEventListener('scroll', () => {
         break;
       }
     }
-    // Update currentSection, unless a programmatic scroll is happening
     if (!isProgrammaticScroll && inSection) {
       currentSection = inSection;
     }
   });
 
-  // Lock scroll outside current section, unless in form
-  window.addEventListener('scroll', () => {
-    if (isProgrammaticScroll) return; // don't lock during programmatic scroll
+  // Lock scrolling outside the current section
+window.addEventListener('scroll', () => {
+    if (isProgrammaticScroll) return;
     if (!currentSection) return;
-
-    // Allow free scroll in 'contacts' (form)
-    if (currentSection === 'contacts') return;
 
     const sec = sections[currentSection];
     const rect = sec.getBoundingClientRect();
 
+    // Keep within the section boundaries
     if (rect.top > 0) {
       sec.scrollIntoView({ behavior: 'auto' });
     }
@@ -551,15 +547,15 @@ window.addEventListener('scroll', () => {
     }
   });
 
-  // Prevent touch move outside current section (mobile)
-  window.addEventListener('touchmove', (e) => {
-    if (isProgrammaticScroll) return; // during navigation
+  // Prevent touch move outside current section on mobile
+window.addEventListener('touchmove', (e) => {
+    if (isProgrammaticScroll) return;
     if (!currentSection) return;
-    if (currentSection === 'contacts') return; // allow in form
 
     const sec = sections[currentSection];
     const rect = sec.getBoundingClientRect();
 
+    // Allow free touchscroll within section
     if (rect.top > 0 || rect.bottom < window.innerHeight) {
       e.preventDefault();
     }
