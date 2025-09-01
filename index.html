@@ -563,6 +563,44 @@ window.addEventListener('touchmove', (e) => {
       e.preventDefault();
     }
   }, { passive: false });
+// Keep track of last positions for each section
+const lastScrollPositions = {};
+
+// Threshold in pixels to consider "border"
+const borderThreshold = 50; // adjust as needed
+
+window.addEventListener('scroll', () => {
+  if (isProgrammaticScroll) return;
+  if (!currentSection) return;
+
+  const sec = sections[currentSection];
+  const rect = sec.getBoundingClientRect();
+
+  // Save current scroll position within the section
+  const scrollY = window.scrollY + window.innerHeight/2; // approximate center
+  // Or use more precise logic if needed
+
+  // Save the last scroll position when near the top border
+  if (rect.top <= borderThreshold && rect.top >= 0) {
+    lastScrollPositions[currentSection] = window.scrollY;
+  }
+  // Save the last scroll position when near the bottom border
+  if (rect.bottom >= window.innerHeight - borderThreshold && rect.bottom <= window.innerHeight) {
+    lastScrollPositions[currentSection] = window.scrollY;
+  }
+
+  // Lock scrolling if near the border
+  if ((rect.top <= borderThreshold && rect.top >= 0) || 
+      (rect.bottom >= window.innerHeight - borderThreshold && rect.bottom <= window.innerHeight)) {
+    // Prevent scrolling beyond the last known position
+    if (lastScrollPositions[currentSection] !== undefined) {
+      window.scrollTo({ top: lastScrollPositions[currentSection], behavior: 'auto' });
+    } else {
+      // Initialize last position if not set
+      lastScrollPositions[currentSection] = window.scrollY;
+    }
+  }
+});
 
 </script>
 
