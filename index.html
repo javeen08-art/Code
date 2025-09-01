@@ -543,7 +543,7 @@ window.addEventListener('scroll', () => {
 
     // Keep within the section boundaries
     if (rect.top >200 ) {
-      sec.scrollIntoView({ behavior: 'auto' });
+      sec.scrollIntoView({ behavior: 'smooth' });
     }
     if (rect.bottom < window.innerHeight) {
       sec.scrollIntoView({ behavior: 'smooth' });
