@@ -1431,8 +1431,8 @@ h3 {
 background-image: linear-gradient(
   to bottom right,
   rgb(255, 0, 68) 0%,
-  rgb(255, 0, 68) 45%,
-  rgb(43, 134, 246) 55%, 
+  rgb(255, 0, 68) 20%,
+  rgb(43, 134, 246) 60%, 
   rgb(43, 134, 246) 100%
 );
 	border-radius: 30px;
