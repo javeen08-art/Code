@@ -1457,6 +1457,7 @@ background-image: linear-gradient(
 	content: "Close Menu";
 	display: flex;
 	flex-direction: row;
+	width: fit-content;
   }
 
 
