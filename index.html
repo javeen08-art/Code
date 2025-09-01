@@ -474,6 +474,7 @@ if (form) {
   });
 }
   const sections = {
+    front: document.querySelector('#front'),
     bottom: document.querySelector('.bottom'),
     servicess: document.querySelector('.servicess'),
     contacts: document.querySelector('.contacts'),
@@ -504,14 +505,15 @@ if (form) {
         isProgrammaticScroll = true;
         setTimeout(() => { isProgrammaticScroll = false; }, 600);
       } else if (text.includes('about us')) {
-        // Navigate to "about us" section (assuming 'bottom')
         goToSection('bottom');
       } else if (text.includes('services')) {
         goToSection('servicess');
       } else if (text.includes('get a quote')) {
         goToSection('contacts');
-      } else if (text.includes('faq')) {
+      } else if (text.includes('frequently asked questions')) {
         goToSection('faqs');
+      } else if (text.includes('Welcome to 3d mushrooms')) {
+        goToSection('front');
       }
     });
   });
