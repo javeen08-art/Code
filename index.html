@@ -559,7 +559,7 @@ window.addEventListener('touchmove', (e) => {
     const rect = sec.getBoundingClientRect();
 
     // Allow free touchscroll within section
-    if (rect.top > 100|| rect.bottom < window.innerHeight) {
+    if (rect.top > 0|| rect.bottom < window.innerHeight) {
       e.preventDefault();
     }
   }, { passive: false });
