@@ -1449,13 +1449,13 @@ background-image: linear-gradient(
 
   .st2.active {
 	transform: rotateZ(-720deg);
+	border-radius: 5px;
 	
   }
 
   .st2.active::after{
 	content: "Close Menu";
 	font-size: 15px;
-	border-radius: 50px;
 	vertical-align: middle;
 	font-weight: 500;
 	
