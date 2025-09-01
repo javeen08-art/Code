@@ -480,50 +480,43 @@ if (form) {
   };
 
   let currentSection = null;
-  let isProgrammaticScroll = false; // Flag for navigation
-  let allowNavigation = true; // Global flag to control scroll lock
+  let isProgrammaticScroll = false;
 
-  // Function to navigate to a section
+  // Function to navigate to section
   function goToSection(name) {
     if (sections[name]) {
-      isProgrammaticScroll = true;
+      isProgrammaticScroll = true; // disable lock temporarily
       sections[name].scrollIntoView({ behavior: 'smooth' });
       currentSection = name;
-
-      // Re-enable scroll lock after scroll completes
+      // Re-enable lock after the scroll
       setTimeout(() => {
         isProgrammaticScroll = false;
-        // Only lock if we're not in the form section
-        if (currentSection !== 'contacts') {
-          allowNavigation = true;
-        }
-      }, 600); // Adjust time if needed
+      }, 600); // match with scroll duration
     }
   }
 
-  // Button navigation
+  // Navigation button handlers
   document.querySelectorAll('.starts, .starts2, .st2').forEach(btn => {
     btn.addEventListener('click', () => {
-      const txt = btn.innerText.toLowerCase();
-      if (txt.includes('home')) {
+      const text = btn.innerText.toLowerCase();
+      if (text.includes('home')) {
         window.scrollTo({ top: 0, behavior: 'smooth' });
         currentSection = null;
-        allowNavigation = true;
         isProgrammaticScroll = true;
         setTimeout(() => { isProgrammaticScroll = false; }, 600);
-      } else if (txt.includes('about us')) {
+      } else if (text.includes('about us')) {
         goToSection('bottom');
-      } else if (txt.includes('services')) {
+      } else if (text.includes('services')) {
         goToSection('servicess');
-      } else if (txt.includes('get a quote')) {
+      } else if (text.includes('get a quote')) {
         goToSection('contacts');
-      } else if (txt.includes('faq')) {
+      } else if (text.includes('faq')) {
         goToSection('faqs');
       }
     });
   });
 
-  // Track current section
+  // Track current section for locking
 window.addEventListener('scroll', () => {
     let inSection = null;
     for (const key in sections) {
@@ -533,21 +526,19 @@ window.addEventListener('scroll', () => {
         break;
       }
     }
-    if (inSection && !isProgrammaticScroll) {
+    // Update currentSection, unless a programmatic scroll is happening
+    if (!isProgrammaticScroll && inSection) {
       currentSection = inSection;
     }
   });
 
-  // Lock scroll only if allowed, except in form (contacts)
+  // Lock scroll outside current section, unless in form
   window.addEventListener('scroll', () => {
-    if (isProgrammaticScroll || !allowNavigation) return;
+    if (isProgrammaticScroll) return; // don't lock during programmatic scroll
     if (!currentSection) return;
 
-    // Allow navigation to contact section freely
-    if (currentSection === 'contacts') {
-      // Do not lock
-      return;
-    }
+    // Allow free scroll in 'contacts' (form)
+    if (currentSection === 'contacts') return;
 
     const sec = sections[currentSection];
     const rect = sec.getBoundingClientRect();
@@ -560,14 +551,12 @@ window.addEventListener('scroll', () => {
     }
   });
 
-  // For mobile: prevent default touchmove outside current section
+  // Prevent touch move outside current section (mobile)
   window.addEventListener('touchmove', (e) => {
-    if (isProgrammaticScroll || !allowNavigation) return;
+    if (isProgrammaticScroll) return; // during navigation
     if (!currentSection) return;
-    if (currentSection === 'contacts') {
-      // Allow free touch scroll in contact section
-      return;
-    }
+    if (currentSection === 'contacts') return; // allow in form
+
     const sec = sections[currentSection];
     const rect = sec.getBoundingClientRect();
 
