@@ -1455,7 +1455,7 @@ background-image: linear-gradient(
   .st2.active::after{
 	content: "Close Menu";
 	font-size: 10px;
-	border-radius: 30px;
+	border-radius: 50px;
 	vertical-align: middle;
 	font-weight: 500;
   }
