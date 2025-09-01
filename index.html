@@ -472,7 +472,6 @@ if (form) {
       });
   });
 }
-  // Your sections
   const sections = {
     bottom: document.querySelector('.bottom'),
     servicess: document.querySelector('.servicess'),
@@ -481,12 +480,18 @@ if (form) {
   };
 
   let currentSection = null;
+  let isProgrammaticScroll = false; // flag to allow immediate navigation
 
-  // Function to navigate to a section
+  // Function to navigate to section
   function goToSection(name) {
     if (sections[name]) {
+      isProgrammaticScroll = true; // disable lock temporarily
       sections[name].scrollIntoView({ behavior: 'smooth' });
       currentSection = name;
+      // Re-enable lock after a delay (matching scroll duration)
+      setTimeout(() => {
+        isProgrammaticScroll = false;
+      }, 600); // adjust if needed
     }
   }
 
@@ -497,6 +502,8 @@ if (form) {
       if (txt.includes('home')) {
         window.scrollTo({ top: 0, behavior: 'smooth' });
         currentSection = null;
+        isProgrammaticScroll = true;
+        setTimeout(() => { isProgrammaticScroll = false; }, 600);
       } else if (txt.includes('about us')) {
         goToSection('bottom');
       } else if (txt.includes('services')) {
@@ -510,7 +517,7 @@ if (form) {
   });
 
   // Track current section on scroll
-  window.addEventListener('scroll', () => {
+ window.addEventListener('scroll', () => {
     let inSection = null;
     for (const key in sections) {
       const rect = sections[key].getBoundingClientRect();
@@ -519,43 +526,37 @@ if (form) {
         break;
       }
     }
-    if (inSection) {
+    if (inSection && !isProgrammaticScroll) {
       currentSection = inSection;
     }
   });
 
-  // Prevent scrolling outside the current section
+  // Lock scrolling only if not during programmatic scroll
   window.addEventListener('scroll', () => {
+    if (isProgrammaticScroll) return; // do not lock during navigation
     if (!currentSection) return;
     const sec = sections[currentSection];
     const rect = sec.getBoundingClientRect();
 
-    // If user scrolls past the top
     if (rect.top > 0) {
       sec.scrollIntoView({ behavior: 'auto' });
     }
-    // If user scrolls past the bottom
     if (rect.bottom < window.innerHeight) {
       sec.scrollIntoView({ behavior: 'auto' });
     }
   });
 
-  // For mobile: prevent default touchmove but allow inside current section
+  // For mobile: prevent default touchmove outside current section
   window.addEventListener('touchmove', (e) => {
+    if (isProgrammaticScroll) return; // allow during navigation
     if (!currentSection) return;
     const sec = sections[currentSection];
     const rect = sec.getBoundingClientRect();
 
-    // Only allow touchmove if within current section
-    if (rect.top <= 0 && rect.bottom >= window.innerHeight) {
-      // Inside current section
-      // Allow default
-    } else {
-      // Outside current section - prevent
+    if (rect.top > 0 || rect.bottom < window.innerHeight) {
       e.preventDefault();
     }
   }, { passive: false });
-
 
 </script>
 
