@@ -738,16 +738,7 @@ display: block; /* make sure they are block elements to align left */
 }
 
 
-#name {
-
-}
-
-#phone {
-	margin-bottom: 15px;
-}
-
-#email {
-
+#name, #email,#phone {
 	margin-bottom: 15px;
 
 }
