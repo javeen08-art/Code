@@ -407,9 +407,9 @@ font-family: 'IBM Plex Mono';
 .messagess {
 	height: 50px;
 	width: 500px;
-	resize: none;
-	text-align: left;
-	margin-left: 2.5vw;
+	text-align: center;
+	margin: 0 auto;
+	padding: 0 auto;
 
 
 }
