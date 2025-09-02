@@ -1465,7 +1465,6 @@ background-image: linear-gradient(
   }
 
   .st2.active {
-	transform: rotateZ(-720deg);
 	border-radius: 15px;
 	
   }
