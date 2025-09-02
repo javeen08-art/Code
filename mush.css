@@ -901,6 +901,7 @@ background-color: white; /* Semi-transparent white */
   flex-direction: column;
   padding: 0 10px; /* Some padding */
   font-family: Helvetica;
+	-webkit-animation: fadein 2s, 2.5s;
 }
 .s6 a {
 	padding: 20px;
