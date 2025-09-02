@@ -483,10 +483,6 @@ width: fit-content;
 
 }
 
-img [alt] {
-	-webkit-animation: fadein 2s, 2.5s;
-}
-
 .h {
 	max-height: 0;
 	overflow: hidden;
@@ -905,6 +901,7 @@ background-color: white; /* Semi-transparent white */
   flex-direction: column;
   padding: 0 10px; /* Some padding */
   font-family: Helvetica;
+
 }
 .s6 a {
 	padding: 20px;
