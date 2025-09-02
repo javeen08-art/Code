@@ -899,8 +899,14 @@ background-color: white; /* Semi-transparent white */
   font-size: 30px;
   display: flex;
   flex-direction: column;
+  opacity: 0;
+transition: opacity 1s ease-in-out
   padding: 0 10px; /* Some padding */
   font-family: Helvetica;
+}
+
+.s6.active {
+	opacity: 1;
 }
 
 .s6 a {
