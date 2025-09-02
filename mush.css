@@ -483,6 +483,10 @@ width: fit-content;
 
 }
 
+img [alt] {
+	-webkit-animation: fadein 2s, 2.5s;
+}
+
 .h {
 	max-height: 0;
 	overflow: hidden;
