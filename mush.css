@@ -1447,12 +1447,14 @@ background-image: linear-gradient(
 	width: fit-content;
 	color: whitesmoke;
 	padding: auto;
-	transition: transform 1s ease-in-out;
+	opacity: 0;
+	transition: transform 1s ease-in-out, opacity 1s ease-in-out;
 	margin-bottom: 15px;
 
   }
 
   .st2.active {
+	opacity: 1;
 	transform: rotateZ(-720deg);
 	border-radius: 15px;
 	
