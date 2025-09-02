@@ -1063,13 +1063,13 @@ font-family: 'IBM Plex Mono';
   transform: none;
   position: relative;
   color: black;
-  border-radius: 70px;
+  	border-radius: 70px;
 	padding-top:70px;
- clip-path: none;
- float: none;
- text-align: center;
- margin: auto;
-	padding:  auto;
+	 clip-path: none;
+	 float: none;
+	display: flex;
+	 margin: 0 auto;
+	padding: 0 auto;
 
   }
 
