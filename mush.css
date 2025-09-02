@@ -1054,6 +1054,7 @@ font-family: 'IBM Plex Mono';
 	margin: 0;
 	padding: 0;
 	padding-top: 100px;
+	margin-bottom: 30px;
 }
 
   .bottom img { 
@@ -1065,7 +1066,6 @@ font-family: 'IBM Plex Mono';
   position: relative;
   color: black;
   	border-radius: 70px;
-
 	 clip-path: none;
 	 float: none;
 	display: flex;
