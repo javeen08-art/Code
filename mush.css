@@ -631,7 +631,7 @@ background-color: white;
 
 }
 
- .nextbtnt3 > .s3 {
+ .nextbtnt3 .s3 {
 		transform: translateX(0px);
  }
 
