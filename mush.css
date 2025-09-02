@@ -1088,9 +1088,7 @@ font-family: 'IBM Plex Mono';
   #bottoms {
 	scroll-margin-top: -100px;
   }
-h5 {
-	padding-bottom: 0 auto;
-}
+
 .nd {
  margin: auto;
   margin-bottom: 10px;
@@ -1314,8 +1312,8 @@ h3 {
 	position: absolute;
 	right: 60vw;
 	left: 46vw;
-	top: 210vh;
-	margin-bottom: 10px;
+	top: 215vh;
+	margin-bottom: 5px;
 
 
 }
