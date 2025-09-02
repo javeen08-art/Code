@@ -1083,6 +1083,10 @@ font-family: 'IBM Plex Mono';
 	line-height: 20px;
   }
 
+  #bottoms {
+	scroll-margin-top: 200px;
+  }
+
 .nd {
  margin: auto;
   margin-bottom: 10px;
