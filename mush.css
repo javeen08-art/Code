@@ -1124,6 +1124,9 @@ h4 {
 	background-image: url("IMG_3483.JPG");
 }
 
+#bottoms {
+	scroll-margin-top: 150px;
+}
 .q,.starts,.s2{
 width: fit-content;
 height: fit-content;
