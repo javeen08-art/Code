@@ -900,7 +900,7 @@ background-color: white; /* Semi-transparent white */
   display: flex;
   flex-direction: column;
   opacity: 0;
-transition: opacity 1s ease-in-out
+transition: opacity 1s ease-in-out;
   padding: 0 10px; /* Some padding */
   font-family: Helvetica;
 }
