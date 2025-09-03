@@ -23,7 +23,7 @@
           <button class = "starts">Catalog</button>
           <div class='s2'>
             <a href='index.html'>  Home</a>
-            <a href ='#bottoms'> About Us</a>
+            <a href ='about'> About Us</a>
             <a href ='#h'> Services</a>
             <a href ='#faqs' style =" padding-bottom: 7px;">FAQ</a>
           </div>
