@@ -443,6 +443,18 @@ header img {
     to {opacity: 1;}
 }
 
+h2, h3 {
+  -webkit-animation: fadeIn ease 6s;
+  -moz-animation: fadeIn ease 6s;
+  -o-animation: fadeIn ease 6s;
+  -ms-animation: fadeIn ease 6s;
+}
+@keyframes fadeIn {
+   from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+
 
 .faq {
 	text-align: center;
