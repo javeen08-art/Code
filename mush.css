@@ -436,10 +436,10 @@ header img {
 }
 
 h2 {
-  -webkit-animation: fadeIn ease 6s;
-  -moz-animation: fadeIn ease 6s;
-  -o-animation: fadeIn ease 6s;
-  -ms-animation: fadeIn ease 6s;
+  -webkit-animation: fadeIn ease-in-out 3s;
+  -moz-animation: fadeIn ease-in-out 3s;
+  -o-animation: fadeIn ease-in-out 3s;
+  -ms-animation: fadeIn ease-in-out 3s;
 }
 @keyframes fadeIn {
    from {opacity: 0;}
