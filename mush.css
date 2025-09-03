@@ -627,6 +627,7 @@ background-color: white;
 	z-index: 99;
 	margin-left: 0;
 	right: 20px;
+	position: relative;
 	border: none;
 	background-color: transparent;
 }
