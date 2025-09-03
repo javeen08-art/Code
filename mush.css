@@ -435,7 +435,7 @@ header img {
 	position: relative;
 }
 
-h2 {
+h2, h11 {
   -webkit-animation: fadeIn ease-in-out 3s;
   -moz-animation: fadeIn ease-in-out 3s;
   -o-animation: fadeIn ease-in-out 3s;
