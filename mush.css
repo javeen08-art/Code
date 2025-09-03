@@ -1119,6 +1119,13 @@ h4 {
 	text-align: center;
 	margin: auto;
 	font-size: 20px;
+	anitmation: mymove 5s;
+	animation-delay: 1s;
+
+}
+
+@keyframes mymove {
+  from {right: 0px;}
 }
 
 #faqs {
