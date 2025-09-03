@@ -438,9 +438,10 @@ header img {
   -o-animation: fadeIn ease 2s;
   -ms-animation: fadeIn ease 2s;
 }
-@keyframes fadeIn
-  to { 
-     opacity: 1; }
+@keyframes fadeIn {
+   from {opacity: 0;}
+    to {opacity: 1;}
+}
 
 
 .faq {
