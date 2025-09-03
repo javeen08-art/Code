@@ -622,10 +622,12 @@ background-color: white;
 	font-weight: 700;
 	width: fit-content;
 	border: none;
-	font-size: 15px;
+	font-size: 30px;
 	cursor: pointer;
 	z-index: 99;
 	margin-left: 0;
+	border: none;
+	background-color: transparent;
 }
 
 .s3 {
