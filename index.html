@@ -562,7 +562,7 @@ window.addEventListener('touchmove', (e) => {
   }, { passive: false });
 
   document.addEventListener('DOMContentLoaded', () => {
-  const elementsToAnimate = document.querySelectorAll('h2');
+  const elementsToAnimate = document.querySelectorAll('h2.head, h11.faq');
 
   const observer = new IntersectionObserver((entries, observer) => {
     entries.forEach(entry => {
