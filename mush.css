@@ -430,6 +430,10 @@ font-family: 'IBM Plex Mono';
  
 }
 
+header img {
+	left: 10vh;
+}
+
 .faq {
 	text-align: center;
 	font-size: 35px;
