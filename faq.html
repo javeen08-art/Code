@@ -252,26 +252,6 @@ if (form) {
       });
   });
 }
-  const sections = {
-    front: document.querySelector('#front'),
-    bottom: document.querySelector('.bottom'),
-    servicess: document.querySelector('.servicess'),
-    contacts: document.querySelector('.contacts'),
-    faqs: document.querySelector('#faqs')
-  };
-
-  let currentSection = null;
-  let isProgrammaticScroll = false;
-
-  // Function to navigate to a section
-  function goToSection(name) {
-    if (sections[name]) {
-      isProgrammaticScroll = true;
-      sections[name].scrollIntoView({ behavior: 'smooth' });
-      currentSection = name;
-      setTimeout(() => { isProgrammaticScroll = false; }, 600);
-    }
-  }
 
 
 </script>
