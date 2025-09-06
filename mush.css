@@ -120,18 +120,16 @@ h3 {
 
 h4 {
 	font-size: 70px;
-	color: black;
 	text-align: left;
-	padding-top: 0px;;
-	font-weight: lighter;
+	padding-top: 0px;
 	width: 100%;
 	height:100%;
 	margin-left: 40px;
 	color: black;
-	text-align: left;
 	font-family: 'SF Pro';
 	font-weight: 500;
 	margin-top:17vh;
+	position: relative;
  -webkit-animation: about ease-in-out 3s;
   -moz-animation: about ease-in-out 3s;
   -o-animation: about ease-in-out 3s;
@@ -139,7 +137,14 @@ h4 {
 }
 
 @keyframes about {
-	from {right:0;}
+  from {
+    right: 0;
+    opacity: 0; /* optional: fade in effect */
+  }
+  to {
+    right: 100px; /* or whatever final position */
+    opacity: 1; /* optional */
+  }
 }
 
 
