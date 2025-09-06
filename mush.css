@@ -138,11 +138,11 @@ h4 {
 
 @keyframes about {
   from {
-    right: -150vw;
+    right: -90vw;
     opacity: 0; /* optional: fade in effect */
   }
   to {
-    right: 0dvb;/* or whatever final position */
+    right: 0;/* or whatever final position */
     opacity: 1; /* optional */
   }
 }
