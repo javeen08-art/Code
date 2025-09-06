@@ -139,7 +139,7 @@ h4 {
 
 @keyframes about {
   from {
-    left: 100px;
+    left: 100vw;
     opacity: 0; /* optional: fade in effect */
   }
   to {
