@@ -139,11 +139,11 @@ h4 {
 
 @keyframes about {
   from {
-    left: -100px;
+    right: -100px;
     opacity: 0; 
   }
   to {
-    left:0;/* or whatever final position */
+    right:0;/* or whatever final position */
     opacity: 1; /* optional */
   }
 }
