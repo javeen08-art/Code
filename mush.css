@@ -132,7 +132,14 @@ h4 {
 	font-family: 'SF Pro';
 	font-weight: 500;
 	margin-top:17vh;
+ -webkit-animation: about ease-in-out 3s;
+  -moz-animation: about ease-in-out 3s;
+  -o-animation: about ease-in-out 3s;
+  -ms-animation: about ease-in-out 3s;
+}
 
+@keyframes about {
+	from {right:0;}
 }
 
 
