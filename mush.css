@@ -133,16 +133,16 @@ h4 {
   -moz-animation: about ease-in-out 1s;
   -o-animation: about ease-in-out 1s;
   -ms-animation: about ease-in-out 1s;
-  animation: about 1s ease-in-out;
+  animation: about 1s ease-in-out forwards;
 }
 
 @keyframes about {
   from {
-    right: -100vw;
+    right: 100vw;
     opacity: 0; 
   }
   to {
-    right:-10vw;/* or whatever final position */
+    right:10vw;/* or whatever final position */
     opacity: 1; /* optional */
   }
 }
