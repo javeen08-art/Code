@@ -143,7 +143,7 @@ h4 {
     opacity: 0; /* optional: fade in effect */
   }
   to {
-    right:0;/* or whatever final position */
+    left:0;/* or whatever final position */
     opacity: 1; /* optional */
   }
 }
