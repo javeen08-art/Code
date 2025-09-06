@@ -129,11 +129,10 @@ h4 {
 	font-weight: 500;
 	margin-top:17vh;
 	position: relative;
- -webkit-animation: about ease-in-out 1s;
-  -moz-animation: about ease-in-out 1s;
-  -o-animation: about ease-in-out 1s;
-  -ms-animation: about ease-in-out 1s;
-  animation: about 1s ease-in-out forwards;
+ -webkit-animation: about ease-in-out 2s;
+  -moz-animation: about ease-in-out 2s;
+  -o-animation: about ease-in-out 2s;
+  -ms-animation: about ease-in-out 2s;
 }
 
 @keyframes about {
