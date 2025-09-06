@@ -141,7 +141,8 @@ h4 {
     right: -150vw;
     opacity: 0; /* optional: fade in effect */
   }
-  to { /* or whatever final position */
+  to {
+    right: 1vw; /* or whatever final position */
     opacity: 1; /* optional */
   }
 }
