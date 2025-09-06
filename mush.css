@@ -130,15 +130,16 @@ h4 {
 	font-weight: 500;
 	margin-top:17vh;
 	position: relative;
- -webkit-animation: about ease-in-out 3s;
-  -moz-animation: about ease-in-out 3s;
-  -o-animation: about ease-in-out 3s;
-  -ms-animation: about ease-in-out 3s;
+ -webkit-animation: about ease-in-out 1s;
+  -moz-animation: about ease-in-out 1s;
+  -o-animation: about ease-in-out 1s;
+  -ms-animation: about ease-in-out 1s;
+  animation: about 1s ease-in-out forwards;
 }
 
 @keyframes about {
   from {
-    left: -100vw;
+    right: 100vw;
     opacity: 0; /* optional: fade in effect */
   }
   to {
