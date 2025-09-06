@@ -142,7 +142,7 @@ h4 {
     opacity: 0; 
   }
   to {
-    right:0;/* or whatever final position */
+    right:initial;/* or whatever final position */
     opacity: 1; /* optional */
   }
 }
