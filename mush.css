@@ -526,13 +526,14 @@ h2, h11 {
 	border-radius: 10px;
 	background-color: transparent;
 	cursor: pointer;
+	position: relative;
 	animation: fqa ease-in-out 2s;
 
 }
 
 @keyframes fqa {
-	from {top:-100vh;}
-	to { top: 0vh;}
+	from {bottom:0vh;}
+	to { bottom: 100vh;}
 
 }
 
