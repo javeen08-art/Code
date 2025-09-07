@@ -298,7 +298,7 @@ p {
 		margin-left: 0vh;
 	}
 	100% {
-		right: initial;
+		right: 1vw;
 
 	}
 }
