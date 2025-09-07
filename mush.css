@@ -295,7 +295,7 @@ p {
 
 	50% {
 		right: 0;
-		margin-left: 5vw;
+		margin-left: -50vw;
 	}
 	100% {
 		right: 1.5vw;
