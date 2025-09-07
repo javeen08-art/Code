@@ -433,7 +433,6 @@ h7 {
 
 .contacts input {
 	animation: for ease-in-out 2s;
-	animation-delay: 2s;
 }
 
 @keyframes for {
