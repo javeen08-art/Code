@@ -430,7 +430,6 @@ font-family: 'IBM Plex Mono';
 #faqs {
   	justify-content: center;
   	background-color: #e8e8e8;
-  	padding: 20px;
   	flex-wrap: nowrap;
 	height: fit-content;
 	width: 100vw;
