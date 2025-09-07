@@ -289,12 +289,12 @@ p {
 
 @keyframes sq {
 	from {
-		left: 0vw;
+		left: -100vw;
 		margin-left: 20vh;
 	}
 
 	to {
-		left: 100vw;
+		left: 0vw;
 		margin-left: 0vh;
 	}
 
