@@ -531,15 +531,10 @@ h2, h11 {
 
 
 .collapsible.active, .collapsible:hover{
-	background-color: #46b1f8;
-	background-color: initial;
+	background-color: #efeded;
 	border: none;
 }
 
-.collapsible:hover {
-	color: white;
-	background-color: #46b1f8;
-}
 .h {
 	max-height: 0;
 	overflow: hidden;
