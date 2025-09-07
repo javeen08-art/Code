@@ -529,7 +529,14 @@ h2, h11 {
 
 }
 
+@keyframes fqa {
+	from {bottom:0;
+		}
+	to { bottom: 100%;
 
+	}
+
+}
 .collapsible.active, .collapsible:hover{
 	background-color: #f0f0f0;
 	border: none;
