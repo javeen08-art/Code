@@ -538,6 +538,7 @@ h2, h11 {
 
 .collapsible:hover {
 	color: white;
+	background-color: #46b1f8;
 }
 .h {
 	max-height: 0;
