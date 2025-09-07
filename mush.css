@@ -288,11 +288,13 @@ p {
 
 @keyframes sq {
 	from {
-		scale: 10;
+		top: 100vh;
+		margin-bottom: 20vh;
 	}
 
 	to {
-		scale: 1;
+		top: 0vh;
+		margin-bottom: 0vh;
 	}
 
 }
