@@ -288,16 +288,19 @@ p {
 }
 
 @keyframes sq {
-	from {
+	0% {
 		right: -100vw;
 		margin-left: 20vh;
 	}
 
-	to {
+	50% {
 		right: 0;
 		margin-left: 0vh;
 	}
+	100% {
+		right: initial;
 
+	}
 }
 
 .squares {
