@@ -967,11 +967,13 @@ background-color: white; /* Semi-transparent white */
 
 .smallmnu {
 	position: fixed;
+	background-color: #2980B9;
 }
 
 .smallm {
 	position: fixed;
-	right: 80vw;
+	top: 10vh;
+	right: 10vw;
 	width: fit-content;
 	z-index: 1000000;
 	display: none;
