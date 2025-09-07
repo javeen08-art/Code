@@ -529,7 +529,7 @@ h2, h11 {
 }
 
 
-.collapsible.active, .collapsible.hover{
+.collapsible.active, .collapsible:hover{
 	background-color: #46b1f8;
 }
 .h {
