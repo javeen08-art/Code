@@ -246,7 +246,7 @@ p {
   top: 0px;
   display: flex;
   flex-direction: row;
-  text-align: right;
+  align-items: end;
   z-index: 9999;
   margin-bottom: 150px;
 }
