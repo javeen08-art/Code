@@ -279,6 +279,7 @@ p {
     backdrop-filter: blur(15px); /* Apply blur to content behind */
     border: 1px solid darkgrey; /* Subtle border */
     color: black;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.1);
   	border-radius: 30px;
   	margin-left: 50px;
 	position: relative;
