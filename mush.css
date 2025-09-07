@@ -223,7 +223,7 @@ p {
 	}
 
 	to {
-		scale:1l
+		scale:1;
 	}
 }
 
