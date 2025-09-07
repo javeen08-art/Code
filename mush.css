@@ -475,6 +475,7 @@ h2, h11 {
 	display: flex;
 	margin: 0;
 	justify-content: center;
+	margin-top: -50px;
 
 
 }
