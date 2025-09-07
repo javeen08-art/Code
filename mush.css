@@ -1580,6 +1580,10 @@ h3 {
 	
   }
 
+  link {
+	color: black;
+  }
+
 
 body {
 	overflow: visible;
