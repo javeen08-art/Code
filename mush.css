@@ -437,6 +437,7 @@ h7 {
 
 @keyframes for {
 	from {
+		background-color: black;
 		opacity: 0;
 	}
 	to {
