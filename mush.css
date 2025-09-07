@@ -290,12 +290,12 @@ p {
 @keyframes sq {
 	0% {
 		right: -100vw;
-		margin-left: 20vh;
+		margin-left: 50vw;
 	}
 
 	50% {
 		right: 0;
-		margin-left: 0vh;
+		margin-left: 0vw;
 	}
 	100% {
 		right: 1vw;
