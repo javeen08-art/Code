@@ -210,10 +210,13 @@ p {
   color: black;
   border-radius: 70px;
   clip-path: inset(0 9% 0 0);
-  animation: bgimg 3s;
 
 }
 
+.pi {
+	position: relative;
+	animation: bgimg 2s;
+}
 @keyframes bgimg {
 	from {
 		scale:5;
