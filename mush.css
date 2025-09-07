@@ -532,8 +532,12 @@ h2, h11 {
 }
 
 @keyframes fqa {
-	from {bottom:-100vh;}
-	to { bottom: 0;}
+	from {bottom:-100vh;
+		margin-bottom: 20vh;
+	}
+	to { bottom: 0;
+		margin-bottom: 10px;
+	}
 
 }
 
