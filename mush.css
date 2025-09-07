@@ -210,10 +210,19 @@ p {
   color: black;
   border-radius: 70px;
   clip-path: inset(0 9% 0 0);
-
+  animation: bgimg 3s;
 
 }
 
+@keyframes bgimg {
+	from {
+		scale:5;
+	}
+
+	to {
+		scale:1l
+	}
+}
 
 .home {
   position: absolute;
@@ -1143,6 +1152,7 @@ font-family: 'IBM Plex Mono';
 	padding-bottom: 50px;
 
   }
+  
 
  .bottom p{
   	margin-top: -30px;
