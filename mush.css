@@ -282,19 +282,20 @@ p {
     box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.1);
   	border-radius: 30px;
   	margin-left: 50px;
+	position: relative;
 	animation: sq 2s ease-in-out;
 
 }
 
 @keyframes sq {
 	from {
-		top: 0vh;
-		margin-bottom: 20vh;
+		left: 0vw;
+		margin-left: 20vh;
 	}
 
 	to {
-		top: 100vh;
-		margin-bottom: 0vh;
+		left: 100vw;
+		margin-left: 0vh;
 	}
 
 }
@@ -307,7 +308,18 @@ p {
 
 .row,.row2{
   display: flex;
+  position: relative;
   gap: 20px;
+  animation: ro 2s;
+}
+
+@keyframes ro {
+	from {
+		bottom: -100vh;
+	}
+	to{
+		bottom:0vh;
+	}
 }
 
 .serv {
