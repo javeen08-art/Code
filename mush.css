@@ -970,11 +970,10 @@ background-color: white; /* Semi-transparent white */
 	background-color: #2980B9;
 	z-index: 1000000;
 	top: 3vh;
-	
+
 }
 
 .smallm {
-	position: fixed;
 	bottom: 0vw;
 	left: 0vw;
 	width: fit-content;
