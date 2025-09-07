@@ -969,12 +969,12 @@ background-color: white; /* Semi-transparent white */
 	position: fixed;
 	background-color: #2980B9;
 	z-index: 1000000;
-	top: 5vh;
+	top: 3vh;
 
 }
 
 .smallm {
-	position: absolute;;
+	position: absolute;
 	right: 0vw;
 	width: fit-content;
 	z-index: 1000000;
