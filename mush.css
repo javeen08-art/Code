@@ -438,10 +438,7 @@ h7 {
 @keyframes for {
 	from {
 		width: 0;
-		opacity: 0;
-	}
-	to {
-		opacity: 1;
+
 	}
 }
 
