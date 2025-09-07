@@ -434,7 +434,7 @@ font-family: 'IBM Plex Mono';
 
 #faqs {
   	justify-content: center;
-  	background-color: #e8e8e8;
+  	background-color: #f6f4f4;
   	padding: 20px;
   	flex-wrap: nowrap;
 	height: fit-content;
@@ -454,7 +454,7 @@ font-family: 'IBM Plex Mono';
 	}
 
 	to {
-  		background-color: #e8e8e8;
+  		background-color: #f6f4f4;
 	}
 }
 
