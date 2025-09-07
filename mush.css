@@ -288,12 +288,12 @@ p {
 
 @keyframes sq {
 	from {
-		top: -100vh;
+		top: 0vh;
 		margin-bottom: 20vh;
 	}
 
 	to {
-		top: 0vh;
+		top: 100vh;
 		margin-bottom: 0vh;
 	}
 
