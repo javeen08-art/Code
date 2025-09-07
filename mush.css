@@ -524,12 +524,13 @@ h2, h11 {
 	width: 30vw;
 	margin-bottom: 10px;
 	border-radius: 10px;
+	cursor: pointer;
 
 }
 
 
 .collapsible.active, .collapsible.hover{
-	background-color: #3498DB;
+	background-color: #46b1f8;
 }
 .h {
 	max-height: 0;
