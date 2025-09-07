@@ -467,7 +467,6 @@ h2, h11 {
 	font-weight: 250;
 	margin-bottom: 50px;
   height: fit-content;
-  scroll-padding-top: 100vh;
   scroll-behavior: smooth;
 }
 
@@ -475,7 +474,6 @@ h2, h11 {
 	display: flex;
 	margin: 0;
 	justify-content: center;
-	height: 820px;
 
 
 }
@@ -492,7 +490,7 @@ h2, h11 {
 }
 
 .side2{
-width: fit-content;
+	width: fit-content;
 	margin: 0;
 	text-align: center;
 	margin-left: 10vw;
@@ -583,7 +581,6 @@ h11 {
 	position: relative;
 	font-family: 'SF Pro';
 	font-weight: 500;
-	margin-top: 0;
 }
 
 
