@@ -1207,11 +1207,10 @@ h15 {
 h11 {
 	font-size: 50px;
 	margin: 0;
-	position: absolute;
+	position: relative;
 	text-align: center;
 	padding-left: 5vw;
 	padding-right: 5vw;
-	padding-bottom: 20vh;
 	width: 100vw;
 	left: -20%;
 
