@@ -970,7 +970,13 @@ background-color: white; /* Semi-transparent white */
 	background-color: #2980B9;
 	z-index: 1000000;
 	top: 3vh;
+	height: fit-content;
 
+}
+
+.smallh {
+	width: 2vw;
+	height: 2vh;
 }
 
 .smallm {
