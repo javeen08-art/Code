@@ -526,6 +526,7 @@ h2, h11 {
 	border-radius: 10px;
 	background-color: transparent;
 	cursor: pointer;
+	animation: fqa ease-in-out 2s;
 
 }
 
