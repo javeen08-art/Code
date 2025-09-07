@@ -531,10 +531,11 @@ h2, h11 {
 }
 
 @keyframes fqa {
-	from {top:100vh;}
+	from {top:-100vh;}
 	to { top: 0vh;}
 
 }
+
 .collapsible.active, .collapsible:hover{
 	background-color: #f0f0f0;
 	border: none;
