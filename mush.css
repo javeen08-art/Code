@@ -310,16 +310,6 @@ p {
   display: flex;
   position: relative;
   gap: 20px;
-  animation: ro 2s;
-}
-
-@keyframes ro {
-	from {
-		bottom: -100vh;
-	}
-	to{
-		bottom:0vh;
-	}
 }
 
 .serv {
