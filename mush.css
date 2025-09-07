@@ -982,7 +982,7 @@ background-color: white; /* Semi-transparent white */
 
 .smallm {
 	position: absolute;
-	right: 0vw;
+	right: 3vw;
 	width: fit-content;
 	z-index: 1000000;
 	display: none;
