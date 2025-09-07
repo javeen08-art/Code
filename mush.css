@@ -533,7 +533,7 @@ h2, h11 {
 
 @keyframes fqa {
 	from {bottom:-100vh;
-		margin-bottom: 20vh;
+		margin-bottom: 50vh;
 	}
 	to { bottom: 0;
 		margin-bottom: 10px;
