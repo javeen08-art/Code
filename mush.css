@@ -508,6 +508,7 @@ h2, h11 {
 	margin: 0;
 	text-align: center;
 	background-color: #efeded;;
+	border-radius: 15px;
 }
 
 .side2{
@@ -516,6 +517,7 @@ h2, h11 {
 	text-align: center;
 	margin-left: 10vw;
 	background-color: #efeded;
+	border-radius: 15px;
 }
 .collapsible {
 	font-size: 20px;
