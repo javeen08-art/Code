@@ -969,7 +969,7 @@ background-color: white; /* Semi-transparent white */
 	position: fixed;
 	background-color: #2980B9;
 	z-index: 1000000;
-	top: 1px;
+	top: 3vh;
 
 }
 
