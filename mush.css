@@ -965,6 +965,10 @@ background-color: white; /* Semi-transparent white */
 
 }
 
+.smallmnu {
+	position: fixed;
+}
+
 .smallm {
 	position: fixed;
 	right: 5vw;
