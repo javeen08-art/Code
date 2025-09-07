@@ -290,7 +290,7 @@ p {
 @keyframes sq {
 	0% {
 		right: -100vw;
-		margin-left: 50vw;
+		margin-left: 100vw;
 	}
 
 	50% {
@@ -298,7 +298,7 @@ p {
 		margin-left: 0vw;
 	}
 	100% {
-		right: auto;
+		right: 1.5vw;
 
 	}
 }
