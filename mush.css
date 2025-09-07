@@ -283,7 +283,7 @@ p {
   	border-radius: 30px;
   	margin-left: 50px;
 	position: relative;
-	animation: sq 2s ease-in-out alternate forwards;
+	animation: sq 2s ease-in-out alternate;
 
 }
 
@@ -298,7 +298,7 @@ p {
 		margin-left: 0vh;
 	}
 	100% {
-		right: 1vw;
+		right: 2vw;
 
 	}
 }
