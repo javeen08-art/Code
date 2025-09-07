@@ -525,11 +525,12 @@ h2, h11 {
 	margin-bottom: 10px;
 	border-radius: 10px;
 
-
-
-
 }
 
+
+.collapsible.active {
+	background-color: #3498DB;
+}
 .h {
 	max-height: 0;
 	overflow: hidden;
