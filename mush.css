@@ -432,12 +432,12 @@ h7 {
 }
 
 .contacts input {
-	animation: for ease-in-out 3s;
+	animation: for ease-in-out 2s;
 }
 
 @keyframes for {
 	from {
-		background-color: black;
+		width: 0;
 		opacity: 0;
 	}
 	to {
