@@ -534,6 +534,7 @@ h2, h11 {
 .collapsible.active, .collapsible:hover{
 	background-color: #46b1f8;
 	background-color: initial;
+	border: none;
 }
 
 .collapsible:hover {
