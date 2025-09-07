@@ -507,6 +507,7 @@ h2, h11 {
 	width: fit-content;
 	margin: 0;
 	text-align: center;
+	background-color: #efeded;;
 }
 
 .side2{
@@ -514,6 +515,7 @@ h2, h11 {
 	margin: 0;
 	text-align: center;
 	margin-left: 10vw;
+	background-color: #efeded;
 }
 .collapsible {
 	font-size: 20px;
