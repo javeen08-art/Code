@@ -988,6 +988,8 @@ background-color: white; /* Semi-transparent white */
 	width: fit-content;
 	z-index: 1000000;
 	display: none;
+	margin: 0;
+	padding: 0;
 
 }
 
