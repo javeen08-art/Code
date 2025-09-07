@@ -971,12 +971,13 @@ background-color: white; /* Semi-transparent white */
 	z-index: 1000000;
 	top: 3vh;
 	height: fit-content;
+	width: 100vw;
 
 }
 
 .smallh {
-	width: 2vw;
-	height: 2vh;
+	width: 3vw;
+	height: 3vh;
 }
 
 .smallm {
