@@ -967,8 +967,8 @@ background-color: white; /* Semi-transparent white */
 
 .smallm {
 	position: fixed;
-	bottom: 3vh;
-	left: 3vw;
+	top: 3vh;
+	right: 3vw;
 	width: fit-content;
 	z-index: 1000000;
 	display: none;
