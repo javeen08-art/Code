@@ -978,11 +978,13 @@ background-color: white; /* Semi-transparent white */
 .smallh {
 	width: 5vw;
 	height: 5vh;
+	margin: 0;
 }
 
 .smallm {
 	position: absolute;
 	right: -80vw;
+	top:0;
 	width: fit-content;
 	z-index: 1000000;
 	display: none;
