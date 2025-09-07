@@ -452,13 +452,6 @@ h7 {
 	padding: 30px;
 	border-radius: 15px;
 	position: absolute;
-	animation: cot ease-in-out 2s;
-}
-
-@keyframes cot {
-	from {
-		height: 0;
-	}
 }
 
 .row3{
