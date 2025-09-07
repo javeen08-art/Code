@@ -283,7 +283,7 @@ p {
   	border-radius: 30px;
   	margin-left: 50px;
 	position: relative;
-	animation: sq 2s ease-in-out alternate;
+	animation: sq 2s ease-in-out alternate forwards;
 
 }
 
