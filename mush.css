@@ -968,6 +968,7 @@ background-color: white; /* Semi-transparent white */
 .smallmnu {
 	position: fixed;
 	background-color: #2980B9;
+	z-index: 1000000;
 }
 
 .smallm {
