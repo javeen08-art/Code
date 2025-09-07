@@ -531,11 +531,8 @@ h2, h11 {
 }
 
 @keyframes fqa {
-	from {bottom:0vh;
-		}
-	to { bottom: 100vh;
-
-	}
+	from {bottom: 100vh;}
+	to { bottom: 0vh;}
 
 }
 .collapsible.active, .collapsible:hover{
