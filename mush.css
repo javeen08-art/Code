@@ -1056,7 +1056,7 @@ background-color: white; /* Semi-transparent white */
 	padding: 20px;
 }
 
-.st2.active > .s6{
+.active.st2 > .s6{
 	  padding-bottom:200px;
 	  background-color: aqua;
 }
