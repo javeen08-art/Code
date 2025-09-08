@@ -1049,13 +1049,12 @@ background-color: white; /* Semi-transparent white */
   display: flex;
   flex-direction: column;
   padding: 0 10px;
-  padding-bottom: 200px;
   font-family: Helvetica;
 }
 .s6 a {
 	padding: 20px;
 }
-.st2.active + .s6 {
+.st2.active  +.s6 {
     padding-bottom: 20vh;
 }
 input {
