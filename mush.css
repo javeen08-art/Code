@@ -1625,6 +1625,7 @@ body {
 	scrollbar-width: none;
 	touch-action: pan-y;
 	scroll-padding: 0;
+	scrollbar-width: 0;
 
 }
 
