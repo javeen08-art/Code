@@ -1049,7 +1049,7 @@ background-color: white; /* Semi-transparent white */
   font-size: 30px;
   display: flex;
   flex-direction: column;
-  padding: 0 10px; /* Some padding */
+  padding: 0 10px 200px 0; /* Some padding */
   font-family: Helvetica;
 
 }
