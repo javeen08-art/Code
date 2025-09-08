@@ -981,12 +981,13 @@ background-color: white; /* Semi-transparent white */
 
 
 .smallh {
-	position:relative;
+	position: absolute;
 	z-index: 1000000;
 	left: 5vw;
 }
 .smallh img {
-	scale: 0.01;
+	width: 10vw;
+	height: 10vh;
 	margin: 0;
 	padding: 0;
 	z-index: 1000000;
