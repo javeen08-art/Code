@@ -981,7 +981,7 @@ background-color: white; /* Semi-transparent white */
 .smallh {
 	position: relative;
 	z-index: 10000;
-	left: 5vw;
+	left: 0vw;
 	margin: 0;
 	padding: 0;
 }
