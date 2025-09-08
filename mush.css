@@ -1057,11 +1057,14 @@ background-color: white; /* Semi-transparent white */
 @keyframes mn {
 	from {
 		bottom: -100vh;
+		margin-bottom: 20vh;
+		opacity: 0;
 	}
 	to {
 		bottom:0;
 	}
 }
+
 .s6 a {
 	padding: 20px;
 }
