@@ -1581,7 +1581,8 @@ h3 {
 	color: black
 	padding: auto;
 	transition: transform 1s ease-in-out;
-	margin-bottom: 15px;
+	margin: 0;
+	padding: 0;
 
   }
 
