@@ -976,10 +976,11 @@ background-color: white; /* Semi-transparent white */
 }
 
 .smallh {
-	width: 4vw;
-	height: 4vh;
+	width: 3vw;
+	height: 3vh;
 	margin: 0;
 }
+
 
 .smallm {
 	position: relative;
