@@ -1342,7 +1342,7 @@ h11 {
 	margin: 0 auto;
 	padding: 0 auto;
 	max-width: 100vw;
-	white-space: nowrap;
+	word-wrap: break-word;
 
 
 }
