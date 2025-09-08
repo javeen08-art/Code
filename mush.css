@@ -1339,9 +1339,8 @@ h11 {
 	margin: 0;
 	position: relative;
 	text-align: center;
-	padding-left: 5vw;
-	padding-right: 5vw;
-	width: 100vw;
+	margin: 0 auto;
+	padding: auto;
 
 
 }
