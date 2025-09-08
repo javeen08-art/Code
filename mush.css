@@ -1058,6 +1058,7 @@ background-color: white; /* Semi-transparent white */
 
 .st2.active > .s6{
 	  padding-bottom:200px;
+	  background-color: aqua;
 }
 input {
 	background-color: rgba(255, 255, 255, 1); /* Semi-transparent white */
