@@ -1050,6 +1050,14 @@ background-color: white; /* Semi-transparent white */
   flex-direction: column;
   padding: 0 10px;
   font-family: Helvetica;
+  animation: mn ease-in-out 2s;
+}
+
+
+@keyframes mn {
+	from {
+		opacity: 0;
+	}
 }
 .s6 a {
 	padding: 20px;
