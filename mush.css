@@ -514,7 +514,6 @@ h2, h11 {
 }
 @keyframes fadeIn {
    from {opacity: 0;
-		scale: 0.3;
 }
     to {opacity: 1;
 	}
