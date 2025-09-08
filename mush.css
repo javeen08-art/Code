@@ -977,6 +977,7 @@ background-color: white; /* Semi-transparent white */
 	align-items: center;
 	text-align: center;
 	z-index: 1000000;
+	display: none;
 }
 
 
@@ -1617,6 +1618,9 @@ h3 {
 	color: black;
   }
 
+  .smallmnu {
+	display: block;
+  }
 
 body {
 	overflow: visible;
