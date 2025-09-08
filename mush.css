@@ -971,7 +971,7 @@ background-color: white; /* Semi-transparent white */
 	z-index: 1000000;
 	top: 3vh;
 	height: fit-content;
-	width: 50vw;
+	width: 100vw;
 	display: flex;
 	flex-direction: row;
 	align-items: center;
@@ -990,7 +990,6 @@ background-color: white; /* Semi-transparent white */
 	height: 3vh;
 	margin: 0;
 	padding: 0;
-	right: 80vw;
 }
 
 
@@ -1622,6 +1621,7 @@ body {
 	max-width: 500px;
 	overflow-x: hidden;
 	scrollbar-width: none;
+	touch-action: pan-y;
 	scroll-padding: 0;
 
 }
