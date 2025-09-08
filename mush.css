@@ -1468,7 +1468,7 @@ h3 {
 	height: 250px;
 	width: 250px;
 	text-align: center;
-	position: relative;
+	position: absolute;
 	top: 0;
 	right: 70vw;
 	left: 46vw;
