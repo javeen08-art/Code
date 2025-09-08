@@ -1058,6 +1058,9 @@ background-color: white; /* Semi-transparent white */
 	from {
 		bottom: -100vh;
 	}
+	to {
+		bottom:0;
+	}
 }
 .s6 a {
 	padding: 20px;
