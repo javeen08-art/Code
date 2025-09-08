@@ -1043,7 +1043,7 @@ background-color: white; /* Semi-transparent white */
   backdrop-filter: blur(15px);
   border-radius: 15px;
   text-align: left;
-  position: absolute;
+  position: relative;
   left: 0;
   width: 100vw;
   height: 100vh;
