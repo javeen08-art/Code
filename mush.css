@@ -1467,10 +1467,10 @@ h3 {
 .sub {
 	height: 250px;
 	width: 250px;
-	display: flex;
 	align-items: center;
 	margin: 0 auto;
 	top: 0;
+
 
 }
 
