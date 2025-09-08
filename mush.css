@@ -967,7 +967,7 @@ background-color: white; /* Semi-transparent white */
 
 .smallmnu {
 	position: fixed;
-	background-color:rgba(255, 255, 255, 0.178);
+	background-color:rgba(255, 255, 255, 0.7);
 	backdrop-filter: blur(15px);
 	z-index: 1000000;
 	top: 0vh;
