@@ -1467,7 +1467,8 @@ h3 {
 .sub {
 	height: 250px;
 	width: 250px;
-	text-align: center;
+	display: flex;
+	align-items: center;
 	position: absolute;
 	top: 0;
 	margin-right: 15vw;
