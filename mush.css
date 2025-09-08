@@ -1043,7 +1043,6 @@ background-color: white; /* Semi-transparent white */
   backdrop-filter: blur(15px);
   border-radius: 15px;
   text-align: left;
-  position: relative;
   left: 0;
   width: 100vw;
   height: 100vh;
@@ -1056,6 +1055,7 @@ background-color: white; /* Semi-transparent white */
 }
 .s6 a {
 	padding: 20px;
+	left: 0;
 }
 input {
 	background-color: rgba(255, 255, 255, 1); /* Semi-transparent white */
@@ -1605,11 +1605,6 @@ h3 {
 	margin: 0;
 	padding: 0;
 
-  }
-
-  .st2.active {
-	border-radius: 15px;
-	
   }
 
   .st2.active::before{
