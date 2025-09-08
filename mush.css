@@ -981,7 +981,7 @@ background-color: white; /* Semi-transparent white */
 
 
 .smallh {
-	position: relative;
+	position: absolute;
 	z-index: 1000000;
 	left: 5vw;
 	margin: 0;
@@ -996,7 +996,7 @@ background-color: white; /* Semi-transparent white */
 
 
 .smallm {
-	position:fixed;
+	position:absolute;
 	left: 80vw;
 	top:0;
 	width: fit-content;
