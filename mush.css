@@ -986,7 +986,7 @@ background-color: white; /* Semi-transparent white */
 	left: 3vw;
 }
 .smallh img {
-	scale: 0.8;
+	scale: 0.1;
 	margin: 0;
 	padding: 0;
 	z-index: 1000000;
