@@ -1051,12 +1051,16 @@ background-color: white; /* Semi-transparent white */
   padding: 0 10px;
   padding-bottom: 200px;
   font-family: Helvetica;
+  display: none;
 
 }
 .s6 a {
 	padding: 20px;
 }
 
+.st2.active > .s6 {
+	display: block;
+}
 input {
 	background-color: rgba(255, 255, 255, 1); /* Semi-transparent white */
     border: 1px solid lightgray; /* Subtle border */
