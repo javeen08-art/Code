@@ -1062,6 +1062,7 @@ background-color: white; /* Semi-transparent white */
 	}
 	to {
 		bottom:0;
+		margin: 0;
 	}
 }
 
