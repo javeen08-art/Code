@@ -1048,7 +1048,8 @@ background-color: white; /* Semi-transparent white */
   font-size: 30px;
   display: flex;
   flex-direction: column;
-  padding: 0 10px; /* Some padding */
+  padding: 0 10px;
+  padding-bottom: 200px;
   font-family: Helvetica;
 
 }
@@ -1056,10 +1057,6 @@ background-color: white; /* Semi-transparent white */
 	padding: 20px;
 }
 
-.active.st2 > .s6{
-	  padding-bottom:200px;
-	  background-color: aqua;
-}
 input {
 	background-color: rgba(255, 255, 255, 1); /* Semi-transparent white */
     border: 1px solid lightgray; /* Subtle border */
