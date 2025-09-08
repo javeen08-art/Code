@@ -1050,7 +1050,6 @@ background-color: white; /* Semi-transparent white */
   flex-direction: column;
   padding: 0 10px;
   font-family: Helvetica;
-  animation: mn ease-in-out 2s;
 }
 
 
@@ -1064,6 +1063,7 @@ background-color: white; /* Semi-transparent white */
 }
 .st2.active  +.s6 {
     padding-bottom: 20vh;
+  	animation: mn ease-in-out 2s;
 }
 input {
 	background-color: rgba(255, 255, 255, 1); /* Semi-transparent white */
