@@ -983,7 +983,7 @@ background-color: white; /* Semi-transparent white */
 .smallh {
 	position: absolute;
 	z-index: 1000000;
-	left: 3vw;
+	left: 100vw;
 }
 .smallh img {
 	scale: 0.1;
