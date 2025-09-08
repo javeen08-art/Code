@@ -1055,7 +1055,7 @@ background-color: white; /* Semi-transparent white */
 
 @keyframes mn {
 	from {
-		bottom: 0;
+		bottom: -100vh;
 	}
 }
 .s6 a {
