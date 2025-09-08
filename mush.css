@@ -1473,9 +1473,11 @@ h3 {
 	right: 70vw;
 	left: 20vw;
 
-
 }
 
+.h5 {
+	text-align: center;
+}
 .contacts {
 	width:100%;
 	padding: 0%;
