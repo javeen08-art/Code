@@ -1049,12 +1049,16 @@ background-color: white; /* Semi-transparent white */
   font-size: 30px;
   display: flex;
   flex-direction: column;
-  padding: 0 10px 200px 0; /* Some padding */
+  padding: 0 10px; /* Some padding */
   font-family: Helvetica;
 
 }
 .s6 a {
 	padding: 20px;
+}
+
+.smallm.active > .s6 {
+	  padding: 0 10px 200px 0;
 }
 input {
 	background-color: rgba(255, 255, 255, 1); /* Semi-transparent white */
