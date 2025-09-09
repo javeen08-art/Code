@@ -1323,6 +1323,10 @@ h15 {
 	padding-bottom: 400px;
 	margin-bottom: 100px;
 	margin-top: 0px;
+	padding-left: 0;
+	padding-right: 0;
+	margin-left: 0;
+	margin-right: 0;
 }
 .faq {
 	width: 70%;
