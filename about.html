@@ -94,41 +94,34 @@ collapsibleButtons.forEach(function(button) {
   });
 });
 
-// Select all collapsible buttons once
-const collapsibleButtons = document.querySelectorAll('.collapsible');
+// -------- Close open collapsible sections when clicking outside --------
+document.addEventListener('click', () => {
+  // Assuming collapsibleButtons is already defined, e.g.,
+  // const collapsibleButtons = document.querySelectorAll('.collapsible');
 
-document.addEventListener('click', (event) => {
-  // Check if the click target is inside any collapsible button or its content
-  const isClickInside = Array.from(collapsibleButtons).some(btn => 
-    btn.contains(event.target) || 
-    (btn.nextElementSibling && btn.nextElementSibling.contains(event.target))
-  );
+  collapsibleButtons.forEach(btn => {
+    if (btn.classList.contains('active')) {
+      btn.classList.remove('active');
 
-  // If click is outside all collapsible sections, close them
-  if (!isClickInside) {
-    collapsibleButtons.forEach(btn => {
-      if (btn.classList.contains('active')) {
-        btn.classList.remove('active');
-
-        // Reset button text if it contains '−'
-        if (btn.textContent.includes('−')) {
-          btn.textContent = btn.textContent.replace('−', '+');
-        }
-
-        // Replace 'X' with '≡' if present, assuming that was the intended toggle
-        if (btn.textContent.includes('X')) {
-          btn.textContent = btn.textContent.replace('X', '≡');
-        }
-
-        // Close the content
-        const content = btn.nextElementSibling;
-        if (content) {
-          content.style.maxHeight = null;
-        }
+      // Reset button text if it contains '−'
+      if (btn.textContent.includes('−')) {
+        btn.textContent = btn.textContent.replace('−', '+');
       }
-    });
-  }
+
+      // Replace '≡' with 'X' if present
+      if (btn.textContent.includes('≡')) {
+        btn.textContent = btn.textContent.replace('≡', 'X');
+      }
+
+      // Close the content
+      const content = btn.nextElementSibling;
+      if (content) {
+        content.style.maxHeight = null;
+      }
+    }
+  });
 });
+
 // -------- Dropdown Menu --------
 const dropdownBtn = document.querySelector('.dropbtn');
 const dropdownContent = document.getElementById('myDropdown');
