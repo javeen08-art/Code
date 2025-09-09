@@ -1648,6 +1648,7 @@ body {
 	scrollbar-width: none;
 	overflow-x: hidden ;
 	overflow-y: scroll;
+	background-color: transparent;
 
 }
 
