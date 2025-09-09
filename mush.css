@@ -1215,6 +1215,10 @@ font-family: 'IBM Plex Mono';
 	padding: 0;
 	padding-top: 100px;
 	margin-bottom: 200px;
+	padding-left: 0;
+	padding-right: 0;
+	margin-left: 0;
+	margin-right: 0;
 
 }
 
@@ -1315,7 +1319,6 @@ h15 {
 
   .bottom,.servicess,.contacts, #faqs {
   	height: fit-content;
-  	margin:10px;
   	margin-bottom: 50px;
   }
 	
