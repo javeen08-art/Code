@@ -112,11 +112,6 @@ document.addEventListener('click', () => {
       if (btn.textContent.includes('X')) {
         btn.textContent = btn.textContent.replace('X', '≡');
       }
-      // Close the content
-      const content = btn.nextElementSibling;
-      if (content) {
-        content.style.maxHeight = null;
-      }
     }
   });
 });
