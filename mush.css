@@ -988,7 +988,7 @@ background-color: white; /* Semi-transparent white */
 	left: 5vw;
 	top:0;
 	margin: 0;
-	padding: 0;
+	padding: 0 0 5px 0;
 }
 .smallh img {
 	top: 0;
