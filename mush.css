@@ -1656,14 +1656,7 @@ body {
 	scrollbar-width: none;
 	overflow-x: hidden ;
 	overflow-y: scroll;
-	animation: bgs ease-in-out 2s;
 
-}
-
-@keyframes bgs {
-	from {
-		background-color: black;
-	}
 }
 
 }
