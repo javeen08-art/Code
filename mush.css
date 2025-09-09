@@ -978,6 +978,7 @@ background-color: white; /* Semi-transparent white */
 	z-index: 1000000;
 	display: none;
 	border-bottom: 0.5px solid black;
+	padding: 0 0 10px 0;
 
 }
 
@@ -988,7 +989,6 @@ background-color: white; /* Semi-transparent white */
 	left: 5vw;
 	top:0;
 	margin: 0;
-	padding: 0 0 10px 0;
 }
 .smallh img {
 	top: 0;
