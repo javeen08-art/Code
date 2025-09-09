@@ -984,7 +984,7 @@ background-color: white; /* Semi-transparent white */
 
 
 .smallh {
-	position: relative;
+	position: fixed;
 	z-index: 10000;
 	vertical-align: middle;
 	left: 5vw;
