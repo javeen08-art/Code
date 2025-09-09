@@ -12,9 +12,6 @@
   <body scroll ="no">
   <article>
     <div class ="smallmnu">
-      <div class ="close">
-        <p>X</p>
-        </div>
       <div class ="smallh">
         <a href="index.html" id="myBtn"><img src="MushImgs/719A6AB5-B07D-4B8D-B365-2F1CFEE85942.PNG" type="image/png" width ="50"></a>
       </div>
@@ -104,8 +101,10 @@ document.addEventListener('click', () => {
     if (btn.classList.contains('active')) {
       btn.classList.remove('active');
       // Reset button text if needed
-      if (btn.textContent.includes('−')) {
+      if (btn.textContent.includes('−','X')) {
         btn.textContent = btn.textContent.replace('−', '+');
+      btn.textContent = btn.textContent.replace('X', '≡');
+
       }
       // Close the content
       const content = btn.nextElementSibling;
