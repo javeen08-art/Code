@@ -1012,19 +1012,6 @@ background-color: white; /* Semi-transparent white */
 
 }
 
-.close {
-	position: fixed;
-	left: 80vw;
-	top:0;
-	width: fit-content;
-	z-index: 1000000;
-	display: none;
-	margin: 0;
-	padding: 0;
-	display: none;
-
-}
-
 .s5 {
   max-height: 0;
   overflow: hidden;
@@ -1639,15 +1626,6 @@ h3 {
 	margin: 0;
 	padding: 0;
 
-  }
-
-  .st2.active + .close{
-	display: block;
-	
-  }
-
-  .st2.active +.smallm {
-	display: none;
   }
 
   button {
