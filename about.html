@@ -96,18 +96,27 @@ collapsibleButtons.forEach(function(button) {
 
 // -------- Close open collapsible sections when clicking outside --------
 document.addEventListener('click', () => {
-  // Close all collapsible sections
+  // Assuming collapsibleButtons is already defined, e.g.,
+  // const collapsibleButtons = document.querySelectorAll('.collapsible');
+
   collapsibleButtons.forEach(btn => {
     if (btn.classList.contains('active')) {
       btn.classList.remove('active');
-      // Reset button text if needed
+
+      // Reset button text if it contains '−'
       if (btn.textContent.includes('−')) {
         btn.textContent = btn.textContent.replace('−', '+');
+      }
 
+      // Replace '≡' with 'X' if present
+      if (btn.textContent.includes('≡')) {
+        btn.textContent = btn.textContent.replace('≡', 'x');
       }
-      if (btn.textContent.includes('X')) {
-      btn.textContent = btn.textContent.replace('X', '≡');
+    
+      if (btn.textContent.includes('x')) {
+        btn.textContent = btn.textContent.replace('x','≡');
       }
+
       // Close the content
       const content = btn.nextElementSibling;
       if (content) {
@@ -116,6 +125,7 @@ document.addEventListener('click', () => {
     }
   });
 });
+
 // -------- Dropdown Menu --------
 const dropdownBtn = document.querySelector('.dropbtn');
 const dropdownContent = document.getElementById('myDropdown');
