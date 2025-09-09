@@ -1628,11 +1628,7 @@ h3 {
 
   }
 
-  .st2.active::before{
-	content: "";
-	font-size: 15px;
-	vertical-align: middle;
-	font-weight: 500;
+  .st2.active{
 	
   }
 
