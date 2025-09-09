@@ -1013,7 +1013,7 @@ background-color: white; /* Semi-transparent white */
 }
 
 .close {
-	position: relative;
+	position: fixed;
 	left: 80vw;
 	top:0;
 	width: fit-content;
