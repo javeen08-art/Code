@@ -977,7 +977,7 @@ background-color: white; /* Semi-transparent white */
 	text-align: center;
 	z-index: 1000000;
 	display: none;
-	border-bottom: solid black;
+	border-bottom: 0.5px  black;
 
 }
 
