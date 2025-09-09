@@ -108,15 +108,6 @@ document.addEventListener('click', () => {
         btn.textContent = btn.textContent.replace('−', '+');
       }
 
-      // Replace '≡' with 'X' if present
-      if (btn.textContent.includes('≡')) {
-        btn.textContent = btn.textContent.replace('≡', 'x');
-      }
-    
-      if (btn.textContent.includes('x')) {
-        btn.textContent = btn.textContent.replace('x','≡');
-      }
-
       // Close the content
       const content = btn.nextElementSibling;
       if (content) {
