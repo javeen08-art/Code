@@ -101,11 +101,13 @@ document.addEventListener('click', () => {
     if (btn.classList.contains('active')) {
       btn.classList.remove('active');
       // Reset button text if needed
-      if (btn.textContent.includes('−','X')) {
+      if (btn.textContent.includes('−')) {
         btn.textContent = btn.textContent.replace('−', '+');
-      btn.textContent = btn.textContent.replace('X', '≡');
 
       }
+    if (btn.textContent.includes('X')) {
+      btn.textContent = btn.textContent.replace('X', '≡');
+    }
       // Close the content
       const content = btn.nextElementSibling;
       if (content) {
