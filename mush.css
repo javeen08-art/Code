@@ -272,8 +272,6 @@ p {
 	padding: 10px;
 	margin: 5px;
 	margin-top: 0px;
-	background-color: rgba(245, 245, 245, 0.5);
-    background-color: rgba(255, 255, 255, 0.15); /* Semi-transparent white */
     backdrop-filter: blur(15px); /* Apply blur to content behind */
     border: 1px solid darkgrey; /* Subtle border */
     color: black;
@@ -1044,7 +1042,7 @@ background-color: white; /* Semi-transparent white */
   margin-left: -80%;
   width: 100vw;
   height: 100vh;
-  font-size: 30px;
+  font-size: 25px;
   display: flex;
   position: relative;
   flex-direction: column;
