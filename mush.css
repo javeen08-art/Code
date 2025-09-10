@@ -1387,6 +1387,9 @@ h11 {
 	margin-left:10% ;
 }
 
+.st2.active ~ .smallh {
+	scale: 1.5;
+}
 .sub p {
 	width: 100%;
 	text-align: center;
