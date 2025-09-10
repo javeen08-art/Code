@@ -1061,7 +1061,7 @@ background-color: white; /* Semi-transparent white */
 	padding: 20px;
 }
 .st2.active  +.s6 {
-    padding-bottom: 20vh;
+    padding-bottom: 70vh;
   	animation: mn ease-in-out 2s;
 }
 input {
