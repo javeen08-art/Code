@@ -1342,7 +1342,7 @@ h15 {
 h11 {
 	font-size: 50px;
 	margin: 0;
-	position: relative;
+	position: absolute;
 	text-align: center;
 	margin-top: 120px;
 	padding-bottom: 70px;
