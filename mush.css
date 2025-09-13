@@ -706,9 +706,10 @@ h11 {
 }
 
 .nextbtnt2 {
+	margin: 0;
 	margin-top: 0vh;
 	float: right;
-	right: -20vw;
+	right: 0vw;
 	display: flex;
 	z-index: 999999999;
 	position: absolute;
