@@ -245,6 +245,7 @@ p {
 .nextbtn {
   position: relative;
   top: 0;
+  float: right;
   z-index: 9999;
   margin-bottom: 150px;
 }
