@@ -205,7 +205,7 @@ p {
   width: 815px;
   height: auto; 
   float: right;
-  position: absolute;
+  position: relative;
   transform: translate(680px,-1300px);
   color: black;
   border-radius: 70px;
