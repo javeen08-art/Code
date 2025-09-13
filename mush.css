@@ -449,7 +449,7 @@ h7 {
 }
 
 
-.hover, .buttons input {
+ .buttons input:hover {
 	scale: 1.05;
 }
 .forms{
