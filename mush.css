@@ -774,7 +774,7 @@ h11 {
 
 }
 
- .nextbtnt3 .s3 {
+ .nextbtnt3, .s3, .s4 {
 		transform: translateX(85vw);
 	
  }
