@@ -207,7 +207,7 @@ p {
   float: right;
   margin-top: 10px;
   position: relative;
-  transform: translate(5vw,-150vh);
+  transform: translate(5vw,-170vh);
   color: black;
   border-radius: 70px;
   clip-path: inset(0 9% 0 0);
