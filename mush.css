@@ -195,7 +195,7 @@ p {
   float: right;
   margin-top: 10px;
   position: relative;
-  transform: translate(5vw,-70vh);
+  transform: translate(5vw,-100vh);
   color: black;
   border-radius: 70px;
   clip-path: inset(0 9% 0 0);
@@ -737,10 +737,10 @@ h11 {
 	width: 20vw;
 	background-color: rgba(255,255,255, 0.6); /* Semi-transparent white */
   backdrop-filter: blur(15px);/* Apply blur to content behind */
-  border-radius: 15px;
+  border-radius: 15px; /* Rounded corners */
+	transform: translateX(-110px);
   flex-direction: column;
 	position: absolute;
-	transform: translateX(-110px);
 	margin: 0;
 	font-weight: 500;
 
