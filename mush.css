@@ -752,6 +752,7 @@ h11 {
 	transform: translateX(-110px);
   flex-direction: column;
 	position: absolute;
+	margin: 0;
 	font-weight: 500;
 
 }
