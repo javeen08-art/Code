@@ -780,7 +780,7 @@ h11 {
  }
 
 
-.s3 a {
+.s3 a, .s4 a {
 	display: block;
 	padding: 10px;
 	font-family: "SF Pro";
@@ -790,15 +790,15 @@ h11 {
 
 }
 
-.s3 a::before {
+.s3 a::before, .s4 a::before {
 	visibility: hidden;
 	display: inline;
 }
 
-.s3 a:hover {
+.s3 a:hover, .s4 a:hover  {
 	background-color: rgba(211,211,211, 0.6);
 }
-.s3 a:hover::before {
+.s3 a:hover::before, .s4 a:hover::before {
 	content:"✓";
 	visibility: visible;
 	display: inline;
