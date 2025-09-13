@@ -448,6 +448,10 @@ h7 {
 	font-family: 'SF Pro';
 }
 
+
+.hover, .buttons input {
+	scale: 1.05;
+}
 .forms{
 	font-size: 20px;
 	font-family: 'IBM Plex Mono';
