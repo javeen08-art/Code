@@ -452,6 +452,9 @@ h7 {
  .buttons input:hover {
 	scale: 1.05;
 }
+
+
+
 .forms{
 	font-size: 20px;
 	font-family: 'IBM Plex Mono';
@@ -1085,6 +1088,9 @@ input {
    	width: 30vw;
 }
 
+input:hover {
+	scale: 1.05;
+}
 
 label {
 	font-family: 'Helvetica';
