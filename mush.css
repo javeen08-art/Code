@@ -243,7 +243,8 @@ p {
 
 .nextbtn {
   position: absolute;
-  top: 0px;
+  top: 0;
+  right: 0;
   z-index: 9999;
   margin-bottom: 150px;
 }
