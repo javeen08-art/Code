@@ -232,7 +232,7 @@ p {
 
 .nextbtn {
   position: relative;
-  top: -10px;
+  top: 0vh;
   float: right;
   right: 7vw;
   z-index: 9999;
