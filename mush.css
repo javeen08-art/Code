@@ -760,12 +760,6 @@ h11 {
 
 }
 
- .nextbtnt3, .s3 {
-		transform: translateX(85vw);
-	
- }
-
-
 .s3 a, .s4 a {
 	display: block;
 	padding: 10px;
