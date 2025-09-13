@@ -234,7 +234,7 @@ p {
   position: relative;
   top: -10vh;
   float: right;
-  right: 3vw;
+  right: 0vw;
   z-index: 9999;
   margin-bottom: 10px;
 }
