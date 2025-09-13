@@ -443,6 +443,10 @@ h7 {
 	}
 }
 
+.buttons input {
+	border-color:#3498DB;
+}
+
 .forms{
 	font-size: 20px;
 	font-family: 'IBM Plex Mono';
