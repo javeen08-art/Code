@@ -740,7 +740,7 @@ h11 {
   border-radius: 15px;
   flex-direction: column;
 	position: absolute;
-	transform: translateX(10vw);
+	transform: translateX(-110vw);
 	margin: 0;
 	font-weight: 500;
 
