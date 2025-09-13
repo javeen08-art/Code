@@ -251,6 +251,10 @@ p {
   margin-bottom: 150px;
 }
 
+.bottom-container {
+	width: 100vw;
+}
+
 .home img {
   width: 130px;
   height: 130px;
