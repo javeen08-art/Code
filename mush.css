@@ -711,7 +711,7 @@ h11 {
 	right: -20vw;
 	display: flex;
 	z-index: 999999999;
-	position: relative;
+	position: absolute;
 }
 .nextbtnt3 {
 	right: 10vw;
