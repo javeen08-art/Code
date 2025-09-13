@@ -767,14 +767,14 @@ h11 {
 	background-color: rgba(255,255,255, 0.6); /* Semi-transparent white */
   backdrop-filter: blur(15px);/* Apply blur to content behind */
   border-radius: 15px; /* Rounded corners */
-	transform: translateX(-110px);
+	transform: translateX(80vw);
   flex-direction: column;
 	font-weight: 500;
 	margin-top: 3vh;
 
 }
 
- .nextbtnt3, .s3, .s4 {
+ .nextbtnt3, .s3 {
 		transform: translateX(85vw);
 	
  }
