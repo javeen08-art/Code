@@ -1410,6 +1410,8 @@ h6 {
 	animation: fqa ease-in-out 1.5s;
 	margin-bottom: 15px;
 	font-weight: 500;
+	display: flex;
+	flex-direction: column;
 }
 
 .texts {
