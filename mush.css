@@ -1418,6 +1418,13 @@ h6 {
 	font-size: 20px;
 }
 
+.side2{
+	width: fit-content;
+	margin: 0;
+	text-align: center;
+	margin-left: 0vw;
+}
+
 .texts {
 	width: 100%;
 	text-align: center;
