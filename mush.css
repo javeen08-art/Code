@@ -1363,7 +1363,7 @@ h15 {
 h6 {
 	font-size: 50px;
 	margin: 0;
-	position: absolute;
+	position: relative;
 	text-align: center;
 	margin-top: 120px;
 	padding-bottom: 70px;
