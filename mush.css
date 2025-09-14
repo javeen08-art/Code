@@ -659,7 +659,7 @@ h2, h6 {
 }
 
 h6 {
-	width: max-content;
+	width: 100vw;
 	height: fit-content;
 	text-align: center;
 	position: relative;
