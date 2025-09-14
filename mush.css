@@ -513,7 +513,7 @@ header img {
 	margin-right: 0;
 }
 
-h2, h11 {
+h2, .quest h4 {
   -webkit-animation: fadeIn ease-in-out 3s;
   -moz-animation: fadeIn ease-in-out 3s;
   -o-animation: fadeIn ease-in-out 3s;
@@ -658,7 +658,7 @@ h2, h11 {
 
 }
 
-h11 {
+.quest h4 {
 	width: max-content;
 	height: fit-content;
 	text-align: center;
