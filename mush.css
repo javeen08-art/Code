@@ -1414,13 +1414,9 @@ h6 {
 	font-weight: 500;
 	display: flex;
 	flex-direction: column;
-	flex-align: center;
+	align-items: center;
 }
 
-.collapsible button {
-	text-align: center;
-	
-}
 .texts {
 	width: 100%;
 	text-align: center;
