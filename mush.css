@@ -1365,6 +1365,7 @@ h15 {
 	text-align: center;
 	justify-content: center;
 	justify-items: center;
+	margin-left: 0;
 }
 h6 {
 	font-size: 50px;
