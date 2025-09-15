@@ -1383,10 +1383,9 @@ h15 {
 		width:7dvw;
 	}
 
-	10% {
+	80% {
 		display: inline;
 	}
-
 	100% {
 		width: 100%;
 	}
