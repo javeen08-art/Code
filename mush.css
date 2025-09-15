@@ -1369,7 +1369,7 @@ h15 {
 }
 
 .quest span {
-	width: 5dvw;
+	width: 7dvw;
 	display: inline; /* <-- Add this */
 	animation: revs ease-in-out 2s forwards;
 	animation-delay: 2s;
