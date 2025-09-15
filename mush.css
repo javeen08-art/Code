@@ -1364,10 +1364,13 @@ h15 {
 .quest {
 	text-align: center;
 	justify-content: center;
+	justify-items: center;
 }
 h6 {
 	font-size: 50px;
 	position: relative;
+	text-align: center;
+	align-content: center;
 	margin-top: 3vh;
 	padding-top: 3vh;
 
