@@ -1373,6 +1373,7 @@ h15 {
 	display: flex;
 	flex-direction: row;
 	align-items: center;
+	text-align: center;
 	animation: revs ease-in-out 2s forwards;
 	animation-delay: 2s;
 
