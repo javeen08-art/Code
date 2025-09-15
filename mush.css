@@ -1372,12 +1372,17 @@ h15 {
 	display: inline-block; /* <-- Add this */
 	animation: revs ease-in-out 2s;
 	overflow: hidden; /* Optional, helps if you're hiding text */
+
 }
 }
 
 @keyframes revs {
 	from {
 		width:0;
+	}
+
+	to {
+		width: 100dvh;
 	}
 }
 
