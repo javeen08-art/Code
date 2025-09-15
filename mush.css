@@ -1370,6 +1370,7 @@ h15 {
 
 .quest span {
 	width: 7dvw;
+	letter-spacing: 100dvw;
 	display: inline-block; /* <-- Add this */
 	animation: revs ease-in-out 3s forwards;
 	animation-delay: 2s;
@@ -1381,7 +1382,6 @@ h15 {
 @keyframes revs {
 	from {
 		width:7dvw;
-		letter-spacing: 100dvw;
 	}
 
 	to {
