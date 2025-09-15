@@ -1364,6 +1364,7 @@ h6 {
 	font-size: 50px;
 	position: relative;
 	text-align: center;
+	display: flex;
 	margin-top: 3vh;
 	padding-top: 3vh;
 
