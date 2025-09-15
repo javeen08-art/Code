@@ -1365,7 +1365,7 @@ h15 {
 	text-align: center;
 	justify-content: center;
 	justify-items: center;
-	margin-left: 0;
+	margin-bottom: 5dvh;
 }
 h6 {
 	font-size: 50px;
@@ -1375,7 +1375,7 @@ h6 {
 	left: 0;
 	align-content: center;
 	margin-top: 30dvh;
-	padding-top: 3vh;
+	padding-top: 3dvh;
 
 
 }
