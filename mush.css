@@ -1371,7 +1371,7 @@ h15 {
 .quest span {
 	width: 7dvw;
 	display: inline-block; /* <-- Add this */
-	animation: revs ease-in-out 2s forwards;
+	animation: revs ease-in-out 3s forwards;
 	animation-delay: 2s;
 	overflow: hidden; /* Optional, helps if you're hiding text */
 
@@ -1381,11 +1381,13 @@ h15 {
 @keyframes revs {
 	from {
 		width:7dvw;
+		letter-spacing: 100dvw;
 	}
 
 	to {
 		width: 100%;
 		display: inline;
+		letter-spacing: normal;
 	}
 }
 
