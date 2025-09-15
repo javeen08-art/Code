@@ -1365,7 +1365,6 @@ h6 {
 	position: relative;
 	text-align: center;
 	display: flex;
-	flex-direction:column;
 	text-align: center;
 	margin-top: 3vh;
 	padding-top: 3vh;
