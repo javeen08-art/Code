@@ -1371,7 +1371,7 @@ h15 {
 .quest span {
 	width: 8dvw;
 	display: inline-block; /* <-- Add this */
-	animation: revs ease-in-out 3s forwards;
+	animation: revs ease-in 3s forwards;
 	animation-delay: 2s;
 	overflow: hidden; /* Optional, helps if you're hiding text */
 
