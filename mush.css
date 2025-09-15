@@ -1379,13 +1379,16 @@ h15 {
 }
 
 @keyframes revs {
-	from {
+	0% {
 		width:8dvw;
 	}
 
-	to {
-		width: 100%;
+	50% {
 		display: inline;
+	}
+
+	100% {
+		width: 100%;
 	}
 }
 
