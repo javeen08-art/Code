@@ -1360,12 +1360,14 @@ h15 {
 
 }
 
+
+.quest {
+	text-align: center;
+	justify-content: center;
+}
 h6 {
 	font-size: 50px;
 	position: relative;
-	text-align: center;
-	display: flex;
-	text-align: center;
 	margin-top: 3vh;
 	padding-top: 3vh;
 
