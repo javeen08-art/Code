@@ -1368,7 +1368,7 @@ h15 {
 	margin-bottom: 10dvh;
 }
 h6 {
-	font-size: 50px;
+	font-size: 50dvh;
 	height: fit-content;
 	position:  relative;
 	text-align: center;
