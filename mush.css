@@ -1369,7 +1369,7 @@ h15 {
 }
 
 .quest span {
-	width: 7.5dvw;
+	width: 7dvw;
 	display: inline-block; /* <-- Add this */
 	animation: revs ease-in 3s forwards;
 	animation-delay: 2s;
@@ -1379,16 +1379,12 @@ h15 {
 
 @keyframes revs {
 	0% {
-		width:7.5dvw;
-	}
-
-	70% {
-		display: inline;
+		width:7dvw;
 	}
 
 	100% {
 		width: 100%;
-		display: inline;
+		display: flex;
 	}
 }
 
