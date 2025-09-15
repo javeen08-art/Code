@@ -1372,7 +1372,7 @@ h6 {
 	height: fit-content;
 	position:  relative;
 	text-align: center;
-	left: 0;
+	left: -5dvh;
 	align-content: center;
 	margin-top: 0dvh;
 	padding-top: 5dvh;
