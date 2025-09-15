@@ -1374,9 +1374,13 @@ h15 {
 
 @keyframes revs {
 	from {
-		width: 0;
+		width:0;
+	}
+	to {
+		width: 100%;
 	}
 }
+
 h6 {
 	font-size: 50px;
 	height: fit-content;
