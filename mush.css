@@ -1373,6 +1373,7 @@ h15 {
 	display: inline-block; /* <-- Add this */
 	animation: revs ease-in-out 2s forwards;
 	animation-delay: 2s;
+	overflow: hidden; /* Optional, helps if you're hiding text */
 
 }
 }
