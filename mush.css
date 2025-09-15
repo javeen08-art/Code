@@ -1368,7 +1368,7 @@ h15 {
 	margin-bottom: 4dvh;
 }
 
-h6 span {
+.quest span{
 	animation: rev ease-in-out 2s;
 }
 h6 {
