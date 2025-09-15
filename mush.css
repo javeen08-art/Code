@@ -1370,11 +1370,11 @@ h15 {
 
 .quest span {
 	width: 5%;
+	animation: revs ease-in-out 2s forwards;
 	display:inline-block;
 	flex-direction: row;
 	align-items: center;
 	text-align: center;
-	animation: revs ease-in-out 2s forwards;
 	animation-delay: 2s;
 
 }
