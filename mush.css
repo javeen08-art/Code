@@ -1367,14 +1367,13 @@ h15 {
 	justify-items: center;
 }
 h6 {
-	font-size: 50px;
-	position: relative;
+width: 100vw;
+	height: fit-content;
 	text-align: center;
-	left: 0;
-	align-content: center;
-	margin-top: 3vh;
-	padding-top: 3vh;
-
+	position: relative;
+	font-family: 'SF Pro';
+	font-weight: 500;
+	font-size: 30px;
 
 }
 
