@@ -1365,6 +1365,7 @@ h15 {
 	text-align: center;
 	justify-content: center;
 	justify-items: center;
+	margin-top: 0;
 }
 h6 {
 	width: 100vw;
@@ -1374,6 +1375,7 @@ h6 {
 	font-family: 'SF Pro';
 	font-weight: 500;
 	font-size: 50px;
+
 
 }
 
