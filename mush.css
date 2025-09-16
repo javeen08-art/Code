@@ -1214,7 +1214,7 @@ font-family: 'IBM Plex Mono';
   from {bottom: 0; opacity: 0;}
   to {bottom: 30px; opacity: 1;}
 }
-@media(max-width: 50vw) {
+@media(max-width: 500px) {
   .bottom, .row,.row2,.sub,.contacts,.row3,.faqqs,#faqs,.faq,.messagess{
     flex-direction: column;
       }
