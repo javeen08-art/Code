@@ -1382,7 +1382,7 @@ h6 {
 	position:  relative;
 	text-align: center;
 	left: -10dvh;
-	vertical-align: middle;
+	vertical-align: baseline;
 	align-content: center;
 	margin-top: 0dvh;
 	padding-top: 5dvh;
