@@ -1371,13 +1371,13 @@ h15 {
 
 h6 {
 	width: 0;
-	display: inline-block;
+	display: inline;
 	animation: revs ease-in 3s forwards;
 	animation-delay: 2s;
 	overflow: hidden;
 	font-size: 50px;
 	height: fit-content;
-	position:  relative;
+	position:  absolute;
 	text-align: center;
 	left: -10dvh;
 	align-content: center;
