@@ -1366,31 +1366,15 @@ h15 {
 	justify-content: center;
 	justify-items: center;
 	margin-bottom: 4dvh;
+	font-size: 50px;
 }
 
 .quest span {
-	width: 7dvw;
+	width: 0;
 	display: inline-block;
 	animation: revs ease-in 3s forwards;
 	animation-delay: 2s;
 	overflow: hidden;
-}
-
-@keyframes revs {
-	0% {
-		width:7dvw;
-	}
-
-	80% {
-		display: inline;
-	}
-	100% {
-		width: 100%;
-		display: inline;
-	}
-}
-
-.quest span{
 	font-size: 50px;
 	height: fit-content;
 	position:  relative;
@@ -1402,6 +1386,23 @@ h15 {
 
 
 }
+}
+
+
+@keyframes revs {
+	0% {
+		width:0;
+	}
+
+	80% {
+		display: inline;
+	}
+	100% {
+		width: 100%;
+		display: inline;
+	}
+}
+
 
 
 #faqs {
