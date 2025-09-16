@@ -1363,6 +1363,7 @@ h15 {
 
 .quest {
 	text-align: center;
+	display: inline;
 	justify-content: center;
 	justify-items: center;
 	margin-bottom: 4dvh;
@@ -1371,6 +1372,8 @@ h15 {
 
 h6 {
 	width: 0;
+	display: inline-block;
+	animation: revs ease-in 3s forwards;
 	display: inline;
 	animation-delay: 2s;
 	overflow: hidden;
