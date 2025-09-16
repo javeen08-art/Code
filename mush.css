@@ -1393,7 +1393,7 @@ h6 {
 	overflow: hidden;
 	font-size: 50px;
 	height: fit-content;
-	position:  relative;
+	position:  absolute;
 	text-align: center;
 	left: -10dvh;
 	align-content: center;
