@@ -1392,7 +1392,7 @@ h15 {
 	}
 }
 
-h6 {
+.quest span{
 	font-size: 50px;
 	height: fit-content;
 	position:  relative;
