@@ -1363,6 +1363,7 @@ h15 {
 
 .quest {
 	text-align: center;
+	display: inline;
 	justify-content: center;
 	justify-items: center;
 	margin-bottom: 4dvh;
