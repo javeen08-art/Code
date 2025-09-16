@@ -1369,6 +1369,22 @@ h15 {
 	font-size: 50px;
 }
 
+h6 {
+	width: 0;
+	display: inline-block;
+	animation: revs ease-in 3s forwards;
+	animation-delay: 2s;
+	overflow: hidden;
+	font-size: 50px;
+	height: fit-content;
+	position:  relative;
+	text-align: center;
+	left: -10dvh;
+	align-content: center;
+	margin-top: 0dvh;
+	padding-top: 5dvh;
+}
+
 .quest span {
 	width: 0;
 	display: inline-block;
