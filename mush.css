@@ -1374,8 +1374,6 @@ h15 {
 	animation: revs ease-in 3s forwards;
 	animation-delay: 2s;
 	overflow: hidden;
-
-}
 }
 
 @keyframes revs {
@@ -1667,7 +1665,7 @@ h3 {
 	margin: 0;
 	
 }
-.words{
+.words {
 	display: flex;
 	flex-direction: row;
 	align-items:flex-start;
@@ -1681,6 +1679,7 @@ h3 {
 	padding-left: 0;
 	padding-right: 0;
 }
+
 .smallm {
 	display: block;
 }
@@ -1696,8 +1695,7 @@ h3 {
 	transition: transform 1s ease-in-out;
 	margin: 0;
 	padding: 0;
-
-  }
+}
 
   button {
 	color: black;
