@@ -1391,6 +1391,7 @@ h6 {
 .quest span {
 	width: 0;
 	display: inline-block;
+	vertical-align: middle;
 	animation: revs ease-in 3s forwards;
 	animation-delay: 2s;
 	overflow: hidden;
