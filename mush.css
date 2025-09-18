@@ -1362,9 +1362,9 @@ h15 {
 
 
 h6 {
-	letter-spacing: 100vw;
 	width:100dvw;
 	position:  relative;
+	animation: revs ease-in-out 2s forwards;
 	display: inline-block;
 	overflow: hidden;
 	font-size: 50px;
