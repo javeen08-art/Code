@@ -1381,7 +1381,7 @@ h6 {
 
 @keyframes revs {
 	0% {
-		letter-spacing: 100vw;
+		letter-spacing: 50vw;
 	}
 	100% {
 		letter-spacing: initial;
