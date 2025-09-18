@@ -1370,6 +1370,7 @@ h6 {
 	font-size: 50px;
 	margin-top: 0dvh;
 	padding-top: 5dvh;
+	left: -10dvw;
   box-sizing: border-box;
   border: 4px solid black;
 }
