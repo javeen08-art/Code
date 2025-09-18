@@ -1361,15 +1361,6 @@ h15 {
 }
 
 
-.quest {
-	text-align: center;
-	display: inline;
-	justify-content: center;
-	justify-items: center;
-	margin-bottom: 4dvh;
-	font-size: 50px;
-}
-
 h6 {
 	width: 0;
 	display: inline-block;
