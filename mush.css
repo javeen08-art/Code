@@ -1371,7 +1371,7 @@ h6 {
 	font-size: 50px;
 	margin-top: 0dvh;
 	padding-top: 5dvh;
-	text-wrap: nowrap;
+	text-wrap: balance;
 }
 
 
