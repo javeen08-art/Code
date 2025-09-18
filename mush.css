@@ -1363,8 +1363,8 @@ h15 {
 
 h6 {
 	width: 0;
-	display: inline-block;
 	position:  relative;
+	animation: revs ease-in 3s forwards;
 	animation-delay: 2s;
 	overflow: hidden;
 	font-size: 50px;
@@ -1373,10 +1373,6 @@ h6 {
 	align-content: center;
 	margin-top: 0dvh;
 	padding-top: 5dvh;
-}
-
-.quest {
-	animation: revs ease-in 3s forwards;
 }
 
 
