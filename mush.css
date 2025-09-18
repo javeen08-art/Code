@@ -1363,7 +1363,7 @@ h15 {
 
 h6 {
 	width: 0;
-	position:  relative;
+	position: absolute;
 	display: inline-block;
 	text-align: center;
 	animation: revs ease-in-out 3s forwards;
