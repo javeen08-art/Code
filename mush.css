@@ -1364,7 +1364,7 @@ h15 {
 h6 {
 	width:100dvw;
 	position:  relative;
-	animation: revs ease-in 3s forwards;
+	animation: revs ease-in-out 3s forwards;
 	display: inline-block;
 	overflow: hidden;
 	font-size: 50px;
