@@ -1364,7 +1364,7 @@ h15 {
 h6 {
 	width:100dvw;
 	position:  relative;
-	animation: revs ease-in-out 2s forwards;
+	animation: revs ease-in 1s forwards;
 	display: inline-block;
 	overflow: hidden;
 	font-size: 50px;
@@ -1381,7 +1381,7 @@ h6 {
 
 @keyframes revs {
 	0% {
-		letter-spacing: 50vw;
+		letter-spacing: 100vw;
 	}
 	100% {
 		letter-spacing: initial;
