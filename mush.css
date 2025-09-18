@@ -1384,7 +1384,7 @@ h6 {
 		letter-spacing: 100vw;
 	}
 	100% {
-		letter-spacing: 0;
+		letter-spacing: initial;
 		text-align: center;
 		padding-left: 0 auto;
 		padding-right: 0 auto;
