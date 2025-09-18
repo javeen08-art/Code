@@ -1363,6 +1363,7 @@ h15 {
 
 h6 {
 	width: 0;
+	display: inline;
 	position:  relative;
 	animation-delay: 2s;
 	overflow: hidden;
