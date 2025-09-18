@@ -1362,6 +1362,7 @@ h15 {
 
 
 h6 {
+	letter-spacing: 100vw;
 	width:100dvw;
 	position:  relative;
 	display: inline-block;
