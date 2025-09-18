@@ -1383,10 +1383,6 @@ h6 {
 	0% {
 		width:0;
 	}
-
-	80% {
-		display: inline;
-	}
 	100% {
 		width: 100%;
 		display: inline;
