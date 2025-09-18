@@ -1362,6 +1362,7 @@ h15 {
 
 
 h6 {
+	width:100dvw;
 	position:  relative;
 	display: inline;
 	overflow: hidden;
