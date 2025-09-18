@@ -1383,6 +1383,10 @@ h6 {
 	100% {
 		width: 100dvw;
 		text-align: center;
+		padding-left: 0 auto;
+		padding-right: 0 auto;
+		margin-left: 0 auto;
+		margin-right: 0 auto;
 	}
 }
 
