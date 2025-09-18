@@ -1386,7 +1386,6 @@ h6 {
 
 	50% {
 		letter-spacing: -20vw;
-		overflow: visible;
 	}
 	100% {
 		letter-spacing: initial;
