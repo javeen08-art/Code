@@ -1380,10 +1380,10 @@ h6 {
 
 @keyframes revs {
 	0% {
-		width:0;
+		letter-spacing: 100vw;
 	}
 	100% {
-		width: 100dvw;
+		letter-spacing: initial;
 		text-align: center;
 		padding-left: 0 auto;
 		padding-right: 0 auto;
