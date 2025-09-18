@@ -1383,6 +1383,10 @@ h6 {
 	0% {
 		letter-spacing: 100vw;
 	}
+
+	50% {
+		letter-spacing: -20vw;
+	}
 	100% {
 		letter-spacing: initial;
 		text-align: center;
