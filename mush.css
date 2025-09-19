@@ -705,7 +705,7 @@ h6 {
 }
 .nextbtnt3 {
 	right: 10vw;
-	position: relative;
+	position: absolute;
 	text-align: right;
 	z-index: 999999999;
 	margin: 0;
