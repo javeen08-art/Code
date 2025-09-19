@@ -1410,6 +1410,9 @@ h6 {
 	margin-right: 0;
 
 }
+.resize {
+	display: none;
+}
 
 .faqqs {
 	position: absolute;
@@ -1697,8 +1700,15 @@ h3 {
 
   .smallmnu {
 	display:flex;
+
   }
 
+  .resize {
+	display: block;
+  }
+.resize:checked +label {
+	left:0;
+}
 
 body {
 	overflow: visible;
