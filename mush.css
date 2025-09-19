@@ -1210,10 +1210,6 @@ font-family: 'IBM Plex Mono';
 
 }
 
-.re {
-	display: none;
-	left: 0;
-}
 @keyframes fadein {
   from {bottom: 0; opacity: 0;}
   to {bottom: 30px; opacity: 1;}
@@ -1706,24 +1702,6 @@ h3 {
 	display:flex;
 
   }
-
-  .resize {
-	display: block;
-	position: absolute;
-	z-index: 999999;
-	right: 5dvw;
-  }
-
-  .resize label {
-    padding: 10px 20px;
-    background-color: #007bff;
-    color: #fff;
-    cursor: pointer;
-    position: absolute;
-left:50px;
-    transition: all 0.3s ease;
-  }
-
 
 body {
 	overflow: visible;
