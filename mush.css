@@ -1212,6 +1212,7 @@ font-family: 'IBM Plex Mono';
 
 .re {
 	display: none;
+	left: 0;
 }
 @keyframes fadein {
   from {bottom: 0; opacity: 0;}
