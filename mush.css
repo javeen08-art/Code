@@ -1709,6 +1709,19 @@ h3 {
 	z-index: 999999;
 	right: 5dvw;
   }
+
+  .resize label {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    position: absolute;
+    top: 50px;
+    /* Default position: right side */
+    right: 50px;
+    transition: all 0.3s ease;
+  }
+
 .resize:checked +label {
 	left:0;
 }
