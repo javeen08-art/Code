@@ -1722,7 +1722,7 @@ left:50px;
     transition: all 0.3s ease;
   }
 
-.resize:checked +label {
+#toggle:checked +label {
 	left:0;
 }
 
