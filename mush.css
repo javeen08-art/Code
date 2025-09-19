@@ -1705,6 +1705,8 @@ h3 {
 
   .resize {
 	display: block;
+	position: absolute;
+	z-index: 999999;
   }
 .resize:checked +label {
 	left:0;
