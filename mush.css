@@ -1718,7 +1718,7 @@ h3 {
     position: absolute;
     top: 50px;
     /* Default position: right side */
-    right: 50px;
+left:50px;
     transition: all 0.3s ease;
   }
 
