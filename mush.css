@@ -1722,7 +1722,7 @@ left:50px;
     transition: all 0.3s ease;
   }
 
-#toggle:checked +label {
+#toggle:checked +label, body {
 	left:0;
 }
 
