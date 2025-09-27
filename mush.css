@@ -328,7 +328,7 @@ h5 {
 
 .wk {
 	text-align: center;
-	left: 50dvw;
+	position: absolute;
 	
 }
 .sub {
