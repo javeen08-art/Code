@@ -325,7 +325,9 @@ h5 {
 	font-weight: 500;
 	margin-bottom: 0;
 }
-
+.wk {
+	text-align: center;
+}
 .sub {
 	color: black;
 	padding-top: 30px;
