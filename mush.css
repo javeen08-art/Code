@@ -1370,7 +1370,6 @@ h15 {
 h6 {
 	width:100dvw;
 	position:  relative;
-	animation: revs ease-in-out 3s forwards;
 	display: inline-block;
 	overflow: hidden;
 	font-size: 50px;
@@ -1385,26 +1384,6 @@ h6 {
 		margin-bottom: 0;
 		padding-bottom: 0;
 }
-
-
-@keyframes revs {
-	0% {
-		letter-spacing: 100vw;
-	}
-
-	50% {
-		letter-spacing: -20vw;
-	}
-	100% {
-		letter-spacing: initial;
-		text-align: center;
-		padding-left: 0 auto;
-		padding-right: 0 auto;
-		margin-left: 0 auto;
-		margin-right: 0 auto;
-	}
-}
-
 
 
 #faqs {
