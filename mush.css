@@ -1369,15 +1369,13 @@ h15 {
 
 
 h6 {
-	width:100%;
+	width:70%;
 	text-align: center;
 	position:  relative;
 	display: block;
 	overflow: hidden;
 	font-size: 30px;
 	padding: 5dvh 0dvw 0dvh 0dvw;
-	margin:  inherit 10dvw 0dvh 10vw;
-
 }
 
 .quest {
