@@ -1375,10 +1375,12 @@ h6 {
 	overflow: hidden;
 	font-size: 30px;
 	padding-top: 5dvh;
-	text-align: center;
+
 }
 
-
+.quest {
+	text-align: center;
+}
 
 
 
