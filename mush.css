@@ -1369,18 +1369,18 @@ h15 {
 
 
 h6 {
-	width:70%;
+	width:100%;
+	text-align: center;
 	position:  relative;
 	display: block;
 	overflow: hidden;
-	font-size: 30px;
 	padding-top: 5dvh;
 
 }
 
 .quest {
-	width: 100%;
-	text-align: center;
+	width: 100dvw;
+
 
 }
 
