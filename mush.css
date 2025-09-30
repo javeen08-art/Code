@@ -1375,8 +1375,8 @@ h6 {
 	display: block;
 	overflow: hidden;
 	font-size: 30px;
-	padding: 5dvh 0dvw 0dvh 0dvw;
-	margin: 0 5dvh;
+	padding-top: 5dvh;
+	margin: 0 auto;
 }
 
 .quest {
