@@ -1380,7 +1380,8 @@ h6 {
 
 .quest {
 	width: 70%;
-	justify-content: center;
+	display: flex;
+	align-items: center;
 }
 
 
