@@ -1374,7 +1374,8 @@ h6 {
 	position:  relative;
 	display: block;
 	overflow: hidden;
-	padding-top: 5dvh;
+	font-size: 30px;
+	padding: 5dvh 3dvw 0dvh 5vw;
 
 }
 
