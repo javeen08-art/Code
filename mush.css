@@ -1375,7 +1375,8 @@ h6 {
 	display: block;
 	overflow: hidden;
 	font-size: 30px;
-	padding: 5dvh 3dvw 0dvh 5vw;
+	padding: 5dvh 0dvw 0dvh 0dvw;
+	margin:  auto 3dvw 0dvh 5vw;;
 
 }
 
