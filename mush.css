@@ -1275,7 +1275,7 @@ font-family: 'IBM Plex Mono';
  .bottom p{
   	margin-top: -30px;
   	margin-bottom: -30px;
-  	font-size: 15px;
+  	font-size: 10px;
   	text-align: center;
   	width: fit-content;
 	line-height: 20px;
@@ -1296,7 +1296,7 @@ font-family: 'IBM Plex Mono';
 h4 {
 	text-align: center;
 	margin: auto;
-	font-size: 20px;
+	font-size: 30px;
 }
 
 #faqs {
