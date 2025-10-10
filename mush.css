@@ -717,6 +717,14 @@ h6 {
 	margin: 0;
 }
 
+.nextbtn4 {
+	float: right;
+	right: 3vw;
+	text-align: right;
+	z-index: 999999999;
+	position: absolute;
+}
+
 .starts2 {
 	font-family: 'SF Pro';
 	background-color: white;
