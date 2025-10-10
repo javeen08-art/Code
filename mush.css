@@ -1296,7 +1296,7 @@ font-family: 'IBM Plex Mono';
 h4 {
 	text-align: center;
 	margin: auto;
-	font-size: 30px;
+	font-size: 20px;
 }
 
 #faqs {
@@ -1518,7 +1518,7 @@ h3 {
 	display: none;
 }
 
-.nextbtn,.nextbtnt,.nextbtnt2,.nextbtnt3 {
+.nextbtn,.nextbtnt,.nextbtnt2,.nextbtnt3, .nextbtn4 {
 	display: none;
 }
 
