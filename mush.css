@@ -601,7 +601,7 @@ h2, h6 {
 }
 
 .h {
-	max-height: 0;
+	max-height: none;
 	overflow: hidden;
 	transition:  max-height 1.5s ease;
 	background-color: gainsboro;
