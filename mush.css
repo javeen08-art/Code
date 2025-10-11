@@ -1381,6 +1381,7 @@ h6 {
 	position:  absolute;
 	display: block;
 	font-size: 30px;
+	padding: 0 auto;
 	padding-top: 10dvh;
 	margin: 0 auto;
 	margin-top: 10dvh;
@@ -1392,8 +1393,6 @@ h6 {
 	margin-top: 7dvh;
 	text-align: center;
 	margin: 0 auto;
-	padding: 0 auto;
-
 
 
 }
