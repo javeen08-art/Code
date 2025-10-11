@@ -1008,6 +1008,7 @@ background-color: white; /* Semi-transparent white */
 	margin-bottom: 0;
 	border-bottom: 0.5px solid black;
 	padding: 0 0 10px 0;
+	padding-bottom: 0;
 
 }
 
