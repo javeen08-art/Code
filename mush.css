@@ -1003,7 +1003,7 @@ background-color: white; /* Semi-transparent white */
 	flex-direction: row;
 	align-items: center;
 	text-align: center;
-	z-index: 1000000;
+	z-index: 1000000
 	display: none;
 	margin-bottom: 0;
 	border-bottom: 0.5px solid black;
@@ -1413,7 +1413,7 @@ h6 {
 }
 
 .faqqs {
-	position: absolute;
+	position: relative;
 	text-align: left;
 	scale: 0.85;
 	width: fit-content;
