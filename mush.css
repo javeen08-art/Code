@@ -1379,7 +1379,7 @@ h15 {
 h6 {
 	width:70%;
 	text-align: center;
-	position:  relative;
+	position:  absolute;
 	display: block;
 	overflow: hidden;
 	font-size: 30px;
@@ -1390,8 +1390,6 @@ h6 {
 
 .quest {
 	width: 100dvw;
-
-
 }
 
 
