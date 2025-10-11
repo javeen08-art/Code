@@ -1412,6 +1412,7 @@ h6 {
 .faqqs {
 	position: absolute;
 	text-align: left;
+	margin-top: 10vh;
 	scale: 0.85;
 	width: fit-content;
 	padding: 0 auto;
