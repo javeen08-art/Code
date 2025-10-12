@@ -915,6 +915,9 @@ display: block; /* make sure they are block elements to align left */
 
 .trans {
 	border-left: black;
+	width: 100%;
+	height: 100%;
+	z-index: 9999999;
 }
 
 .q {
