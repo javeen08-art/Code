@@ -259,15 +259,11 @@ if (form) {
   });
 }
 
-  const transElement = document.querySelector('.trans');
+const transElement = document.querySelector('.trans');
 
-  // Trigger fade out
-  transElement.classList.add('fade-out');
-
-  // When transition ends, hide the element
-  transElement.addEventListener('transitionend', () => {
-    transElement.style.display = 'none';
-  });
+transElement.addEventListener('animationend', () => {
+  transElement.style.display = 'none';
+});
 </script>
 
 
