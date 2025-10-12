@@ -927,7 +927,7 @@ display: block; /* make sure they are block elements to align left */
 	}
 
 	to {
-		background-color: none;
+		background-color: transparent;
 		display: none;
 	}
 }
