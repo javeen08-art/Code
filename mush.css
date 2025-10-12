@@ -930,7 +930,6 @@ display: block; /* make sure they are block elements to align left */
 	to {
 		opacity: 0;
 		background-color: none;
-		display: none;
 	}
 }
 
