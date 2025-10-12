@@ -906,6 +906,7 @@ display: block; /* make sure they are block elements to align left */
 	height: 100vh;
 	z-index: 99999999999999999999999999999;
 	animation: sq ease-in-out 2s forwards;
+	animation: bd ease-out 3s forwards;
 
 }
 
