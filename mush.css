@@ -920,7 +920,6 @@ display: block; /* make sure they are block elements to align left */
 from { width:100vw;
 }
 to {width:0;
-	border: 0;
 }
 }
 
