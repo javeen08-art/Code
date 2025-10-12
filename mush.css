@@ -204,16 +204,6 @@ p {
 
 .pi {
 	position: relative;
-	animation: bgimg 2s;
-}
-@keyframes bgimg {
-	from {
-		scale:5;
-	}
-
-	to {
-		scale:1;
-	}
 }
 
 .home {
