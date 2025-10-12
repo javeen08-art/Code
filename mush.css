@@ -883,8 +883,8 @@ display: block; /* make sure they are block elements to align left */
 	padding: 0;
 	width: 100vw;
 	height: 100vh;
-	z-index: 9999;
-	animation: fk ease-in-out 1.5s;
+	z-index: 999;
+	animation: fk ease-in-out 1.5s forwards;
 	animation-delay: 1.3s;
 
 
