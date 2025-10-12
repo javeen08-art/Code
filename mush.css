@@ -922,9 +922,11 @@ display: block; /* make sure they are block elements to align left */
 @keyframes fk{
 	from {
 		background-color:rgba(255,255,255, 1);
+		opacity: 1;
 	}
 
 	to {
+		opacity: 0;
 		background-color: none;
 		display: none;
 	}
