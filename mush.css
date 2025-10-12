@@ -497,6 +497,75 @@ h7 {
  
 }
 
+/* Animation for printing text */
+@keyframes printText {
+  0% {
+    width: 0;
+    border-right: 3px solid black;
+  }
+  100% {
+    width: 100%;
+    border-right: none;
+  }
+}
+
+/* Apply the printing effect to all text elements */
+.serv, p, h5 {
+  display: inline-block;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid black;  /* Simulating the printing cursor */
+  animation: printText 4s steps(40) 1s forwards; /* Adjust time and steps */
+}
+
+/* Fade-in effect for images */
+.texts img {
+  opacity: 0;
+  animation: fadeIn 2s ease-in-out 1.5s forwards;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* Slide-in effect for divs (rows and content) */
+.row, .row2 {
+  opacity: 0;
+  transform: translateX(-100%);
+  animation: slideIn 2s ease-out 1s forwards; /* Add delay to stagger the animation */
+}
+
+@keyframes slideIn {
+  0% {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* Add a smooth fade-in effect for other elements */
+.sub h5 {
+  opacity: 0;
+  animation: fadeInSub 2s ease-in-out 4s forwards;
+}
+
+@keyframes fadeInSub {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 @keyframes bg {
 	from {
 		background-color: white;
