@@ -391,6 +391,12 @@ background-color: rgba(245, 245, 245, 0.5);
 
 }
 
+.transition {
+	position: absolute;
+	width: 50%;
+	height: 50%;
+}
+
 
 
 h7 {
