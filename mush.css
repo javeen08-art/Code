@@ -896,7 +896,7 @@ display: block; /* make sure they are block elements to align left */
 }
 
 .trans {
-	position: relative;
+	position: absolute;
 	background-color: rgba(255,255,255, 0.9);
 	margin:0;
 	top:0;
@@ -910,7 +910,7 @@ display: block; /* make sure they are block elements to align left */
 }
 
 .trans img {
-	position: absolute;
+	position: relative;
 	text-align: center;
 	top: 50%;
 	left: 50%;
