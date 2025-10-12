@@ -918,10 +918,9 @@ display: block; /* make sure they are block elements to align left */
 
 @keyframes sq {
 from { width:100vw;
-	border: 100%;
 }
 to {width:0;
-	border:0.0001vw;
+	border: 0;
 }
 }
 
