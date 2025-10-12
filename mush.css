@@ -896,7 +896,7 @@ display: block; /* make sure they are block elements to align left */
 }
 
 .trans {
-	border-right: 10px black;
+	border-right: 10px solid black;
 	position: absolute;
 	margin:0;
 	top:0;
