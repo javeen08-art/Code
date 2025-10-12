@@ -912,8 +912,8 @@ display: block; /* make sure they are block elements to align left */
 
 
 @keyframes sq {
-from { left:0}
-to {left:100%}
+from { width:100vw}
+to {width:0}
 }
 
 .q {
