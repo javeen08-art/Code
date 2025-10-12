@@ -1241,7 +1241,7 @@ font-family: 'IBM Plex Mono';
   }
 .bottom{
 	width: 100%;
-	height: fit-content;
+	height: 100vh;
 	position:flex;
 	justify-content: center;
 	align-items: center;
