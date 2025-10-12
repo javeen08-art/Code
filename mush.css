@@ -898,15 +898,16 @@ display: block; /* make sure they are block elements to align left */
 .trans {
 	border-left: black;
 	position: absolute;
-	font-size: 10vw;
-	border-width: 5vw;
 	width: 100vw;
 	height: 100vh;
 	z-index: 9999999;
 
 }
 
-
+.trans img {
+	width: 100vw;
+	height: 100vh;
+}
 
 
 @keyframes sq {
