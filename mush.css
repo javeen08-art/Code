@@ -903,7 +903,7 @@ display: block; /* make sure they are block elements to align left */
 	width: 100%;
 	height: 100%;
 	z-index: 9999999;
-	animation: sq 2s ease-in-out;
+
 }
 
 
