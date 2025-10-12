@@ -884,7 +884,6 @@ display: block; /* make sure they are block elements to align left */
 	width: 100vw;
 	height: 100vh;
 	z-index: 99999999999999999999999999999;
-	animation: fk ease-in-out 1.5s forwards;
 
 
 }
