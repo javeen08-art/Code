@@ -884,8 +884,8 @@ display: block; /* make sure they are block elements to align left */
 	width: 100vw;
 	height: 100vh;
 	z-index: 999;
-	animation: fk ease-in-out 1s forwards;
-	animation-delay: 1s;
+	animation: fk ease-in-out 1.5s forwards;
+	animation-delay: 1.5s;
 
 
 }
@@ -896,7 +896,7 @@ display: block; /* make sure they are block elements to align left */
 	margin-top: 20%;
 	width: 10%;
 	height: 15%;
-	animation: sq ease-in-out 1s forwards;
+	animation: sq ease-in-out 1.5s forwards;
 }
 
 
