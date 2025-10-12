@@ -1242,7 +1242,8 @@ font-family: 'IBM Plex Mono';
 .bottom{
 	width: 100%;
 	height: fit-content;
-	position:relative;
+	position:flex;
+	justify-content: center;
 	margin: 0;
 	padding: 0;
 	padding-top: 100px;
@@ -1279,10 +1280,6 @@ font-family: 'IBM Plex Mono';
   	text-align: center;
   	font-size: 105%;
 	line-height:100%;
-	padding-left: 0;
-	padding-right: 0;
-	margin-left: 0;
-	margin-right: 0;
   }
 
   #bottoms {
