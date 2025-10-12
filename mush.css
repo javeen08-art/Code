@@ -1243,11 +1243,14 @@ font-family: 'IBM Plex Mono';
 	width: 100%;
 	height: fit-content;
 	position:relative;
-	margin: 0 auto;
-	padding: 0 auto;
+	margin: 0;
+	padding: 0;
 	padding-top: 100px;
 	margin-bottom: 200px;
-
+	padding-left: 0;
+	padding-right: 0;
+	margin-left: 0;
+	margin-right: 0;
 
 }
 
