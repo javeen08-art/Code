@@ -899,9 +899,6 @@ display: block; /* make sure they are block elements to align left */
 	animation: sq ease-in-out 1.5s forwards;
 }
 
-.trans.fade-out {
-  opacity: 0;
-}
 
 @keyframes sq {
 0% {
