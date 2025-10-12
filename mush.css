@@ -1276,10 +1276,12 @@ font-family: 'IBM Plex Mono';
   	margin-top: -5vh;
 	width: 85%;
   	text-align: center;
-	padding: 0 auto;
-	margin: 0 auto;
   	font-size: 105%;
 	line-height:100%;
+	padding-left: 0;
+	padding-right: 0;
+	margin-left: 0;
+	margin-right: 0;
   }
 
   #bottoms {
