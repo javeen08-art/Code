@@ -430,7 +430,7 @@ background-color: rgba(245, 245, 245, 0.5);
   /* Typing animation */
   @keyframes typing {
     from { width: 0 }
-	to {width:100}
+	to {width:100%}
   }
     
 
