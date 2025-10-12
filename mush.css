@@ -921,7 +921,7 @@ from { width:100vw;
 	border: 100%;
 }
 to {width:0;
-	border:0%;
+	border:0vw;
 }
 }
 
