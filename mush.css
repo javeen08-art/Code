@@ -912,8 +912,8 @@ display: block; /* make sure they are block elements to align left */
 .trans img {
 	position: absolute;
 	text-align: center;
-	left: 50vw;
-	right: 50vw;
+	padding: 0 auto;
+	margin: 0 auto;
 	width: 50%;
 	height: 50%;
 }
