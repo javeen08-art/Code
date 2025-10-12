@@ -923,6 +923,16 @@ to {width:0;
 }
 }
 
+@keyframes bd {
+	from {
+		width:100%
+	}
+
+	to {
+		width: 0;
+	}
+}
+
 .q {
 	transform: translate(10vw,40vh);
 	margin-top: -60px;
