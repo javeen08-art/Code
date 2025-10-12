@@ -1274,6 +1274,7 @@ font-family: 'IBM Plex Mono';
 
  .bottom p{
   	margin-top: -5vh;
+	width: 110%;
   	font-size: 100%;
   	text-align: center;
   	width: fit-content;
