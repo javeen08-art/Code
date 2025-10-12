@@ -189,6 +189,12 @@ if (form) {
   });
 }
 
+const transElement = document.querySelector('.trans');
+
+transElement.addEventListener('animationend', () => {
+  transElement.style.display = 'none';
+});
+
 </script>
 
 </html>
