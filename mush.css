@@ -913,6 +913,10 @@ display: block; /* make sure they are block elements to align left */
 	margin:0;
 }
 
+.trans {
+	border-left: black;
+}
+
 .q {
 	transform: translate(10vw,40vh);
 	margin-top: -60px;
