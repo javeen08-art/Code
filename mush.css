@@ -938,6 +938,7 @@ display: block; /* make sure they are block elements to align left */
 
 100% {
 	opacity: 0;
+	display: none;
 }
 }
 
