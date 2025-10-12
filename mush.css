@@ -913,7 +913,7 @@ display: block; /* make sure they are block elements to align left */
 .trans img {
 	position: relative;
 	text-align: center;
-	top: 70%;
+	top: 50%;
 	width: 10%;
 	height: 15%;
 }
