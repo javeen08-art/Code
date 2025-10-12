@@ -1244,6 +1244,7 @@ font-family: 'IBM Plex Mono';
 	height: fit-content;
 	position:flex;
 	justify-content: center;
+	align-items: center;
 	margin: 0;
 	padding: 0;
 	padding-top: 100px;
