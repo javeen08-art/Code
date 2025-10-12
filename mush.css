@@ -908,19 +908,8 @@ display: block; /* make sure they are block elements to align left */
 
 
 @keyframes sq {
-	0% {
-		right: -100vw;
-		margin-left: 50vw;
-	}
-	50% {
-		right: 0;
-		margin-left: -10vw;
-	}
-
-	100% {
-		right: 1vw;
-
-	}
+from { left:0}
+to {left:100%}
 }
 
 .q {
