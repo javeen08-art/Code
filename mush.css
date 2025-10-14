@@ -1493,6 +1493,9 @@ h6 {
 
 .trans img {
 	margin-top: 50%;
+	width: 30%;
+	height: 35%;
+	animation: sq ease-in-out 1.5s forwards;
 
 }
 
