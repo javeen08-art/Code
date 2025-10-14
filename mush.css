@@ -1117,6 +1117,8 @@ background-color: white; /* Semi-transparent white */
 
 .no-scroll {
   overflow: hidden;
+  position: fixed; 
+  width: 100%;
 }
 input {
 	background-color: rgba(255, 255, 255, 1); /* Semi-transparent white */
