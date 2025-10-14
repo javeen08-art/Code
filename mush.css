@@ -1318,6 +1318,8 @@ font-family: 'IBM Plex Mono';
 	line-height:100%;
 	padding: 0 auto;
 	margin: 0 auto;
+	padding-left: 25%;
+
   }
 
   #bottoms {
