@@ -873,7 +873,7 @@ display: block; /* make sure they are block elements to align left */
 }
 
 .trans {
-	position: absolute;
+	position: fixed;
 	background-color: rgba(255,255,255, 1);
 	text-align: center;
 	touch-action: none;
