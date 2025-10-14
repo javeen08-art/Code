@@ -1491,6 +1491,10 @@ h6 {
 
 }
 
+.trans img {
+	margin-top: 50%;
+
+}
 
 .head {
 	transform:translateY(-20px);
