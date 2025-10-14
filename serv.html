@@ -245,8 +245,13 @@ if (form) {
 
 const transElement = document.querySelector('.trans');
 
+transElement.addEventListener('animationstart', () => {
+  document.body.classList.add('no-scroll');
+});
+
 transElement.addEventListener('animationend', () => {
   transElement.style.display = 'none';
+  document.body.classList.remove('no-scroll');
 });
 </script>
 
