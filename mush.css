@@ -1059,6 +1059,10 @@ background-color: white; /* Semi-transparent white */
 
 }
 
+l2 {
+	left: 0;
+}
+
 
 .smallm {
 	position: relative;
@@ -1574,7 +1578,6 @@ h3 {
 .l2 {
 	display: flex;
 	flex-direction: row;
-	left: 0;
 }
 .texts {
 	scale:0.8;
