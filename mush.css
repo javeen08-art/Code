@@ -894,17 +894,10 @@ display: block; /* make sure they are block elements to align left */
 .bod {
 	overflow-x: hidden; 
 }
+
 .bod::-webkit-scrollbar {
 	display: none;
 }
-
-  .trans::-webkit-scrollbar {
-    display: none;
-  }
-
-   .servicess::-webkit-scrollbar {
-    display: none;
-  }
 
 
 .trans img {
