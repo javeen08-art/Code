@@ -895,7 +895,7 @@ display: block; /* make sure they are block elements to align left */
     display: none;
   }
 
-    .servicess2::-webkit-scrollbar {
+   .servicess::-webkit-scrollbar {
     display: none;
   }
 
