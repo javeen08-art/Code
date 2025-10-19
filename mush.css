@@ -1551,6 +1551,10 @@ h3 {
 	margin-left:20px;
 }
 
+.but {
+	display: flex;
+}
+
 .starts {
 	margin-top:0;
 	margin-bottom: 3px;
