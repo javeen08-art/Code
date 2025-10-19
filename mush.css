@@ -1541,6 +1541,18 @@ h3 {
 	margin-top:2px;
 	width: 100dvw;
 	transform:translate(0dvw,54dvh);
+	animation: intro ease-in-out 1s;
+}
+
+
+@keyframes intro {
+	from {
+		width: 50dvw;
+	}
+
+	to {
+		width: 100dvw;
+	}
 }
 
 .but {
