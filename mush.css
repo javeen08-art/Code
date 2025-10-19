@@ -1595,7 +1595,7 @@ h3 {
 .q {
 	position: relative;
 	margin-bottom:0;
-	transform:translate(-1dvw, 55.5dvh);
+	transform:translate(-2dvw, 55.5dvh);
 	padding-top: 1.7vh;
 	font-size: 0.9em;
 	padding-bottom: 1.7vh;
