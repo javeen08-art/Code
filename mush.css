@@ -1582,7 +1582,7 @@ h3 {
 
 .starts {
 	margin-top:0;
-	padding-top: 0;
+	padding-top: 0.5vh;
 	border-radius: 10dvw;
 	margin-bottom: 3px;
 	transform:translate(1vw, 42dvh);
