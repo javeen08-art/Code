@@ -952,7 +952,7 @@ display: block; /* make sure they are block elements to align left */
 	font-family: 'Helvetica';
 	background-color: white;
 	color: #111111;
-	border-radius: 30px;
+	border-radius: 25px;
 	padding: 20px;
 	letter-spacing:1px; 
 	font-weight: 700;
