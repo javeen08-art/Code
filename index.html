@@ -172,6 +172,18 @@ if (form) {
   });
 }
 
+const intoElement = document.querySelector('.starts');
+const s2Element = document.querySelector('.s2'); // your animated element
+
+intoElement.addEventListener('click', () => {
+  s2Element.style.display = '';
+
+  s2Element.style.animation = 'none'; 
+  void s2Element.offsetWidth; 
+
+  s2Element.style.animation = 'intro ease-in-out 1s';
+});
+
 </script>
 
 
