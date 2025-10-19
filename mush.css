@@ -1589,7 +1589,7 @@ h3 {
 	padding-bottom: 1.7vh;
 	border-radius: 3.5dvh;
 	margin-bottom: 3px;
-	transform:translate(1vw, 45dvh);
+	transform:translate(0vw, 45dvh);
 }
 
 .q {
