@@ -946,7 +946,7 @@ display: block; /* make sure they are block elements to align left */
 
 
 .q {
-	transform: translate(10vw,40vh);
+	transform: translate(10dvw,40dvh);
 	margin-top: -60px;
 	margin-bottom:10px;
 	font-family: 'SF Pro';
@@ -1560,7 +1560,7 @@ h3 {
 .q {
 	margin-top:25px;
 	margin-bottom:0;
-	transform:translate(1vw, 40vh);
+	transform:translate(0.5dvw, 40dvh);
 
 }
 
