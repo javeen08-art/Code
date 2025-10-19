@@ -1542,7 +1542,7 @@ h3 {
 	width: 90dvw;
 	transform:translate(0dvw,54dvh);
 	animation: intro ease-in-out 1s;
-	animation-delay: 5s;
+	animation-delay: 10s;
 }
 
 
