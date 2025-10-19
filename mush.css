@@ -1539,9 +1539,9 @@ h3 {
 }
 .s2 {
 	margin-top:2px;
-	width: 90dvw;
+	width: 0dvw;
 	transform:translate(0dvw,54dvh);
-	animation: intro ease-in-out 1s;
+	animation: intro ease-in-out 1s forwards;
 	animation-delay: 10s;
 }
 
