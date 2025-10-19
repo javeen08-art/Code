@@ -961,7 +961,7 @@ display: block; /* make sure they are block elements to align left */
 
 .starts{
 	transform: translate(10vw, 40vh);
-	font-family: 'SF Pro';
+	font-family: 'Helvetica';
 	background-color: white;
 	border-radius: 30px;
 	padding: 20px;
