@@ -1582,10 +1582,10 @@ h3 {
 
 .starts {
 	margin-top:0;
-	border-top: 0.1dvh;
-	border-left: 2dvw;
-	border-right: 2dvw;
-	border-bottom: 0.1dvh;
+	border-top: -1dvh;
+	border-left: 3dvw;
+	border-right: 3dvw;
+	border-bottom: -1dvh;
 	margin-bottom: 3px;
 	transform:translate(1vw, 42dvh);
 }
