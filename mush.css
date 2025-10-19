@@ -1539,9 +1539,10 @@ h3 {
 }
 .s2 {
 	margin-top:2px;
-	width: 100dvw;
+	width: 90dvw;
 	transform:translate(0dvw,54dvh);
 	animation: intro ease-in-out 1s;
+	animation-delay: 1s;
 }
 
 
@@ -1551,7 +1552,7 @@ h3 {
 	}
 
 	to {
-		width: 100dvw;
+		width: 90dvw;
 	}
 }
 
