@@ -1582,6 +1582,8 @@ h3 {
 
 .starts {
 	margin-top:0;
+	border-top: 1dvh;
+	border-bottom: 1dvh;
 	margin-bottom: 3px;
 	transform:translate(1vw, 42dvh);
 }
