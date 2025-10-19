@@ -969,7 +969,7 @@ background-color: white; /* Semi-transparent white */
   backdrop-filter: blur(15px);
   border: 1px solid rgba(255,255,255, 0.2); /* Apply blur to content behind */
 	letter-spacing:2px; 
-	font-weight: 700;
+	font-weight: 500;
 	width: fit-content;
 	border: none;
 	font-size: 15px;
