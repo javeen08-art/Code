@@ -1554,6 +1554,7 @@ h3 {
 .but {
 	display: flex;
 	flex-direction: row;
+	width: 100%;
 }
 
 .starts {
