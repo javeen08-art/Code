@@ -965,7 +965,7 @@ display: block; /* make sure they are block elements to align left */
 	font-family: 'Helvetica';
 	color: #111111;
 	background-color: white;
-	border-radius: 30px;
+	border-radius: 25px;
 	padding: 20px;
 background-color: white; /* Semi-transparent white */
   backdrop-filter: blur(15px);
