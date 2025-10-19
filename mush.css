@@ -1553,6 +1553,7 @@ h3 {
 
 .but {
 	display: flex;
+	flex-direction: row;
 }
 
 .starts {
