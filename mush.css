@@ -1541,7 +1541,7 @@ h3 {
 	margin-top:2px;
 	width: 0dvw;
 	transform:translate(0dvw,54dvh);
-	animation: intro ease-in-out 1s forwards;
+	animation: intro ease-in-out 1s;
 	animation-delay: 10s;
 }
 
