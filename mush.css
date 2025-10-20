@@ -1568,15 +1568,12 @@ h3 {
 }
 
 .but {
-	transform:translateY(-20dvh);
+	transform:translateY(-17dvh);
 	padding: 0 auto;
 	position:absolute;
 	margin-bottom:5px;
 	margin-top:5px;
 	margin-left:20px;
-}
-
-.but {
 	display: flex;
 	flex-direction: row;
 	width: 100%;
