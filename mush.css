@@ -1340,7 +1340,17 @@ font-family: 'IBM Plex Mono';
 	padding-left:8dvw;
 
   }
-
+.hero{
+position:relative; isolation:isolate;
+background:#fff;
+}
+.hero::before{
+content:"";
+position:absolute; inset:0;
+background: url('/assets/vibrant-splash.svg') no-repeat center / cover;
+opacity:.22; /* adjust to taste */
+pointer-events:none;
+}
   #bottoms {
 	scroll-margin-top: -100px;
   }
