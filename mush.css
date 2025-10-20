@@ -1802,11 +1802,10 @@ body {
 }
 
 
-@media(max-height: 3000px) {
-	.starts {
-		transform: translate(-1.5vw, 45dvh);
-	}
-
+@media screen and (max-device-height: 3500px) and (device-width: 430px) { 
+    .starts {
+        transform: translate(-1.5vw, 45dvh);
+    }
 }
 
 
