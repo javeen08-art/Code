@@ -191,6 +191,7 @@ p {
   font-weight: 300;
   line-height: 27px;
   margin-top: -100vh;
+  margin-bottom: 3dvh;
 }
 
 .bottom img {
