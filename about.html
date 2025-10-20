@@ -229,7 +229,8 @@ transElement.addEventListener('animationend', () => {
 
 
 <style>
-  body {
+  /* === BASE PAGE STYLE === */
+body {
 margin: 0;
 font-family: "Helvetica Neue", Arial, sans-serif;
 color: #222;
@@ -241,38 +242,51 @@ line-height: 1.6;
 .hero {
 position: relative;
 text-align: center;
-padding: 140px 20px 80px;
+padding: 160px 20px 80px;
 background: #fff;
 overflow: hidden;
 isolation: isolate;
 }
 
-/* === DRIPPY COLORFUL TOP (no SVG) === */
+/* === COLOURFUL DRIP EFFECT === */
 .hero::before {
 content: "";
 position: absolute;
 top: 0;
 left: 0;
 width: 100%;
-height: 220px;
-
-/* bright multicolor gradient splash */
+height: 240px;
 background: linear-gradient(
 90deg,
 #ff5f40 0%, /* orange-red */
-#ffb300 25%, /* yellow-orange */
+#ffb300 20%, /* golden yellow */
 #ffe600 40%, /* bright yellow */
 #00b7ff 70%, /* cyan blue */
-#ff40a0 100% /* pink-magenta */
+#ff40a0 100% /* magenta pink */
 );
+z-index: 0;
+}
 
-/* create dripping shape */
-clip-path: polygon(
-0% 0%, 100% 0%, 100% 60%, 90% 70%, 80% 60%,
-70% 80%, 60% 60%, 50% 75%, 40% 60%, 30% 78%,
-20% 60%, 10% 75%, 0% 60%
-);
+/* rounded paint drips below the gradient */
+.hero::after {
+content: "";
+position: absolute;
+top: 180px; /* how far drips hang down */
+left: 0;
+width: 100%;
+height: 100px;
 
+/* multiple radial blobs for drips */
+background:
+radial-gradient(circle at 10% 40%, #ff5f40 0%, transparent 60%),
+radial-gradient(circle at 25% 60%, #ffb300 0%, transparent 60%),
+radial-gradient(circle at 45% 50%, #ffe600 0%, transparent 60%),
+radial-gradient(circle at 65% 60%, #00b7ff 0%, transparent 60%),
+radial-gradient(circle at 85% 50%, #ff40a0 0%, transparent 60%);
+
+background-repeat: no-repeat;
+background-size: 160px 160px;
+filter: blur(2px); /* soften the edges a bit */
 z-index: 0;
 }
 
