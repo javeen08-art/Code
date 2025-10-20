@@ -1804,7 +1804,7 @@ body {
 
 @media(max-height: 1000px) {
 	.starts {
-		transform: translate(-1.5dvw, 40vh);
+		transform: translate(-1.5dvw, 40.5vh);
 	}
 
 }
