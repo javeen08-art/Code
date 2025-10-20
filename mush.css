@@ -1341,17 +1341,20 @@ font-family: 'IBM Plex Mono';
 
   }
 .hero{
-position:relative; isolation:isolate;
-background:#fff;
-z-index: 99999;
+	position:relative; isolation:isolate;
+	background:#fff;
+	z-index: 99999;
 }
 .hero::before{
-content:"";
-position:absolute; inset:0;
-background: url('vibrant-splash.svg') no-repeat center / cover;
-opacity:.22; /* adjust to taste */
-pointer-events:none;
+	content:"";
+	position:absolute; inset:0;
+	background: url('vibrant-splash.svg') no-repeat center / cover;
+	opacity:.22; /* adjust to taste */
+	pointer-events:none;
 }
+
+
+
   #bottoms {
 	scroll-margin-top: -100px;
   }
