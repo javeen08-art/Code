@@ -28,6 +28,12 @@
 	font-family:'SF Pro Display Bold';
 	src:url(SF-Pro-Display-Bold.otf)
 }
+
+
+@font-face {
+	font-family:'SF Pro Display ';
+	src:url(SF-Pro-Display-Regular.otf)
+}
 #front {
 	background-image: url('MushImgs/resized_image_1440x820_compressed.jpg');
 	background-size: cover;
