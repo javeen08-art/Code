@@ -191,16 +191,15 @@ p {
   font-weight: 300;
   line-height: 27px;
   margin-top: -100vh;
-  margin-bottom: 3dvh;
 }
 
 .bottom img {
   width: 815px;
   height: auto; 
   float: right;
-  margin-top: 30dvh;
+  margin-top: 10px;
   position: relative;
-  transform: translate(5dvw);
+  transform: translate(5vw,-50vh);
   color: black;
   border-radius: 70px;
   clip-path: inset(0 9% 0 0);
