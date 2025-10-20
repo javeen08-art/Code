@@ -1343,6 +1343,7 @@ font-family: 'IBM Plex Mono';
 .hero{
 position:relative; isolation:isolate;
 background:#fff;
+z-index: 99999;
 }
 .hero::before{
 content:"";
