@@ -1554,15 +1554,14 @@ h3 {
 	}
 
 	to {
-		width: 75dvw;
+		width: 80dvw;
 	}
 }
 
 
 .s2 {
-	width: 90dvw;
 	margin-top:2px;
-	transform:translate(-4dvw,57dvh);
+	transform:translate(-4dvw,55dvh);
 
 
 }
