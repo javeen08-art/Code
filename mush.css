@@ -190,7 +190,7 @@ p {
   font-family:  'SF Pro';
   font-weight: 500;
   line-height: 27px;
-  margin-top: -105vh;
+  margin-top: -100vh;
 }
 
 .bottom img {
@@ -1322,7 +1322,7 @@ font-family: 'IBM Plex Mono';
   
 
  .bottom p{
-  	margin-top: -5dvh;
+  	margin-top: -5.5dvh;
 	width: 85%;
   	text-align: center;
   	font-size: 2.5dvh;
