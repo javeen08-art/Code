@@ -23,6 +23,11 @@
 	font-family: 'SF Pro Display Semibold';
 	src:url(SF-Pro-Display-Semibold.otf)
 }
+
+@font-face {
+	font-family:'SF Pro Display Bold';
+	src:url(SF-Pro-Display-Bold.otf)
+}
 #front {
 	background-image: url('MushImgs/resized_image_1440x820_compressed.jpg');
 	background-size: cover;
@@ -122,7 +127,7 @@ h4 {
 	height:100%;
 	margin-left: 40px;
 	color: black;
-	font-family:  'SF Pro Display Semibold' ;
+	font-family:  'SF Pro Display' ;
 	margin-top:7vh;
 	position: relative;
  -webkit-animation: about ease-in-out 1s;
