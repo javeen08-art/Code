@@ -1323,7 +1323,6 @@ font-family: 'IBM Plex Mono';
   
 
  .bottom p{
-	position: relative;
   	margin-top: -5dvh;
 	width: 85%;
   	text-align: center;
