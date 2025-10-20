@@ -1298,7 +1298,7 @@ font-family: 'IBM Plex Mono';
 	justify-content: center;
 	align-items: center;
     background-image: url(colourfulbg.svg);
-	background-size: cover;
+	background-size: contain;
 	margin: 0;
 	padding: 0;
 	padding-top: 10vh;
