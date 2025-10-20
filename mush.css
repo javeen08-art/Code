@@ -1590,11 +1590,13 @@ h3 {
 	padding-bottom: 1.7vh;
 	border-radius: 3.5dvh;
 	margin-bottom: 3px;
+	transform:translate(-1.5vw, 45dvh);
 }
 
 .q {
 	position: relative;
 	margin-bottom:0;
+	transform:translate(-2.5dvw, 55.5dvh);
 	padding-top: 1.7vh;
 	font-size: 1em;
 	padding-bottom: 1.7vh;
