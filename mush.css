@@ -172,6 +172,7 @@ p {
   flex-wrap: nowrap;
   transform: translateY(0px);
   padding-left: 200px;
+    backdrop-filter: blur(15px); 
     border: 1px solid rgba(255, 255, 255, 0.2); 
     border-radius: 15px; 
     padding: 30px;
@@ -1296,6 +1297,7 @@ font-family: 'IBM Plex Mono';
 	position:flex;
 	justify-content: center;
 	align-items: center;
+    background-image: url(colourfulbg.svg);
 	margin: 0;
 	padding: 0;
 	padding-top: 100px;
