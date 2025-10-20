@@ -1301,6 +1301,7 @@ font-family: 'IBM Plex Mono';
 	background-size: cover;
 	margin: 0;
 	padding: 0;
+	padding-top: 2dvh;
 	margin-bottom: 200px;
 	padding-left: 0;
 	padding-right: 0;
