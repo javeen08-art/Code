@@ -368,9 +368,7 @@ background-color: rgba(245, 245, 245, 0.5);
 	max-width: 80%;
 	padding-top: 100px;
 	padding-left: 0px;
-    radial-gradient(1000px 460px at 90% 38%, rgba(156,39,176,.20), transparent 70%);
-  filter: blur(8px) saturate(105%);
-  z-index:0;
+   
 
 }
 
