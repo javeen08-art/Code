@@ -906,6 +906,7 @@ display: block; /* make sure they are block elements to align left */
 	background-image: url('a7beab21-ec22-4d91-aa70-f18ad85aab9a.svg');
 	background-size: cover;
 	background-repeat: no-repeat;
+	z-index: 9999;
 
 }
 
