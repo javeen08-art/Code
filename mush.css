@@ -903,6 +903,10 @@ display: block; /* make sure they are block elements to align left */
 
 .bod {
 	overflow-x: hidden; 
+	background-image: url('a7beab21-ec22-4d91-aa70-f18ad85aab9a.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+
 }
 
 .bod::-webkit-scrollbar {
