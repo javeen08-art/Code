@@ -312,8 +312,8 @@ h5 {
 .sub {
 	color: black;
 	padding-top: 30px;
-	margin-right: 40px;
-	margin-left: -95px;
+	text-align: center;
+	margin: 0 auto;
 	margin-top:  -0.2vh;
 	   
 }
