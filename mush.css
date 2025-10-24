@@ -313,8 +313,9 @@ h5 {
 	color: black;
 	padding-top: 30px;
 	text-align: center;
-	transform: translate(43vw, -10vh);
+	transform: translate(43vw, -15vh);
 	position: absolute;
+	font-weight: 500;
 	   
 }
 
