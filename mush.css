@@ -369,7 +369,8 @@ background-color: rgba(245, 245, 245, 0.5);
 	padding-top: 100px;
 	padding-left: 0px;
 	background-image: url('a7beab21-ec22-4d91-aa70-f18ad85aab9a.png');
-	background-size: contain;
+	background-size: cover;
+	background-repeat: no-repeat;
    
 
 }
