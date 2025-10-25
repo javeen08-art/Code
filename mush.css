@@ -319,6 +319,7 @@ h5 {
 	position: absolute;
 	letter-spacing: 2px;
 	border-bottom: 2.5px solid;
+	padding-bottom: 10px;
 	padding-left: 50px;
 	padding-right: 50px;
 	border-bottom-style: solid;
