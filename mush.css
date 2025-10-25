@@ -366,9 +366,6 @@ background-color: rgba(245, 245, 245, 0.5);
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
-
-
- 
 }
 
 .texts img {
@@ -396,12 +393,11 @@ background-color: rgba(245, 245, 245, 0.5);
   mask: var(--icon) center/contain no-repeat;
   -webkit-mask: var(--icon) center/contain no-repeat;
 }
+
 .servicess2{
 	max-width: 80%;
 	padding-top: 20dvh;
 	padding-left: 0px;
-   
-
 }
 
 
