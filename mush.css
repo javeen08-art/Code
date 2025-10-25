@@ -318,8 +318,7 @@ h5 {
 	transform: translate(43vw, -15vh);
 	position: absolute;
 	letter-spacing: 2px;
-	border-bottom: 10px solid;
-	border-color: linear-gradient(red, rgb(160, 1, 160));
+	border-bottom: 10px solid linear-gradient(red, rgb(160, 1, 160));
 	   
 }
 
