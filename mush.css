@@ -368,7 +368,7 @@ background-color: rgba(245, 245, 245, 0.5);
 	background-repeat: no-repeat;
 }
 
-.texts img, .icon{
+.icon{
 	width:60px;
 	height: 60px;
 	margin: 0;
@@ -382,7 +382,7 @@ background-color: rgba(245, 245, 245, 0.5);
 }
 
 
-.texts img::after, .icon img::after {
+.icon::after {
   content: "";
   position: absolute;
   inset: 0;
