@@ -368,12 +368,8 @@ background-color: rgba(245, 245, 245, 0.5);
 	background-repeat: no-repeat;
 }
 
-.icon {
-	display: block;
 
-}
-
-.icon img{
+.icon{
 	width:60px;
 	height: 60px;
 	margin: 0;
@@ -383,9 +379,14 @@ background-color: rgba(245, 245, 245, 0.5);
 	image-resolution: 10000dpi;
   image-rendering: crisp-edges;
   
- 
 }
 
+
+.icon img {
+	position: relative;
+	width:60px;
+	height: 60px;
+}
 .icon::after {
   content: "";
   position: absolute;
