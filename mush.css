@@ -318,7 +318,7 @@ h5 {
 	transform: translate(43vw, -15vh);
 	position: absolute;
 	letter-spacing: 2px;
-	border-bottom: 7px solid;
+	border-bottom: 5px solid;
 	border-color: linear-gradient(to right,red, rgb(160, 1, 160));
 	   
 }
