@@ -368,7 +368,10 @@ background-color: rgba(245, 245, 245, 0.5);
 	background-repeat: no-repeat;
 }
 
-.icon{
+.icon {display: block;
+}
+
+.icon img{
 	width:60px;
 	height: 60px;
 	margin: 0;
@@ -379,10 +382,6 @@ background-color: rgba(245, 245, 245, 0.5);
   image-rendering: crisp-edges;
   
  
-}
-
-.icon img {
-	display: block;
 }
 
 .icon::after {
