@@ -381,6 +381,9 @@ background-color: rgba(245, 245, 245, 0.5);
  
 }
 
+.icon img {
+	display: block;
+}
 
 .icon::after {
   content: "";
