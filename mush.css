@@ -323,8 +323,8 @@ h5 {
   border-image: linear-gradient(
 	to right, transparent 0%,  red 50%, rgb(160, 1, 160) 70%, transparent 100%);
 	border-image-slice: 1;
-	border-left: 10px;
-	border-right: 10px;
+	border-left: 30px;
+	border-right: 30px;
 	   
 }
 
