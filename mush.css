@@ -275,7 +275,8 @@ font-family:  'SF Pro Display Regular' ;
 }
 
 .texts h5 {
-	margin-top: 3%;
+	margin-top: 5%;
+	margin-bottom: 0;
 }
 .squares {
   display: flex;
