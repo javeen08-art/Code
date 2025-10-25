@@ -322,7 +322,7 @@ h5 {
 	border-bottom-style: solid;
   border-image: linear-gradient(
 	to right, white 0%,  red 50%, rgb(160, 1, 160) 100%);
-
+	border-image-slice: 1;
 	   
 }
 
