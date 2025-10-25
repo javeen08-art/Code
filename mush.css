@@ -380,6 +380,9 @@ background-color: rgba(245, 245, 245, 0.5);
 	margin-right: 70px;
 	image-resolution: 10000dpi;
   image-rendering: crisp-edges;
+mask: url('icon.svg') no-repeat center / contain;
+ -webkit-mask: url('icon.svg') no-repeat center / contain;
+  background: linear-gradient(90deg, #FF6A00, #FF4D7E, #9C27B0);
  
 }
 .servicess2{
