@@ -300,7 +300,6 @@ h5 {
 	font-size: 60px;
 	color: black;
 	padding-bottom: 30px;
-	letter-spacing: 3px;
 	font-family: 'SF Pro Rounded';
 	margin-bottom: 0;
 }
@@ -317,6 +316,7 @@ h5 {
 	text-align: center;
 	transform: translate(43vw, -15vh);
 	position: absolute;
+	letter-spacing: 4px;
 	font-weight: 500;
 	   
 }
