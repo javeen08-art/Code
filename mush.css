@@ -263,7 +263,7 @@ font-family:  'SF Pro Display Regular' ;
 	padding: 10px;
 	margin: 5px;
 	margin-top: 0px;
-    backdrop-filter: blur(15px); /* Apply blur to content behind */
+    backdrop-filter: blur(30px); /* Apply blur to content behind */
     border: 1px solid darkgrey; /* Subtle border */
     color: black;
     box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.1);
