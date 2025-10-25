@@ -386,7 +386,7 @@ background-color: rgba(245, 245, 245, 0.5);
  
 }
 
-.icon img::after {
+.icon::after {
   content: "";
   position: absolute;
   inset: 0;
