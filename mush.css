@@ -1551,6 +1551,7 @@ h6 {
 	font-size: 20px;
 	font-family: 'SF Pro Display Regular';
 	margin-top: 1%;
+	width:20px;
 
 }
 .texts p{
@@ -1691,10 +1692,6 @@ h3 {
 
 
 }
-.servicess2 {
-	margin-top: -10vh;
-}
-
 .contacts {
 	width:100vw;
 	padding: 0;
