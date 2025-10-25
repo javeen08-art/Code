@@ -1648,10 +1648,10 @@ h3 {
 .sub {
 	height: 250px;
 	width: 250px;
-	left: 0;
+	left: -5dvw;
 	text-align: center;
 	position: relative;
-	top: -5dvw;
+	top: 0;
 	
 
 
