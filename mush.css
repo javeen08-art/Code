@@ -279,7 +279,7 @@ font-family:  'SF Pro Display Regular' ;
   gap: 20px; 
 }
 
-.row,.row2{
+.row,.row2,.row4{
   display: flex;
   position: relative;
   gap: 20px;
