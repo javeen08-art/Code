@@ -321,9 +321,9 @@ h5 {
 	border-bottom: 5px solid;
   border-image: linear-gradient(
 	to right, 
-    white 0%, 
+    white, 
     transparent 0.5,  
-    red 75%, 
+    red 0.75, 
     rgb(160, 1, 160) 1
   );
 
