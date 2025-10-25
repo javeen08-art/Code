@@ -389,7 +389,7 @@ background-color: rgba(245, 245, 245, 0.5);
 .icon::after {
 	width:60px;
 	height: 60px;
-	margin-left: 40%;
+	margin-left: 37%;
 	margin-top: 5%;
   content: "";
   position: absolute;
