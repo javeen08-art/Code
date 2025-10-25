@@ -320,11 +320,7 @@ h5 {
 	letter-spacing: 2px;
 	border-bottom: 5px solid;
   border-image: linear-gradient(
-	to right, 
-    white,   
-    red, 
-    rgb(160, 1, 160) 1
-  );
+	to right, white,  red, rgb(160, 1, 160));
 
 	   
 }
