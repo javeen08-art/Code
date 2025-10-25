@@ -329,10 +329,7 @@ h5 {
     transparent 50%, 
     red 75%, 
     rgb(160, 1, 160) 100%
-	    white 0%, 
-    transparent 50%, 
-    transparent 50%,
-  ) 1;
+  );
   border-style: solid;
   border-image-width: 1.5em;
 	   
