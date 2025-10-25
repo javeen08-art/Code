@@ -385,8 +385,7 @@ background-color: rgba(245, 245, 245, 0.5);
 .icon::after {
 	width:60px;
 	height: 60px;
-	margin-left: 80px;
-	margin-right: 70px;
+	margin-left: 5vw;
   content: "";
   position: absolute;
   inset: 0;
