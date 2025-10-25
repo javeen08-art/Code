@@ -319,9 +319,6 @@ h5 {
 	position: absolute;
 	letter-spacing: 2px;
 	border-bottom: 5px solid;
-	border-top: none;
-	border-left: none;
-	border-right: none;
   border-image: linear-gradient(
 	to right, 
     white 0%, 
@@ -329,7 +326,7 @@ h5 {
     red 75%, 
     rgb(160, 1, 160) 100%
   );
-  border-style: solid;
+
 	   
 }
 
