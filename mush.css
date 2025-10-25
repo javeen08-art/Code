@@ -369,24 +369,16 @@ background-color: rgba(245, 245, 245, 0.5);
 }
 
 
-.icon{
-	width:60px;
-	height: 60px;
-	margin: 0;
-	padding: 0;
-	margin-left: 80px;
-	margin-right: 70px;
-	image-resolution: 10000dpi;
-  image-rendering: crisp-edges;
-  
+.icon {
+  position: relative;
+  width: 80px;
+  height: 80px;
 }
-
 
 .icon img {
-	position: relative;
-	width:60px;
-	height: 60px;
+  display: none; /* hide the image, since we’ll use it as a mask */
 }
+
 .icon::after {
   content: "";
   position: absolute;
