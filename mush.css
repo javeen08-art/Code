@@ -298,7 +298,7 @@ font-family:  'SF Pro Display Regular' ;
 
 h5 {
 	font-size: 60px;
-	color: black;
+	color: rgb(0, 0, 0);
 	padding-bottom: 30px;
 	font-family: 'SF Pro';
 	font-weight: 350;
@@ -315,10 +315,9 @@ h5 {
 	color: black;
 	padding-top: 30px;
 	text-align: center;
-	font-family: 'SF Pro Semibold';
 	transform: translate(43vw, -15vh);
 	position: absolute;
-	letter-spacing: 3px;
+	letter-spacing: 2px;
 	   
 }
 
