@@ -1645,6 +1645,10 @@ h3 {
 	border-radius: 3.5dvh;
 	margin-bottom: 3px;
 	transform:translate(-1.5dvw, 45.52dvh);
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .q {
