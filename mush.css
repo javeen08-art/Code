@@ -1685,7 +1685,7 @@ h3 {
 
 .sub {
 	height: 250px;
-	width: 250px;
+	width: 200px;
 	left: -80px;
 	text-align: center;
 	overflow: visible;
@@ -1717,6 +1717,7 @@ h3 {
 	margin: 0;
 	margin-bottom: -200px;
 	left: 0;
+	width: 250px;
 }
 
 .servicess2 {
