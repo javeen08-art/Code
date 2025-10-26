@@ -1691,6 +1691,9 @@ h3 {
 	position: relative;
 	top: 0;
 	margin-bottom: 0;
+  border-image: linear-gradient(
+	to right, transparent 0%,  red 50%, rgb(160, 1, 160) 70%, transparent 100%);
+	border-image-slice: 1;
 	
 
 
