@@ -1703,7 +1703,7 @@ h3 {
 
 
 .sub h5 {
-	padding-bottom: -100px;
+	padding-bottom: 0px;
 }
 .contacts {
 	width:100vw;
