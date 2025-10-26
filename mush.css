@@ -1699,7 +1699,6 @@ h3 {
   border-image: linear-gradient(
 	to right, transparent 0%,  red 50%, rgb(160, 1, 160) 70%, transparent 100%);
 	border-image-slice: 1;
-  height: 250px;
   display: flex;
   justify-content: center;
   align-items: center;
