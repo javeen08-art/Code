@@ -1706,6 +1706,7 @@ h3 {
 .sub h5 {
 	margin: 0;
 	padding: -100px;
+	left: 0;
 }
 .contacts {
 	width:100vw;
