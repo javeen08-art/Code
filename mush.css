@@ -1696,7 +1696,7 @@ h3 {
 	margin-top: 10vh;
 	padding-left: 0px;
 	padding-right: 0px;
-	padding-bottom: 0;
+	padding-bottom: -20px;
 	padding-top: 3vh;
   border-image: linear-gradient(
 	to right, transparent 0%,  red 50%, rgb(160, 1, 160) 70%, transparent 100%);
