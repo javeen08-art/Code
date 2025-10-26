@@ -1695,8 +1695,8 @@ h3 {
 	margin: 0 auto;
 	margin-top: 0vh; 
 	margin-bottom: 10vh;
-	padding-left: -30px;
-	padding-right: -50px;
+	padding-left: 0px;
+	padding-right: 0px;
 	padding-top: 3vh;
   border-image: linear-gradient(
 	to right, transparent 0%,  red 50%, rgb(160, 1, 160) 70%, transparent 100%);
@@ -1704,6 +1704,7 @@ h3 {
   display: flex;
   justify-content: center;
   align-items: center;
+
 	
 }
 
