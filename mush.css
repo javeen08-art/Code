@@ -1333,6 +1333,7 @@ font-family: 'IBM Plex Mono';
 	justify-content: center;
 	align-items: center;
     background-image: url('MushImgs/7CECD3F0-6418-4079-A56B-130E4FFEA2E8.png');
+	background-image: none;
 	background-size: contain;
 	margin: 0;
 	padding: 0;
