@@ -1457,7 +1457,7 @@ h15 {
 	padding-right: 0;
 	margin-left: 0;
 	margin-right: 0;
-	background-size: cover;
+	background-size: contain;
 }
 .faq {
 	width: 70%;
