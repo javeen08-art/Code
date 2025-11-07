@@ -163,38 +163,6 @@ p {
 
 
 
-.bottom {
-  display: flex;
-  justify-content: space-between;
-  padding: 20px;
-  flex-wrap: nowrap;
-  transform: translateY(0px);
-  padding-left: 200px;
-    backdrop-filter: blur(15px); 
-    border: 1px solid rgba(255, 255, 255, 0.2); 
-    border-radius: 15px; 
-    padding: 30px;
-    color: white;
- 	height:fit-content;
- 	margin-bottom: 70px;
- 	margin-top: 10vh;
-	width:100vw;
-	height:100vh;
-}
-
-
-
-.bottom p {
-  font-size: 20px;
-  height: 30vh;
-  width: 30vw; 
-  text-align: left;
-  right: 100px;
-  padding: 50px 50px 50px 0;
-  margin: 0px 0 0 40px;
-font-family:  'SF Pro Display Regular' ;
-}
-
 .bottom img {
   width: 815px;
   height: auto; 
