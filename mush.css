@@ -165,6 +165,8 @@ p {
 .bottom {
 	width: 100vw;
 	height: 100vh;
+	padding: 0;
+	margin: 0;
 }
 
 .bottom img {
@@ -201,7 +203,7 @@ p {
   position: relative;
   top: 0vh;
   float: right;
-  right: 0vw;
+  right: vw;
   z-index: 9999;
   margin-bottom: 10px;
 }
