@@ -187,7 +187,8 @@ p {
 }
 
 .title {
-	position: relative;
+	position: absolute;
+	text-align: center;
 }
 .home {
   position: absolute;
