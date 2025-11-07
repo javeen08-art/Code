@@ -210,7 +210,7 @@ p {
 
 .nextbtn {
   top: 0vh;
-  float: right;
+  right: 0;
   transform: translate(-5%,0%);
   z-index: 9999;
   margin-bottom: 10px;
