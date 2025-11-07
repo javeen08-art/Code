@@ -212,7 +212,7 @@ p {
   position: relative;
   top: 0vh;
   float: right;
-  right: 0vw;
+  right: 5%;
   z-index: 9999;
   margin-bottom: 10px;
 }
