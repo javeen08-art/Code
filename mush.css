@@ -288,7 +288,7 @@ font-family:  'SF Pro Display Regular' ;
   display: flex;
   position: relative;
   margin-top: 30dvh;
-  gap: 5vw;
+  gap: 2.5vw;
 }
 
 .serv {
