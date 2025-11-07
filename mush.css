@@ -186,6 +186,9 @@ p {
 	position: relative;
 }
 
+.title {
+	position: relative;
+}
 .home {
   position: absolute;
   z-index: 1000;
@@ -206,10 +209,6 @@ p {
   right: 0vw;
   z-index: 9999;
   margin-bottom: 10px;
-}
-
-.bottom-container {
-	width: 100vw;
 }
 
 .home img {
