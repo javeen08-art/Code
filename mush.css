@@ -359,6 +359,8 @@ background-color: rgba(245, 245, 245, 0.5);
 .servicess {
 	font-size: 30px;
 	display: flex;
+	margin: 0;
+	padding: 0;
   	justify-content: space-between;
   	align-items: flex-start;
   	flex-wrap: nowrap;
