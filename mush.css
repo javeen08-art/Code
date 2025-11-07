@@ -188,6 +188,8 @@ p {
 
 .title {
 	position: absolute;
+	font-size: 4vh;
+	font-family: 'SF Pro';
 	text-align: center;
 }
 .home {
