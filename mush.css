@@ -937,7 +937,8 @@ display: block; /* make sure they are block elements to align left */
 }
 
 .bod {
-	overflow-x: hidden; 
+	overflow-x: hidden;
+	z-index: 99999999999999; 
 
 }
 
