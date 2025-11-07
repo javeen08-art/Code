@@ -320,6 +320,23 @@ h5 {
 .sub h5 {
 		padding-bottom: 30px;
 }
+.sub {
+	color: black;
+	padding-top: 30px;
+	text-align: center;
+	transform: translate(39vw, -15vh);
+	position: absolute;
+	letter-spacing: 2px;
+	border-bottom: 3px solid;
+	padding-left: 60px;
+	padding-right: 60px;
+	border-bottom-style: solid;
+  border-image: linear-gradient(
+	to right, transparent 0%,  red 50%, rgb(160, 1, 160) 70%, transparent 100%);
+	border-image-slice: 1;
+
+	   
+}
 
 .sub p {
 	height: 250px;
