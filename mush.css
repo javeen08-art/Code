@@ -199,9 +199,9 @@ p {
 
 .nextbtn {
   position: relative;
-  top: -10vh;
+  top: 0vh;
   float: right;
-  right: -5vw;
+  right: 0vw;
   z-index: 9999;
   margin-bottom: 10px;
 }
