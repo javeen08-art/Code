@@ -188,6 +188,8 @@ p {
 
 .title {
 	align-items: center;
+	padding: 0 auto;
+	margin: 0 auto;
 	position: absolute;
 	font-size: 4vh;
 	font-family: 'SF Pro';
