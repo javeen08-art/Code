@@ -190,6 +190,7 @@ p {
 	align-items: center;
 	left: 50%;
   transform: translate(-50%,0%);
+  font-weight: 500;
 	position: absolute;
 	font-size: 6vh;
 	font-family: 'SF Pro';
