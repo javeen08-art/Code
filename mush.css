@@ -203,7 +203,7 @@ p {
   position: relative;
   top: 0vh;
   float: right;
-  right: vw;
+  right: 0vw;
   z-index: 9999;
   margin-bottom: 10px;
 }
