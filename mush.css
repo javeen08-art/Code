@@ -191,7 +191,7 @@ p {
   font-family: 'SF Pro', sans-serif;
   background-color: transparent;
   padding: 5vw;
-  padding-top: 0;
+  padding-top: -2vh;
   letter-spacing: 1px;
   font-weight: 700;
 
