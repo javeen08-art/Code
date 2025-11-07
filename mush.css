@@ -189,6 +189,7 @@ p {
 .title {
 	align-items: center;
 	left: 50%;
+  transform: translate(-50%,0%);
 	position: absolute;
 	font-size: 6vh;
 	font-family: 'SF Pro';
