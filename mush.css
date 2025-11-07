@@ -257,8 +257,8 @@ font-family:  'SF Pro Display Regular' ;
 }
 
 .texts {
-	height: 250px;
-	width: 250px;
+	height: 10dvw;
+	width: 10dvw;
 	text-align: center;
 	padding: 10px;
 	margin: 5px;
