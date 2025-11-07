@@ -274,6 +274,9 @@ font-family:  'SF Pro Display Regular' ;
 	right: 1vw;
 }
 
+.texts:hover {
+	scale: 1.5;
+}
 .texts h5 {
 	margin-top: 10%;
 	margin-bottom: 0;
