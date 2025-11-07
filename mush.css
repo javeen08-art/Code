@@ -287,7 +287,7 @@ font-family:  'SF Pro Display Regular' ;
 .row,.row2,.row4,.row5{
   display: flex;
   position: relative;
-  margin-top: 10vh;
+  margin-top: 30vh;
   gap: 5vw;
 }
 
