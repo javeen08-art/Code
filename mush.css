@@ -286,7 +286,7 @@ font-family:  'SF Pro Display Regular' ;
 .squares {
   display: flex;
   flex-wrap: wrap;
-  gap: 20px; 
+  gap: 2vw; 
 }
 
 .row,.row2,.row4,.row5{
