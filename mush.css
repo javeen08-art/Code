@@ -222,7 +222,7 @@ p {
 .row6 {
 	display: flex;
   position: relative;
-  margin-top: 0dvh;
+  margin-top: 5dvh;
   gap: 1vw;
   height: 10dvh;
 }
