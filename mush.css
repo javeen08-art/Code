@@ -262,7 +262,7 @@ p {
 	width: fit-content;
 	border: solid rgb(39, 39, 39) 0.1vw;
 	border-radius: 30px;
-	padding: 0.5vw 2vw;
+	padding: 1vw 2.5vw;
 	margin-bottom: 1vh;
 }
 .home {
