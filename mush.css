@@ -215,6 +215,10 @@ p {
   	margin-left: 60px;
 	position: relative;
 }
+
+.lilt2 {
+	font-size: 20px;
+}
 .home {
   position: absolute;
   z-index: 1000;
