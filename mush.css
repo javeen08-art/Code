@@ -1393,13 +1393,13 @@ font-family: 'IBM Plex Mono';
     width: 40dvw;  
 	height: 50dvh;
   transform: none;
-  position: relative;
   color: black;
   	border-radius: 20px;
 	 clip-path: none;
 	 float: none;
 	display: flex;
 	padding: 0 auto;
+	right: 0;
 
   }
   
