@@ -212,7 +212,7 @@ p {
 
 .nextbtn {
   top: 0vh;
-  left: 0vw;
+  left: 50vw;
   padding: 10px;
   z-index: 9999;
   margin-bottom: 10px;
