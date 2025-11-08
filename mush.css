@@ -212,8 +212,8 @@ p {
 
 .nextbtn {
   top: 0vh;
-  right: 0vw;
   padding: 10px;
+  transform: translate(95%,0%);
   z-index: 9999;
   margin-bottom: 10px;
 }
