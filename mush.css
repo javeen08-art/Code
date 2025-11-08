@@ -208,7 +208,7 @@ p {
 .lilt {
 	padding: 2vw;
 	padding-top: 0;
-	height: 10dvh;
+	height: 15dvh;
 	width: 20dvw;
 	text-align: left;
 	margin: 5px auto;
@@ -224,7 +224,6 @@ p {
   position: relative;
   margin-top: 10dvh;
   gap: 1vw;
-  height: 10dvh;
 }
 .lilt2 {
 	font-size: 25px;
