@@ -175,9 +175,9 @@ p {
   float: right;
   margin-top: 10px;
   position: relative;
-  transform: translate(0vw, 20vh);
+  transform: translate(0vw, 0vh);
   color: black;
-  border-radius: 70px;
+  border-radius: 10px;
 
 
 }
