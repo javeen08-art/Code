@@ -199,6 +199,7 @@ p {
 }
 
 .lilt {
+	align-items: center;
 	height: fit-content;
 	width: 20dvw;
 	text-align: center;
