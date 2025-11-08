@@ -211,8 +211,8 @@ p {
 	height: 5dvh;
 	width: 20dvw;
 	text-align: left;
-	top: -10dvh;
 	margin: 5px auto;
+	transform: translate(0,-3dvh);
 	align-items: center;
 	background-color: rgb(255, 255, 255);;
     backdrop-filter: blur(30px); /* Apply blur to content behind */
