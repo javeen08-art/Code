@@ -199,8 +199,6 @@ p {
 }
 
 .lilt {
-	
-	transform: translate(-50%,0);
 	padding: 2vw;
 	height: fit-content;
 	width: 20dvw;
@@ -216,6 +214,9 @@ p {
 	position: relative;
 }
 
+.row {
+	
+}
 
 .lilt2 {
 	font-size: 25px;
