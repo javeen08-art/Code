@@ -224,6 +224,7 @@ p {
   position: relative;
   margin-top: 0dvh;
   gap: 1vw;
+  height: 10dvh;
 }
 .lilt2 {
 	font-size: 25px;
