@@ -255,6 +255,7 @@ p {
 	font-size: 20px;
 	font-family: 'SF Pro Display';
 	margin-left: 10dvw;
+	column-gap: 2vh;
 }
 
 .urwork,.urwork2 {
