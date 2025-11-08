@@ -256,6 +256,11 @@ p {
 	font-family: 'SF Pro Display';
 	margin-left: 10dvw;
 }
+
+.urwork {
+	border: solid black;
+	border-radius: 30px;
+}
 .home {
   position: absolute;
   z-index: 1000;
