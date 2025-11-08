@@ -1414,11 +1414,11 @@ font-family: 'IBM Plex Mono';
 }
 
 .lilt {
-	width:20dvw
+	width:20dvw;
 }
 
 .lilt p {
-	font-size: 1vw;
+	font-size: 10vw;
 }
 
 .class2 {
