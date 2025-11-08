@@ -173,10 +173,9 @@ p {
   width: 30vw;
   height: auto; 
   float: right;
-  right: 5dvw;
   margin-top: 10px;
   position: relative;
-  transform: translate(0dvw, -10dvh);
+  transform: translate(0vw, 0vh);
   color: black;
   border-radius: 20px;
 
