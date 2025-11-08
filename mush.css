@@ -211,7 +211,7 @@ p {
     border: 1px solid rgb(222, 222, 222); /* Subtle border */
     color: black;
     box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.1);
-  	border-radius: 30px;
+  	border-radius: 10px;
   	margin-left: 60px;
 	position: relative;
 }
