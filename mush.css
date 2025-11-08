@@ -250,6 +250,10 @@ p {
 	margin: 2dvw;
 	top:0%;
 }
+
+.but2 {
+	font-size: 20px;
+}
 .home {
   position: absolute;
   z-index: 1000;
