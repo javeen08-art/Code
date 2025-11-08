@@ -197,6 +197,24 @@ p {
 	font-family: 'SF Pro';
 	text-align: center;
 }
+
+.lilt {
+	height: 5vh;
+	width: 10dvw;
+	text-align: center;
+	padding: 10px;
+	margin: 5px;
+	margin-top: 2dvh;
+	margin-top: 0px;
+	background-color: rgba(255, 255, 255, 0.651);;
+    backdrop-filter: blur(30px); /* Apply blur to content behind */
+    border: 1px solid rgb(222, 222, 222); /* Subtle border */
+    color: black;
+    box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.1);
+  	border-radius: 30px;
+  	margin-left: 60px;
+	position: relative;
+}
 .home {
   position: absolute;
   z-index: 1000;
