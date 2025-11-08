@@ -198,6 +198,13 @@ p {
 	text-align: center;
 }
 
+
+.row,.row2,.row4,.row5{
+  display: flex;
+  position: relative;
+  margin-top: 20dvh;
+  gap: 1vw;
+}
 .lilt {
 	padding: 2vw;
 	height: fit-content;
@@ -212,10 +219,6 @@ p {
 	align-items: center;
 }
 
-.row {
-	display: flex;
-
-}
 
 .lilt2 {
 	font-size: 25px;
@@ -292,13 +295,6 @@ p {
   display: flex;
   flex-wrap: wrap;
   gap: 2vw; 
-}
-
-.row,.row2,.row4,.row5{
-  display: flex;
-  position: relative;
-  margin-top: 20dvh;
-  gap: 1vw;
 }
 
 .serv {
