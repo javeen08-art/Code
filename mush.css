@@ -176,7 +176,7 @@ p {
   right: 5dvw;
   margin-top: 10px;
   position: relative;
-  transform: translate(0vw, 0vh);
+  transform: translate(0dvw, -10dvh);
   color: black;
   border-radius: 20px;
 
