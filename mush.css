@@ -173,8 +173,7 @@ p {
   width: 40dvw;
   height: 45dvh; 
   float: right;
-  margin-top: 10px;
-  transform: translate(-5dvw, -25dvh);
+  transform: translate(-5dvw, 0dvh);
   color: black;
   border-radius: 20px;
 
