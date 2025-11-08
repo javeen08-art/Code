@@ -213,6 +213,7 @@ p {
 .nextbtn {
   top: 0vh;
   right: 5vw;
+  padding: 10px;
   transform: translate(-5%,0%);
   z-index: 9999;
   margin-bottom: 10px;
