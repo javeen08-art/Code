@@ -194,15 +194,16 @@ p {
 	font-size: 10vh;
 	font-family: 'SF Pro';
 	text-align: center;
-border-bottom: 3px solid;
+}
+
+.title h4 {
+	border-bottom: 3px solid;
 	padding-left: 60px;
 	padding-right: 60px;
 	border-bottom-style: solid;
   border-image: linear-gradient(
 	to right, transparent 0%,  red 50%, rgb(160, 1, 160) 70%, transparent 100%);
 }
-
-
 .row,.row2,.row4,.row5{
   display: flex;
   position: relative;
