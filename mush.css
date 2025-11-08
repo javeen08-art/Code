@@ -213,6 +213,7 @@ p {
 }
 
 .row {
+	display: flex;
 
 }
 
