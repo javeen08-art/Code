@@ -259,10 +259,11 @@ p {
 
 .urwork,.urwork2 {
 	width: fit-content;
-	border: solid black;
+	border: solid black 0.5vw;
 	border-radius: 30px;
 	padding: 0.5vw 2vw;
 	margin-bottom: 1vh;
+
 }
 .home {
   position: absolute;
