@@ -189,6 +189,7 @@ p {
 .title {
 	align-items: center;
 	left: 50%;
+	top: 0;
   transform: translate(-50%,0%);
   font-weight: 500;
 	position: absolute;
