@@ -212,7 +212,6 @@ p {
 	width: 20dvw;
 	text-align: left;
 	margin: 5px auto;
-	transform: translate(0,-3dvh);
 	align-items: center;
 	background-color: rgb(255, 255, 255);;
     backdrop-filter: blur(30px); /* Apply blur to content behind */
@@ -220,7 +219,12 @@ p {
   	border-radius: 10px;
 }
 
-
+.row6 {
+	display: flex;
+  position: relative;
+  margin-top: 0dvh;
+  gap: 1vw;
+}
 .lilt2 {
 	font-size: 25px;
 	position: relative;
