@@ -242,8 +242,11 @@ p {
 	max-width: 40dvw;
 	margin-left: 5dvw;
 	border: solid black;
-	top:0%;
 	
+}
+
+.class2 h5 {
+	top:0%;
 }
 .home {
   position: absolute;
