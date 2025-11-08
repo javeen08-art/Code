@@ -203,6 +203,7 @@ p {
 	border-bottom-style: solid;
   border-image: linear-gradient(
 	to right, transparent 0%,  red 50%, rgb(160, 1, 160) 70%, transparent 100%);
+border-image-slice: 1;
 }
 .row,.row2,.row4,.row5{
   display: flex;
