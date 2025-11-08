@@ -212,10 +212,6 @@ p {
 	text-align: left;
 	margin: 5px auto;
 	align-items: center;
-	margin-top: 0px;
-	left: 50%;
-	top: 0;
-  transform: translate(0%,0%);
 	background-color: rgb(255, 255, 255);;
     backdrop-filter: blur(30px); /* Apply blur to content behind */
     color: black;
