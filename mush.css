@@ -174,7 +174,6 @@ p {
   height: auto; 
   float: right;
   margin-top: 10px;
-  position: relative;
   transform: translate(0vw, -10vh);
   color: black;
   border-radius: 20px;
