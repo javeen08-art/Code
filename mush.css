@@ -237,6 +237,10 @@ p {
 	margin-top: -3dvh;
 	font-size: 20px;
 }
+
+.class2 {
+	width: 40dvw;
+}
 .home {
   position: absolute;
   z-index: 1000;
