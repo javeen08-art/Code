@@ -230,6 +230,9 @@ p {
 	font-size: 25px;
 	position: relative;
 }
+.lilt2 h5 {
+	margin-bottom: 0;
+}
 .lilt2 p {
 	font-size: 15px;
 }
