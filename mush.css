@@ -209,7 +209,7 @@ p {
     backdrop-filter: blur(30px); /* Apply blur to content behind */
     color: black;
   	border-radius: 10px;
-	position: relative;
+	align-items: center;
 }
 
 .row {
