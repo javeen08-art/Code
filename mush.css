@@ -214,7 +214,7 @@ p {
 	margin-top: 0px;
 	left: 50%;
 	top: 0;
-  transform: translate(-50%,0%);
+  transform: translate(-25%,0%);
 	background-color: rgb(255, 255, 255);;
     backdrop-filter: blur(30px); /* Apply blur to content behind */
     color: black;
