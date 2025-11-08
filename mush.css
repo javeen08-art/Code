@@ -211,6 +211,7 @@ p {
 	width: 20dvw;
 	text-align: left;
 	margin: 5px;
+	align-items: center;
 	margin-top: 0px;
 	left: 50%;
 	top: 0;
@@ -219,7 +220,6 @@ p {
     backdrop-filter: blur(30px); /* Apply blur to content behind */
     color: black;
   	border-radius: 10px;
-	align-items: center;
 }
 
 
