@@ -199,7 +199,7 @@ p {
 }
 
 .lilt {
-	height: 5vh;
+	height: fit-content;
 	width: 10dvw;
 	text-align: center;
 	padding: 10px;
