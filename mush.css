@@ -210,6 +210,7 @@ p {
 	height: 5dvb;
 	width: 20dvw;
 	text-align: left;
+	top: -2dvh;
 	margin: 5px auto;
 	align-items: center;
 	background-color: rgb(255, 255, 255);;
