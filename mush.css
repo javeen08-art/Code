@@ -1414,13 +1414,12 @@ font-family: 'IBM Plex Mono';
 }
 
 .lilt {
-	padding-top: 1dvh;
 	width:40dvw;
 	height: 40dvh;
 }
 
 .lilt2 {
-	margin-top: 0;
+	margin-top: 1dvh;
 }
 
 .lilt p {
