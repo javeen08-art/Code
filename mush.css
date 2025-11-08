@@ -201,6 +201,7 @@ p {
 .lilt {
 	left: 50%;
 	transform: translate(-50%,0);
+	padding: 2vw;
 	height: fit-content;
 	width: 20dvw;
 	text-align: left;
