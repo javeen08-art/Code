@@ -170,8 +170,8 @@ p {
 }
 
 .bottom img {
-  width: 40vw;
-  height: auto; 
+  width: 40dvw;
+  height: 20dvh; 
   float: right;
   margin-top: 10px;
   transform: translate(-5dvw, -30dvh);
