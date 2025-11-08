@@ -1413,6 +1413,10 @@ font-family: 'IBM Plex Mono';
 	margin-top: 25dvh;
 }
 
+.lilt {
+	width:20dvw
+}
+
 .lilt p {
 	font-size: 1vw;
 }
