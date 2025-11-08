@@ -198,6 +198,7 @@ p {
 
 .title h4 {
 	margin-bottom: 3vh;
+	padding-left: 2dvw;
 	border-bottom: 3px solid;
 	border-bottom-style: solid;
   border-image: linear-gradient(
