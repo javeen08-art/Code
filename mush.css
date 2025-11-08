@@ -261,6 +261,7 @@ p {
 	width: fit-content;
 	border: solid black;
 	border-radius: 30px;
+	padding: 2vw;
 }
 .home {
   position: absolute;
