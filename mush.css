@@ -1401,6 +1401,7 @@ font-family: 'IBM Plex Mono';
 	display: flex;
 	padding: 0 auto;
 	padding-bottom: 50px;
+	display: none;
 
   }
   
@@ -1411,7 +1412,9 @@ font-family: 'IBM Plex Mono';
 .class2 {
 	display: none;
 }
-
+.but2 {
+	display: none;
+}
   #bottoms {
 	scroll-margin-top: -100px;
   }
