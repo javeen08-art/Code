@@ -1427,7 +1427,11 @@ font-family: 'IBM Plex Mono';
 }
 
 .class2 {
-	font-size: 1dvh;
+
+}
+
+.class2 h5 {
+	font-size: 1vh;
 }
 .but2 {
 	display: none;
