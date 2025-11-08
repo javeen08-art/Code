@@ -252,7 +252,7 @@ p {
 }
 
 .but2 {
-	font-size: 20px;
+	font-size: 40px;
 	font-family: 'SF Pro Display';
 	margin-left: 10dvw;
 }
@@ -261,7 +261,7 @@ p {
 	width: fit-content;
 	border: solid black;
 	border-radius: 30px;
-	padding: 0.5vw, 1vw;
+	padding: 0.5vw, 1.5vw;
 	margin-bottom: 1vh;
 }
 .home {
