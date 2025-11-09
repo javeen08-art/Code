@@ -1398,6 +1398,7 @@ font-family: 'IBM Plex Mono';
 	 float: right;
 	display: flex;
 	padding: 0 auto;
+	right: 5dvw;
 
   }
   
