@@ -1427,6 +1427,7 @@ font-family: 'IBM Plex Mono';
 .class2 {
 	max-width: 30dvw;
 	max-height: 20dvw;
+	border: #111111 solid;
 
 }
 
