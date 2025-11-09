@@ -1437,6 +1437,7 @@ font-family: 'IBM Plex Mono';
 }
 .but2 {
 	font-size:5dvw;
+	float: left;
 	margin-top:15dvh;
 
 }
