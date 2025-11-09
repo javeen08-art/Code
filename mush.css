@@ -1412,8 +1412,8 @@ font-family: 'IBM Plex Mono';
 }
 
 .lilt {
-	max-width:40dvw;
-	max-height: 5dvh;
+	width:40dvw;
+	height: 25dvh;
 }
 
 .lilt2 {
