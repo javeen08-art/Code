@@ -1404,10 +1404,20 @@ font-family: 'IBM Plex Mono';
   }
 
   .bottom img:hover {
-	scale: 1.5;
-	left: -50dvw;
+	animation: large ease-in-out 1s;
   }
   
+
+  @keyframes large {
+	from {
+		scale:0;
+	}
+
+	to{
+		scale: 1.5;
+		margin-left: -50dvw;
+	}
+  }
 .title {
 	margin-top: 15dvh;
 	width: 100dvw;
