@@ -81,7 +81,7 @@
 
 
     <div class="pi">
-    <img src="https://www.culturesouthwest.org.uk/wp-content/uploads/2022/01/image001.jpg" alt="Decorative print">
+    <img src id="bImg"="https://www.culturesouthwest.org.uk/wp-content/uploads/2022/01/image001.jpg" alt="Decorative print">
     </div>
 <div class ="but2">
   <div class ="urwork2" style ="background-color: black;">
@@ -240,6 +240,22 @@ const transElement = document.querySelector('.trans');
 transElement.addEventListener('animationend', () => {
   transElement.style.display = 'none';
 });
+
+  const img = document.getElementById("bImg");
+  let enlarged = false; // track state
+
+  img.addEventListener("click", () => {
+    img.style.animation = "none"; // reset animation so it can restart
+    void img.offsetWidth; // force reflow to restart animation
+
+    if (!enlarged) {
+      // play forward
+      img.style.animation = "large 1s ease-in-out forwards";
+      enlarged = true;
+    } else {
+      // play reverse
+      img.style.animation = "large 1s ease-in-out reverse forwards";
+      enlarged = false;
 
 </script>
 
