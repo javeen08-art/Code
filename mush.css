@@ -1399,7 +1399,7 @@ font-family: 'IBM Plex Mono';
 	display: flex;
 	padding: 0 auto;
 	right: 5dvw;
-	top:-10dvh;
+	margin-top:-10dvh;
 
   }
   
