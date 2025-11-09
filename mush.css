@@ -1424,6 +1424,7 @@ font-family: 'IBM Plex Mono';
 
 .lilt p {
 	font-size: 4vw;
+	margin-top: 0;
 }
 
 .class2 {
