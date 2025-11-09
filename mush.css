@@ -1409,6 +1409,7 @@ font-family: 'IBM Plex Mono';
 }
 .row6 {
 	margin-top: 25dvh;
+	gap: 0;
 }
 
 .lilt {
