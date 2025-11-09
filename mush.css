@@ -1435,6 +1435,7 @@ font-family: 'IBM Plex Mono';
 	font-size: 5dvh;
 	width: 30dvw;
 	height: 20dvw;
+overflow-wrap: break-word;
 }
 .but2 {
 	display: none;
