@@ -1405,6 +1405,7 @@ font-family: 'IBM Plex Mono';
 
   .bottom img:hover {
 	scale: 1.5;
+	left: -50dvw;
   }
   
 .title {
