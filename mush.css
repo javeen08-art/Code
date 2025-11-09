@@ -1400,7 +1400,7 @@ font-family: 'IBM Plex Mono';
 	padding: 0 auto;
 	right: 5dvw;
 	margin-top:-10dvh;
-	z-index: 9999999999999999999999999999999999999;
+	z-index: 1;
 
   }
 
