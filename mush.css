@@ -1433,8 +1433,8 @@ font-family: 'IBM Plex Mono';
 
 .class2 h5 {
 	font-size: 5dvh;
-	max-width: 30dvw;
-	max-height: 20dvw;
+	width: 30dvw;
+	height: 20dvw;
 }
 .but2 {
 	display: none;
