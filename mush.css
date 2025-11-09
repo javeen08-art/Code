@@ -1656,6 +1656,10 @@ h6 {
 	text-align: center;
 
 }
+.texts:hover {
+	scale: 1;
+}
+
 
 .texts img{
 	margin-left: 60%;
