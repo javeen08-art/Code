@@ -1405,7 +1405,7 @@ font-family: 'IBM Plex Mono';
 
   .bottom img:hover {
 	animation: large ease-in-out 1s forwards;
-	z-index: 99999999;
+	z-index: 9999999999999999999999999999999999999;
   }
   
 
