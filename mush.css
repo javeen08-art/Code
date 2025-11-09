@@ -1415,7 +1415,7 @@ font-family: 'IBM Plex Mono';
 
 	to{
 		scale: 1.5;
-		margin-left: -50dvw;
+		transform: translate(-50dvw,0);
 	}
   }
 .title {
