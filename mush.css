@@ -1391,7 +1391,7 @@ font-family: 'IBM Plex Mono';
   .bottom img { 
 	 margin: 0 auto;
     width: 50dvw;  
-	height: 50dvh;
+	height: 40dvh;
   transform: none;
   color: black;
   	border-radius: 20px;
