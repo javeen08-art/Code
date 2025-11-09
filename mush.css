@@ -1633,6 +1633,7 @@ h6 {
 
 .texts {
 	width: 100%;
+	height: fit-content;
 	text-align: center;
 	margin-left:10% ;
 }
