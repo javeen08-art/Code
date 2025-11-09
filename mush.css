@@ -1398,7 +1398,7 @@ font-family: 'IBM Plex Mono';
 	 float: right;
 	display: flex;
 	padding: 0 auto;
-	right: 5dvw;
+	right: 3dvw;
 	margin-top:-10dvh;
 	position: absolute;
 	z-index: 9999999999999;
