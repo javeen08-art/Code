@@ -244,7 +244,7 @@ transElement.addEventListener('animationend', () => {
   const img = document.getElementById("bImg");
   let enlarged = false; // track state
 
-  img.addEventListener("tap", () => {
+  img.addEventListener("click", () => {
     img.style.animation = "none"; // reset animation so it can restart
     void img.offsetWidth; // force reflow to restart animation
 
