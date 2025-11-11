@@ -1656,7 +1656,7 @@ h6 {
 
 }
 .texts:hover {
-    scale: 50% !important;      /* No zoom */
+    scale: 0.99999999999 !important;      /* No zoom */
 
 
 	
