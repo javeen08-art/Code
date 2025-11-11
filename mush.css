@@ -1656,8 +1656,7 @@ h6 {
 
 }
 .texts:hover {
-    scale: initial !important;      /* No zoom */
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.393); /* Keep shadow or any effect you like */
+	transform: scale(1);
 	
 }
 
