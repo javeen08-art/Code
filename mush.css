@@ -203,6 +203,7 @@ p {
 }
 
 .title p {
+	margin-top: 0;
 	padding-bottom: 1vh;
 		padding-left: 2dvw;
 	border-bottom: 3px solid;
