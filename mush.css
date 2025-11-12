@@ -1436,7 +1436,10 @@ font-family: 'IBM Plex Mono';
 
 .title p{
 	width: 70dvw;
-	padding-left: 20dvw;
+  border-image: linear-gradient(
+	to right, transparent 0%,  red 50%, rgb(160, 1, 160) 70%, transparent 100%);
+border-image-slice: 1;
+
 }
 
 .row6 {
