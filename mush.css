@@ -321,7 +321,7 @@ border-image-slice: 1;
 	margin: 5px;
 	margin-top: 2dvh;
 	margin-top: 0px;
-	background-color: #ccc8c8;
+	background-color: #bd3a3a;
     backdrop-filter: blur(30px); /* Apply blur to content behind */
     border: 1px solid rgb(222, 222, 222); /* Subtle border */
     color: black;
