@@ -1482,13 +1482,13 @@ margin-left: 12dvw;
 }
 .but2 {
 	position: absolute;
-	font-size:4dvw;
+	font-size:5dvw;
 	left:-17dvw;
 	margin-top:12.5dvh;
 }
 
 .but a {
-	padding: 5dvw;
+	padding: 10dvw;
 }
   #bottoms {
 	scroll-margin-top: -100px;
