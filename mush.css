@@ -226,7 +226,7 @@ border-image-slice: 1;
 	text-align: left;
 	margin: 5px auto;
 	align-items: center;
-	background-color: rgba(237, 234, 234, 0.26);
+	background-color: rgba(237, 234, 234, 0.281);
 		border: solid rgba(39, 39, 39, 0.079) 0.1vw;
     backdrop-filter: blur(30px); /* Apply blur to content behind */
     color: black;
