@@ -1429,7 +1429,7 @@ font-family: 'IBM Plex Mono';
 		transform: translate(-5%,-20%);
 	}
   }
-  
+
 .title {
 	margin-top: 15dvh;
 	width: 100dvw;
@@ -1482,7 +1482,7 @@ margin-left: 12dvw;
 	position: absolute;
 	font-size:5dvw;
 	left:-17dvw;
-	margin-top:10dvh;
+	margin-top:15dvh;
 
 }
   #bottoms {
