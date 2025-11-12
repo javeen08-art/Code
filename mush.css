@@ -1484,8 +1484,10 @@ margin-left: 12dvw;
 	font-size:5dvw;
 	left:-17dvw;
 	margin-top:15dvh;
-	padding: 5dvw;
+}
 
+.but a {
+	padding: 2dvw;
 }
   #bottoms {
 	scroll-margin-top: -100px;
