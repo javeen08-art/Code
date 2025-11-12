@@ -1490,6 +1490,10 @@ margin-left: 12dvw;
 .but2 a {
 	padding: 3dvw;
 }
+
+.urwork,.urwork2 {
+		padding: 1vw 2vw;
+}
   #bottoms {
 	scroll-margin-top: -100px;
   }
