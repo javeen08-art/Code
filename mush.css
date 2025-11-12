@@ -1434,10 +1434,15 @@ font-family: 'IBM Plex Mono';
 	width: 100dvw;
 }
 
+.title p{
+		padding-left: 30dvw;
+}
+
 .row6 {
 	margin-top: 25dvh;
 	gap: 0;
 }
+
 
 .lilt {
 	width:40dvw;
@@ -1453,7 +1458,7 @@ font-family: 'IBM Plex Mono';
 .lilt p {
 	font-size: 4vw;
 	margin-top: -4.5dvh;
-	padding-left: 30dvw;
+	
 }
 
 .class2 {
