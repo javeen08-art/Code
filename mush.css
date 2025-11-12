@@ -1432,6 +1432,7 @@ font-family: 'IBM Plex Mono';
 .title {
 	margin-top: 15dvh;
 	width: 100dvw;
+	padding-left: 30dvw;
 }
 .row6 {
 	margin-top: 25dvh;
