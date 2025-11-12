@@ -1435,6 +1435,7 @@ font-family: 'IBM Plex Mono';
 }
 
 .title p{
+	width: 50dvw;
 }
 
 .row6 {
