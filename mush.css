@@ -219,7 +219,7 @@ border-image-slice: 1;
 	text-align: left;
 	margin: 5px auto;
 	align-items: center;
-	background-color: rgb(255, 255, 255);;
+	background-color: rgb(225, 224, 224);;
     backdrop-filter: blur(30px); /* Apply blur to content behind */
     color: black;
   	border-radius: 10px;
@@ -321,7 +321,7 @@ border-image-slice: 1;
 	margin: 5px;
 	margin-top: 2dvh;
 	margin-top: 0px;
-	background-color: #bd3a3a;
+	background-color: rgba(255, 255, 255, 0.651);;
     backdrop-filter: blur(30px); /* Apply blur to content behind */
     border: 1px solid rgb(222, 222, 222); /* Subtle border */
     color: black;
