@@ -204,7 +204,7 @@ p {
 
 .title p {
 		padding-left: 2dvw;
-	border-bottom: 3px solid;
+	border-bottom: 1vh solid;
 	border-bottom-style: solid;
   border-image: linear-gradient(
 	to right, transparent 0%,  red 50%, rgb(160, 1, 160) 70%, transparent 100%);
@@ -224,7 +224,7 @@ border-image-slice: 1;
 	text-align: left;
 	margin: 5px auto;
 	align-items: center;
-	background-color: rgba(237, 234, 234, 0.647);
+	background-color: rgba(237, 234, 234, 0.47);
     backdrop-filter: blur(30px); /* Apply blur to content behind */
     color: black;
   	border-radius: 10px;
