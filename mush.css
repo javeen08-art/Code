@@ -198,7 +198,11 @@ p {
 
 .title h4 {
 	padding-bottom: 0.5vh;
-	padding-left: 2dvw;
+
+}
+
+.title p {
+		padding-left: 2dvw;
 	border-bottom: 3px solid;
 	border-bottom-style: solid;
   border-image: linear-gradient(
