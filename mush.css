@@ -385,7 +385,7 @@ h5 {
 .pics {
 	align-items: center;
 	background-color: #d6d5d5;
-	width: 20dvw;
+	width: fit-content;
 	border-radius: 30px;
 	gap: 2dvw;
 	text-align: center;
