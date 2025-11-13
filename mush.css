@@ -1771,6 +1771,9 @@ h3 {
 	transform:translateY(-17dvh);
 	padding: 0 auto;
 	position:absolute;
+	margin-bottom:5px;
+	margin-top:5px;
+	margin-left:20px;
 	display: flex;
 	flex-direction: row;
 	width: 100%;
