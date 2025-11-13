@@ -1774,6 +1774,7 @@ h3 {
 }
 
 .starts {
+	transform: none;
 }
 
 .q {
