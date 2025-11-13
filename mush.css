@@ -375,6 +375,11 @@ h5 {
 	width: 100dvw;
 }
 
+.rows {
+	display: flex;
+	flex-direction: row;
+}
+
 .pics img {
 	height: 30dvh;
 	width: 20dvh;
