@@ -2011,10 +2011,3 @@ body {
 }
 
 
-@media screen and (max-device-height: 3500px) and (device-width: 430px) { 
-    .starts {
-        transform: translate(-1.5vw, 46dvh);
-    }
-}
-
-
