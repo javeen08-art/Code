@@ -384,6 +384,8 @@ h5 {
 
 .pics {
 	align-items: center;
+	background-color: ;
+	background-color: rgba(237, 234, 234, 0.281);
 	border: solid rgba(39, 39, 39, 0.153) 0.1vw;
 	width: 20dvw;
 	border-radius: 30px;
