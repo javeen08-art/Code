@@ -378,6 +378,7 @@ h5 {
 .rows {
 	display: flex;
 	flex-direction: row;
+	justify-content: center;
 }
 
 .pics {
