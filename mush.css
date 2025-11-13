@@ -1413,6 +1413,7 @@ font-family: 'IBM Plex Mono';
 }
 
 .wk p{
+	font-size: 30px;
 	padding: 0 auto;
 	padding-bottom: 2dvh;
 	margin: 0 auto;
