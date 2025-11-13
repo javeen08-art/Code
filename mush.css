@@ -380,8 +380,13 @@ h5 {
 	flex-direction: row;
 }
 
+.pics {
+	align-items: center;
+}
+
 .pics h5 {
 	font-size: 5vw;
+	text-align: center;
 }
 .pics img {
 	height: 30dvh;
