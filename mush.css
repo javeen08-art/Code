@@ -1409,6 +1409,10 @@ font-family: 'IBM Plex Mono';
 	margin-bottom: 0;
 	padding-bottom: 0;
 }
+
+.wk p{
+	margin-top: 0;
+}
 @media(max-width: 500px) {
   .bottom, .row,.row2,.sub,.contacts,.row3,.faqqs,#faqs,.faq,.messagess,.row4{
     flex-direction: column;
