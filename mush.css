@@ -373,10 +373,13 @@ h5 {
 .wk {
 	text-align: center;
 	width: 100dvw;
-
-	
 }
 
+.pics img {
+	height: 30dvh;
+	width: 20dvh;
+
+}
 
 .sub h5 {
 		padding-bottom: 30px;
