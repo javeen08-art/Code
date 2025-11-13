@@ -1418,6 +1418,7 @@ font-family: 'IBM Plex Mono';
 	margin: 0 auto;
 	text-align: center;
 	width:fit-content;
+	border: 3px solid;
 	border-bottom-style: solid;
   border-image: linear-gradient(
 	to right, transparent 0%,  red 50%, rgb(160, 1, 160) 70%, transparent 100%);
