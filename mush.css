@@ -1412,9 +1412,6 @@ font-family: 'IBM Plex Mono';
 
   }
 
-  .bottom img:hover {
-	animation: large ease-in-out 1s forwards;
-  }
   
 
   @keyframes large {
