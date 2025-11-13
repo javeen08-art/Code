@@ -1446,6 +1446,10 @@ font-family: 'IBM Plex Mono';
 .pics {
 	width: 30dvw;
 }
+
+.pics img {
+	width: 30dvw;
+}
   
 
   @keyframes large {
