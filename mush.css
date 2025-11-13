@@ -1410,6 +1410,7 @@ font-family: 'IBM Plex Mono';
 }
 
 .wk p{
+	width:70dvw;
 	border-bottom-style: solid;
   border-image: linear-gradient(
 	to right, transparent 0%,  red 50%, rgb(160, 1, 160) 70%, transparent 100%);
