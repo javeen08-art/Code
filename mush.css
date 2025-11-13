@@ -1468,6 +1468,7 @@ font-family: 'IBM Plex Mono';
 
 .pics h5 {
 	font-size: 5dvw;
+	margin-top: 0;
 }
 .pics img {
 	width: 30dvw;
