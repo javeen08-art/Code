@@ -197,7 +197,11 @@ p {
 }
 
 .title h4 {
-	padding-bottom: 0vh;
+	border-bottom: 3px solid;
+	border-bottom-style: solid;
+  border-image: linear-gradient(
+	to right, transparent 0%,  red 50%, rgb(160, 1, 160) 70%, transparent 100%);
+border-image-slice: 1;
 	margin-bottom: 0;
 
 }
@@ -205,12 +209,6 @@ p {
 .title p {
 	margin-top: 0;
 	padding-bottom: 1vh;
-		padding-left: 2dvw;
-	border-bottom: 3px solid;
-	border-bottom-style: solid;
-  border-image: linear-gradient(
-	to right, transparent 0%,  red 50%, rgb(160, 1, 160) 70%, transparent 100%);
-border-image-slice: 1;
 }
 .row,.row2,.row4,.row5{
   display: flex;
