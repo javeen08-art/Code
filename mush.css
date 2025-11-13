@@ -1461,7 +1461,7 @@ margin-left: 12dvw;
 	margin-top: 2dvh;
 	margin-bottom: 0;
 	padding-bottom: 0;
-	border-bottom: 1px solid;
+	border-bottom: 2px solid;
 	border-bottom-style: solid;
   border-image: linear-gradient(
 	to right, transparent 0%,  red 50%, rgb(160, 1, 160) 70%, transparent 100%);
@@ -1470,7 +1470,7 @@ border-image-slice: 1;
 
 .lilt p {
 	font-size: 3.8vw;
-	margin-top: 0dvh;
+	margin-top: 1dvh;
 	
 }
 
