@@ -1480,6 +1480,7 @@ font-family: 'IBM Plex Mono';
 }
 .wk p{
 	margin-top: 0;
+	font: initial;
 }
   
 
