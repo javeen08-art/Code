@@ -1408,6 +1408,13 @@ font-family: 'IBM Plex Mono';
 	margin-bottom: 0;
 	padding-bottom: 0;
 }
+
+.wk p{
+	border-bottom-style: solid;
+  border-image: linear-gradient(
+	to right, transparent 0%,  red 50%, rgb(160, 1, 160) 70%, transparent 100%);
+	border-image-slice: 1;
+}
 @media(max-width: 500px) {
   .bottom, .row,.row2,.sub,.contacts,.row3,.faqqs,#faqs,.faq,.messagess,.row4{
     flex-direction: column;
