@@ -1443,7 +1443,9 @@ font-family: 'IBM Plex Mono';
 	z-index: 99999;
 
   }
-
+.pics {
+	width: 30dvw;
+}
   
 
   @keyframes large {
