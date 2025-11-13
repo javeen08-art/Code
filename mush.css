@@ -1402,7 +1402,9 @@ font-family: 'IBM Plex Mono';
   from {bottom: 0; opacity: 0;}
   to {bottom: 30px; opacity: 1;}
 }
-
+.wk {
+	text-align: center;
+}
 
 .wk h5 {
 	margin-bottom: 0;
