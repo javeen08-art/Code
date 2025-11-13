@@ -380,6 +380,9 @@ h5 {
 	flex-direction: row;
 }
 
+.pics h5 {
+	font-size: 5vw;
+}
 .pics img {
 	height: 30dvh;
 	width: 20dvh;
