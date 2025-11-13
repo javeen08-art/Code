@@ -1374,10 +1374,12 @@ font-family: 'IBM Plex Mono';
 }
 
 .pics {
-	width: 30dvw;
-	height: 40dvh;
+
 }
 
+.pics img {
+	width:30dvw;
+}
 #loading {
 	background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white */
   backdrop-filter: blur(15px); /* Apply blur to content behind */
