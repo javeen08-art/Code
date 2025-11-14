@@ -11,61 +11,62 @@
   <body>
     <main> 
       <article>
-        <div class="smallmnu">
-          <div class="smallh">
-            <a href="index.html" id="myBtn">
-              <img src="MushImgs/719A6AB5-B07D-4B8D-B365-2F1CFEE85942.PNG" type="image/png" width="50">
-            </a>
+        <div class ="smallmnu">
+          <div class ="smallh">
+            <a href="index.html" id="myBtn"><img src="MushImgs/719A6AB5-B07D-4B8D-B365-2F1CFEE85942.PNG" type="image/png" width="50"></a>
           </div>
-          <div class="smallm">
+          <div class ="smallm">
             <button class="st2"><span>≡</span></button>
             <div class="s6">
               <a href='index.html'>Home</a>
-              <a href='about.html'>About Us</a>
-              <a href='serv.html'>Services</a>
+              <a href ='about.html'>About Us</a>
+              <a href ='serv.html'>Services</a>
               <a href="work.html">Ma'Showroom</a>
-              <a href='quote.html'>Get A Quote</a>
-              <a href='faq.html' style="padding-bottom: 7px;">FAQ</a>
+              <a href ='quote.html'>Get A Quote</a>
+              <a href ='faq.html' style =" padding-bottom: 7px;">FAQ</a>
             </div>
           </div>
         </div>
       </article>
 
       <article>
-        <div class="trans">
-          <p><img src="MushImgs/719A6AB5-B07D-4B8D-B365-2F1CFEE85942.PNG"></p>
+        <div class ="trans">
+          <p><img src ="MushImgs/719A6AB5-B07D-4B8D-B365-2F1CFEE85942.PNG"></p>
         </div>
 
-        <div class="contacts">
-          <div class="forms">
+        <div class ="contacts">
+          <div class ='forms'>
             <div class="home3">
-              <a href='index.html' id="myBtn">
-                <img src="MushImgs/719A6AB5-B07D-4B8D-B365-2F1CFEE85942.PNG" alt="logo" width="150">
-              </a> 
+              <a href='index.html' id="myBtn"><img src ="MushImgs/719A6AB5-B07D-4B8D-B365-2F1CFEE85942.PNG" alt ="logo" width ="150"></a> 
             </div>
 
             <div class="nextbtnt2">
               <button class="starts2">≡</button>
               <div class='s4'>
                 <a href='index.html'>Home</a>
-                <a href='about.html'>About Us</a>
-                <a href='serv.html'>Services</a>
-                <a href='faq.html' style="padding-bottom: 7px;">FAQ</a>
+                <a href ='about.html'>About Us</a>
+                <a href ='serv.html'>Services</a>
+                <a href ='faq.html' style =" padding-bottom: 7px;">FAQ</a>
               </div>
             </div>
 
-            <!-- Updated Form -->
-            <form id="quoteForm" class="forms" enctype="multipart/form-data">
+            <!-- ===== Updated Form ===== -->
+            <form 
+              method="POST"
+              action="https://script.google.com/macros/s/AKfycbw1UbH_08PSUdG0FEgNhMShEcQts9Ti7_FJ1rSO0TWgpVEhHxz5STzmncIejATzuQ9N/exec"
+              enctype="multipart/form-data"
+              target="hidden_iframe"
+              id="quoteForm"
+            >
               <h7>Quote</h7>
               <div class="words">
                 <div class="three">
-                  <div><input type="text" id="name" name="Name" placeholder="Name Here" style="scroll-margin-top: 150px;"></div>
-                  <div><input type="tel" id="phone" name="phone" placeholder="647000000" pattern="[0-9]{3}[0-9]{3}[0-9]{3}"></div>
-                  <div><input type="email" id='email' name='email' placeholder="E-mail"></div>
+                  <div><input type="text" id="name" name="Name" placeholder="Name Here" style='scroll-margin-top: 150px;'></div>
+                  <div><input type="tel" id="phone" name="phone" placeholder="647000000" pattern="[0-9]{9}"></div>
+                  <div><input type="email" id='email' name='email' placeholder="E-mail"></div> 
                   <div><input id="subject" name="City/Address" placeholder="City/Address"></div>
                 </div>
-
-                <div class="messagess">
+                <div class ='messagess'>
                   <input id="subject" name="subject" placeholder="Type Of Surface">
                   <input id="subject" name="Size in ft" placeholder="Size in ft" style="margin-top: 1vh;">
                 </div>
@@ -86,10 +87,10 @@
               <div class="l2">
                 <div class="date">
                   <label for="bdate">Choose Your Date</label>
-                  <input type="date" id="bdate" name="Date Perferred" min="" max="">
+                  <input type="date" id="bdate" name="Date Perferred">
                 </div>
                 <div class="dropdown">
-                  <label>Location Of Print:</label>
+                  <label>Location Of Print: </label>
                   <select name="area">
                     <option value="House">House</option>
                     <option value="Apartment/Condo">Apartment/Condo</option>
@@ -112,33 +113,43 @@
 
               <div class="buttons">
                 <div><input type="reset" id="d"></div>
-                <div><input type="submit" id="b" style="background-color: #3498DB; color:white;"></div>
+                <div><input type="submit" id="b" style="background-color: #3498DB; font-family: 'SF Pro'; color:'white'"></div>
                 <div id='message'>Form has been submitted successfully</div>
                 <div id="loading" style="display:none;">Processing...</div>
               </div>
             </form>
 
-          </div> 
+            <!-- Hidden iframe for file upload -->
+            <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;"></iframe>
+
+          </div>
         </div>
       </article>
     </main>
 
+    <!-- ===== Your Existing Scripts ===== -->
     <script>
       // -------- Collapsible Buttons --------
-      const collapsibleButtons = document.querySelectorAll('.collapsible, .starts, .starts2, .st2, .nextbtnt3');
-      collapsibleButtons.forEach(button => {
+      const collapsibleButtons = document.querySelectorAll('.collapsible, .starts, .starts2, .st2,.nextbtnt3');
+
+      collapsibleButtons.forEach(function(button) {
         button.addEventListener('click', function(e) {
           e.stopPropagation();
           this.classList.toggle('active');
+
           if (this.classList.contains('active')) {
             this.textContent = this.textContent.replace('+', '−');
           } else {
             this.textContent = this.textContent.replace('−', '+');
           }
+
           const content = this.nextElementSibling;
           if (content) {
-            if (content.style.maxHeight) content.style.maxHeight = null;
-            else content.style.maxHeight = content.scrollHeight + "px";
+            if (content.style.maxHeight) {
+              content.style.maxHeight = null;
+            } else {
+              content.style.maxHeight = content.scrollHeight + "px";
+            }
           }
         });
       });
@@ -147,50 +158,49 @@
         collapsibleButtons.forEach(btn => {
           if (btn.classList.contains('active')) {
             btn.classList.remove('active');
-            if (btn.textContent.includes('−')) btn.textContent = btn.textContent.replace('−', '+');
+            if (btn.textContent.includes('−')) {
+              btn.textContent = btn.textContent.replace('−', '+');
+            }
             const content = btn.nextElementSibling;
             if (content) content.style.maxHeight = null;
           }
         });
       });
 
-      // -------- Date input min attribute --------
+      const dropdownBtn = document.querySelector('.dropbtn');
+      const dropdownContent = document.getElementById('myDropdown');
+
+      if (dropdownBtn && dropdownContent) {
+        dropdownBtn.addEventListener('click', () => {
+          dropdownContent.classList.toggle('show');
+        });
+      }
+
+      window.addEventListener('click', (event) => {
+        if (event.target !== dropdownBtn && !dropdownBtn.contains(event.target)) {
+          const dropdowns = document.getElementsByClassName('dropdown-content');
+          for (let i = 0; i < dropdowns.length; i++) dropdowns[i].classList.remove('show');
+        }
+      });
+
       const today = new Date();
       const year = today.getFullYear();
       const month = String(today.getMonth() + 1).padStart(2, '0');
       const day = String(today.getDate()).padStart(2, '0');
       const minDate = `${year}-${month}-${day}`;
+
       const bdateInput = document.getElementById('bdate');
       if (bdateInput) bdateInput.setAttribute('min', minDate);
 
-      // -------- Form Submission with File Upload --------
-      const form = document.getElementById('quoteForm');
-      const messageDiv = document.getElementById('message');
-      const loadingDiv = document.getElementById('loading');
-
-      form.addEventListener('submit', function(e) {
-        e.preventDefault();
-        loadingDiv.style.display = 'block';
-        const formData = new FormData(form);
-        fetch("https://script.google.com/macros/s/AKfycbyo6xl8jibQPG0BE55Y5-Z8lomNmQ6YNAqmogps-wEcNpWIcAi-2W5q9-OOmI9vNp4/exec", {
-          method: "POST",
-          body: formData
-        })
-        .then(res => res.text())
-        .then(data => {
-          loadingDiv.style.display = 'none';
-          alert('Form submitted successfully! Check your email for the uploaded image.');
-          form.reset();
-        })
-        .catch(err => {
-          loadingDiv.style.display = 'none';
-          alert('Error submitting form: ' + err);
+      function lol(checkbox) {
+        const checkboxes = document.getElementsByName('Time');
+        checkboxes.forEach((item) => {
+          if (item !== checkbox) item.checked = false;
         });
-      });
+      }
 
-      // -------- Hide transition image after animation --------
       const transElement = document.querySelector('.trans');
-      if(transElement){
+      if (transElement) {
         transElement.addEventListener('animationend', () => {
           transElement.style.display = 'none';
         });
