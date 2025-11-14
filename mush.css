@@ -217,7 +217,7 @@ border-image-slice: 1;
   gap: 1vw;
 }
 .lilt {
-	padding: 0vw;
+	padding: 2vw;
 	padding-top: 0;
 	height: 18dvh;
 	width: 20dvw;
@@ -245,7 +245,7 @@ border-image-slice: 1;
 .lilt2 h5 {
 	padding-top: 0;
 	margin-bottom: 0;
-	margin-top: 0;
+	margin-top: -1dvh;
 }
 .lilt p {
 	margin-top: -3dvh;
