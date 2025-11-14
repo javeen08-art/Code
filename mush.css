@@ -241,12 +241,12 @@ border-image-slice: 1;
 .lilt2 {
 	font-size: 25px;
 	position: relative;
+	margin-top: -3dvh;
 }
 .lilt2 h5 {
 	padding-top: 0;
 	margin-bottom: 0;
-	position: absolute;
-	margin-top: -30dvh;
+
 	
 }
 .lilt p {
