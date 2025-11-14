@@ -246,6 +246,7 @@ border-image-slice: 1;
 	padding-top: 0;
 	margin-bottom: 0;
 	position: absolute;
+	margin-top: -3dvh;
 	
 }
 .lilt p {
