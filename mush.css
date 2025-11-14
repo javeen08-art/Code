@@ -245,7 +245,7 @@ border-image-slice: 1;
 .lilt2 h5 {
 	padding-top: 0;
 	margin-bottom: 0;
-	op: 0dvh;
+	top: 0dvh;
 }
 .lilt p {
 	margin-top: -3dvh;
