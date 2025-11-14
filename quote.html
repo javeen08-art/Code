@@ -153,8 +153,11 @@ collapsibleButtons.forEach(button => {
     // Toggle the content
     const content = button.nextElementSibling;
     if (content) {
-      if (content.style.maxHeight) content.style.maxHeight = null;
-      else content.style.maxHeight = content.scrollHeight + "px";
+      if (content.style.maxHeight) {
+        content.style.maxHeight = null;
+      } else {
+        content.style.maxHeight = content.scrollHeight + "px";
+      }
     }
   });
 });
@@ -164,7 +167,9 @@ document.addEventListener('click', () => {
   collapsibleButtons.forEach(btn => {
     if (btn.classList.contains('active')) {
       btn.classList.remove('active');
-      if (btn.textContent.includes('−')) btn.textContent = btn.textContent.replace('−', '+');
+      if (btn.textContent.includes('−')) {
+        btn.textContent = btn.textContent.replace('−', '+');
+      }
       const content = btn.nextElementSibling;
       if (content) content.style.maxHeight = null;
     }
@@ -175,10 +180,12 @@ document.addEventListener('click', () => {
 const dropdownBtn = document.querySelector('.dropbtn');
 const dropdownContent = document.getElementById('myDropdown');
 if (dropdownBtn && dropdownContent) {
-  dropdownBtn.addEventListener('click', () => {
+  dropdownBtn.addEventListener('click', (event) => {
+    event.stopPropagation();
     dropdownContent.classList.toggle('show');
   });
 }
+
 window.addEventListener('click', event => {
   if (dropdownBtn && event.target !== dropdownBtn && !dropdownBtn.contains(event.target)) {
     const dropdowns = document.getElementsByClassName('dropdown-content');
@@ -192,39 +199,77 @@ const minDate = today.toISOString().split("T")[0];
 const bdateInput = document.getElementById('bdate');
 if (bdateInput) bdateInput.setAttribute('min', minDate);
 
-// -------- Form Submission with File Upload --------
+// -------- Form Submission with Base64 File Upload --------
 const form = document.querySelector('form');
 const messageDiv = document.getElementById('message');
 const loadingDiv = document.getElementById('loading');
+const fileInput = document.getElementById('filename');
 
 if (form) {
-  form.addEventListener('submit', e => {
+  form.addEventListener('submit', function (e) {
     e.preventDefault();
+
     if (loadingDiv) loadingDiv.style.display = 'block';
 
+    // Gather all form fields into an object
     const formData = new FormData(form);
-
-    fetch(form.action, {
-      method: 'POST',
-      body: formData
-    })
-    .then(response => response.text())
-    .then(data => {
-      if (loadingDiv) loadingDiv.style.display = 'none';
-      if (messageDiv) {
-        messageDiv.textContent = 'Form submitted successfully!';
-        messageDiv.style.display = 'block';
-      }
-      form.reset();
-      setTimeout(() => {
-        if (messageDiv) messageDiv.style.display = 'none';
-      }, 3000);
-    })
-    .catch(err => {
-      if (loadingDiv) loadingDiv.style.display = 'none';
-      alert('Error submitting the form. Please try again.');
-      console.error(err);
+    const dataObj = {};
+    formData.forEach((value, key) => {
+      dataObj[key] = value;
     });
+
+    const file = fileInput && fileInput.files && fileInput.files[0];
+
+    const sendRequest = () => {
+      fetch(form.action, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(dataObj)
+      })
+      .then(response => response.text())
+      .then(text => {
+        if (loadingDiv) loadingDiv.style.display = 'none';
+
+        if (messageDiv) {
+          messageDiv.textContent = 'Form has been submitted successfully';
+          messageDiv.style.display = 'block';
+        }
+
+        form.reset();
+        if (fileInput) fileInput.value = "";
+        setTimeout(() => {
+          if (messageDiv) messageDiv.style.display = 'none';
+        }, 3000);
+
+        console.log('Server response:', text);
+      })
+      .catch(err => {
+        if (loadingDiv) loadingDiv.style.display = 'none';
+        alert('Error submitting the form. Please try again.');
+        console.error(err);
+      });
+    };
+
+    if (file) {
+      // Convert file to Base64
+      const reader = new FileReader();
+      reader.onload = function (evt) {
+        const result = evt.target.result; // "data:image/png;base64,AAAA..."
+        const base64 = result.split(',')[1];
+
+        dataObj.fileData = base64;
+        dataObj.fileName = file.name;
+        dataObj.fileType = file.type;
+
+        sendRequest();
+      };
+      reader.readAsDataURL(file);
+    } else {
+      // No file, just send the form fields
+      sendRequest();
+    }
   });
 }
 
@@ -237,6 +282,7 @@ if (transElement) {
 }
 
 </script>
+
 
 
 
