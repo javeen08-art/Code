@@ -134,13 +134,12 @@
 
  <script>
 
-// -------- Collapsible Buttons --------
-const collapsibleButtons = document.querySelectorAll('.collapsible, .starts, .starts2, .st2,.nextbtnt3');
+/// -------- Collapsible Buttons --------
+const collapsibleButtons = document.querySelectorAll('.collapsible, .starts, .starts2, .st2, .nextbtnt3');
 
 collapsibleButtons.forEach(function(button) {
   button.addEventListener('click', function(e) {
-    e.stopPropagation(); // Prevent event from bubbling to document
-    // Toggle 'active' class
+    e.stopPropagation(); 
     this.classList.toggle('active');
 
     // Change button text
@@ -150,7 +149,7 @@ collapsibleButtons.forEach(function(button) {
       this.textContent = this.textContent.replace('−', '+');
     }
 
-    // Toggle the content section
+    // Toggle content
     const content = this.nextElementSibling;
     if (content) {
       if (content.style.maxHeight) {
@@ -162,21 +161,16 @@ collapsibleButtons.forEach(function(button) {
   });
 });
 
-// -------- Close open collapsible sections when clicking outside --------
+// -------- Close collapsibles on outside click --------
 document.addEventListener('click', () => {
-  // Close all collapsible sections
   collapsibleButtons.forEach(btn => {
     if (btn.classList.contains('active')) {
       btn.classList.remove('active');
-      // Reset button text if needed
       if (btn.textContent.includes('−')) {
         btn.textContent = btn.textContent.replace('−', '+');
       }
-      // Close the content
       const content = btn.nextElementSibling;
-      if (content) {
-        content.style.maxHeight = null;
-      }
+      if (content) content.style.maxHeight = null;
     }
   });
 });
@@ -191,10 +185,8 @@ if (dropdownBtn && dropdownContent) {
   });
 }
 
-// Close dropdown when clicking outside
 window.addEventListener('click', (event) => {
-  if (event.target !== dropdownBtn && !dropdownBtn.contains(event.target)) {
-    // Close all dropdowns
+  if (dropdownBtn && event.target !== dropdownBtn && !dropdownBtn.contains(event.target)) {
     const dropdowns = document.getElementsByClassName('dropdown-content');
     for (let i = 0; i < dropdowns.length; i++) {
       dropdowns[i].classList.remove('show');
@@ -204,18 +196,13 @@ window.addEventListener('click', (event) => {
 
 // -------- Date input min attribute --------
 const today = new Date();
-const year = today.getFullYear();
-const month = String(today.getMonth() + 1).padStart(2, '0');
-const day = String(today.getDate()).padStart(2, '0');
-const minDate = `${year}-${month}-${day}`;
-
+const minDate = today.toISOString().split("T")[0];
 const bdateInput = document.getElementById('bdate');
 if (bdateInput) {
   bdateInput.setAttribute('min', minDate);
 }
 
-// -------- Checkbox selection (assuming 'Time' is a name attribute) --------
-// Corrected variable 'Time' to a string 'Time'
+// -------- Checkbox selection --------
 function lol(checkbox) {
   const checkboxes = document.getElementsByName('Time');
   checkboxes.forEach((item) => {
@@ -223,7 +210,7 @@ function lol(checkbox) {
   });
 }
 
-// -------- Form Submission --------
+// -------- FIXED FORM SUBMISSION (IMPORTANT) --------
 const form = document.querySelector('form');
 const messageDiv = document.getElementById('message');
 const loadingDiv = document.getElementById('loading');
@@ -232,45 +219,47 @@ if (form) {
   form.addEventListener('submit', (e) => {
     e.preventDefault();
 
-    // Show loading indicator
     if (loadingDiv) loadingDiv.style.display = 'block';
 
     const formData = new FormData(form);
 
+    // *** REQUIRED FOR GOOGLE APPS SCRIPT TO RECEIVE FILES ***
     fetch(form.action, {
       method: 'POST',
-      body: formData
+      body: formData,
+      mode: "no-cors"
     })
-      .then((response) => response.text())
-      .then((data) => {
-        // Hide loading
-        if (loadingDiv) loadingDiv.style.display = 'none';
+    .then(() => {
+      // Hide loading
+      if (loadingDiv) loadingDiv.style.display = 'none';
 
-        // Show message
-        if (messageDiv) {
-          messageDiv.className = 'show';
-        }
+      // Show success message
+      if (messageDiv) {
+        messageDiv.className = 'show';
+      }
 
-        // Reset form
-        form.reset();
+      // Reset form
+      form.reset();
 
-        // Hide message after 3 seconds
-        setTimeout(() => {
-          if (messageDiv) messageDiv.className = '';
-        }, 3000);
-      })
-      .catch((error) => {
-        if (loadingDiv) loadingDiv.style.display = 'none';
-        alert('Error submitting the form. Please try again.');
-      });
+      // Hide message after 3 seconds
+      setTimeout(() => {
+        if (messageDiv) messageDiv.className = '';
+      }, 3000);
+    })
+    .catch(() => {
+      if (loadingDiv) loadingDiv.style.display = 'none';
+      alert('Error submitting the form. Please try again.');
+    });
   });
 }
 
+// -------- Remove intro animation --------
 const transElement = document.querySelector('.trans');
-
-transElement.addEventListener('animationend', () => {
-  transElement.style.display = 'none';
-});
+if (transElement) {
+  transElement.addEventListener('animationend', () => {
+    transElement.style.display = 'none';
+  });
+}
 </script>
 
 
