@@ -245,7 +245,8 @@ border-image-slice: 1;
 .lilt2 h5 {
 	padding-top: 0;
 	margin-bottom: 0;
-	transform: translateY(-3dvh);
+	position: absolute;
+	
 }
 .lilt p {
 	margin-top: -3dvh;
