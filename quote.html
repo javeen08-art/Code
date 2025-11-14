@@ -1,134 +1,141 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"> 
-  <title>3D Mushrooms</title>
-  <link rel="stylesheet" href="mush.css">
-</head>
-<body>
-<main>
-  <!-- Your Header & Navigation -->
-  <article>
-    <div class="contacts">
-      <div class="forms">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"> 
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>3D Mushrooms</title>
+    <link rel="stylesheet" href="mush.css">
+    <link rel="icon" href="MushImgs/719A6AB5-B07D-4B8D-B365-2F1CFEE85942.PNG" type="image/png">
+  </head>
+  <body>
+    <main> 
+      <article>
+        <div class="smallmnu">
+          <div class="smallh">
+            <a href="index.html" id="myBtn"><img src="MushImgs/719A6AB5-B07D-4B8D-B365-2F1CFEE85942.PNG" type="image/png" width="50"></a>
+          </div>
+          <div class="smallm">
+            <button class="st2"><span>≡</span></button>
+            <div class="s6">
+              <a href="index.html">Home</a>
+              <a href="about.html">About Us</a>
+              <a href="serv.html">Services</a>
+              <a href="work.html">Ma'Showroom</a>
+              <a href="quote.html">Get A Quote</a>
+              <a href="faq.html" style="padding-bottom: 7px;">FAQ</a>
+            </div>
+          </div>
+        </div>
+      </article>
 
-        <!-- Logo -->
-        <div class="home3">
-          <a href="index.html"><img src="MushImgs/719A6AB5-B07D-4B8D-B365-2F1CFEE85942.PNG" alt="logo" width="150"></a>
+      <article>
+        <div class="trans">
+          <p><img src="MushImgs/719A6AB5-B07D-4B8D-B365-2F1CFEE85942.PNG"></p>
         </div>
 
-        <!-- Form -->
-        <form 
-          id="quoteForm"
-          method="POST" 
-          enctype="multipart/form-data" 
-          action="https://script.google.com/macros/s/YOUR_WEB_APP_ID/exec">
-
-          <h7>Quote</h7>
-
-          <!-- User Info -->
-          <div class="words">
-            <div class="three">
-              <input type="text" name="Name" placeholder="Name Here">
-              <input type="tel" name="phone" placeholder="647000000" pattern="[0-9]{9}">
-              <input type="email" name="email" placeholder="E-mail">
-              <input name="City/Address" placeholder="City/Address">
+        <div class="contacts">
+          <div class="forms">
+            <div class="home3">
+              <a href="index.html" id="myBtn"><img src="MushImgs/719A6AB5-B07D-4B8D-B365-2F1CFEE85942.PNG" alt="logo" width="150"></a>
             </div>
 
-            <div class="messagess">
-              <input name="subject" placeholder="Type Of Surface">
-              <input name="Size in ft" placeholder="Size in ft">
+            <div class="nextbtnt2">
+              <button class="starts2">≡</button>
+              <div class="s4">
+                <a href="index.html">Home</a>
+                <a href="about.html">About Us</a>
+                <a href="serv.html">Services</a>
+                <a href="faq.html" style="padding-bottom: 7px;">FAQ</a>
+              </div>
             </div>
+
+            <!-- Form -->
+            <form 
+              method="POST"
+              enctype="multipart/form-data" 
+              action="https://script.google.com/macros/s/YOUR_WEB_APP_ID/exec"
+              id="quoteForm">
+
+              <h7>Quote</h7>
+
+              <div class="words">
+                <div class="three">
+                  <div><input type="text" id="name" name="Name" placeholder="Name Here"></div>
+                  <div><input type="tel" id="phone" name="phone" placeholder="647000000" pattern="[0-9]{9}"></div>
+                  <div><input type="email" id="email" name="email" placeholder="E-mail"></div>
+                  <div><input id="subject" name="City/Address" placeholder="City/Address"></div>
+                </div>
+
+                <div class="messagess">
+                  <input id="subject" name="subject" placeholder="Type Of Surface">
+                  <input id="subject" name="Size in ft" placeholder="Size in ft" style="margin-top: 1vh;">
+                </div>
+              </div>
+
+              <div class="designer">
+                <label>Do you have your own design?</label>
+                <div class="bo">
+                  <div class="option">
+                    <label><input type="radio" name="Got design?" value="yea"> Yes</label>
+                  </div>
+                  <div class="option">
+                    <label><input type="radio" name="Got design?" value="nah"> No</label>
+                  </div>
+                </div>
+              </div>
+
+              <div class="l2">
+                <div class="date">
+                  <label for="bdate">Choose Your Date</label>
+                  <input type="date" id="bdate" name="Date Perferred" min="">
+                </div>
+
+                <div class="dropdown">
+                  <label>Location Of Print:</label>
+                  <select name="area">
+                    <option value="House">House</option>
+                    <option value="Apartment/Condo">Apartment/Condo</option>
+                    <option value="Offices">Offices</option>
+                    <option value="Warehouse/Commercials">Warehouse/Commercials</option>
+                    <option value="School">School</option>
+                    <option value="Hospital">Hospital</option>
+                    <option value="Gym">Gym</option>
+                    <option value="Recreation Centre">Recreation Centre</option>
+                    <option value="Tow Trailers">Tow Trailers</option>
+                    <option value="Other">Other</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="file-upload">
+                <label for="filename">Upload Your File:</label>
+                <input type="file" id="filename" name="filename" accept="image/*" required>
+              </div>
+
+              <div class="buttons">
+                <div><input type="reset" id="d"></div>
+                <div><input type="submit" id="b" style="background-color: #3498DB; font-family: 'SF Pro'; color:white;"></div>
+              </div>
+
+            </form>
+
+            <div id="loading" style="display:none;">Processing...</div>
+            <div id="message" style="display:none;">Form has been submitted successfully</div>
+
           </div>
-
-          <!-- Design Option -->
-          <div class="designer">
-            <label>Do you have your own design?</label>
-            <label><input type="radio" name="Got design?" value="yea"> Yes</label>
-            <label><input type="radio" name="Got design?" value="nah"> No</label>
-          </div>
-
-          <!-- Date & Location -->
-          <div class="l2">
-            <div class="date">
-              <label for="bdate">Choose Your Date</label>
-              <input type="date" id="bdate" name="Date Perferred">
-            </div>
-            <div class="dropdown">
-              <label>Location Of Print:</label>
-              <select name="area">
-                <option value="House">House</option>
-                <option value="Apartment/Condo">Apartment/Condo</option>
-                <option value="Offices">Offices</option>
-                <option value="Warehouse/Commercials">Warehouse/Commercials</option>
-                <option value="School">School</option>
-                <option value="Hospital">Hospital</option>
-                <option value="Gym">Gym</option>
-                <option value="Recreation Centre">Recreation Centre</option>
-                <option value="Tow Trailers">Tow Trailers</option>
-                <option value="Other">Other</option>
-              </select>
-            </div>
-          </div>
-
-          <!-- File Upload -->
-          <div class="file-upload">
-            <label for="filename">Upload Your File:</label>
-            <input type="file" id="filename" name="filename" accept="image/*" required>
-          </div>
-
-          <!-- Buttons -->
-          <div class="buttons">
-            <input type="reset" value="Reset">
-            <input type="submit" value="Submit" style="background-color: #3498DB; color:white;">
-          </div>
-
-        </form>
-
-        <!-- Messages -->
-        <div id="loading" style="display:none;">Processing...</div>
-        <div id="message" style="display:none;">Form submitted successfully!</div>
-
-      </div>
-    </div>
-  </article>
-</main>
+        </div>
+      </article>
+    </main>
 
 <script>
-// -------- Date input min attribute --------
-const today = new Date();
-const year = today.getFullYear();
-const month = String(today.getMonth() + 1).padStart(2, '0');
-const day = String(today.getDate()).padStart(2, '0');
-document.getElementById('bdate').setAttribute('min', `${year}-${month}-${day}`);
-
-// -------- Form submission with messages --------
-const form = document.getElementById('quoteForm');
-const messageDiv = document.getElementById('message');
-const loadingDiv = document.getElementById('loading');
-
-form.addEventListener('submit', () => {
-  // Show processing
-  loadingDiv.style.display = 'block';
-  messageDiv.style.display = 'none';
-});
-
-// Optional: hide "Processing..." after 5 seconds if needed
-form.addEventListener('submit', () => {
-  setTimeout(() => {
-    loadingDiv.style.display = 'none';
-    messageDiv.style.display = 'block';
-  }, 5000);
-});
-
 // -------- Collapsible Buttons --------
 const collapsibleButtons = document.querySelectorAll('.collapsible, .starts, .starts2, .st2,.nextbtnt3');
-collapsibleButtons.forEach(button => {
-  button.addEventListener('click', e => {
+collapsibleButtons.forEach(function(button) {
+  button.addEventListener('click', function(e) {
     e.stopPropagation();
-    button.classList.toggle('active');
-    const content = button.nextElementSibling;
+    this.classList.toggle('active');
+    const content = this.nextElementSibling;
     if (content) content.style.maxHeight = content.style.maxHeight ? null : content.scrollHeight + "px";
   });
 });
@@ -154,11 +161,34 @@ if (dropdownBtn && dropdownContent) {
 window.addEventListener('click', (event) => {
   if (!dropdownBtn.contains(event.target)) {
     const dropdowns = document.getElementsByClassName('dropdown-content');
-    for (let i = 0; i < dropdowns.length; i++) {
-      dropdowns[i].classList.remove('show');
-    }
+    for (let i = 0; i < dropdowns.length; i++) dropdowns[i].classList.remove('show');
   }
 });
+
+// -------- Date input min --------
+const today = new Date();
+const year = today.getFullYear();
+const month = String(today.getMonth()+1).padStart(2,'0');
+const day = String(today.getDate()).padStart(2,'0');
+document.getElementById('bdate').setAttribute('min', `${year}-${month}-${day}`);
+
+// -------- Form submission messages --------
+const form = document.getElementById('quoteForm');
+const messageDiv = document.getElementById('message');
+const loadingDiv = document.getElementById('loading');
+
+form.addEventListener('submit', () => {
+  loadingDiv.style.display = 'block';
+  messageDiv.style.display = 'none';
+  setTimeout(() => {
+    loadingDiv.style.display = 'none';
+    messageDiv.style.display = 'block';
+  }, 3000);
+});
+
+const transElement = document.querySelector('.trans');
+transElement.addEventListener('animationend', () => { transElement.style.display = 'none'; });
 </script>
-</body>
+
+  </body>
 </html>
