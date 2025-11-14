@@ -54,7 +54,7 @@
       <form 
     method="POST"
     enctype="multipart/form-data" 
-    action ="https://script.google.com/macros/s/AKfycbxd6vBddJ-Olq1Wn-kWl4OgO64jmQ8CfYnV6ITdaqYSwl_tmNu4pldpflozGkpUkrOl/exec">
+    action ="https://script.google.com/macros/s/AKfycbzgKhU9NkpYKO8pdcLfEZA9nO25Qk1Ieyk1oSV2cVdHPNBOCJtMTAaM6o9TBQVPo-Zz/exec">
      <h7> Quote</h7>
      <div class="words">
      <div class ="three">
@@ -135,6 +135,7 @@
 
  <script>
 
+
 // -------- Collapsible Buttons --------
 const collapsibleButtons = document.querySelectorAll('.collapsible, .starts, .starts2, .st2, .nextbtnt3');
 
@@ -150,7 +151,7 @@ collapsibleButtons.forEach(button => {
       button.textContent = button.textContent.replace('−', '+');
     }
 
-    // Toggle the content
+    // Toggle content
     const content = button.nextElementSibling;
     if (content) {
       if (content.style.maxHeight) content.style.maxHeight = null;
@@ -159,7 +160,7 @@ collapsibleButtons.forEach(button => {
   });
 });
 
-// Close collapsibles on outside click
+// Close collapsibles when clicking outside
 document.addEventListener('click', () => {
   collapsibleButtons.forEach(btn => {
     if (btn.classList.contains('active')) {
@@ -174,11 +175,13 @@ document.addEventListener('click', () => {
 // -------- Dropdown Menu --------
 const dropdownBtn = document.querySelector('.dropbtn');
 const dropdownContent = document.getElementById('myDropdown');
+
 if (dropdownBtn && dropdownContent) {
   dropdownBtn.addEventListener('click', () => {
     dropdownContent.classList.toggle('show');
   });
 }
+
 window.addEventListener('click', event => {
   if (dropdownBtn && event.target !== dropdownBtn && !dropdownBtn.contains(event.target)) {
     const dropdowns = document.getElementsByClassName('dropdown-content');
@@ -192,31 +195,41 @@ const minDate = today.toISOString().split("T")[0];
 const bdateInput = document.getElementById('bdate');
 if (bdateInput) bdateInput.setAttribute('min', minDate);
 
-// -------- Form Submission with File Upload --------
+// -------- Form Submission (ALLOW FILE UPLOAD TO GOOGLE APPS SCRIPT) --------
 const form = document.querySelector('form');
 const messageDiv = document.getElementById('message');
 const loadingDiv = document.getElementById('loading');
 
 if (form) {
+  // Show loading message while submitting
   form.addEventListener('submit', () => {
     if (loadingDiv) loadingDiv.style.display = 'block';
   });
 
+  // When Apps Script finishes, iframe returns "SUCCESS" which triggers this
   window.addEventListener("message", () => {
     if (loadingDiv) loadingDiv.style.display = 'none';
+
     if (messageDiv) {
-      messageDiv.textContent = 'Form has been submitted successfully!';
+      messageDiv.textContent = 'Form has been submitted successfully';
       messageDiv.style.display = 'block';
-      setTimeout(() => messageDiv.style.display = 'none', 3000);
+
+      setTimeout(() => {
+        messageDiv.style.display = 'none';
+      }, 3000);
     }
   });
 }
+
+// -------- Remove intro animation --------
 const transElement = document.querySelector('.trans');
 if (transElement) {
   transElement.addEventListener('animationend', () => {
     transElement.style.display = 'none';
   });
 }
+
+
 
 </script>
 
