@@ -192,42 +192,6 @@ const minDate = today.toISOString().split("T")[0];
 const bdateInput = document.getElementById('bdate');
 if (bdateInput) bdateInput.setAttribute('min', minDate);
 
-// -------- Form Submission with File Upload --------
-const form = document.querySelector('form');
-const messageDiv = document.getElementById('message');
-const loadingDiv = document.getElementById('loading');
-
-if (form) {
-  form.addEventListener('submit', e => {
-    e.preventDefault();
-    if (loadingDiv) loadingDiv.style.display = 'block';
-
-    const formData = new FormData(form);
-
-    fetch(form.action, {
-      method: 'POST',
-      body: formData
-    })
-    .then(response => response.text())
-    .then(data => {
-      if (loadingDiv) loadingDiv.style.display = 'none';
-      if (messageDiv) {
-        messageDiv.textContent = 'Form submitted successfully!';
-        messageDiv.style.display = 'block';
-      }
-      form.reset();
-      setTimeout(() => {
-        if (messageDiv) messageDiv.style.display = 'none';
-      }, 3000);
-    })
-    .catch(err => {
-      if (loadingDiv) loadingDiv.style.display = 'none';
-      alert('Error submitting the form. Please try again.');
-      console.error(err);
-    });
-  });
-}
-
 // -------- Remove intro animation --------
 const transElement = document.querySelector('.trans');
 if (transElement) {
