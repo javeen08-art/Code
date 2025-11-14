@@ -143,33 +143,24 @@ collapsibleButtons.forEach(button => {
     e.stopPropagation();
     button.classList.toggle('active');
 
-    // Toggle button text
     if (button.classList.contains('active')) {
       button.textContent = button.textContent.replace('+', '−');
     } else {
       button.textContent = button.textContent.replace('−', '+');
     }
 
-    // Toggle the content
     const content = button.nextElementSibling;
     if (content) {
-      if (content.style.maxHeight) {
-        content.style.maxHeight = null;
-      } else {
-        content.style.maxHeight = content.scrollHeight + "px";
-      }
+      content.style.maxHeight = content.style.maxHeight ? null : content.scrollHeight + "px";
     }
   });
 });
 
-// Close collapsibles on outside click
 document.addEventListener('click', () => {
   collapsibleButtons.forEach(btn => {
     if (btn.classList.contains('active')) {
       btn.classList.remove('active');
-      if (btn.textContent.includes('−')) {
-        btn.textContent = btn.textContent.replace('−', '+');
-      }
+      btn.textContent = btn.textContent.replace('−', '+');
       const content = btn.nextElementSibling;
       if (content) content.style.maxHeight = null;
     }
@@ -179,97 +170,79 @@ document.addEventListener('click', () => {
 // -------- Dropdown Menu --------
 const dropdownBtn = document.querySelector('.dropbtn');
 const dropdownContent = document.getElementById('myDropdown');
+
 if (dropdownBtn && dropdownContent) {
-  dropdownBtn.addEventListener('click', (event) => {
-    event.stopPropagation();
+  dropdownBtn.addEventListener('click', e => {
+    e.stopPropagation();
     dropdownContent.classList.toggle('show');
   });
 }
 
 window.addEventListener('click', event => {
   if (dropdownBtn && event.target !== dropdownBtn && !dropdownBtn.contains(event.target)) {
-    const dropdowns = document.getElementsByClassName('dropdown-content');
-    for (let i = 0; i < dropdowns.length; i++) dropdowns[i].classList.remove('show');
+    document.querySelectorAll('.dropdown-content').forEach(d => d.classList.remove('show'));
   }
 });
 
-// -------- Date input min attribute --------
+// -------- Date input min --------
 const today = new Date();
 const minDate = today.toISOString().split("T")[0];
 const bdateInput = document.getElementById('bdate');
 if (bdateInput) bdateInput.setAttribute('min', minDate);
 
-// -------- Form Submission with Base64 File Upload --------
+// -------- Form Submission (Base64 Upload) --------
 const form = document.querySelector('form');
 const messageDiv = document.getElementById('message');
 const loadingDiv = document.getElementById('loading');
 const fileInput = document.getElementById('filename');
 
 if (form) {
-  form.addEventListener('submit', function (e) {
+  form.addEventListener('submit', async function(e) {
     e.preventDefault();
 
     if (loadingDiv) loadingDiv.style.display = 'block';
 
-    // Gather all form fields into an object
     const formData = new FormData(form);
     const dataObj = {};
-    formData.forEach((value, key) => {
-      dataObj[key] = value;
-    });
+    formData.forEach((value, key) => dataObj[key] = value);
 
-    const file = fileInput && fileInput.files && fileInput.files[0];
-
-    const sendRequest = () => {
-      fetch(form.action, {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json'
-        },
-        body: JSON.stringify(dataObj)
-      })
-      .then(response => response.text())
-      .then(text => {
-        if (loadingDiv) loadingDiv.style.display = 'none';
-
-        if (messageDiv) {
-          messageDiv.textContent = 'Form has been submitted successfully';
-          messageDiv.style.display = 'block';
-        }
-
-        form.reset();
-        if (fileInput) fileInput.value = "";
-        setTimeout(() => {
-          if (messageDiv) messageDiv.style.display = 'none';
-        }, 3000);
-
-        console.log('Server response:', text);
-      })
-      .catch(err => {
-        if (loadingDiv) loadingDiv.style.display = 'none';
-        alert('Error submitting the form. Please try again.');
-        console.error(err);
-      });
-    };
+    const file = fileInput.files[0];
 
     if (file) {
-      // Convert file to Base64
-      const reader = new FileReader();
-      reader.onload = function (evt) {
-        const result = evt.target.result; // "data:image/png;base64,AAAA..."
-        const base64 = result.split(',')[1];
-
-        dataObj.fileData = base64;
-        dataObj.fileName = file.name;
-        dataObj.fileType = file.type;
-
-        sendRequest();
-      };
-      reader.readAsDataURL(file);
-    } else {
-      // No file, just send the form fields
-      sendRequest();
+      const base64 = await new Promise(resolve => {
+        const reader = new FileReader();
+        reader.onload = e => resolve(e.target.result.split(',')[1]);
+        reader.readAsDataURL(file);
+      });
+      dataObj.fileData = base64;
+      dataObj.fileName = file.name;
+      dataObj.fileType = file.type;
     }
+
+    fetch(form.action, {
+      method: "POST",
+      headers: {
+        "Content-Type": "text/plain;charset=utf-8"
+      },
+      body: JSON.stringify(dataObj)
+    })
+    .then(res => res.text())
+    .then(result => {
+      if (loadingDiv) loadingDiv.style.display = 'none';
+      if (messageDiv) {
+        messageDiv.textContent = "Form has been submitted successfully";
+        messageDiv.style.display = "block";
+      }
+      form.reset();
+      fileInput.value = "";
+      setTimeout(() => messageDiv.style.display = "none", 3000);
+      console.log("Server response:", result);
+    })
+    .catch(err => {
+      if (loadingDiv) loadingDiv.style.display = 'none';
+      alert("Error submitting the form. Please try again.");
+      console.error("DEBUG ERROR:", err);
+    });
   });
 }
 
@@ -282,6 +255,8 @@ if (transElement) {
 }
 
 </script>
+
+
 
 
 
