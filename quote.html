@@ -51,10 +51,10 @@
             <a href ='faq.html' style =" padding-bottom: 7px;">FAQ</a>
           </div>
       </div>
-      <form 
-    method="POST"
-    enctype="multipart/form-data" 
-    action ="https://script.google.com/macros/s/AKfycbxiJfGnZstKkw01djza2WfO3ChjwXmJUk9oIKmnYP6Gb88FXwN7Lydptk9IJ1IoT7ou/exec">
+      <form
+  method="POST"
+  action="https://script.google.com/macros/s/AKfycbxiJfGnZstKkw01djza2WfO3ChjwXmJUk9oIKmnYP6Gb88FXwN7Lydptk9IJ1IoT7ou/exec">
+
      <h7> Quote</h7>
      <div class="words">
      <div class ="three">
@@ -133,38 +133,35 @@
     </article>
 
 
- <script>
+<script>
 
 // -------- Collapsible Buttons --------
-const collapsibleButtons = document.querySelectorAll('.collapsible, .starts, .starts2, .st2, .nextbtnt3');
+document.querySelectorAll('.collapsible, .starts, .starts2, .st2, .nextbtnt3')
+  .forEach(btn => {
+    btn.addEventListener('click', e => {
+      e.stopPropagation();
+      btn.classList.toggle('active');
 
-collapsibleButtons.forEach(button => {
-  button.addEventListener('click', e => {
-    e.stopPropagation();
-    button.classList.toggle('active');
+      btn.textContent = btn.classList.contains('active')
+        ? btn.textContent.replace('+', '−')
+        : btn.textContent.replace('−', '+');
 
-    if (button.classList.contains('active')) {
-      button.textContent = button.textContent.replace('+', '−');
-    } else {
-      button.textContent = button.textContent.replace('−', '+');
-    }
-
-    const content = button.nextElementSibling;
-    if (content) {
-      content.style.maxHeight = content.style.maxHeight ? null : content.scrollHeight + "px";
-    }
+      const content = btn.nextElementSibling;
+      if (content) {
+        content.style.maxHeight = content.style.maxHeight ? null : content.scrollHeight + "px";
+      }
+    });
   });
-});
 
+// Close collapsibles on outside click
 document.addEventListener('click', () => {
-  collapsibleButtons.forEach(btn => {
-    if (btn.classList.contains('active')) {
+  document.querySelectorAll('.collapsible.active, .starts.active, .starts2.active, .st2.active, .nextbtnt3.active')
+    .forEach(btn => {
       btn.classList.remove('active');
       btn.textContent = btn.textContent.replace('−', '+');
       const content = btn.nextElementSibling;
       if (content) content.style.maxHeight = null;
-    }
-  });
+    });
 });
 
 // -------- Dropdown Menu --------
@@ -178,83 +175,77 @@ if (dropdownBtn && dropdownContent) {
   });
 }
 
-window.addEventListener('click', event => {
-  if (dropdownBtn && event.target !== dropdownBtn && !dropdownBtn.contains(event.target)) {
-    document.querySelectorAll('.dropdown-content').forEach(d => d.classList.remove('show'));
+window.addEventListener('click', e => {
+  if (dropdownBtn && e.target !== dropdownBtn) {
+    dropdownContent?.classList.remove('show');
   }
 });
 
-// -------- Date input min --------
-const today = new Date();
-const minDate = today.toISOString().split("T")[0];
-const bdateInput = document.getElementById('bdate');
-if (bdateInput) bdateInput.setAttribute('min', minDate);
+// -------- Date minimum --------
+const today = new Date().toISOString().split("T")[0];
+document.getElementById('bdate')?.setAttribute('min', today);
 
-// -------- Form Submission (Base64 Upload) --------
+// -------- FORM SUBMISSION (Base64 Upload) --------
 const form = document.querySelector('form');
+const fileInput = document.getElementById('filename');
 const messageDiv = document.getElementById('message');
 const loadingDiv = document.getElementById('loading');
-const fileInput = document.getElementById('filename');
 
-if (form) {
-  form.addEventListener('submit', async function(e) {
-    e.preventDefault();
+form.addEventListener('submit', async e => {
+  e.preventDefault();
 
-    if (loadingDiv) loadingDiv.style.display = 'block';
+  loadingDiv.style.display = 'block';
 
-    const formData = new FormData(form);
-    const dataObj = {};
-    formData.forEach((value, key) => dataObj[key] = value);
+  const formData = new FormData(form);
+  const dataObj = {};
 
-    const file = fileInput.files[0];
+  formData.forEach((v, k) => dataObj[k] = v);
 
-    if (file) {
-      const base64 = await new Promise(resolve => {
-        const reader = new FileReader();
-        reader.onload = e => resolve(e.target.result.split(',')[1]);
-        reader.readAsDataURL(file);
-      });
-      dataObj.fileData = base64;
-      dataObj.fileName = file.name;
-      dataObj.fileType = file.type;
-    }
-
-    fetch(form.action, {
-      method: "POST",
-      headers: {
-        "Content-Type": "text/plain;charset=utf-8"
-      },
-      body: JSON.stringify(dataObj)
-    })
-    .then(res => res.text())
-    .then(result => {
-      if (loadingDiv) loadingDiv.style.display = 'none';
-      if (messageDiv) {
-        messageDiv.textContent = "Form has been submitted successfully";
-        messageDiv.style.display = "block";
-      }
-      form.reset();
-      fileInput.value = "";
-      setTimeout(() => messageDiv.style.display = "none", 3000);
-      console.log("Server response:", result);
-    })
-    .catch(err => {
-      if (loadingDiv) loadingDiv.style.display = 'none';
-      alert("Error submitting the form. Please try again.");
-      console.error("DEBUG ERROR:", err);
+  // Convert file to base64
+  const file = fileInput.files[0];
+  if (file) {
+    const base64 = await new Promise(resolve => {
+      const reader = new FileReader();
+      reader.onload = event => resolve(event.target.result.split(',')[1]);
+      reader.readAsDataURL(file);
     });
+    dataObj.fileData = base64;
+    dataObj.fileName = file.name;
+    dataObj.fileType = file.type;
+  }
+
+  fetch(form.action, {
+    method: "POST",
+    headers: { "Content-Type": "text/plain;charset=utf-8" },
+    body: JSON.stringify(dataObj)
+  })
+  .then(res => res.text())
+  .then(result => {
+    loadingDiv.style.display = 'none';
+    messageDiv.textContent = "Form has been submitted successfully!";
+    messageDiv.style.display = "block";
+
+    form.reset();
+    fileInput.value = "";
+
+    setTimeout(() => messageDiv.style.display = "none", 3000);
+
+    console.log("Server response:", result);
+  })
+  .catch(err => {
+    loadingDiv.style.display = 'none';
+    alert("Error submitting the form. Please try again.");
+    console.error("DEBUG ERROR:", err);
   });
-}
+});
 
 // -------- Remove intro animation --------
-const transElement = document.querySelector('.trans');
-if (transElement) {
-  transElement.addEventListener('animationend', () => {
-    transElement.style.display = 'none';
-  });
-}
+document.querySelector('.trans')?.addEventListener('animationend', e => {
+  e.target.style.display = 'none';
+});
 
 </script>
+
 
 
 
