@@ -1467,6 +1467,7 @@ font-family: 'IBM Plex Mono';
 
 .insta {
 	position:relative;
+	display: flex;
 	top:0;
 }
 
