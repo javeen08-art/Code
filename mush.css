@@ -1476,6 +1476,8 @@ font-family: 'IBM Plex Mono';
 
 .tiktok {
 	position: relative;
+	margin: 0;
+	padding: 0;
 	top:0;
 	margin-top: 0;
 }
