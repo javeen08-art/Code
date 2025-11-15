@@ -228,7 +228,7 @@ border-image-slice: 1;
     backdrop-filter: blur(30px); /* Apply blur to content behind */
     color: black;
   	border-radius: 10px;
-	margin-top: 0dvh;
+	margin-top: -5dvh;
 }
 
 .row6 {
