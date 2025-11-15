@@ -1477,6 +1477,7 @@ font-family: 'IBM Plex Mono';
 .tikokt {
 	position: relative;
 	top:0;
+	margin-top: 0;
 }
 @media(max-width: 500px) {
   .bottom, .row,.row2,.sub,.contacts,.row3,.faqqs,#faqs,.faq,.messagess,.row4{
