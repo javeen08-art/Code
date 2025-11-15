@@ -1210,6 +1210,11 @@ background-color: white; /* Semi-transparent white */
 	display: none;
 
 }
+.notice {
+	border-radius: 30px;
+		border: solid rgba(39, 39, 39, 0.153) 0.1vw;
+
+}
 
 .s5 {
   max-height: 0;
