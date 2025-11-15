@@ -1213,8 +1213,11 @@ background-color: white; /* Semi-transparent white */
 .notice {
 	border-radius: 30px;
 		border: solid rgba(39, 39, 39, 0.153) 0.1vw;
-		font-size: 5px;
 
+}
+
+.notice p {
+	font-size: 5px;
 }
 
 .s5 {
