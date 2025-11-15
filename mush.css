@@ -1448,6 +1448,8 @@ font-family: 'IBM Plex Mono';
 
 .hyperlinks img {
 	scale:30%;
+	margin: 0;
+	padding: 0;
 }
 @media(max-width: 500px) {
   .bottom, .row,.row2,.sub,.contacts,.row3,.faqqs,#faqs,.faq,.messagess,.row4{
