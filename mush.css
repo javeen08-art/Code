@@ -1446,7 +1446,6 @@ font-family: 'IBM Plex Mono';
 	padding-left: 0;
 	width: 100vw;
 	display: flex;
-	flex-direction: row;
 	height: 25vw;
 	background-color: #f5f5f5;
 
