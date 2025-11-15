@@ -1444,8 +1444,7 @@ font-family: 'IBM Plex Mono';
 .hyperlinks {
 	margin-left: 0;
 	padding-left: 0;
-	display: flex;
-	align-items: center;
+
 }
 
 .hyperlinks img {
