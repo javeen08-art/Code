@@ -1468,7 +1468,7 @@ font-family: 'IBM Plex Mono';
 
 .insta {
 	text-align: center;
-	position:relative;
+	position:absolute;
 	display: flex;
 	max-height: 5dvh;
 	top:0;
