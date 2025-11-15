@@ -1683,7 +1683,9 @@ h15 {
 
 
 }
-
+.notice {
+			border: solid rgba(39, 39, 39, 0.153) 0.5vw;
+}
 
 h6 {
 	width:70%;
