@@ -1451,6 +1451,7 @@ font-family: 'IBM Plex Mono';
 }
 
 .hyperlinks img {
+	position: relative;
 	scale:10%;
 	margin: 0;
 	padding: 0;
