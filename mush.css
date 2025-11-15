@@ -1470,6 +1470,7 @@ font-family: 'IBM Plex Mono';
 	text-align: center;
 	position:relative;
 	display: flex;
+	max-height: 5dvh;
 	top:0;
 	left: 0;
 }
