@@ -1455,14 +1455,17 @@ font-family: 'IBM Plex Mono';
 	scale:10%;
 	margin: 0;
 	padding: 0;
+
 }
 
 .insta {
 	position: relative;
+	top:0;
 }
 
 .tikokt {
 	position: relative;
+	top:0;
 }
 @media(max-width: 500px) {
   .bottom, .row,.row2,.sub,.contacts,.row3,.faqqs,#faqs,.faq,.messagess,.row4{
