@@ -1543,6 +1543,7 @@ border-image-slice: 1;
 .lilt p {
 	font-size: 3.5vw;
 	margin-top: 1dvh;
+  white-space: pre;
 	
 }
 
