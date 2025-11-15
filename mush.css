@@ -1476,7 +1476,7 @@ font-family: 'IBM Plex Mono';
 
 .insta p{
 	top:0;
-	margin-top: 0;
+	margin-top: -50dvh;
 }
 
 .tiktok {
