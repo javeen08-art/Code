@@ -1212,7 +1212,7 @@ background-color: white; /* Semi-transparent white */
 }
 .notice {
 	border-radius: 30px;
-		border: solid rgb(39, 39, 39) 0.5vw;
+		border: solid rgb(39, 39, 39) 0.3vw;
 		font-size: 10px;
 
 }
