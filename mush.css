@@ -1470,22 +1470,13 @@ font-family: 'IBM Plex Mono';
 }
 
 
-.tiktok p {
-	right: 0dvh;
-	top:0;
-	margin-top: -30dvh;
-
-}
-.tiktok {
+.tiktok a {
+		text-align: center;
+	max-height: 10dvh;
 	display: flex;
 	align-items: center;
-	position: relative;
-	margin: 0;
-	padding: 0;
-	top:0;
-	margin-top: 0;
 	border: #111111 solid;
-	max-width:5dvw;
+
 }
 
 .tiktok img {
