@@ -1493,6 +1493,7 @@ font-family: 'IBM Plex Mono';
 	padding: 0;
 	top:0;
 	margin-top: 0;
+	border: #111111 solid;
 }
 
 .tiktok img {
