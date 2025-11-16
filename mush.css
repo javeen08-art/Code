@@ -1442,14 +1442,20 @@ font-family: 'IBM Plex Mono';
 
 
 .hyperlinks {
+
 	width: 100vw;
 	height: 25vw;
 	background-color: #f5f5f5;
-	position: absolute
 
 }
 
 
+
+.hyperlinks img {
+	scale:10%;
+
+
+}
 .insta a {
     max-height: 10dvh;
     text-align: center;
