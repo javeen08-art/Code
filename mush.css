@@ -1472,7 +1472,8 @@ font-family: 'IBM Plex Mono';
 	gap:1dvw;
 }
 
-.insta {
+
+.insta p {
 	margin: 0;
 	padding: 0;
 }
