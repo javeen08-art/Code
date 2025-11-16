@@ -1447,6 +1447,8 @@ font-family: 'IBM Plex Mono';
 	background-color: #f5f5f5;
 	padding-top: 4dvh;
 	margin-top: 10dvh;
+	display: flex;
+	flex-direction: row;
 
 }
 
