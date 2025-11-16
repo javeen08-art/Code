@@ -1465,7 +1465,6 @@ font-family: 'IBM Plex Mono';
     text-align: center;
     display: flex;
     align-items: center;
-    border: #111111 solid;
     padding: 0;
     margin: 0;
     gap: 0dvw;
@@ -1497,7 +1496,7 @@ font-family: 'IBM Plex Mono';
 	max-height: 10dvh;
 	display: flex;
 	align-items: center;
-	border: #111111 solid;
+
 
 }
 
