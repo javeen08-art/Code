@@ -1475,7 +1475,7 @@ font-family: 'IBM Plex Mono';
     margin: 0;
     padding: 0;
 	padding-left: 3dvh;
-	width: 30dvw;
+	width: 20dvw;
 }
 
 .insta img {
@@ -1488,7 +1488,10 @@ font-family: 'IBM Plex Mono';
     padding: 0;
 }
 
-
+.tiktok {
+	padding-left: 3dvh;
+	width: 20dvw;
+}
 .tiktok a {
 	text-align: center;
 	max-height: 10dvh;
