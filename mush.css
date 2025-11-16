@@ -1460,28 +1460,32 @@ font-family: 'IBM Plex Mono';
 	padding: 0;
 
 }
-
 .insta a {
-	max-height: 10dvh;
-	text-align: center;
-	display: flex;
-	align-items: center;
-	border: #111111 solid;
-	padding: 0;
-	margin: 0;
-	gap:1dvw;
+    max-height: 10dvh;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    border: #111111 solid;
+    padding: 0;
+    margin: 0;
+    gap: 1dvw;
 }
 
+.insta {
+    margin: 0;
+    padding: 0;
+}
+
+.insta img {
+    padding: 0;
+    margin: 0;
+}
 
 .insta p {
-	margin: 0;
-	padding: 0;
+    margin: 0;   /* THIS removes the extra gap */
+    padding: 0;
 }
-.insta img {
-		padding: 0;
-		margin: 0;
-		left: 0;
-}
+
 
 .tiktok a {
 	text-align: center;
