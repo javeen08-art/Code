@@ -1472,6 +1472,7 @@ font-family: 'IBM Plex Mono';
 	max-height: 5dvh;
 	top:0;
 	left: 0;
+	border: #111111 solid;
 }
 
 .insta p{
