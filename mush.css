@@ -1487,12 +1487,12 @@ font-family: 'IBM Plex Mono';
 }
 
 .insta p {
-    margin: 0;   /* THIS removes the extra gap */
+    margin: 0;   
     padding: 0;
 }
 
 .tiktok {
-	margin-top: -1dvh;
+	margin-top: -5dvh;
 	padding: 0;
 	margin: 0;
 	padding-left: 3dvh;
