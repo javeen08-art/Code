@@ -1126,7 +1126,8 @@ background-color: white; /* Semi-transparent white */
 	background-color: rgba(255,255,255, 0.6); /* Semi-transparent white */
   backdrop-filter: blur(15px);/* Apply blur to content behind */
   border-radius: 15px; /* Rounded corners */
-	transform: translate(10vw,72vh);
+	transform: translate(10vw,42vh);
+	margin-top:-20px;
   display: flex;
   flex-direction: column; 
 	position: absolute;
@@ -1937,7 +1938,7 @@ h3 {
 
 .s2 {
 	margin-top:2px;
-	transform:translate(0dvw,-25dvh);
+	transform:translate(0dvw,0dvh);
 
 
 }
