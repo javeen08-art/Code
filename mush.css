@@ -1442,9 +1442,10 @@ font-family: 'IBM Plex Mono';
 
 
 .hyperlinks {
+	border-top: #111111 solid;
 	width: 100vw;
 	height: 5vw;
-	background-color: #f5f5f5;
+	background-color: white;
 	padding-top: 4dvh;
 	margin-top: 10dvh;
 	display: flex;
