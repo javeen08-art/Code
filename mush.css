@@ -1528,6 +1528,14 @@ font-family: 'IBM Plex Mono';
   	flex-direction: column-reverse;
   }
 
+
+ 
+.hyperlinks img {
+	width:10dvw;
+	height: 15dvh;
+    transform-origin: left center; 
+	margin: 0;
+	padding: 0;
   .tiktok {
 	margin-left: 10dvh;
   }
