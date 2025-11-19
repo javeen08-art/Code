@@ -1492,6 +1492,7 @@ font-family: 'IBM Plex Mono';
 }
 
 .tiktok {
+	margin-top: -1dvh;
 	padding: 0;
 	margin: 0;
 	padding-left: 3dvh;
@@ -1509,7 +1510,7 @@ font-family: 'IBM Plex Mono';
 
 .tiktok img {
 	width:3dvw;
-	height: 4dvh;
+	height: 5dvh;
 	left: 0;
 	margin: 0;
 	padding: 0;
