@@ -1555,6 +1555,7 @@ font-family: 'IBM Plex Mono';
   .bottom img { 
     width: 70dvw;  
 	height: 30dvh;
+	transform: none;
   color: black;
   	border-radius: 40px;
 	padding: 0 auto;
