@@ -1552,15 +1552,14 @@ font-family: 'IBM Plex Mono';
 
   .bottom img { 
 	 margin: 0 auto;
-    width: 45dvw;  
+    width: 60dvw;  
 	height: 30dvh;
   transform: none;
   color: black;
   	border-radius: 20px;
-	 float: right;
 	display: flex;
 	padding: 0 auto;
-	right: 3dvw;
+	align-items: center;
 	margin-top:-10dvh;
 	position: absolute;
 	z-index: 99999;
