@@ -1590,18 +1590,6 @@ font-family: 'IBM Plex Mono';
 }
   
 
-  @keyframes large {
-	from {
-		scale:1;
-	}
-
-	to{
-		width:80dvw;
-		height: 50dvh;
-		background-color: #f0f0f0a3;
-		transform: translate(-5%,-20%);
-	}
-  }
 
 .title {
 	margin-top: 15dvh;
@@ -1651,6 +1639,7 @@ border-image-slice: 1;
 .class2 {
 	width: 30dvw;
 	height: 20dvw;
+	display: none;
 
 }
 
