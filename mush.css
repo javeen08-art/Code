@@ -1560,7 +1560,8 @@ font-family: 'IBM Plex Mono';
   	border-radius: 40px;
 	padding: 0 auto;
   display: block;              /* REQUIRED for margin auto centering */
-  margin: 22.5vh auto 0 auto;
+  margin: 10.5vh auto 0 auto;
+  left: 50%;
 	z-index: 99999;
 
   }
