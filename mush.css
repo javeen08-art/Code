@@ -1652,7 +1652,7 @@ border-image-slice: 1;
 	margin-top: 16dvh;
 }
 .but2 {
-	display: inline;
+	display: flex;
 	position: absolute;
 	font-size:5dvw;
 	left:-17dvw;
