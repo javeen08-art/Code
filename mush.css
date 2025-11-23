@@ -1654,6 +1654,7 @@ border-image-slice: 1;
 .but2 {
 	display: flex;
 	position: absolute;
+	column-gap: 5dvw;
 	font-size:5dvw;
 	left:-17dvw;
 	margin-top:12.5dvh;
