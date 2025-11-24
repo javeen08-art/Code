@@ -278,38 +278,42 @@ transElement.addEventListener('animationend', () => {
     }
   });
 
- // ---- Disable Garage based on selected date ----
-const dateInput = document.getElementById("bdate");
-const areaSelect = document.querySelector('select[name="area"]');
-const garageOption = Array.from(areaSelect.options).find(
-  opt => opt.value === "Garage"
-);
+ // ---- Disable Garage based on selected date (fixed) ----
+document.addEventListener("DOMContentLoaded", () => {
+  const dateInput = document.getElementById("bdate");
+  const areaSelect = document.querySelector('select[name="area"]');
+  
+  if (!dateInput || !areaSelect) return;
 
-// Listen for date changes
-dateInput.addEventListener("change", () => {
-  const selectedDate = new Date(dateInput.value);
-  if (!selectedDate) return;
+  const garageOption = [...areaSelect.options].find(
+    (opt) => opt.value.toLowerCase() === "garage"
+  );
 
-  const month = selectedDate.getMonth(); // 0 = Jan, 11 = Dec
+  if (!garageOption) return;
 
-  // Winter months: December(11), January(0), February(1)
-  const isWinter = (month === 11 || month === 0 || month === 1);
+  dateInput.addEventListener("change", () => {
+    if (!dateInput.value) return;
 
-  if (isWinter) {
-    garageOption.disabled = true;
-    garageOption.textContent = "Garages (Unavailable during Winter)";
-    
-    // If they already selected Garage earlier, reset it
-    if (areaSelect.value === "Garage") {
-      alert("Garage bookings are NOT available during Winter ❄️");
-      areaSelect.value = "";
+    const selectedDate = new Date(dateInput.value + "T00:00");
+    const month = selectedDate.getMonth(); // 0 = Jan, 11 = Dec      
+
+    const isWinter = (month === 11 || month === 0 || month === 1);
+
+    if (isWinter) {
+      garageOption.disabled = true;
+      garageOption.textContent = "Garages (Unavailable during Winter ❄️)";
+
+      if (areaSelect.value === "Garage") {
+        alert("Garage bookings are not available during Winter ❄️");
+        areaSelect.value = "";
+      }
+    } else {
+      garageOption.disabled = false;
+      garageOption.textContent = "Garages";
     }
-  } else {
-    // Re-enable Garage outside winter
-    garageOption.disabled = false;
-    garageOption.textContent = "Garages";
-  }
+  });
 });
+
 
 </script>
 
