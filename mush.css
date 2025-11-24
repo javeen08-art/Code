@@ -328,8 +328,8 @@ border-image-slice: 1;
 	width: 25dvw;
 	text-align: center;
 	padding: 10px;
-	margin: 0px;
-	margin-top: 2dvh;
+	margin: 5px;
+	margin-top: -4dvh;
 	margin-top: 0px;
 	background-color: rgba(255, 255, 255, 0.651);;
     backdrop-filter: blur(30px); /* Apply blur to content behind */
