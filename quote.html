@@ -278,37 +278,41 @@ transElement.addEventListener('animationend', () => {
     }
   });
 
- // ---- Disable Garage based on selected date ----
-const dateInput = document.getElementById("bdate");
-const areaSelect = document.querySelector('select[name="area"]');
-const garageOption = Array.from(areaSelect.options).find(
-  opt => opt.value === "Garage"
-);
+ document.addEventListener("DOMContentLoaded", () => {
 
-// Listen for date changes
-dateInput.addEventListener("change", () => {
-  const selectedDate = new Date(dateInput.value);
-  if (!selectedDate) return;
+  const dateInput = document.getElementById("bdate");
+  const areaSelect = document.querySelector('select[name="area"]');
+  const garageOption = Array.from(areaSelect.options).find(
+    opt => opt.value === "Garage"
+  );
 
-  const month = selectedDate.getMonth(); // 0 = Jan, 11 = Dec
-
-  // Winter months: December(11), January(0), February(1)
-  const isWinter = (month === 11 || month === 0 || month === 1);
-
-  if (isWinter) {
-    garageOption.disabled = true;
-    garageOption.textContent = "Garages (Unavailable during Winter)";
-    
-    // If they already selected Garage earlier, reset it
-    if (areaSelect.value === "Garage") {
-      alert("Garage bookings are NOT available during Winter ❄️");
-      areaSelect.value = "";
-    }
-  } else {
-    // Re-enable Garage outside winter
-    garageOption.disabled = false;
-    garageOption.textContent = "Garages";
+  if (!dateInput || !areaSelect || !garageOption) {
+    console.error("Garage logic: element not found.");
+    return;
   }
+
+  dateInput.addEventListener("change", () => {
+    const selectedDate = new Date(dateInput.value);
+
+    if (isNaN(selectedDate)) return; // Fix invalid dates
+
+    const month = selectedDate.getMonth();
+    const isWinter = (month === 11 || month === 0 || month === 1);
+
+    if (isWinter) {
+      garageOption.disabled = true;
+      garageOption.textContent = "Garages (Unavailable during Winter)";
+
+      if (areaSelect.value === "Garage") {
+        alert("Garage bookings are NOT available during Winter ❄️");
+        areaSelect.value = "";
+      }
+    } else {
+      garageOption.disabled = false;
+      garageOption.textContent = "Garages";
+    }
+  });
+
 });
 
 </script>
