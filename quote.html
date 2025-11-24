@@ -100,7 +100,7 @@
   <select name="area">
   <option value="" disabled selected>Select an option...</option>
   <option value="Office">Offices</option>
-    <option value="Garage">Garages (Not availiable during Winter season)</option>
+    <option value="Garage">Garages</option>
   <option value="Warehouse/Commercials">Warehouse/Commercials</option>
   <option value="School">School</option>
   <option value="Hospital">Hospital</option>
@@ -277,6 +277,30 @@ transElement.addEventListener('animationend', () => {
       enlarged = false;
     }
   });
+
+  const month = new Date().getMonth(); // 0 = Jan, 11 = Dec
+const areaSelect = document.querySelector('select[name="area"]');
+const garageOption = Array.from(areaSelect.options).find(
+  opt => opt.value === "Garage"
+);
+
+// Winter months: Dec (11), Jan (0), Feb (1)
+if (month === 11 || month === 0 || month === 1) {
+  garageOption.disabled = true;
+  garageOption.textContent = "Garages (Unavailable during Winter)";
+  
+  // Prevent selection if user had it pre-selected
+  if (areaSelect.value === "Garage") {
+    areaSelect.value = "";
+  }
+
+  areaSelect.addEventListener("change", () => {
+    if (areaSelect.value === "Garage") {
+      alert("Garage bookings are NOT available during the Winter season");
+      areaSelect.value = "";
+    }
+  });
+}
 </script>
 
 
