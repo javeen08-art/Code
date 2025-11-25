@@ -150,6 +150,7 @@
 
 <script>
 
+
 // -------- Collapsible Buttons --------
 document.querySelectorAll('.collapsible, .starts, .starts2, .st2, .nextbtnt3')
   .forEach(btn => {
@@ -253,6 +254,13 @@ form.addEventListener('submit', async e => {
     console.error("DEBUG ERROR:", err);
   });
 });
+
+// -------- Loader Transition --------
+const transElement = document.querySelector('.trans');
+transElement.addEventListener('animationend', () => {
+  transElement.style.display = 'none';
+});
+
 // -------- Full Winter Logic: Hide Garage + Popup + Auto Reset --------
 (function () {
   const dateInput = document.getElementById('bdate');
@@ -300,12 +308,12 @@ form.addEventListener('submit', async e => {
   // Run when page loads
   updateGarageAvailability();
 
-  // Run whenever user picks a date
+  // Re-check whenever user picks a date
   dateInput.addEventListener('change', updateGarageAvailability);
 })();
 
-
 </script>
+
 
 
 
