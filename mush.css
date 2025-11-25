@@ -1645,12 +1645,11 @@ border-image-slice: 1;
 
 .class2 {
 	width: 30dvw;
-	display: none;
 
 }
 
 .class2 h5 {
-	font-size: 5dvh;
+	font-size: 2dvh;
 	font-weight: 350;
 	width: 45dvw;
 	height: 25dvw;
