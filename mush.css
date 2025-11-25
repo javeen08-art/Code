@@ -1656,8 +1656,8 @@ border-image-slice: 1;
 	width: fit-content;
 	height: fit-content;
 	text-align: center;
-	padding-left: 0;
-	margin-left: 1.2dvw;
+	margin: 0 auto;
+	padding: 0 auto;
 	margin-top: 16vh;
 }
 
