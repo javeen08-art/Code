@@ -277,6 +277,20 @@ transElement.addEventListener('animationend', () => {
       enlarged = false;
     }
   });
+// -------- Disable Garage During Winter (Dec–Mar) --------
+(function() {
+  const month = new Date().getMonth() + 1; // 1–12
+  const garageOption = document.querySelector('select[name="area"] option[value="Garage"]');
+
+  if (!garageOption) return;
+
+  // Winter months: December (12), January (1), February (2), March (3)
+  if ([12, 1, 2, 3].includes(month)) {
+    garageOption.disabled = true;
+    garageOption.textContent = "Garages (Unavailable in Winter)";
+    garageOption.style.color = "gray";
+  }
+})();
 
 
 </script>
