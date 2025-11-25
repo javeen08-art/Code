@@ -261,50 +261,60 @@ transElement.addEventListener('animationend', () => {
   transElement.style.display = 'none';
 });
 
-// -------- Full Winter Logic: Hide Garage + Popup + Auto Reset --------
+// -------- Winter Logic: Remove Garage Option Completely on iPhone --------
 (function () {
   const dateInput = document.getElementById('bdate');
   const areaSelect = document.querySelector('select[name="area"]');
-  const garageOption = areaSelect?.querySelector('option[value="Garage"]');
 
-  if (!dateInput || !areaSelect || !garageOption) return;
+  // Save the original garage option so we can re-add it
+  const garageOption = areaSelect.querySelector('option[value="Garage"]');
+  const garageHTML = garageOption.outerHTML;
 
-  // ❄️ Winter months: December–March
-  function isWinterMonth(month) {
+  function isWinter(month) {
     return [12, 1, 2].includes(month);
   }
 
   function updateGarageAvailability() {
     const dateValue = dateInput.value;
 
+    if (!dateValue) {
+      // Remove garage until date is selected
+      if (areaSelect.querySelector('option[value="Garage"]')) {
+        areaSelect.querySelector('option[value="Garage"]').remove();
+      }
+      return;
+    }
 
     const selectedDate = new Date(dateValue + "T00:00:00");
     const month = selectedDate.getMonth() + 1;
-    const winter = isWinterMonth(month);
 
-    if (winter) {
-      // Hide Garage option
-      garageOption.hidden = true;
+    if (isWinter(month)) {
+      // Remove garage option entirely
+      if (areaSelect.querySelector('option[value="Garage"]')) {
+        areaSelect.querySelector('option[value="Garage"]').remove();
+      }
 
-      // Reset if Garage was selected
+      // If Garage was selected → reset
       if (areaSelect.value === "Garage") {
         areaSelect.value = "";
       }
 
-      // Popup warning
       alert("❄️ Garage prints are unavailable during winter (Dec–Feb).");
     } else {
-      // Show Garage option again
-      garageOption.hidden = false;
+      // Re-add garage option if missing
+      if (!areaSelect.querySelector('option[value="Garage"]')) {
+        areaSelect.insertAdjacentHTML('beforeend', garageHTML);
+      }
     }
   }
 
   // Run when page loads
   updateGarageAvailability();
 
-  // Re-check whenever user picks a date
+  // Run when date is selected
   dateInput.addEventListener('change', updateGarageAvailability);
 })();
+
 
 </script>
 
