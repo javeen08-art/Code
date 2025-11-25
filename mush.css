@@ -1660,7 +1660,7 @@ border-image-slice: 1;
 	padding: 0 auto;
 	position: absolute;
 	transform: translateY(80vh);
-	transform: translateX(50vw);
+	margin-left: 20vw;
 }
 
 .bigt {
