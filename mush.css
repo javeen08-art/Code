@@ -925,9 +925,18 @@ h6 {
   position: relative;
   display: inline-block;
   font-size: 15px;
-  left: 0dvw;
+  left: -5dvw;
 
 }
+
+.print-location label {
+  position: relative;
+  display: inline-block;
+  font-size: 15px;
+   margin-left: 5dvw;
+
+}
+
 
 
 .dropdown-content {
