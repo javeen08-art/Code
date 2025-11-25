@@ -277,20 +277,55 @@ transElement.addEventListener('animationend', () => {
       enlarged = false;
     }
   });
-// -------- Disable Garage During Winter (Dec–Mar) --------
-(function() {
-  const month = new Date().getMonth() + 1; // 1–12
-  const garageOption = document.querySelector('select[name="area"] option[value="Garage"]');
+// -------- Disable Garage During Winter Based on Selected Date (Dec–Mar) --------
+(function () {
+  const dateInput = document.getElementById('bdate');
+  const areaSelect = document.querySelector('select[name="area"]');
+  const garageOption = areaSelect?.querySelector('option[value="Garage"]');
 
-  if (!garageOption) return;
+  if (!dateInput || !areaSelect || !garageOption) return;
 
-  // Winter months: December (12), January (1), February (2), March (3)
-  if ([12, 1, 2, 3].includes(month)) {
-    garageOption.disabled = true;
-    garageOption.textContent = "Garages (Unavailable in Winter)";
-    garageOption.style.color = "gray";
+  function updateGarageAvailability() {
+    const dateValue = dateInput.value;
+
+    // If no date selected yet, keep Garage disabled (optional but safer)
+    if (!dateValue) {
+      garageOption.disabled = true;
+      garageOption.textContent = "Garages (Select non-winter date)";
+      garageOption.style.color = "gray";
+      if (areaSelect.value === "Garage") {
+        areaSelect.value = "";
+      }
+      return;
+    }
+
+    const selectedDate = new Date(dateValue + "T00:00:00");
+    const month = selectedDate.getMonth() + 1; // 1–12
+    const isWinter = [12, 1, 2, 3].includes(month); // Dec–Mar
+
+    if (isWinter) {
+      garageOption.disabled = true;
+      garageOption.textContent = "Garages (Unavailable in Winter)";
+      garageOption.style.color = "gray";
+
+      // If Garage was already selected, reset it
+      if (areaSelect.value === "Garage") {
+        areaSelect.value = "";
+      }
+    } else {
+      garageOption.disabled = false;
+      garageOption.textContent = "Garages";
+      garageOption.style.color = "";
+    }
   }
+
+  // Run once on load
+  updateGarageAvailability();
+
+  // Re-check whenever the user changes the date
+  dateInput.addEventListener('change', updateGarageAvailability);
 })();
+
 
 
 </script>
