@@ -291,67 +291,6 @@ transElement.addEventListener('animationend', () => {
     }
   });
 
- // ---- Garage/Area Selection Logic ----
-
-const dateInput = document.getElementById("bdate");
-const areaSelect = document.querySelector('select[name="area"]');
-const garageOption = Array.from(areaSelect.options).find(
-  opt => opt.value === "Garage"
-);
-const warningBox = document.getElementById("garageWarning");
-
-// Initially disable dropdown until date is picked
-areaSelect.disabled = true;
-areaSelect.style.border = "2px solid #ccc";
-
-function showWarning(msg) {
-  warningBox.textContent = msg;
-  warningBox.style.display = "block";
-  warningBox.style.opacity = "1";
-  warningBox.style.maxHeight = "100px"; // slide down
-
-  // Auto hide after 4 sec
-  setTimeout(() => {
-    warningBox.style.opacity = "0";
-    warningBox.style.maxHeight = "0"; // slide up
-    setTimeout(() => warningBox.style.display = "none", 500);
-  }, 4000);
-}
-
-dateInput.addEventListener("change", () => {
-  const selectedDate = new Date(dateInput.value);
-  if (isNaN(selectedDate)) return;
-
-  // Enable dropdown now that a date is selected
-  areaSelect.disabled = false;
-  areaSelect.style.border = "2px solid #3498DB"; // blue outline
-
-  const month = selectedDate.getMonth();
-  const isWinter = (month === 11 || month === 0 || month === 1);
-
-  if (isWinter) {
-    garageOption.disabled = true;
-    garageOption.textContent = "Garages (Unavailable during Winter)";
-
-    // Highlight dropdown in red if user tries Garage
-    areaSelect.addEventListener("change", function handler() {
-      if (areaSelect.value === "Garage") {
-        areaSelect.value = "";
-        showWarning("❄️ Garage bookings are NOT available during winter months.");
-        areaSelect.style.border = "2px solid #b30000"; // red border
-      } else {
-        areaSelect.style.border = "2px solid #3498DB"; // blue border
-      }
-    });
-
-  } else {
-    garageOption.disabled = false;
-    garageOption.textContent = "Garages";
-  }
-});
-
-
-
 
 </script>
 
