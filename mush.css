@@ -1659,7 +1659,7 @@ border-image-slice: 1;
 	margin: 0 auto;
 	padding: 0 auto;
 	position: absolute;
-	transform: translateY(40vh);
+	transform: translateY(50vh);
 }
 
 .bigt {
@@ -1671,7 +1671,7 @@ border-image-slice: 1;
 	column-gap: 5dvw;
 	font-size:4dvw;
 	left:-7dvw;
-	margin-top:-30vh;
+	margin-top:-25vh;
 	margin-bottom: 0;
 }
 
