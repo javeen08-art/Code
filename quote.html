@@ -287,51 +287,52 @@ transElement.addEventListener('animationend', () => {
     }
   });
 
- document.addEventListener("DOMContentLoaded", () => {
+ // ---- Disable Garage based on selected date ----
 
-  const dateInput = document.getElementById("bdate");
-  const areaSelect = document.querySelector('select[name="area"]');
-  const garageOption = Array.from(areaSelect.options)
-      .find(opt => opt.value === "Garage");
-  const warningBox = document.getElementById("garageWarning");
+const dateInput = document.getElementById("bdate");
+const areaSelect = document.querySelector('select[name="area"]');
+const garageOption = Array.from(areaSelect.options).find(
+  opt => opt.value === "Garage"
+);
+const warningBox = document.getElementById("garageWarning");
 
-  if (!dateInput || !areaSelect || !garageOption) return;
+function showWarning(msg) {
+  warningBox.textContent = msg;
+  warningBox.style.display = "block";
+  warningBox.style.opacity = "1";
 
-  function showWarning(msg) {
-    warningBox.textContent = msg;
-    warningBox.style.display = "block";
-    warningBox.style.opacity = "1";
+  // Auto hide smoothly
+  setTimeout(() => {
+    warningBox.style.transition = "opacity .5s";
+    warningBox.style.opacity = "0";
+    setTimeout(() => warningBox.style.display = "none", 500);
+  }, 4000);
+}
 
-    // Auto-hide after 4 sec
-    setTimeout(() => {
-      warningBox.style.transition = "opacity 0.5s ease";
-      warningBox.style.opacity = "0";
-      setTimeout(() => warningBox.style.display = "none", 500);
-    }, 4000);
-  }
+dateInput.addEventListener("change", () => {
+  const selectedDate = new Date(dateInput.value);
 
-  dateInput.addEventListener("change", () => {
-    const selectedDate = new Date(dateInput.value);
-    if (isNaN(selectedDate)) return;
+  if (isNaN(selectedDate)) return;
 
-    const month = selectedDate.getMonth();
-    const isWinter = (month === 11 || month === 0 || month === 1);
+  const month = selectedDate.getMonth();
+  const isWinter = (month === 11 || month === 0 || month === 1);
 
-    if (isWinter) {
-      garageOption.disabled = true;
-      garageOption.textContent = "Garages (Unavailable during Winter)";
+  if (isWinter) {
+    garageOption.disabled = true;
+    garageOption.textContent = "Garages (Unavailable during Winter)";
 
-      if (areaSelect.value === "Garage") {
-        areaSelect.value = "";
-        showWarning("❄️ Garage bookings are NOT available during winter months.");
-      }
-    } else {
-      garageOption.disabled = false;
-      garageOption.textContent = "Garages";
+    // If user had Garage selected → reset and warn
+    if (areaSelect.value === "Garage") {
+      areaSelect.value = "";
+      showWarning("❄️ Garage bookings are NOT available during winter months.");
     }
-  });
 
+  } else {
+    garageOption.disabled = false;
+    garageOption.textContent = "Garages";
+  }
 });
+
 
 
 </script>
