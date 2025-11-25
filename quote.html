@@ -97,6 +97,15 @@
     </div>
    <div class ='dropdown'>
   <label type="button">Location Of Print: </label>
+  <div id="garageWarning" 
+     style="display:none; 
+            color:#b30000; 
+            background:#ffe6e6; 
+            padding:10px; 
+            margin-top:8px; 
+            border-radius:6px; 
+            font-size:14px;">
+</div>
   <select name="area">
   <option value="" disabled selected>Select an option...</option>
   <option value="Office">Offices</option>
@@ -282,19 +291,28 @@ transElement.addEventListener('animationend', () => {
 
   const dateInput = document.getElementById("bdate");
   const areaSelect = document.querySelector('select[name="area"]');
-  const garageOption = Array.from(areaSelect.options).find(
-    opt => opt.value === "Garage"
-  );
+  const garageOption = Array.from(areaSelect.options)
+      .find(opt => opt.value === "Garage");
+  const warningBox = document.getElementById("garageWarning");
 
-  if (!dateInput || !areaSelect || !garageOption) {
-    console.error("Garage logic: element not found.");
-    return;
+  if (!dateInput || !areaSelect || !garageOption) return;
+
+  function showWarning(msg) {
+    warningBox.textContent = msg;
+    warningBox.style.display = "block";
+    warningBox.style.opacity = "1";
+
+    // Auto-hide after 4 sec
+    setTimeout(() => {
+      warningBox.style.transition = "opacity 0.5s ease";
+      warningBox.style.opacity = "0";
+      setTimeout(() => warningBox.style.display = "none", 500);
+    }, 4000);
   }
 
   dateInput.addEventListener("change", () => {
     const selectedDate = new Date(dateInput.value);
-
-    if (isNaN(selectedDate)) return; // Fix invalid dates
+    if (isNaN(selectedDate)) return;
 
     const month = selectedDate.getMonth();
     const isWinter = (month === 11 || month === 0 || month === 1);
@@ -304,8 +322,8 @@ transElement.addEventListener('animationend', () => {
       garageOption.textContent = "Garages (Unavailable during Winter)";
 
       if (areaSelect.value === "Garage") {
-        alert("Garage bookings are NOT available during Winter ❄️");
         areaSelect.value = "";
+        showWarning("❄️ Garage bookings are NOT available during winter months.");
       }
     } else {
       garageOption.disabled = false;
@@ -314,6 +332,7 @@ transElement.addEventListener('animationend', () => {
   });
 
 });
+
 
 </script>
 
