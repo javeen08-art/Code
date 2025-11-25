@@ -277,7 +277,7 @@ transElement.addEventListener('animationend', () => {
       enlarged = false;
     }
   });
-// -------- Disable Garage During Winter Based on Selected Date (Dec–Mar) --------
+// -------- Full Winter Logic: Hide Garage + Popup + Auto Reset --------
 (function () {
   const dateInput = document.getElementById('bdate');
   const areaSelect = document.querySelector('select[name="area"]');
@@ -285,47 +285,48 @@ transElement.addEventListener('animationend', () => {
 
   if (!dateInput || !areaSelect || !garageOption) return;
 
+  // ❄️ Winter months: December–March
+  function isWinterMonth(month) {
+    return [12, 1, 2, 3].includes(month);
+  }
+
   function updateGarageAvailability() {
     const dateValue = dateInput.value;
 
-    // If no date selected yet, keep Garage disabled (optional but safer)
+    // If no date selected → hide Garage until a date is picked
     if (!dateValue) {
-      garageOption.disabled = true;
-      garageOption.textContent = "Garages (Select non-winter date)";
-      garageOption.style.color = "gray";
-      if (areaSelect.value === "Garage") {
-        areaSelect.value = "";
-      }
+      garageOption.hidden = true;
+      if (areaSelect.value === "Garage") areaSelect.value = "";
       return;
     }
 
     const selectedDate = new Date(dateValue + "T00:00:00");
-    const month = selectedDate.getMonth() + 1; // 1–12
-    const isWinter = [12, 1, 2, 3].includes(month); // Dec–Mar
+    const month = selectedDate.getMonth() + 1;
+    const winter = isWinterMonth(month);
 
-    if (isWinter) {
-      garageOption.disabled = true;
-      garageOption.textContent = "Garages (Unavailable in Winter)";
-      garageOption.style.color = "gray";
+    if (winter) {
+      // Hide Garage option
+      garageOption.hidden = true;
 
-      // If Garage was already selected, reset it
+      // Reset if Garage was selected
       if (areaSelect.value === "Garage") {
         areaSelect.value = "";
       }
+
+      // Popup warning
+      alert("❄️ Garage prints are unavailable during winter (Dec–Mar).");
     } else {
-      garageOption.disabled = false;
-      garageOption.textContent = "Garages";
-      garageOption.style.color = "";
+      // Show Garage option again
+      garageOption.hidden = false;
     }
   }
 
-  // Run once on load
+  // Run when page loads
   updateGarageAvailability();
 
-  // Re-check whenever the user changes the date
+  // Run whenever user picks a date
   dateInput.addEventListener('change', updateGarageAvailability);
 })();
-
 
 
 </script>
