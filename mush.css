@@ -1661,6 +1661,10 @@ border-image-slice: 1;
 	margin-left: 1.2dvw;
 	margin-top: 16vh;
 }
+
+.bigt {
+	text-align: center;
+}
 .but2 {
 	display: flex;
 	position: absolute;
