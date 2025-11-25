@@ -1658,7 +1658,7 @@ border-image-slice: 1;
 	text-align: center;
 	margin: 0 auto;
 	padding: 0 auto;
-	margin-top: 40vh;
+	position: absolute;
 }
 
 .bigt {
