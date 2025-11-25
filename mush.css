@@ -1651,8 +1651,8 @@ border-image-slice: 1;
 .class2 h5 {
 	font-size: 2dvh;
 	font-weight: 350;
-	width: 45dvw;
-	height: 25dvw;
+	width: fit-content;
+	height: fit-content;
 	left:1dvw;
 	padding-left: 0;
 	margin-left: 1.2dvw;
