@@ -929,7 +929,7 @@ h6 {
 
 }
 
-.print-location label {
+.print-location select {
   position: relative;
   display: inline-block;
   font-size: 15px;
