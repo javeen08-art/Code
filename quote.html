@@ -253,30 +253,6 @@ form.addEventListener('submit', async e => {
     console.error("DEBUG ERROR:", err);
   });
 });
-
-const transElement = document.querySelector('.trans');
-
-transElement.addEventListener('animationend', () => {
-  transElement.style.display = 'none';
-});
-
-  const img = document.getElementById("bImg");
-  let enlarged = false; // track state
-
-  img.addEventListener("click", () => {
-    img.style.animation = "none"; // reset animation so it can restart
-    void img.offsetWidth; // force reflow to restart animation
-
-    if (!enlarged) {
-      // play forward
-      img.style.animation = "large 1s ease-in-out forwards";
-      enlarged = true;
-    } else {
-      // play reverse
-      img.style.animation = "large 1s ease-in-out reverse forwards";
-      enlarged = false;
-    }
-  });
 // -------- Full Winter Logic: Hide Garage + Popup + Auto Reset --------
 (function () {
   const dateInput = document.getElementById('bdate');
