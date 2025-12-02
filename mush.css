@@ -219,7 +219,7 @@ border-image-slice: 1;
 .lilt {
 	display: flex;
   flex-direction: row;       /* icon + text in a row */
-  align-items: flex-start;   /* align icon and title at the top */ 
+  align-items: center;   /* align icon and title at the top */ 
 	padding: 2vw;
 	height: fit-content;
 	width: 20dvw;
