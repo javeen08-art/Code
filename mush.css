@@ -169,20 +169,22 @@ p {
 	margin: 0;
 }
 
-.bottom img {
-  width: 40dvw;
-  height: 45dvh; 
-  float: right;
-  transform: translate(-5dvw, -35dvh);
-  color: black;
-  border-radius: 20px;
-
-
-}
 
 .pi {
-	position: relative;
+	  max-width: 1200px;        /* keeps it inside your main content width */
+  margin: 0 auto;           /* centers it with the rest of the page */
+  padding: 0 40px;  
 }
+
+.pi img {
+  display: block;
+  max-width: 520px;         /* choose any size you like */
+  width: 100%;
+  height: auto;
+  border-radius: 30px;
+  margin-left: auto;        /* pushes it to the right inside the content area */
+}
+
 
 .title {
 	align-items: center;
@@ -216,7 +218,7 @@ border-image-slice: 1;
   margin-top: 20dvh;
   gap: 1vw;
 }
-.lilt {/* align icon and title at the top */ 
+.lilt { 
 	padding: 2vw;
 	height: fit-content;
 	width: 20dvw;
