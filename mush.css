@@ -245,7 +245,7 @@ border-image-slice: 1;
 .row6 {
 	display: flex;
   position: relative;
-  margin-top: 15dvh;
+  margin-top: 10dvh;
   margin-bottom: 0;
   gap: 1vw;
   height: fit-content;
