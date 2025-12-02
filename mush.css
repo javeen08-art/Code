@@ -1575,19 +1575,21 @@ font-family: 'IBM Plex Mono';
 
 }
 
-  .bottom img { 
-	position: absolute;
-    width: 70vw;  
-	height: 30vh;
-	float: none;
-  color: black;
-  	border-radius: 40px;
-	padding: 0 auto;
-  display: block;              /* REQUIRED for margin auto centering */
-  margin: 35vh auto 0 auto;
-	z-index: 99999;
+ .pi {
+	  max-width: 1200px;        /* keeps it inside your main content width */
+  margin: 0 auto;           /* centers it with the rest of the page */
+  padding: 0 40px;  
+}
 
-  }
+.pi img {
+  display: block;
+  max-width: 520px;         /* choose any size you like */
+  width: 100%;
+  height: auto;
+  border-radius: 30px;
+  margin-left: auto;  
+  margin-top: -10vh;      /* pushes it to the right inside the content area */
+}
 
 
 .pics {
