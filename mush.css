@@ -1689,7 +1689,7 @@ border-image-slice: 1;
 }
 .but2 {
 	display: flex;
-	position: absolute;
+	position: relative;
 	column-gap: 5dvw;
 	font-size:4dvw;
 	left:-7dvw;
