@@ -1575,16 +1575,11 @@ font-family: 'IBM Plex Mono';
 
 }
 
-  .bottom img { 
-    width: 70dvw;  
-	height: 30dvh;
-	float: none;
-  color: black;
+  .pi img { 
+    width: 70vw;  
+	height: 30vh;
   	border-radius: 40px;
-	padding: 0 auto;
-  display: block;              /* REQUIRED for margin auto centering */
-  margin: 42.5vh 10vw 0 auto;
-	z-index: 99999;
+
 
   }
 
