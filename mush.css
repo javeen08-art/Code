@@ -286,7 +286,7 @@ border-image-slice: 1;
 .but2 {
 	font-size: 1.5vw;
 	font-family: 'SF Pro';
-	margin-top: -30vh;
+	margin-top: -35vh;
 	font-weight: 300;
 	margin-left: 20dvw;
 }
@@ -296,7 +296,7 @@ border-image-slice: 1;
 	border: solid rgb(39, 39, 39) 0.1vw;
 	border-radius: 30px;
 	padding: 1vw 2vw;
-	margin-bottom: 0vh;
+	margin-bottom: 1vh;
 }
 .home {
   position: absolute;
