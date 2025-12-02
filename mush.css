@@ -1589,7 +1589,7 @@ font-family: 'IBM Plex Mono';
   height: auto;
   border-radius: 30px;
   margin-left: auto;  
-  margin-top: -5vh;      /* pushes it to the right inside the content area */
+  margin-top: -7vh;      /* pushes it to the right inside the content area */
 }
 
 
