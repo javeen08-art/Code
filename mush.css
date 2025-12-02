@@ -237,6 +237,7 @@ border-image-slice: 1;
 	display: flex;
   position: relative;
   margin-top: 15dvh;
+  margin-bottom: 0;
   gap: 1vw;
   height: 20dvh;
 }
