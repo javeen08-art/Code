@@ -228,6 +228,11 @@ border-image-slice: 1;
 	margin-top: -5dvh;
 }
 
+.lilcons {
+	width: 20px;
+	height: 20px;
+}
+
 .row6 {
 	display: flex;
   position: relative;
