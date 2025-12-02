@@ -1579,6 +1579,7 @@ font-family: 'IBM Plex Mono';
 	  max-width: 1200px;        /* keeps it inside your main content width */
   margin: 0 auto;           /* centers it with the rest of the page */
   padding: 0 40px;  
+  position: relative;
 }
 
 .pi img {
