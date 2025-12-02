@@ -229,6 +229,7 @@ border-image-slice: 1;
 }
 
 .lilt img {
+	position: relative;
 	width: 30px;
 	height: 30px;
 	margin: 0;
