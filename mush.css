@@ -1576,14 +1576,14 @@ font-family: 'IBM Plex Mono';
 }
 
   .bottom img { 
-    width: 70dvw;  
-	height: 30dvh;
+    width: 70vw;  
+	height: 30vh;
 	float: none;
   color: black;
   	border-radius: 40px;
 	padding: 0 auto;
   display: block;              /* REQUIRED for margin auto centering */
-  margin: 42.5vh auto 0 auto;
+  margin: 35vh auto 0 auto;
 	z-index: 99999;
 
   }
