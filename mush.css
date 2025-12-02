@@ -239,7 +239,7 @@ border-image-slice: 1;
   margin-top: 20dvh;
   margin-bottom: 0;
   gap: 1vw;
-  height: 20dvh;
+  height: fit-content;
 }
 .lilt2 {
 	font-size: 25px;
