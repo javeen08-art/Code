@@ -1586,7 +1586,7 @@ font-family: 'IBM Plex Mono';
   display: block;
   max-width: 520px;         /* choose any size you like */
   width: 100%;
-  height: auto;
+  height: 4vh;
   border-radius: 30px;
   margin-left: auto;  
   margin-top: -7vh;      /* pushes it to the right inside the content area */
