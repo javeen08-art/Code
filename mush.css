@@ -228,9 +228,9 @@ border-image-slice: 1;
 	margin-top: -5dvh;
 }
 
-.lilcons {
-	width: 20px;
-	height: 20px;
+.lilcons img {
+	width: 10px;
+	height: 10px;
 }
 
 .row6 {
