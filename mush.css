@@ -1588,6 +1588,7 @@ font-family: 'IBM Plex Mono';
 
   }
 
+
 .pics {
 	width: 40dvw;
 	height: 35dvh;
@@ -1638,6 +1639,11 @@ margin-left: 12dvw;
 	margin-left: 2vw;
 	margin-right: 2vw;
 	margin-top: -5dvh;
+}
+
+.lilt img {
+	width: 30px;
+	height: 10px;
 }
 
 .lilt2 {
