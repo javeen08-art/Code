@@ -1666,8 +1666,10 @@ border-image-slice: 1;
 
 .lilt p {
 	font-size: 3.28vw;
+	padding: 0 auto;
+	margin: 0 auto;
 	margin-top: 1dvh;
-	margin-left: 0;
+
 	
 }
 
