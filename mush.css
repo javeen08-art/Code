@@ -681,6 +681,7 @@ h2, h6 {
 }
 
 .side2{
+	display: none;
 	width: fit-content;
 	margin: 0;
 	text-align: center;
