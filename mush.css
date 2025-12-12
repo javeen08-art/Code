@@ -1239,11 +1239,12 @@ background-color: white; /* Semi-transparent white */
 	border-radius: 10px;
 		border: solid rgba(39, 39, 39, 0.153) 0.1vw;
 		margin-bottom: 1dvh;
+		margin-top: -3vh;
 
 }
 
 .notice p {
-	font-size: 65%;
+	font-size: 75%;
 }
 
 .s5 {
