@@ -2007,6 +2007,11 @@ h3 {
 	display: flex;
 	flex-direction: column;
 }
+
+.print-location select {
+  font-size: 10px;
+
+}
 .texts {
 	scale:0.8;
 	margin-left: 0;
