@@ -2029,7 +2029,7 @@ h3 {
 }
 .file-upload input {
 	margin-bottom: 5vh;
-	width: 5vw;
+	width: fit-content;
 }
 .texts {
 	scale:0.8;
