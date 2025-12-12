@@ -2012,6 +2012,10 @@ h3 {
   font-size: 10px;
 
 }
+
+.print-location label {
+	text-align: left;
+}
 .texts {
 	scale:0.8;
 	margin-left: 0;
