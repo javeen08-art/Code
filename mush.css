@@ -2009,7 +2009,7 @@ h3 {
 	flex-direction: column;
 }
 
-.print-location select, .file-upload input {
+.print-location select{
   font-size: 15px;
 
 }
@@ -2017,6 +2017,11 @@ h3 {
 .print-location label, .file-upload label {
 	text-align: left;
 	font-size: 15px;
+}
+
+.file-upload {
+	display: flex;
+	flex-direction: column;
 }
 .texts {
 	scale:0.8;
