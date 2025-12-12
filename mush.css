@@ -2009,12 +2009,12 @@ h3 {
 	flex-direction: column;
 }
 
-.print-location select {
+.print-location select, .file-upload input {
   font-size: 15px;
 
 }
 
-.print-location label {
+.print-location label, .file-upload label {
 	text-align: left;
 }
 .texts {
