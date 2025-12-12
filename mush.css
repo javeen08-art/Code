@@ -717,7 +717,7 @@ h2, h6 {
   border: 1px solid rgba(255,255,255, 0.2); /* Apply blur to content behind */
   border-radius: 15px; /* Rounded corners */
   box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
-  height: 80px;
+  height: fit-content;
 
 
 }
