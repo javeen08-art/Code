@@ -2011,6 +2011,8 @@ h3 {
 
 .print-location select{
   font-size: 15px;
+  margin-bottom: 0;
+  padding-bottom: 0;
 
 }
 
