@@ -2016,6 +2016,7 @@ h3 {
 
 .print-location label, .file-upload label {
 	text-align: left;
+	font-size: 15px;
 }
 .texts {
 	scale:0.8;
