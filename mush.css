@@ -2131,6 +2131,10 @@ h3 {
   margin-bottom: 0;
 }
 
+.designer label {
+	font-size: 14px;
+	text-align: center;
+}
 .bo {
 	display: flex;
 	flex-direction: row;
