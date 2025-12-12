@@ -2022,6 +2022,7 @@ h3 {
 .file-upload {
 	display: flex;
 	flex-direction: column;
+	align-items: center;
 }
 .texts {
 	scale:0.8;
