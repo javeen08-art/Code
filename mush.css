@@ -2005,6 +2005,7 @@ h3 {
 
 .l2 {
 	display: flex;
+	gap: 10px;
 	flex-direction: column;
 }
 
