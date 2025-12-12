@@ -2019,6 +2019,8 @@ h3 {
 }
 
 .file-upload {
+	margin-top: 0;
+	padding-top: 0;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
