@@ -2025,6 +2025,7 @@ h3 {
 
 .print-location label, .file-upload label {
 	font-size: 4vw;
+	text-align: center;
 }
 
 .file-upload {
