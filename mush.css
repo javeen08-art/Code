@@ -2016,14 +2016,14 @@ h3 {
 	flex-direction: column;
 }
 .print-location select{
-  font-size: 20%;
+  font-size: 15%;
   margin-bottom: 3vh;
   padding-bottom: 0;
 
 }
 
 .print-location label, .file-upload label {
-	font-size: 40%;
+	font-size: 70%;
 }
 
 .file-upload {
