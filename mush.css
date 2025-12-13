@@ -1551,6 +1551,10 @@ font-family: 'IBM Plex Mono';
   	flex-direction: column-reverse;
   }
 
+  .date input {
+	display: flex;
+	flex-direction: row;
+}
 
  
 .hyperlinks img {
