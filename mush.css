@@ -1485,6 +1485,7 @@ font-family: 'IBM Plex Mono';
     transform-origin: left center; 
 	margin: 0;
 	padding: 0;
+	display: none;
 }
 
 .hyperlinks::after {
@@ -1496,8 +1497,8 @@ font-family: 'IBM Plex Mono';
   position: absolute;
   inset: 0;
   background: linear-gradient(90deg, #e25e00, #e4537c, #88239a);
-  mask: var(--icon) center/contain no-repeat;
-  -webkit-mask: var(--icon) center/contain no-repeat;
+  mask: var(--foots) center/contain no-repeat;
+  -webkit-mask: var(--foots) center/contain no-repeat;
 
 }
 .insta a {
