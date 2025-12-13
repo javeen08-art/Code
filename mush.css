@@ -1488,7 +1488,7 @@ font-family: 'IBM Plex Mono';
 
 }
 .insta a {
-    max-height: 10dvh;
+    max-height: 10vh;
     text-align: center;
     display: flex;
     align-items: center;
@@ -1500,12 +1500,13 @@ font-family: 'IBM Plex Mono';
 .insta {
     margin: 0;
     padding: 0;
-	padding-left: 3dvh;
-	width: 10dvw;
+	padding-left: 3vh;
+	width: 10vw;
 	height: fit-content;
 }
 
 .insta img {
+	height: 3vh;
     padding: 0;
     margin: 0;
 }
