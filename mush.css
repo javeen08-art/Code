@@ -1518,11 +1518,11 @@ font-family: 'IBM Plex Mono';
 .tiktok {
 	padding: 0;
 	margin: 0;
-	padding-left: 3dvh;
+	padding-left: 0dvh;
 	height: fit-content;
 	width: 7dvw;
 	scale:0.7;
-	margin-top: -1.8dvh;
+	margin-top: 0dvh;
 }
 .tiktok a {
 	text-align: center;
