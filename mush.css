@@ -2016,7 +2016,8 @@ h3 {
 	flex-direction: column;
 }
 .print-location select{
-  font-size: 2vw;
+  font-size: 5vw;
+  width: 5vw;
   margin-bottom: 3vh;
   padding-bottom: 0;
 
