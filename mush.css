@@ -2010,6 +2010,11 @@ h3 {
 	flex-direction: column;
 }
 
+
+.print-location {
+	display: flex;
+	flex-direction: column;
+}
 .print-location select{
   font-size: 10%;
   margin-bottom: 3vh;
