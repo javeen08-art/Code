@@ -2027,6 +2027,8 @@ h3 {
 .print-location label, .file-upload label {
 	font-size: 4vw;
 	text-align: center;
+	padding: 0 auto;
+	margin: 0 auto;
 }
 
 .file-upload {
