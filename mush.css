@@ -1506,7 +1506,6 @@ font-family: 'IBM Plex Mono';
 }
 
 .insta img {
-	height: 5vh;
     padding: 0;
     margin: 0;
 }
@@ -1555,8 +1554,8 @@ font-family: 'IBM Plex Mono';
 
  
 .hyperlinks img {
-	width:10dvw;
-	height: 4dvh;
+	width:10vw;
+	height: 5vh;
     transform-origin: left center; 
 	margin: 0;
 	padding: 0;
