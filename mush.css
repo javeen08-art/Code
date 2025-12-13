@@ -2011,14 +2011,14 @@ h3 {
 }
 
 .print-location select{
-  font-size: 5vw;
+  font-size: 3vw;
   margin-bottom: 3vh;
   padding-bottom: 0;
 
 }
 
 .print-location label, .file-upload label {
-	font-size: 2vw;
+	font-size: 4vw;
 }
 
 .file-upload {
