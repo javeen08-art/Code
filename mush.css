@@ -1562,7 +1562,7 @@ font-family: 'IBM Plex Mono';
 }
   .tiktok {
 	scale:0.6;
-	margin-bottom: -5vh;
+	padding-top: 5vh;
   }
 
   .move {
