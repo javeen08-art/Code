@@ -2014,6 +2014,7 @@ h3 {
 .print-location {
 	display: flex;
 	flex-direction: column;
+	align-items: center;
 }
 .print-location select{
   font-size: 5vw;
