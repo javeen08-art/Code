@@ -1485,7 +1485,7 @@ font-family: 'IBM Plex Mono';
     transform-origin: left center; 
 	margin: 0;
 	padding: 0;
-	display: none;
+
 }
 
 .hyperlinks::after {
