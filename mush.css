@@ -603,7 +603,7 @@ h7 {
 
 #faqs {
   	justify-content: center;
-  	background-color: #f6f4f4;
+  	background-color: white;
   	padding: 20px;
   	flex-wrap: nowrap;
 	height: fit-content;
