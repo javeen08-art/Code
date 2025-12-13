@@ -1550,14 +1550,6 @@ font-family: 'IBM Plex Mono';
   .servicess,.sub{
   	flex-direction: column-reverse;
   }
-
-  .date input {
-	display: flex;
-	flex-direction: row;
-	width: 30vw;
-	height: 10vw;
-}
-
  
 .hyperlinks img {
 	width:10vw;
@@ -2014,6 +2006,14 @@ h3 {
 	display: flex;
 	gap: 20px;
 	flex-direction: column;
+}
+
+
+  .date input {
+	display: flex;
+	flex-direction: row;
+	width: 30vw;
+	height: 10vw;
 }
 
 
