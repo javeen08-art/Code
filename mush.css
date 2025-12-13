@@ -1554,6 +1554,7 @@ font-family: 'IBM Plex Mono';
   .date input {
 	display: flex;
 	flex-direction: row;
+	width: 5vw;
 }
 
  
