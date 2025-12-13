@@ -279,7 +279,7 @@ border-image-slice: 1;
 	width: 30dvw;
 	padding: 0dvw;
 	margin: 2dvw;
-	margin-top: 7dvh;
+	margin-top: 5dvh;
 	top:0%;
 }
 
@@ -1688,7 +1688,7 @@ border-image-slice: 1;
 	margin: 0 auto;
 	padding: 0 auto;
 	position: absolute;
-	transform: translateY(80vh);
+	transform: translateY(100vh);
 	margin-left: 17vw;
 }
 
