@@ -186,7 +186,7 @@ p {
 	border: #111111 solid;
 	background-image: url("hero_artwork.png");
 	background-repeat: no-repeat;
-	background-size: cover;
+	background-size: contain;
 }
 .title h4 {
 	margin: 0;
