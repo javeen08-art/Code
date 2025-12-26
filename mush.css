@@ -197,8 +197,9 @@ p {
 	padding: 0;
 	border: #111111 solid;
 }
-.title img {
-	right: 0;
+.titlepic img {
+	position: relative;
+	left: 100%;
 }
 
 
