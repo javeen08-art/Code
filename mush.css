@@ -323,6 +323,10 @@ p {
   flex-direction: row;
 }
 
+.firstbo {
+	width: 50%;
+}
+
 
 /*About US End*/
 .home {
