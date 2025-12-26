@@ -228,9 +228,8 @@ p {
 	padding: 2vw;
 	height: fit-content;
 	width: 20dvw;
-	text-align: center;
+	text-align: left;
 	margin: 5px auto;
-	align-items: center;
     color: black;
   	border-radius: 10px;
 	margin-top: -5dvh;
