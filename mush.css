@@ -294,6 +294,12 @@ p {
 	margin-bottom: 1vh;
 }
 
+.step1t {
+	display: flex;
+	flex-direction: row;
+	font-size: 30px;
+}
+
 /*About US End*/
 .home {
   position: absolute;
