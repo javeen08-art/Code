@@ -188,6 +188,7 @@ p {
 	background-repeat: no-repeat;
 	background-size: 60% 100%;
 	background-position: right;
+	gap: 0;
 }
 .title h4 {
 	margin: 0;
