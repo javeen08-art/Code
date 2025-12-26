@@ -214,14 +214,13 @@ p {
 	display: flex;
 	align-items: center;
   position: relative;
-  margin-top: 10dvh;
-  margin-bottom: 0;
+  margin: 0 auto;
   gap: 1vw;
   height: fit-content;
   border: #c2c2c2 solid 0.5px;
   width: 75dvw;
   border-radius: 30px;
-  padding: 5dvw;
+  padding: 0 auto;
 }
 .row,.row2,.row4,.row5{
   display: flex;
