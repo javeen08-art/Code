@@ -193,6 +193,7 @@ p {
 .title h4 {
 	margin: 0;
 	padding: 0;
+	border: #111111 solid;
 }
 
 .titlerow {
@@ -208,6 +209,7 @@ p {
 	margin-top: -10dvh;
 	width: 30dvw;
 	font-size: 30px;
+	border: #111111 solid;
 
 }
 
