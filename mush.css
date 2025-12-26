@@ -195,8 +195,10 @@ p {
 .titlepic {
 	margin: 0;
 	padding: 0;
-	right: 0;
 	border: #111111 solid;
+}
+.title img {
+	right: 0;
 }
 
 
