@@ -312,6 +312,11 @@ p {
 	font-size: 25px;
 }
 
+.s12 {
+	border-radius: 30px;
+  border: #c2c2c2 solid 0.5px;
+}
+
 
 /*About US End*/
 .home {
