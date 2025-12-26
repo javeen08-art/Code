@@ -222,6 +222,7 @@ p {
   width: 80dvw;
   border-radius: 30px;
   padding: 0 auto;
+  padding-top: 5dvw;
 }
 .row,.row2,.row4,.row5{
   display: flex;
