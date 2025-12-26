@@ -193,7 +193,7 @@ p {
 	top: 0;
   transform: translate(-50%,0%);
   font-weight: 500;
-	position: absolute;
+	position: relative;
 	font-size: 10vh;
 	font-family: 'SF Pro';
 	text-align: center;
