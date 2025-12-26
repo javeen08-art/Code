@@ -190,9 +190,8 @@ p {
 .title {
 	align-items: center;
 	width: 100dvw;
-	left: 50%;
+	left: 10% ;
 	top: 0;
-  transform: translate(-50%,0%);
   font-weight: 500;
 	position: relative;
 	font-size: 10vh;
