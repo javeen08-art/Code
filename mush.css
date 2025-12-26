@@ -193,6 +193,7 @@ p {
 .title h4 {
 	margin: 0;
 	padding: 0;
+	height: fit-content;
 	border: #111111 solid;
 }
 
