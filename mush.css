@@ -229,6 +229,7 @@ p {
 	height: fit-content;
 	width: 20dvw;
 	text-align: left;
+	line-height: 1dvh;
 	margin: 5px auto;
     color: black;
   	border-radius: 10px;
