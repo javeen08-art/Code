@@ -173,6 +173,7 @@ p {
 .title {
 	align-items: center;
 	width: 100dvw;
+	height: 25dvh;
 	left: 10% ;
 	top: 0;
   font-weight: 500;
