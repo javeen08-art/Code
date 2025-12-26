@@ -201,8 +201,11 @@ p {
 	border: #111111 solid;
 	position: relative;
 	display: block;
-	left:100%;
 	width: 100vw;
+}
+
+.titlepic img {
+	right: 0;
 }
 
 
