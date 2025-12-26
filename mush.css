@@ -179,10 +179,14 @@ p {
 	position: relative;
 	font-size: 10vh;
 	font-family: 'SF Pro';
-	dis
+	display: flex;
+	flex-direction: row;
 }
 
-
+.titlerow {
+	display: flex;
+	flex-direction: column;
+}
 .title h4 {
 	margin-left: auto;
 }
