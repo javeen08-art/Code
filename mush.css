@@ -179,6 +179,7 @@ p {
 	font-family: 'SF Pro';
 	display: flex;
 	flex-direction: row;
+	border: #111111 solid;
 }
 .title h4 {
 	margin: 0;
