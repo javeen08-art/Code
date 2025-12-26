@@ -173,6 +173,8 @@ p {
 .title {
 	align-items: center;
 	background-image: url("3d_mushrooms_hero_image_crop_tight.png");
+	background-repeat: no-repeat;
+	background-size: cover;
 	width: 100dvw;
 	left: 10% ;
 	top: 0;
