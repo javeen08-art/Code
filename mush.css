@@ -203,7 +203,7 @@ p {
 
 
 .title p {
-	margin-top: -5dvh;
+	padding-top: -5dvh;
 	padding: 0;
 	width: 30dvw;
 	font-size: 30px;
