@@ -218,6 +218,8 @@ p {
   gap: 1vw;
   height: fit-content;
   border: #c2c2c2 solid 0.5px;
+  width: 75dvw;
+  box-shadow: #111111 0.5 1 1;
   border-radius: 30px;
 }
 .row,.row2,.row4,.row5{
