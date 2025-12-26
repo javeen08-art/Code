@@ -199,6 +199,9 @@ p {
 }
 
 
+.title h4 {
+	margin-left: auto;
+}
 
 .title p {
 	margin-top: 1dvh;
