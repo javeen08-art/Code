@@ -173,6 +173,7 @@ p {
 
 .title {
 	width: 100dvw;
+	min-height: 25dvh;
 	top: 0;
 	margin: 0;
 	padding: 0;
