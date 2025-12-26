@@ -172,6 +172,7 @@ p {
 
 .title {
 	align-items: center;
+	background-image: url("");
 	width: 100dvw;
 	height: 25dvh;
 	left: 10% ;
