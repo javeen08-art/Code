@@ -190,8 +190,7 @@ p {
 .titlepic {
 	margin: 0;
 	padding: 0;
-	left: 100%;
-	width: 50%;
+	right: 0;
 }
 .title h4 {
 	margin-left: auto;
