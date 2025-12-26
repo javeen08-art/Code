@@ -183,6 +183,7 @@ p {
 	display: flex;
 	flex-direction: row;
 	border: #111111 solid;
+	background-image: url("hero_artwork.png");
 }
 .title h4 {
 	margin: 0;
@@ -193,20 +194,6 @@ p {
 .titlerow {
 	display: flex;
 	flex-direction: column;
-}
-
-.titlepic {
-	margin: 0;
-	padding: 0;
-	border: #111111 solid;
-	position: relative;
-	display: block;
-	width: 100vw;
-}
-
-.title img {
-	position: absolute;
-	right: 0;
 }
 
 
