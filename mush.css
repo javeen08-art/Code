@@ -204,7 +204,7 @@ p {
 .title p {
 	margin-top: 1dvh;
 	padding-bottom: 1vh;
-	width: 50dvw;
+	width: 25dvw;
 }
 .row,.row2,.row4,.row5{
   display: flex;
