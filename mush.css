@@ -1471,6 +1471,7 @@ font-family: 'IBM Plex Mono';
 	margin-top: 10dvh;
 	display: flex;
 	flex-direction: row;
+	display: none;
 
 }
 
