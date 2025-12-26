@@ -307,10 +307,12 @@ p {
 	flex-direction: row;
 	font-size: 5px;
 	gap: 1dvw;
-	width: 20dvw;
 }
 .step1t h5 {
 	font-size: 25px;
+}
+.step1{
+	  width:20dvw;
 }
 
 .s12 {
