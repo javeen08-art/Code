@@ -302,12 +302,13 @@ p {
 	margin-bottom: 1vh;
 }
 
-.step1t {
+.step1t{
 	display: flex;
 	flex-direction: row;
-	font-size: 25px;
+	font-size: 5px;
 	gap: 1dvw;
 }
+
 
 /*About US End*/
 .home {
