@@ -297,7 +297,7 @@ p {
 .step1t {
 	display: flex;
 	flex-direction: row;
-	font-size: 30px;
+	font-size: 25px;
 	gap: 1dvw;
 }
 
