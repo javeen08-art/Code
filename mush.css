@@ -200,7 +200,8 @@ p {
 	padding: 0;
 	border: #111111 solid;
 	position: relative;
-	right: 0dvw;
+	display: block;
+	right:0 ;
 	width: 100vw;
 }
 
