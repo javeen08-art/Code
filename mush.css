@@ -189,7 +189,9 @@ p {
 }
 
 .titlepic {
-	right: 0;
+	margin: 0;
+	padding: 0;
+	right: 0%;
 	width: 50%;
 }
 .title h4 {
