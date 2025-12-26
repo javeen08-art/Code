@@ -192,6 +192,15 @@ p {
 	width: 30dvw;
 	font-size: 30px;
 }
+
+.row6 {
+	display: flex;
+  position: relative;
+  margin-top: 10dvh;
+  margin-bottom: 0;
+  gap: 1vw;
+  height: fit-content;
+}
 .row,.row2,.row4,.row5{
   display: flex;
   position: relative;
@@ -214,14 +223,6 @@ p {
   margin: 0 0 6px 0;
 }
 
-.row6 {
-	display: flex;
-  position: relative;
-  margin-top: 10dvh;
-  margin-bottom: 0;
-  gap: 1vw;
-  height: fit-content;
-}
 .lilt2 {
 	font-size: 25px;
 	position: relative;
