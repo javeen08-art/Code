@@ -189,6 +189,7 @@ p {
 
 .title {
 	align-items: center;
+	width: 100dvw;
 	left: 50%;
 	top: 0;
   transform: translate(-50%,0%);
