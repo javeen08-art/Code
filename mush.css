@@ -194,7 +194,6 @@ p {
 	margin: 0;
 	padding: 0;
 	height: fit-content;
-	border: #111111 solid;
 }
 
 .titlerow {
@@ -202,14 +201,12 @@ p {
 	flex-direction: column;
 	gap: 0;
 	padding-left: 5%;
-	border: #111111 solid;
 }
 
 
 .title p {
 	width: 30dvw;
 	font-size: 30px;
-	border: #111111 solid;
 
 }
 
