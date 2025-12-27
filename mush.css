@@ -1706,6 +1706,7 @@ font-size: 4vw;
 
 .rows {
 	flex-direction: column;
+	text-align: left;
 }
 
 .lilt {
