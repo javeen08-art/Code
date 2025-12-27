@@ -1705,7 +1705,9 @@ font-size: 4.5vw;
 	gap: 0;
 	margin-left: 5.5vw;
 }
-
+.row6 p{
+	font-size: 80%;
+}
 .rows {
 	width: 100vw;
 	display: flex;
