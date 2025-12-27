@@ -1757,7 +1757,6 @@ margin-top: 0;
 .surfacepics {
   display: flex;
   flex-wrap: wrap; 
-	scale: 0.5;
 }
 
 .surfacepics img {
