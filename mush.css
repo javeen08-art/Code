@@ -1738,8 +1738,8 @@ margin-top: 0;
 	flex-direction: column;
 }
 .step1 {
-	width:20vw;
-	padding-right: 5vw;
+	width:40vw;
+	padding-right: 10vw;
 }
 .step1t {
 	gap:5vw;
