@@ -193,7 +193,7 @@ p {
 	flex-direction: row;
 	background-image: url("3dm_about_splash_transparent_3840x2160.png");
 	background-repeat: no-repeat;
-	background-size: 100% 110%;
+	background-size: 100% 100%;
 	background-position: right;
 	gap: 0;
 }
@@ -1687,7 +1687,7 @@ font-family: 'IBM Plex Mono';
 .title {
 	margin-top: 10vh;
 	width: 100dvw;
-	margin-bottom: 10vh;
+	margin-bottom: 7vh;
 }
 
 .title p{
