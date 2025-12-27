@@ -1761,6 +1761,12 @@ margin-top: 0;
   flex-wrap: wrap; 
 }
 
+.surfacepics img {
+  flex-basis: 20vw; /* Sets initial width for each image item */
+  flex-grow: 1;     /* Optional: lets them grow to fill extra space */
+  max-width: 100%;  /* Ensures images don't exceed container width */
+}
+
 .but2 {
 	display: flex;
 	position: relative;
