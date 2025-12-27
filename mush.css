@@ -1739,10 +1739,10 @@ margin-top: 0;
 }
 .step1 {
 	width:40vw;
+	padding-right: 10vw;
 }
 .step1t {
 	gap:5vw;
-	padding-right: 10vw;
 }
 
 .howwork h5, .surafaces h5, .quality h5 {
