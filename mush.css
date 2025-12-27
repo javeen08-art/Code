@@ -1755,7 +1755,6 @@ margin-top: 0;
 }
 
 .surfacepics {
-	scale: 0.8;
   display: flex;
   flex-wrap: wrap; 
 }
