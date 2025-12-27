@@ -1774,8 +1774,12 @@ padding-right: 0 !important;
 	width: 100vw;
 }
 
+.surafaces h5 {
+	margin-bottom: 0;
+}
 .surafaces h5, .surafaces p {
 	width: 90%;
+	margin-top: 0;
 }
 .surfacepics {
   display: grid;
