@@ -1736,7 +1736,9 @@ margin-top: 0;
 	flex-direction: column;
 	border: #111111 solid;
 }
-
+.step1 {
+	width:40vw;
+}
 
 .but2 {
 	display: flex;
