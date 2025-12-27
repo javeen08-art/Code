@@ -1727,7 +1727,7 @@ padding-right: 0 !important;
 }
 
 .lilt h5 {
-	margin-left: 1vw;
+	margin-left: 3vw;
 }
 .checkmark {
 	color: rgb(147, 228, 26) !important;
@@ -1738,8 +1738,8 @@ padding-right: 0 !important;
 	padding: 0 auto;
 	margin: 0 auto;
 	width: 85%;
-	padding-left: 3vw;
-	margin-right: 3dvw !important;
+	padding-left: 1vw;
+	
 
 	
 }
