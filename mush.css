@@ -1737,7 +1737,7 @@ margin-top: 0;
 .s12 {
 	flex-direction: column;
 	padding-left: -3vw;
-	margin: 0;
+	margin-left:-3vw;
 	left: 0;
 }
 .step1 {
