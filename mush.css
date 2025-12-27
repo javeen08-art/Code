@@ -356,6 +356,10 @@ p {
   align-items: center;
 }
 
+.ch {
+	text-align: left;
+}
+
 /*About US End*/
 .home {
   position: absolute;
