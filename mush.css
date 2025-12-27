@@ -1710,7 +1710,7 @@ font-size: 4vw;
 }
 
 .lilt {
-	border-right:none;
+border-right: none !important;
 }
 
 
