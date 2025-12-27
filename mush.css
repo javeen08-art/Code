@@ -1707,10 +1707,9 @@ font-size: 4vw;
 .rows {
 	flex-direction: column;
 	border: #111111 solid;
-	align-items: flex-start;
 	gap: 5vh;
 	text-align: left;
-	width: 100%;
+
 }
 
 .lilt {
