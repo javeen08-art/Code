@@ -1767,7 +1767,8 @@ margin-top: 0;
   width: 100%;
   padding: 0 auto;
   margin: 0 auto;
-  flex-wrap: wrap; 
+  flex-wrap: wrap;
+  border: #111111 solid; 
 }
 
 .surfacepics img {
@@ -1778,7 +1779,8 @@ margin-top: 0;
   left: 0;
   aspect-ratio: 1 / 1; /* Forces all images to be squares */
   object-fit: cover;   /* Ensures images fill the square without stretching */
-  border-radius: 8px;;   /* Ensures images don't exceed container width */
+  border-radius: 8px; 
+  border: #111111 solid;  /* Ensures images don't exceed container width */
 }
 
 .quality {
