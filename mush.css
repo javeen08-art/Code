@@ -1742,13 +1742,14 @@ margin-top: 0;
 	gap:5vw;
 }
 
+.howwork h5 {
+	font-size: 30px;
+}
+
 .step1t h5 {
 	font-size: 20px;
 }
 
-.howwork h5 {
-	font-size: 30px;
-}
 .firstbo {
 	width: 90%;
 }
