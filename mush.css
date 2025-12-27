@@ -1746,10 +1746,12 @@ margin-top: 0;
 	font-size: 35px;
 }
 
-.step1t h5, .surafaces p, .ch p {
+.step1t h5, .surafaces p{
 	font-size: 20px;
 }
-
+.ch p{
+	font-size: 15px;
+}
 .firstbo {
 	width: 90%;
 }
