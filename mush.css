@@ -1742,7 +1742,7 @@ margin-top: 0;
 	gap:5vw;
 }
 
-.howwork h5 {
+.howwork h5, .surafaces h5 {
 	font-size: 30px;
 }
 
