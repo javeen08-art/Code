@@ -332,7 +332,7 @@ p {
 .howwork {
 	position: relative;
 	width: 100dvw;
-	margin: auto;
+	margin-left: 10dvw;
 
 }
 
