@@ -1732,17 +1732,11 @@ margin-top: 0;
 	
 }
 
-.class2 {
-	width: 100vw;
-	max-width: 100dvw;
-	text-align: center;
-
+.s12 {
+	flex-direction: column;
 }
 
 
-.bigt {
-	text-align: center;
-}
 .but2 {
 	display: flex;
 	position: relative;
@@ -1772,6 +1766,9 @@ margin-top: 0;
   text-align:center;
 
 }
+
+
+
 
 h4 {
 	text-align: center;
