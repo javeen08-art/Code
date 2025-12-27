@@ -1797,12 +1797,11 @@ margin-top: 0;
 }
 
 .but2 {
-	font-size: 17px;
-	width: 100vw;
-	align-items: center;
-		padding: 0 auto;
+	text-align: center;
+	padding: 0 auto;
 	margin: 0 auto;
-	display: flex;
+	font-size: 17px;
+	
 
 
 
@@ -1810,8 +1809,6 @@ margin-top: 0;
 
 .but2 a {
 	padding: 3dvw 0dvw;
-	text-align: center;
-	justify-content: center;
 
 }
 
