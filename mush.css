@@ -336,6 +336,7 @@ p {
 	margin-left: 5.5dvw;
 	display: flex;
 	flex-direction: row;
+	gap: 3dvw;
 
 }
 
