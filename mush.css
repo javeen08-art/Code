@@ -1781,7 +1781,7 @@ padding-right: 0 !important;
   display: grid;
  grid-template-columns: repeat(auto-fit, minmax(20vw, 2fr));
   padding: 0;
-  gap:2vw;
+  gap:1vw;
   margin: 0;
   flex-wrap: wrap;
   width:95%;
