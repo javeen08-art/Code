@@ -1761,9 +1761,10 @@ margin-top: 0;
 }
 
 .surfacepics img {
-  flex-basis: 20vw; /* Sets initial width for each image item */
-  flex-grow: 1;     /* Optional: lets them grow to fill extra space */
-  max-width: 100%;  /* Ensures images don't exceed container width */
+  flex: 0 0 20vw;  /* Shorthand for: grow 0, shrink 0, basis 20vw */
+  min-width: 0;     /* Allows the image to shrink below its natural size */
+  width: 100%;      /* Forces the image to fill the 20vw base */
+  height: auto;   /* Ensures images don't exceed container width */
 }
 
 .but2 {
