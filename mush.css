@@ -194,7 +194,7 @@ p {
 	border: #111111 solid;
 	background-image: url("3dm_about_bg_true_3840x2160.png");
 	background-repeat: no-repeat;
-	background-size: contain;
+	background-size: cover;
 	background-position: right;
 	gap: 0;
 }
