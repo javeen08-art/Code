@@ -1771,6 +1771,7 @@ margin-top: 0;
 .surfacepics img {
  width: 100%;
   height: auto;
+  left: 0;
   aspect-ratio: 1 / 1; /* Forces all images to be squares */
   object-fit: cover;   /* Ensures images fill the square without stretching */
   border-radius: 8px;;   /* Ensures images don't exceed container width */
