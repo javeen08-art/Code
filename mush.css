@@ -1707,6 +1707,7 @@ font-size: 4vw;
 .rows {
 	width: 100vw;
 	flex-direction: column;
+	justify-content: left;
 	gap: 5vh;
 	text-align: left;
 
