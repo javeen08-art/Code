@@ -193,7 +193,7 @@ p {
 	flex-direction: row;
 	background-image: url("3dm_about_splash_transparent_3840x2160.png");
 	background-repeat: no-repeat;
-	background-size: 100% 100%;
+	background-size: 100% 110%;
 	background-position: right;
 	gap: 0;
 }
