@@ -1775,7 +1775,8 @@ padding-right: 0 !important;
 }
 
 .surafaces h5, .surafaces p {
-	margin-left:3vw;
+	margin-left:1vw;
+	margin-bottom: 1vh;
 }
 .surfacepics {
   display: grid;
