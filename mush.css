@@ -1754,6 +1754,10 @@ margin-top: 0;
 	width: 90%;
 }
 
+.surafacepics {
+	scale: 50%;
+}
+
 .but2 {
 	display: flex;
 	position: relative;
