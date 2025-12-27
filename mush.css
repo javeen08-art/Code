@@ -331,8 +331,9 @@ p {
   border: #c2c2c2 solid 0.5px;
 }
 .howwork {
-	padding: 0 auto;
-	margin: 0 auto;
+	width: 100dvw;
+	padding: auto;
+
 }
 
 /*About US End*/
