@@ -334,10 +334,11 @@ p {
 	position: relative;
 	width: 100dvw;
 	margin-left: 5.5dvw;
-
-
 }
 
+.checkmark {
+	color: greenyellow;
+}
 /*About US End*/
 .home {
   position: absolute;
