@@ -1706,29 +1706,13 @@ font-size: 4vw;
 
 
 .lilt {
-	width:40vw;
-	height: 33vh;
-	margin-left: 2vw;
-	margin-right: 2vw;
-	margin-top: 27vh;
-	margin-bottom: 0;
-	padding-bottom: 0;
+
 }
 
-.lilt img {
-	width: 30px;
-	height: 30px;
-}
 
-.lilt2 {
-	margin-top: 0dvh;
-	margin-bottom: 0;
-	padding-bottom: 0;
-border-image-slice: 1;
-}
+
 
 .lilt p {
-	font-size: 3.28vw;
 	padding: 0 auto;
 	margin: 0 auto;
 	margin-top: 1dvh;
