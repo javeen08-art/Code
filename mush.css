@@ -1762,6 +1762,7 @@ margin-top: 0;
  grid-template-columns: repeat(auto-fit, minmax(150px, 0.5fr));
  gap: 20px; /* Modern way to space items instead of margins */
   width: 100%;
+  left:0;
   padding: 0 auto;
   margin: 0 auto;
   flex-wrap: wrap; 
