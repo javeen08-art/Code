@@ -1706,7 +1706,8 @@ font-size: 4vw;
 
 .rows {
 	flex-direction: column;
-	gap: 3vh;
+	align-items: flex-start;
+	column-gap: 3vh;
 	text-align: left;
 	width: 100%;
 }
