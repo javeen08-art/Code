@@ -321,6 +321,7 @@ p {
 	gap: 3dvw;
 	flex-direction: row;
 	padding: 0 auto;
+	margin: 0 auto;
 }
 
 .firstbo {
