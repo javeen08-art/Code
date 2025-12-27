@@ -1762,7 +1762,10 @@ margin-top: 0;
 
 .surafaces {
 	width: 100vw;
-	margin: 5.5vw;
+}
+
+.surafaces h5, .surafaces p {
+	margin-left:5.5vw;
 }
 .surfacepics {
   display: grid;
@@ -1776,7 +1779,7 @@ margin-top: 0;
 }
 
 .surfacepics img {
- width: 90%;
+ width: 100%;
   height: auto;
   padding: 0;
   margin: 0;
