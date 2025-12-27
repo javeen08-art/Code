@@ -1738,6 +1738,7 @@ margin-top: 0;
 	flex-direction: column;
 	padding-left: 1vw;
 	margin: 0;
+	left: 0;
 }
 .step1 {
 	width:40vw;
