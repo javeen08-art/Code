@@ -1705,6 +1705,7 @@ font-size: 4vw;
 }
 
 .rows {
+	width: 100vw;
 	flex-direction: column;
 	border: #111111 solid;
 	gap: 5vh;
