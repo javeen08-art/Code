@@ -332,7 +332,8 @@ p {
 }
 .howwork {
 	width: 100dvw;
-	padding: auto;
+	padding: 0 auto;
+	margin: 0 auto;
 
 }
 
