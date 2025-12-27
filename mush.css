@@ -1736,6 +1736,7 @@ margin-top: 0;
 
 .s12 {
 	flex-direction: column;
+	padding-left: 5.5vw;
 }
 .step1 {
 	width:40vw;
