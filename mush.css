@@ -1774,6 +1774,7 @@ margin-top: 0;
   margin: 0;
   flex-wrap: wrap;
   left: 0;
+ margin-right: 2vw;
 
 }
 
@@ -1782,7 +1783,6 @@ margin-top: 0;
   height: auto;
   padding: 0;
   margin: 0;
- margin-right: 2vw;
   left: 0;
   aspect-ratio: 1 / 1; /* Forces all images to be squares */
   object-fit: cover;   /* Ensures images fill the square without stretching */
