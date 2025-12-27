@@ -1756,14 +1756,18 @@ margin-top: 0;
 
 .surfacepics {
   display: grid;
+ grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+ gap: 20px; /* Modern way to space items instead of margins */
+  width: 100%;
   flex-wrap: wrap; 
 }
 
 .surfacepics img {
-  flex: 0 0 20vw;  /* Shorthand for: grow 0, shrink 0, basis 20vw */
-  min-width: 0;     /* Allows the image to shrink below its natural size */
-  width: 100%;      /* Forces the image to fill the 20vw base */
-  height: auto;   /* Ensures images don't exceed container width */
+ width: 100%;
+  height: auto;
+  aspect-ratio: 1 / 1; /* Forces all images to be squares */
+  object-fit: cover;   /* Ensures images fill the square without stretching */
+  border-radius: 8px;;   /* Ensures images don't exceed container width */
 }
 
 .but2 {
