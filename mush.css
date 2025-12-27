@@ -292,6 +292,8 @@ p {
 
 .but2 {
 	font-family: 'SF Pro Display Regular';
+	margin-top: 10dvh;
+	position: absolute;
 }
 
 .urwork,.urwork2 {
