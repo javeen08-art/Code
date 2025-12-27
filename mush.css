@@ -1757,6 +1757,7 @@ margin-top: 0;
 .surfacepics {
 	scale: 0.5;
   display: flex;
+ flex-basis: 20vw;
   flex-wrap: wrap; 
 }
 
