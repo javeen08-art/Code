@@ -1779,12 +1779,13 @@ padding-right: 0 !important;
 }
 .surfacepics {
   display: grid;
- grid-template-columns: repeat(auto-fit, minmax(20vw, 2fr));
+ grid-template-columns: repeat(auto-fit, minmax(20vw, 1fr));
   padding: 0;
   gap:2vw;
-  margin: 0 !important;
   flex-wrap: wrap;
   width:95%;
+  margin: 0;
+  margin-left:-2vw;
   border: #2980B9 solid;
 
 
