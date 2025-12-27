@@ -1724,6 +1724,10 @@ width: 90vw;
 margin-top: 0;
 
 }
+
+.lilt h5 {
+	margin-left: 3vw;
+}
 .checkmark {
 	color: rgb(147, 228, 26) !important;
 }
