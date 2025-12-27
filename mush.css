@@ -1757,6 +1757,9 @@ margin-top: 0;
 	width: 90%;
 }
 
+.surafaces {
+	width: 100vw;
+}
 .surfacepics {
   display: grid;
  grid-template-columns: repeat(auto-fit, minmax(150px, 0.5fr));
