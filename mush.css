@@ -328,6 +328,7 @@ p {
 	gap: 3dvw;
 	border-radius: 30px;
   border: #c2c2c2 solid 0.5px;
+  padding: 2dvw;
 }
 .howwork {
 	position: relative;
