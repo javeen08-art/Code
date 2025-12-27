@@ -1777,13 +1777,10 @@ margin-top: 0;
 }
 
 .but2 {
-	display: flex;
-	position: relative;
-	column-gap: 5dvw;
-	font-size:4dvw;
-	left:-7dvw;
-	margin-top:10vh;
-	margin-bottom: 0;
+	text-align: center;
+	padding: 0 auto;
+	margin: 0 auto;
+	font-size: 25px;
 }
 
 .but2 a {
