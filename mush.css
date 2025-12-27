@@ -316,10 +316,11 @@ p {
 }
 
 .s12 {
-	padding: auto;
-  display: flex;
-  gap: 3dvw;
-  flex-direction: row;
+	padding: ;
+	display: flex;
+	gap: 3dvw;
+	flex-direction: row;
+	padding: 0 auto;
 }
 
 .firstbo {
