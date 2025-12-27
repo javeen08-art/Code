@@ -1704,6 +1704,9 @@ font-size: 4vw;
 	gap: 0;
 }
 
+.rows {
+	flex-direction: column;
+}
 
 .lilt {
 
