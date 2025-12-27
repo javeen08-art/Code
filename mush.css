@@ -1720,7 +1720,9 @@ width: 90vw;
 margin-top: 0;
 
 }
-
+.checkmark {
+	color: rgb(147, 228, 26);
+}
 
 .lilt p {
 	font-size: 4vw;
