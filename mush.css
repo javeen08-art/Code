@@ -1756,6 +1756,7 @@ margin-top: 0;
 
 .surfacepics {
   display: flex;
+  flex-direction: row;
   flex-wrap: wrap; 
 }
 
