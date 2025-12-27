@@ -1765,10 +1765,12 @@ margin-top: 0;
  grid-template-columns: repeat(auto-fit, minmax(150px, 0.5fr));
  gap: 20px; /* Modern way to space items instead of margins */
   width: 100%;
-  padding: 0 auto;
-  margin: 0 auto;
+  padding: 0;
+  margin: 0;
   flex-wrap: wrap;
   border: #111111 solid; 
+  left: 0;
+
 }
 
 .surfacepics img {
@@ -1780,7 +1782,7 @@ margin-top: 0;
   aspect-ratio: 1 / 1; /* Forces all images to be squares */
   object-fit: cover;   /* Ensures images fill the square without stretching */
   border-radius: 8px; 
-  border: #111111 solid;  /* Ensures images don't exceed container width */
+  /* Ensures images don't exceed container width */
 }
 
 .quality {
