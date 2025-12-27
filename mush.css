@@ -1785,7 +1785,7 @@ padding-right: 0 !important;
   margin: 0;
   flex-wrap: wrap;
   width:95%;
-  left: 0;
+  border: #2980B9 solid;
 
 
 }
