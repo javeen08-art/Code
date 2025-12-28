@@ -1757,7 +1757,7 @@ padding-right: 0 !important;
 }
 
 .howwork, .howwork p,.howwork h5  {
-	padding:2vw 2vw 2vw 0;
+	padding:2vw 0vw 2vw 2vw;
 }
 .howwork h5, .surafaces h5, .quality h5 {
 	font-size: 35px;
