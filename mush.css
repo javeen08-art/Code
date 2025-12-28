@@ -1785,6 +1785,7 @@ padding-right: 0 !important;
 	margin-top: 0;
 	scale:0.9;
   margin-left:-2.5vw;
+  border: #111111 solid;
 }
 .surafaces h5, .surafaces p {
 	padding-left: 0;
