@@ -1791,9 +1791,8 @@ padding-right: 0 !important;
 .surafaces p {
 	margin-top: 0;
 	scale:0.9;
-
   padding-left: 0;
-  margin-left: -5vw;
+  margin-left: -6vw;
 }
 .surfacepics {
   display: grid;
