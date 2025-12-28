@@ -1779,12 +1779,12 @@ padding-right: 0 !important;
 	padding-bottom: 1vh;
 	padding-top: 2vh;
 	scale: 1.05;
+  border: #111111 solid;
 }
 
 .surafaces p {
 	margin-top: 0;
 	scale:0.9;
-left: 0;
   border: #111111 solid;
 }
 .surafaces h5, .surafaces p {
