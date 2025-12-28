@@ -1783,7 +1783,7 @@ padding-right: 0 !important;
 
 .surafaces p {
 	margin-top: 0;
-	font-size: 0.9;
+	scale:0.9;
 }
 .surafaces h5, .surafaces p {
 	width: 90%;
