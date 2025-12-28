@@ -1794,6 +1794,14 @@ padding-right: 0 !important;
 	margin-left: 0;
 
 }
+
+.surafaces p {
+	margin-top: 0;
+	scale:0.9;
+  border: #111111 solid;
+  padding-left: 0;
+  margin-left: -5vw;
+}
 .surfacepics {
   display: grid;
  grid-template-columns: repeat(auto-fit, minmax(20vw, 1fr));
