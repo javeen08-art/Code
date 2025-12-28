@@ -1756,6 +1756,9 @@ padding-right: 0 !important;
 .step1t {
 	gap:5vw;
 }
+.howwork {
+	scale:0.9;
+}
 
 .howwork, .howwork p,.howwork h5  {
 	padding:2vw 0vw 2vw 2vw;
