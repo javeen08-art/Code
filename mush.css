@@ -1756,7 +1756,7 @@ padding-right: 0 !important;
 	gap:5vw;
 }
 
-.howwork, .howwork p  {
+.howwork, .howwork p,.howwork h5  {
 	padding:2.5vw;
 }
 .howwork h5, .surafaces h5, .quality h5 {
