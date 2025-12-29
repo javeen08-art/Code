@@ -1899,6 +1899,8 @@ padding-left: 5vw;
 
 .textwords h5 {
 	font-size: 35px;
+	word-wrap: break-word;
+
 }
 
 .smallserv {
