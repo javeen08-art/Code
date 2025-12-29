@@ -426,11 +426,13 @@ p {
 	flex-direction: column;
 	text-align: center;
 	margin-top: 5%;
-	padding-right: 5vw;
+	padding-right: 2vw;
 
 }
 .textpic img {
 	border-radius: 30px;
+	width: 10vw;
+	height: 80%;
 }
 
 
