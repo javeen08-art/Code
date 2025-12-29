@@ -442,7 +442,7 @@ padding-left: 5vw;
 .textpic p {
 	font-size: 20px;
 }
-
+/*Service End*/
 
 
 
@@ -1847,6 +1847,77 @@ padding-right: 0 !important;
   #bottoms {
 	scroll-margin-top: -100px;
   }
+
+
+
+
+
+.servtitle {
+	width:50vw;
+	padding-left: 5vw;
+
+}
+
+
+.servtitle h4 {
+	font-size: 40px;
+	margin-top: 0;
+	padding-top: 0;
+}
+.text {
+	display: flex;
+border-radius: 30px;
+  	border: #c2c2c2 solid 0.5px;
+	margin-top: 5vh;
+padding-left: 5vw;
+
+}
+
+.servrow {
+	width: 90vw;
+	padding: 0 auto;
+	margin: 0 auto;
+
+
+
+}
+
+.textwords {
+	width: 50vw;
+	display: flex;
+	flex-direction: column;
+
+}
+
+.textwords h5 {
+	font-size: 35px;
+}
+
+.textwords p {
+	font-size: 20px;
+	width: 75%;
+}
+
+.textpic {
+	width: 50vw;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	padding-right: 2vw;
+	padding-top: 3%;
+
+
+}
+.textpic img {
+	border-radius: 30px;
+	width: 50vw;
+	height: 90%;
+
+}
+
+.textpic p {
+	font-size: 20px;
+}
 
 .nd {
  margin: auto;
