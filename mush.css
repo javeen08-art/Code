@@ -377,11 +377,14 @@ p {
 /*Services*/
 
 .servtitle {
-	width:75vw;
+	width:50vw;
 	padding-left: 5vw;
 
 }
 
+.servrow {
+	padding-left: 5vw;
+}
 
 
 
