@@ -1921,8 +1921,9 @@ padding-left: 5vw;
 }
 .textpic img {
 	border-radius: 30px;
-	width: 50vw;
+	width: 80vw;
 	height: 90%;
+	text-align: center;
 
 }
 
