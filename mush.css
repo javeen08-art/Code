@@ -387,6 +387,8 @@ p {
 }
 .servrow {
 	width: 90vw;
+	padding: 0 auto;
+	margin: 0 auto;
 	padding-left: 5vw;
 	border-radius: 30px;
   	border: #c2c2c2 solid 0.5px;
