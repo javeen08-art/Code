@@ -388,9 +388,6 @@ p {
 	padding-top: 0;
 }
 
-.servtitle p {
-	max-width:25vw;
-}
 .servrow {
 	width: 90vw;
 	padding: 0 auto;
@@ -414,6 +411,7 @@ p {
 
 .textwords p {
 	font-size: 20px;
+	width: 50%;
 }
 
 
