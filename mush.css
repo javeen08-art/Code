@@ -1891,9 +1891,10 @@ padding-left: 5vw;
 }
 
 .textwords {
-	width: 50vw;
+	width: 100vw;
 	display: flex;
 	flex-direction: column;
+	text-align: center;
 
 }
 
