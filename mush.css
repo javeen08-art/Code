@@ -422,7 +422,7 @@ p {
 
 .textpic {
 	width: 50vw;
-	height: 130%;
+	height: 50vh;
 	display: flex;
 	flex-direction: column;
 	text-align: center;
@@ -434,7 +434,7 @@ p {
 .textpic img {
 	border-radius: 30px;
 	width: 50vw;
-	height: 130%;
+
 }
 
 .textpic p {
