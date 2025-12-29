@@ -379,19 +379,24 @@ p {
 .servtitle {
 	width:50vw;
 	padding-left: 5vw;
-	font-size: 50px;
 
 }
 
+.servtitle h4 {
+	font-size: 50px;
+}
 .servrow {
 	padding-left: 5vw;
 }
 
 .textwords {
 	width: 50vw;
-	font-size: 30px;
+
 }
 
+.textwords h5 {
+	font-size: 30px;
+}
 
 
 
