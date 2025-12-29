@@ -422,7 +422,7 @@ p {
 
 .textpic {
 	width: 50vw;
-	height: 100%;
+	height: 130%;
 	display: flex;
 	flex-direction: column;
 	text-align: center;
