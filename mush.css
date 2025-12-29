@@ -510,11 +510,6 @@ p {
 }
 
 
-.servicess2{
-	max-width: 80%;
-	padding-top: 20dvh;
-	padding-left: 0px;
-}
 
 
 
@@ -1869,16 +1864,6 @@ h15 {
   	margin-bottom: 50px;
   }
 	
-.servicess {
-	padding-bottom: 400px;
-	margin-bottom: 100px;
-	margin-top: 0px;
-	padding-left: 0;
-	padding-right: 0;
-	margin-left: 0;
-	margin-right: 0;
-	background-size: 100% 100%;
-}
 .faq {
 	width: 70%;
 	margin: 20px;
