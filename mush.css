@@ -1853,9 +1853,9 @@ padding-right: 0 !important;
 
 
 .servtitle {
-	width:100vw;
+	width:90vw;
 	padding-left: 5vw;
-	text-align: ;
+	text-align:left;
 
 }
 
@@ -1864,6 +1864,11 @@ padding-right: 0 !important;
 	font-size: 40px;
 	margin-top: 0;
 	padding-top: 0;
+}
+
+
+.servtitle p {
+	font-size: 80%;
 }
 .text {
 	display: flex;
