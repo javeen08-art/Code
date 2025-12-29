@@ -426,6 +426,7 @@ p {
 	flex-direction: column;
 	text-align: center;
 	margin-top: 5%;
+	padding-right: 5vw;
 
 }
 .textpic img {
