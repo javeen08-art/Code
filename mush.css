@@ -422,13 +422,14 @@ p {
 
 .textpic {
 	width: 50vw;
-	height: 50vh;
 	display: flex;
 	flex-direction: column;
 	text-align: center;
 	margin-top: 5%;
 	padding-right: 2vw;
 	border: #111111 solid;
+	margin-top: 0;
+	padding-top: 0;
 
 }
 .textpic img {
