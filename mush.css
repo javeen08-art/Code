@@ -379,6 +379,7 @@ p {
 .servtitle {
 	width:50vw;
 	padding-left: 5vw;
+	font-size: 40px;
 
 }
 
@@ -388,6 +389,7 @@ p {
 
 .textwords {
 	width: 50vw;
+	font-size: 80%;
 }
 
 
