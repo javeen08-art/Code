@@ -1919,6 +1919,8 @@ padding-bottom: 5vh;
 	flex-direction: column;
 	text-align: center;
 	padding-top: 3%;
+	padding: 0 auto;
+	margin: 0 auto;
 
 
 }
