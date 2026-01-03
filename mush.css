@@ -1929,6 +1929,7 @@ scale:0.95;
 	width: 100vw;
 	padding: 0;
 	margin: 0;
+transform: translateX(-2vw);
 
 }
 
