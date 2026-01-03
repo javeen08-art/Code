@@ -1925,10 +1925,11 @@ scale:0.95;
 }
 .textpic img {
 	border-radius: 30px;
+	left: 0;
 	width: 100%;
 	height: 40vh;
-	padding: 0 auto;
-	margin: 0 auto;
+	padding: 0;
+	margin: 0;
 
 }
 
