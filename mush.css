@@ -1913,7 +1913,7 @@ padding-bottom: 5vh;
 }
 
 .textpic {
-	width: 50vw;
+	width: 70vw;
 	display: flex;
 	border: #111111 2px solid;
 	flex-direction: column;
@@ -1924,7 +1924,7 @@ padding-bottom: 5vh;
 }
 .textpic img {
 	border-radius: 30px;
-	width: 85vw;
+	width: 100%;
 	height: 40vh;
 	padding: 0 auto;
 	margin: 0 auto;
