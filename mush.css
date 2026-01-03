@@ -1919,7 +1919,7 @@ padding-bottom: 5vh;
 	flex-direction: column;
 	text-align: center;
 	padding-top: 3%;
-	transform: translateY(-3vw);
+	transform: translateX(-5vw)
 
 
 }
