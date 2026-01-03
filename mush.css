@@ -1913,8 +1913,9 @@ padding-bottom: 5vh;
 }
 
 .textpic {
-	width: 100vw;
+	width: 50vw;
 	display: flex;
+	border: #111111 2px solid;
 	flex-direction: column;
 	text-align: center;
 	padding-top: 3%;
