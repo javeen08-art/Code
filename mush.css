@@ -1913,7 +1913,7 @@ padding-bottom: 5vh;
 }
 
 .textpic {
-	width: 50vw;
+	width: 100vw;
 	display: flex;
 	flex-direction: column;
 	text-align: center;
