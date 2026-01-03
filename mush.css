@@ -1917,14 +1917,13 @@ padding-bottom: 5vh;
 	display: flex;
 	flex-direction: column;
 	text-align: center;
-	padding-right: 2vw;
 	padding-top: 3%;
 
 
 }
 .textpic img {
 	border-radius: 30px;
-	width: 90vw;
+	width: 85vw;
 	height: 40vh;
 	text-align: center;
 
