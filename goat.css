@@ -1,7 +1,8 @@
 body {
     background-image: url("seamless-pattern-with-hearts-on-rose-bg-vector-24540131.avif");
     text-align: center;
-    font-size: 20px;
+    align-items: center;
+
 }
 
 .options {
@@ -9,7 +10,27 @@ body {
     flex-direction: row;
     gap:5vw;
     background-color: pink;
-    font-size: 10px;
+    font-size: 30px;
     color: black;
+    align-items: center;
 
+}
+
+h4 {
+font-size: 50px;
+font-weight: 700;
+color: black;
+}
+
+.options p{
+    width: 5vw;
+    border-radius: 5vw;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 500;
+
+
+}
+
+img {
+    size: 50%;
 }
