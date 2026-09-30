@@ -28,7 +28,7 @@ color: black;
     font-weight: 700;
     display: flex;
     align-items: center !important;
-    box-shadow: 5px;
+    box-shadow: 5px,5px;
     position: relative;
     background-color: pink;
 
