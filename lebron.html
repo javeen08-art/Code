@@ -1,20 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"> 
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>I Love Lebron</title>
-    <link rel="stylesheet" href="goat.css">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"> 
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>I Love Lebron</title>
+  <link rel="stylesheet" href="goat.css">
+  
+  <style>
+    /* Essential styles to ensure smooth fleeing movement */
+    .no {
+      display: inline-block;
+      position: relative;
+      /* Smooth transition for natural evasion */
+      transition: transform 0.15s ease-out;
+      user-select: none;
+    }
+  </style>
+</head>
+<body>
 
-    <h4> DO YOU LIKE SAJAN?</h4>
+  <h4>DO YOU LIKE SAJAN?</h4>
 
-    <img src="31E96377-2170-4867-BF11-E7BC5CA81811.jpeg">
+  <img src="31E96377-2170-4867-BF11-E7BC5CA81811.jpeg" alt="Sajan">
 
-    <div class ="options">
-        <p> Yesss Sajan is daddy</p>
-        <div class = "no">
-        <p> No tf ew</p>
-        </div>
+  <div class="options">
+    <p>Yesss Sajan is daddy</p>
+    <div class="no" id="noContainer">
+      <p>No tf ew</p>
     </div>
+  </div>
 
+  <script>
+    const noBtn = document.getElementById('noContainer');
+    const triggerDistance = 150; // Distance in pixels to trigger movement
+    const escapeDistance = 120;  // How far the element gets pushed per frame
+
+    let currentX = 0;
+    let currentY = 0;
+
+    document.addEventListener('mousemove', (e) => {
+      // 1. Get current bounding box and center coordinates of the "No" button
+      const rect = noBtn.getBoundingClientRect();
+      const btnCenterX = rect.left + rect.width / 2;
+      const btnCenterY = rect.top + rect.height / 2;
+
+      // 2. Calculate distance between mouse pointer and button center
+      const deltaX = e.clientX - btnCenterX;
+      const deltaY = e.clientY - btnCenterY;
+      const distance = Math.hypot(deltaX, deltaY);
+
+      // 3. If mouse gets too close, move button away in the opposite direction
+      if (distance < triggerDistance) {
+        // Find angle between cursor and button
+        const angle = Math.atan2(deltaY, deltaX);
+
+        // Push away along that angle vector
+        currentX -= Math.cos(angle) * escapeDistance;
+        currentY -= Math.sin(angle) * escapeDistance;
+
+        // Apply dynamic translation
+        noBtn.style.transform = `translate(${currentX}px, ${currentY}px)`;
+      }
+    });
+  </script>
+
+</body>
+</html>
