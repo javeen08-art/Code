@@ -20,12 +20,12 @@
 </head>
 <body>
 
-  <h4>DO YOU LIKE SAJAN?</h4>
+  <h4>DO YOU LIKE LEBRON?</h4>
 
-  <img src="31E96377-2170-4867-BF11-E7BC5CA81811.jpeg" alt="Sajan">
+  <img src="a.jpeg" alt="lebron">
 
   <div class="options">
-    <p>Yesss Sajan is daddy</p>
+    <p>Yesss LeBron is daddy 🥰</p>
     <div class="no" id="noContainer">
       <p>No tf ew</p>
     </div>
@@ -50,14 +50,50 @@
       const deltaY = e.clientY - btnCenterY;
       const distance = Math.hypot(deltaX, deltaY);
 
-      // 3. If mouse gets too close, move button away in the opposite direction
+      // 3. If mouse gets too close, move button away
       if (distance < triggerDistance) {
-        // Find angle between cursor and button
+        // Angle pointing from mouse center to button center
         const angle = Math.atan2(deltaY, deltaX);
 
-        // Push away along that angle vector
-        currentX -= Math.cos(angle) * escapeDistance;
-        currentY -= Math.sin(angle) * escapeDistance;
+        // Calculate proposed step in X and Y directions away from mouse
+        let stepX = -Math.cos(angle) * escapeDistance;
+        let stepY = -Math.sin(angle) * escapeDistance;
+
+        // Proposed new screen coordinates of the button
+        let newRectLeft = rect.left + stepX;
+        let newRectRight = rect.right + stepX;
+        let newRectTop = rect.top + stepY;
+        let newRectBottom = rect.bottom + stepY;
+
+        const padding = 10; // Margin from screen edge
+
+        // Check horizontal screen collision & bounce direction if needed
+        if (newRectLeft < padding || newRectRight > window.innerWidth - padding) {
+          stepX = -stepX; // Reverse horizontal escape direction
+        }
+
+        // Check vertical screen collision & bounce direction if needed
+        if (newRectTop < padding || newRectBottom > window.innerHeight - padding) {
+          stepY = -stepY; // Reverse vertical escape direction
+        }
+
+        // Update accumulated offsets
+        currentX += stepX;
+        currentY += stepY;
+
+        // Clamp offsets so button never goes out of bounds regardless
+        const initialRect = noBtn.getBoundingClientRect();
+        // Calculate bounds based on initial un-translated position
+        const origLeft = initialRect.left - currentX;
+        const origTop = initialRect.top - currentY;
+
+        const minX = padding - origLeft;
+        const maxX = window.innerWidth - padding - initialRect.width - origLeft;
+        const minY = padding - origTop;
+        const maxY = window.innerHeight - padding - initialRect.height - origTop;
+
+        currentX = Math.max(minX, Math.min(maxX, currentX));
+        currentY = Math.max(minY, Math.min(maxY, currentY));
 
         // Apply dynamic translation
         noBtn.style.transform = `translate(${currentX}px, ${currentY}px)`;
